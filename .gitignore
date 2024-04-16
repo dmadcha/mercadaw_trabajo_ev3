@@ -1,0 +1,29 @@
+# Bytecode
+*.class
+
+# Compiled files
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+*.log.*
+logging/
+
+# IDE-specific files
+.vscode/
+
+# IDE-specific files
+.idea/
+
+# Compiled code
+/target/
+
+# Dependency directories
+/lib/
+/bin/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
