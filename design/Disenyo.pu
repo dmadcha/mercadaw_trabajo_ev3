@@ -1,0 +1,10 @@
+@startuml Diag Componentes 
+
+component view
+component controller
+component model 
+
+view ..> controller
+controller ..> model
+
+@enduml
