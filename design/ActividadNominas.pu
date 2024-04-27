@@ -1,0 +1,20 @@
+@startuml DiagActi-Nominas
+
+    |Empleado|
+    start
+    :Solicitar;
+    |MercaDaw|
+    while(empleado encontrado)
+        :Conseguir datos del Trabajador;
+        note 
+            Select a la vista "trabajadores"
+        endnote
+        :Calcular Nomina Trabajador;
+        :Escribir Nomina;
+        note
+            Escribe en el archvio "nominas"
+        endnote
+    endwhile 
+stop
+
+@endum
