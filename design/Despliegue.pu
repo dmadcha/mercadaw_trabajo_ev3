@@ -1,0 +1,19 @@
+@startuml disenyo
+
+left to right direction
+
+node "PC Usuario" <<device>>   { 
+
+    node "Java Runtime Environment"{
+        artifact "MercaDAW" as merca
+    }
+
+}
+
+node "Docker" <<device>>{
+    node "Oracle XE" as oracle
+}
+
+merca -- oracle : "puerto:1521"
+
+@enduml

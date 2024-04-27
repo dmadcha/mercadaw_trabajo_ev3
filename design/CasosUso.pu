@@ -1,0 +1,18 @@
+@startuml Casos Uso
+left to right direction
+actor Empleado as emp
+
+rectangle MercaDaw {
+    usecase "Gestionar" as uc_1
+    usecase "Gestionar Empleados" as uc_1_1
+    usecase "Gestionar Productos" as uc_1_2
+    usecase "Gestionar Compras" as uc_1_3
+    usecase "Gestionar Sistema" as uc_1_4
+}
+
+emp -- uc_1
+uc_1 <|-- uc_1_1
+uc_1 <|-- uc_1_2
+uc_1 <|-- uc_1_3
+uc_1 <|-- uc_1_4
+@enduml
