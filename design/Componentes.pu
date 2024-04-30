@@ -27,8 +27,6 @@ package controller{
 
 package model{
 
-    component MercaDAW <<java>>
-
     package bbdd{
         component Database <<java>>
         () "MercaDAO" as DA
@@ -53,13 +51,6 @@ package model{
 
 
     controller ..> model: use
-
-
-    MercaDAW ..> MercaDAWException: use
-
-    MercaDAW ..> DA: use
-    MercaDAW ..> Lector: use
-    MercaDAW ..> Fichero: use
 
     Database - DA
     Reader - Lector
