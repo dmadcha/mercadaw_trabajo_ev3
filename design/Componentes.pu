@@ -10,24 +10,13 @@ controller ..> model
 @enduml
 
 @startuml disenyo
-
-left to right direction
-
+allow_mixing
+top to bottom direction
 package view{
 
-    component InicioSesionView <<FXML file>>
-    component MenuView <<FXML file>>
-    component CompraView <<FXML file>>
-    component ProductoView <<FXML file>>
-    component SistemaView <<FXML file>>
-    component EmpleadoView <<FXML file>>
+    component View <<FXML file>>
 
-    component InicioSesionViewController <<java>>
-    component MenuViewController <<java>>
-    component CompraViewController <<java>>
-    component ProductoViewController <<java>>
-    component SistemaViewController <<java>>
-    component EmpleadoViewController <<java>>
+    component ViewController <<java>>
 }
 
 package controller{
@@ -37,48 +26,44 @@ package controller{
 
 package model{
 
-    component MercaDAW <<java>>
-
     package bbdd{
         component Database <<java>>
-        () "MercaDAO" as DA
+
+        interface MercaDAO{
+
+        }
     }
 
     package util{
         component Reader <<java>>
-          () "Lector" as Lector
+          interface Lector {
+
+          }
         component Input <<java>>
-          () "Fichero" as Fichero
+          interface Fichero {
+
+          }
 
     }
 
     package exception{
-        component Exception <<java>>
+        component MercaDAWException <<java>>
     }
 
 
-    InicioSesionViewController ..> InicioSesionView: use
-    MenuViewController ..> MenuView: use
-    CompraViewController ..> CompraView: use
-    ProductoViewController ..> ProductoView: use
-    SistemaViewController ..> SistemaView: use
-    EmpleadoViewController ..> EmpleadoView: use
+    ViewController ..> View: use
 
-    view ..> controller: use
+    ViewController ..> MercaDAWController: use
 
-
-    controller ..> model: use
+    MercaDAWController ..> MercaDAO: use
+    MercaDAWController ..> Lector: use
+    MercaDAWController ..> Fichero: use
+    MercaDAWController ..> MercaDAWException: use
 
 
-    MercaDAW ..> Exception: use
-
-    MercaDAW ..> DA: use
-    MercaDAW ..> Lector: use
-    MercaDAW ..> Fichero: use
-
-    Database - DA
-    Reader - Lector
-    Input - Fichero
+    MercaDAO <|.. Database  
+    Lector <|.. Reader  
+    Fichero <|.. Input  
 
 
 }
