@@ -1,0 +1,86 @@
+@startuml Diag Componentes 
+
+component view
+component controller
+component model 
+
+view ..> controller
+controller ..> model
+
+@enduml
+
+@startuml disenyo
+
+left to right direction
+
+package view{
+
+    component InicioSesionView <<FXML file>>
+    component MenuView <<FXML file>>
+    component CompraView <<FXML file>>
+    component ProductoView <<FXML file>>
+    component SistemaView <<FXML file>>
+    component EmpleadoView <<FXML file>>
+
+    component InicioSesionViewController <<java>>
+    component MenuViewController <<java>>
+    component CompraViewController <<java>>
+    component ProductoViewController <<java>>
+    component SistemaViewController <<java>>
+    component EmpleadoViewController <<java>>
+}
+
+package controller{
+    component MercaDAWController <<java>>
+
+}
+
+package model{
+
+    component MercaDAW <<java>>
+
+    package bbdd{
+        component Database <<java>>
+        () "MercaDAO" as DA
+    }
+
+    package util{
+        component Reader <<java>>
+          () "Lector" as Lector
+        component Input <<java>>
+          () "Fichero" as Fichero
+
+    }
+
+    package exception{
+        component Exception <<java>>
+    }
+
+
+    InicioSesionViewController ..> InicioSesionView: use
+    MenuViewController ..> MenuView: use
+    CompraViewController ..> CompraView: use
+    ProductoViewController ..> ProductoView: use
+    SistemaViewController ..> SistemaView: use
+    EmpleadoViewController ..> EmpleadoView: use
+
+    view ..> controller: use
+
+
+    controller ..> model: use
+
+
+    MercaDAW ..> Exception: use
+
+    MercaDAW ..> DA: use
+    MercaDAW ..> Lector: use
+    MercaDAW ..> Fichero: use
+
+    Database - DA
+    Reader - Lector
+    Input - Fichero
+
+
+}
+
+@enduml
