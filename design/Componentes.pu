@@ -43,7 +43,7 @@ package model{
     }
 
     package exception{
-        component Exception <<java>>
+        component MercaDAWException <<java>>
     }
 
 
