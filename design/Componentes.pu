@@ -55,7 +55,7 @@ package model{
     controller ..> model: use
 
 
-    MercaDAW ..> Exception: use
+    MercaDAW ..> MercaDAWException: use
 
     MercaDAW ..> DA: use
     MercaDAW ..> Lector: use
