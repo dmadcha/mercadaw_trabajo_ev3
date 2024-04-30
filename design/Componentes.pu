@@ -15,19 +15,9 @@ left to right direction
 
 package view{
 
-    component InicioSesionView <<FXML file>>
-    component MenuView <<FXML file>>
-    component CompraView <<FXML file>>
-    component ProductoView <<FXML file>>
-    component SistemaView <<FXML file>>
-    component EmpleadoView <<FXML file>>
+    component View <<FXML file>>
 
-    component InicioSesionViewController <<java>>
-    component MenuViewController <<java>>
-    component CompraViewController <<java>>
-    component ProductoViewController <<java>>
-    component SistemaViewController <<java>>
-    component EmpleadoViewController <<java>>
+    component ViewController <<java>>
 }
 
 package controller{
@@ -57,12 +47,7 @@ package model{
     }
 
 
-    InicioSesionViewController ..> InicioSesionView: use
-    MenuViewController ..> MenuView: use
-    CompraViewController ..> CompraView: use
-    ProductoViewController ..> ProductoView: use
-    SistemaViewController ..> SistemaView: use
-    EmpleadoViewController ..> EmpleadoView: use
+    ViewController ..> View: use
 
     view ..> controller: use
 
