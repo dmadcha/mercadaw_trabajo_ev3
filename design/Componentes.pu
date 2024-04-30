@@ -10,9 +10,8 @@ controller ..> model
 @enduml
 
 @startuml disenyo
-
-left to right direction
-
+allow_mixing
+top to bottom direction
 package view{
 
     component View <<FXML file>>
@@ -29,14 +28,21 @@ package model{
 
     package bbdd{
         component Database <<java>>
-        () "MercaDAO" as DA
+
+        interface MercaDAO{
+
+        }
     }
 
     package util{
         component Reader <<java>>
-          () "Lector" as Lector
+          interface Lector {
+
+          }
         component Input <<java>>
-          () "Fichero" as Fichero
+          interface Fichero {
+
+          }
 
     }
 
@@ -47,14 +53,17 @@ package model{
 
     ViewController ..> View: use
 
-    view ..> controller: use
+    ViewController ..> MercaDAWController: use
+
+    MercaDAWController ..> MercaDAO: use
+    MercaDAWController ..> Lector: use
+    MercaDAWController ..> Fichero: use
+    MercaDAWController ..> MercaDAWException: use
 
 
-    controller ..> model: use
-
-    Database - DA
-    Reader - Lector
-    Input - Fichero
+    MercaDAO <|.. Database  
+    Lector <|.. Reader  
+    Fichero <|.. Input  
 
 
 }
