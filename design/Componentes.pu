@@ -30,19 +30,36 @@ package model{
         component Database <<java>>
 
         interface MercaDAO{
+            + crearTablaEmpleado()
+            + crearTablaProducto()
+            + insertar(Empleado empleado)
+            + insertar(Producto producto)
+            + actualizar(Empleado empleado)
+            + actualizar(Producto producto)
+            + borrar(Empleado empleado)
+            + borrar(Producto producto)
+            + visualizarProductos():List<Producto>
+            + visualizarEmpleados():List<Empleado>
 
         }
     }
 
     package util{
-        component Reader <<java>>
-          interface Lector {
-
-          }
-        component Input <<java>>
-          interface Fichero {
-
-          }
+        package reader{
+            component Reader <<java>>
+            interface Lector {
+                + leer(Fichero): List<Empleado>
+                + leer(String): List<Empleado>
+            }
+        }
+        package input{
+            component Input <<java>>
+            interface Fichero {
+                + leer(): byte[]
+                + escribir(byte[])
+            }
+        } 
+        
 
     }
 
@@ -50,6 +67,10 @@ package model{
         component MercaDAWException <<java>>
     }
 
+    package beans{
+        component MercaDAW <<java>>
+    }
+}
 
     ViewController ..> View: use
 
@@ -59,13 +80,11 @@ package model{
     MercaDAWController ..> Lector: use
     MercaDAWController ..> Fichero: use
     MercaDAWController ..> MercaDAWException: use
+    MercaDAWController ..> MercaDAW: use
 
 
     MercaDAO <|.. Database  
     Lector <|.. Reader  
     Fichero <|.. Input  
-
-
-}
 
 @enduml
