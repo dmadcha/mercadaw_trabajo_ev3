@@ -165,6 +165,9 @@ package es.etg.daw.prog.mercadaw.model.exception{
     }
 }
 
+
+
+
 Exception <|-- MercaDAWException 
     MercaDAWException <|-- LectorException
         LectorException <|--FormatoException
@@ -172,4 +175,93 @@ Exception <|-- MercaDAWException
     MercaDAWException <|-- ExportException
     MercaDAWException <|-- BBDDException
 
+
+@enduml 
+
+
+@startuml export
+set separator none
+package es.etg.daw.prog.mercadaw.model.util.export{
+    
+    enum Exportable{
+        PDF, EXCEL, OTRO
+    }
+
+    class PDFUtil{
+
+    }
+
+    class ExcelUtil{
+
+    }
+
+    abstract Util{
+        + crearFichero(exportable:Exportable): byte[]
+    }
+
+    interface ExportableUtil{
+        + crearFichero(exportable:Exportable): byte[]
+    }
+
+    class DocumentoFactory{
+       {static} obtenerExport(tipo:Tipo): Exportable
+    }
+
+    interface Documento{
+        + getContenido:Map<String, Object[]>
+        + getTitulo():String
+        + getPie():String
+    }
+}
+
+package es.etg.daw.prog.mercadaw.model.entity{
+    class MercaDAW
+}
+
+
+
+
+Util <|-- PDFUtil
+Util <|-- ExcelUtil
+ExportableUtil <|.. Util 
+Documento <|.. MercaDAW
+
+@enduml
+
+@startuml MercaDAW
+
+package model{
+
+    package producto{
+        enum TipoProducto{
+            ALIMENTACION, DROGUERIA, COSMETICA 
+        }
+
+        class ProductoFactory{
+            {static} obtenerProducto(TipoProducto:TipoProducto):IProducto
+        }
+
+        interface IProducible{
+
+        }
+
+
+    }
+
+    package empleado{
+        enum TipoEmpleado{
+            REPONEDOR, CAJERO, ENCARGADO
+        }
+
+        class EmpleadoFactory{
+            {static} obtenerEmpleado(TipoEmpleado:TipoEmpleado):IEmpleado
+        }
+
+        interface IEmpleado{
+
+        }
+
+
+    }
+}
 @enduml
