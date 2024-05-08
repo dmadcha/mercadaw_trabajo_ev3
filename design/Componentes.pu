@@ -30,18 +30,23 @@ package model{
         component Database <<java>>
 
         interface MercaDAO{
-            + crearTablaEmpleado()
-            + crearTablaProducto()
+            + crearTabla(TipoTabla tipo)
             + insertar(Empleado empleado)
             + insertar(Producto producto)
+            + insertar(Compra compra)
             + actualizar(Empleado empleado)
             + actualizar(Producto producto)
             + borrar(Empleado empleado)
             + borrar(Producto producto)
+            + visualizarProducto():Producto
             + visualizarProductos():List<Producto>
+            + visualizarClientes():List<Cliente>
             + visualizarEmpleados():List<Empleado>
-
+            + visualizarCompras():List<Compra>
+            + visualizarStock():Map<Producto producto, int numero>
         }
+
+        MercaDAO <|.. Database 
     }
 
     package util{
@@ -60,15 +65,35 @@ package model{
             }
         } 
         
+        package export{
+            component Export <<java>>
+            interface Exportable {
+                + exportar(String extension)
+            }
+        }
+
+        Exportable <|.. Export
+        Lector <|.. Reader  
+        Fichero <|.. Input  
 
     }
+
+    
 
     package exception{
         component MercaDAWException <<java>>
     }
 
-    package beans{
+    package entity{
+        interface IMercaDAW{
+            + obtenerPrecioVenta()
+            + calcularNomina()
+            
+        }
+
         component MercaDAW <<java>>
+
+        IMercaDAW <|.. MercaDAW
     }
 }
 
@@ -76,15 +101,10 @@ package model{
 
     ViewController ..> MercaDAWController: use
 
+    MercaDAWController ..> Exportable: use
     MercaDAWController ..> MercaDAO: use
     MercaDAWController ..> Lector: use
     MercaDAWController ..> Fichero: use
     MercaDAWController ..> MercaDAWException: use
-    MercaDAWController ..> MercaDAW: use
-
-
-    MercaDAO <|.. Database  
-    Lector <|.. Reader  
-    Fichero <|.. Input  
-
+    MercaDAWController ..> IMercaDAW: use
 @enduml
