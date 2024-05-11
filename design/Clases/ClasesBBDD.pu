@@ -1,44 +1,60 @@
 @startuml bbdd
-    package model{
-        package bbdd{
-            enum Database{
-                ORACLE XE, MOCK
-            }
-            interface MercaDAO{
-            + crearTablaEmpleado()
-            + crearTablaProducto()
-            + insertar(Empleado empleado)
-            + insertar(Producto producto)
-            + actualizar(Empleado empleado)
-            + actualizar(Producto producto)
-            + borrar(Empleado empleado)
-            + borrar(Producto producto)
-            + visualizarProductos():List<Producto>
-            + visualizarEmpleados():List<Empleado>
-            }
+allow_mixing
+set separator none
+top to bottom direction
+    package model.bbdd{
+        enum Database{
+            ORACLE XE, MOCK
+        }
 
-            class MercadoDBFactory{
-                {static} obtener(d:database): MercaDAO
-            }
+        interface MercaDAO{
+        + crearTablaEmpleado()
+        + crearTablaProducto()
+        + crearTablaCliente()
+        + crearTablaCompra()
 
-            abstract MercaDAOImp {
-                  # connection: Connection
-               
-                
-            }
+        + insertar(Empleado empleado)
+        + insertar(Producto producto)
+        + insertar(Compra compra)
+        + insertar(Cliente cliente)
 
-            class MercaDAOImpMock{
+        + actualizar(Empleado empleado)
+        + actualizar(Producto producto)
+        
+        + borrar(Empleado empleado)
+        + borrar(Producto producto)
+        
+        + visualizarProducto():Producto
+        + visualizarProductos():List<Producto>
+        + visualizarClientes():List<Cliente>
+        + visualizarEmpleados():List<Empleado>
+        + visualizarCompras():List<Compra>
+        + visualizarStock():Map<Producto producto, int numero>
+        }
 
-            }
+        class MercadoDBFactory{
+            {static} obtener(d:Database): MercaDAO
+        }
 
-            class MercaDAOImpOracleXE{
-              
-            }
-       
+        abstract MercaDAOImp {
+            - {abstract} connection: Connection
+            - {abstract} connect(): Connection
+            
+        }
+
+        class MercaDAOImpMock{
+
+        }
+
+        class MercaDAOImpOracleXE{
+            
         }
            
     }
 
+    component org.oracle.database.jdbc <<JDBC driver>>
+
+    MercaDAOImpOracleXE ..> org.oracle.database.jdbc
     MercaDAOImp <|-- MercaDAOImpOracleXE
     MercaDAOImp..|> MercaDAO
     MercaDAOImpMock..|> MercaDAO 
