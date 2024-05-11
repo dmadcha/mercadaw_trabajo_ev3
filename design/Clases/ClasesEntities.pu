@@ -1,0 +1,39 @@
+@startuml MercaDAW
+
+package model{
+    package entities {
+        package producto{
+            enum TipoProducto{
+                ALIMENTACION, DROGUERIA, COSMETICA
+            }
+
+            class ProductoFactory{
+                {static} obtenerProducto(TipoProducto:TipoProducto):IProducto
+            }
+
+            interface IProducible{
+
+            }
+
+
+        }
+
+        package empleado{
+            enum TipoEmpleado{
+                REPONEDOR, CAJERO, ENCARGADO
+            }
+
+            class EmpleadoFactory{
+                {static} obtenerEmpleado(TipoEmpleado:TipoEmpleado):IEmpleado
+            }
+
+            interface IEmpleado{
+
+            }
+        }
+
+
+
+    }
+}
+@enduml

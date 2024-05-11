@@ -1,0 +1,46 @@
+@startuml Lector
+    package model{
+        package reader{
+            enum Formato{
+                CSV, JSON, XML, MOCK
+            }
+
+            class LectorCSV{
+
+            }
+
+            class LectorJSON{
+
+            }
+
+            class LectorXML{
+
+            }
+
+            class LectorMock{
+
+            }
+
+            abstract LectorImp{
+                + cargar(file:File):String
+            }
+
+            interface Lector{
+                + leer(file:File):String
+            }
+
+
+            class LectorFactory{
+               + {static} obtener(f:Formato):Lector
+            }
+
+
+
+        }
+    }
+        LectorImp <|-- LectorCSV
+        LectorImp <|-- LectorJSON
+        LectorImp <|-- LectorXML
+        LectorImp ..|> Lector
+        LectorMock ..|> Lector
+@enduml

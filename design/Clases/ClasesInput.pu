@@ -1,0 +1,35 @@
+@startuml fichero
+
+    package model{
+        package input{
+            enum Formato{
+                BINARIO, MOCK
+            }
+
+            class FicheroFactory{
+                {static} + obtenerFicheroBinario():Fichero
+            }
+
+            class FicheroMock{
+
+            }
+
+            class FicheroBinario{
+
+            }
+
+            abstract FicheroImp{
+
+            }
+
+            interface Fichero{
+                + leer(): byte[] 
+                
+            }
+        }
+    }
+
+     FicheroImp <|-- FicheroBinario 
+     FicheroMock ..|> Fichero 
+     FicheroImp ..|> Fichero
+@enduml

@@ -1,0 +1,48 @@
+@startuml exception
+set separator none
+
+class Exception{
+
+}
+
+package es.etg.daw.prog.mercadaw.model.exception{
+    
+
+    class MercaDAWException{
+
+    }
+
+    class FicheroException{
+
+    }
+    
+    class LectorException{
+
+    }
+
+    class FormatoException{
+
+    }
+
+    class BBDDException{
+
+    }
+
+    class ExportException{
+
+    }
+}
+
+
+
+
+Exception <|-- MercaDAWException 
+    MercaDAWException <|-- LectorException
+        LectorException <|--FormatoException
+    MercaDAWException <|-- FicheroException
+    MercaDAWException <|-- ExportException
+    MercaDAWException <|-- BBDDException
+
+
+@enduml 
+
