@@ -1,7 +1,7 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
 public class MercadaoBDFactory {
-    public static MercaDAO obtener(Database tipo){
+    public static MercaDAO obtener(Database tipo)throws BBDDException{
         
         if (tipo == Database.ORACLE_XE) {
             return new MercaDAOImpOracleXE();

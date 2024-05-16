@@ -1,12 +1,10 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
-import java.io.File;
-import java.net.URL;
-import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -29,6 +27,83 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     public MercaDAOImpOracleXE() throws SQLException{
         connection = DriverManager.getConnection(String.format(URL, DATABASE_USER, DATABASE_PASS));
+    }
+
+    @Override
+    public void crearTablaClientes()throws BBDDException{
+
+        final String TABLA_CLIENTES = "CREATE TABLE Clientes (\n" +
+                                        "  cod_postal NUMERIC NOT NULL,\n" +
+                                        "  correo VARCHAR,\n" +
+                                        "  nombre VARCHAR,\n" +
+                                        "  cod_client NUMERIC NOT NULL,\n" +
+                                        "  PRIMARY KEY (cod_client)\n" +
+                                        ");";
+
+        Statement st = connection.createStatement();
+        st.execute(TABLA_CLIENTES);
+        st.close();
+
+    }
+
+    @Override
+    public void crearTablaProductos()throws BBDDException{
+
+        final String TABLA_PRODUCTOS = "CREATE TABLE Producto (\n" +
+                                        "  nombre VARCHAR NOT NULL,\n" +
+                                        "  precio NUMERIC NOT NULL,\n" +
+                                        "  marca VARCHAR NOT NULL,\n" +
+                                        "  categoria VARCHAR NOT NULL,\n" +
+                                        "  iva NUMERIC NOT NULL,\n" +
+                                        "  altura NUMERIC NOT NULL,\n" +
+                                        "  anchura NUMERIC NOT NULL,\n" +
+                                        "  peso NUMERIC NOT NULL,\n" +
+                                        "  num_elementos NUMERIC NOT NULL,\n" +
+                                        "  desc VARCHAR NOT NULL,\n" +
+                                        "  cod_produc NUMERIC NOT NULL,\n" +
+                                        "  PRIMARY KEY (cod_produc)\n" +
+                                        ");";
+
+        Statement st = connection.createStatement();
+        st.execute(TABLA_PRODUCTOS);
+        st.close();
+
+    }
+
+    public void crearTablaEmpleados()throws BBDDException{
+
+        final String TABLA_EMPLEADOS = "CREATE TABLE Empleado (\n" +
+                                        "  cod_emple NUMERIC NOT NULL,\n" +
+                                        "  nombre VARCHAR NOT NULL,\n" +
+                                        "  apellidos VARCHAR NOT NULL,\n" +
+                                        "  categoria VARCHAR NOT NULL,\n" +
+                                        "  cod_produc NUMERIC NOT NULL,\n" +
+                                        "  PRIMARY KEY (cod_emple),\n" +
+                                        "  FOREIGN KEY (cod_produc) REFERENCES Producto(cod_produc)\n" +
+                                        ");";
+
+        Statement st = connection.createStatement();
+        st.execute(TABLA_EMPLEADOS);
+        st.close();
+
+    }
+
+    public void crearTablaCompras()throws BBDDException{
+
+        final String TABLA_COMPRAS = "CREATE TABLE Compras (\n" +
+                                                "  fecha DATE NOT NULL,\n" +
+                                                "  cod_compra NUMERIC NOT NULL,\n" +
+                                                "  cod_produc NUMERIC NOT NULL,\n" +
+                                                "  cod_client NUMERIC NOT NULL,\n" +
+                                                "  PRIMARY KEY (cod_compra),\n" +
+                                                "  FOREIGN KEY (cod_produc) REFERENCES Producto(cod_produc),\n" +
+                                                "  FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client)\n" +
+                                                ");";
+
+        Statement st = connection.createStatement();
+        st.execute(TABLA_COMPRAS);
+        st.close();
+
     }
 
     @Override

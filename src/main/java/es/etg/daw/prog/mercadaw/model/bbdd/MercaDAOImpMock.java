@@ -16,49 +16,54 @@ import es.etg.daw.prog.mercadaw.model.entities.Producto;
  */
 public class MercaDAOImpMock implements MercaDAO{
 
+
     @Override
-    public void insertar(Empleado emp) {
+    public void crearTabla() throws BBDDException {
     }
 
     @Override
-    public void insertar(Producto prod) {
+    public void insertar(Empleado emp) throws BBDDException {
     }
 
     @Override
-    public void insertar(Compra compra) {
+    public void insertar(Producto prod) throws BBDDException {
     }
 
     @Override
-    public void insertar(Cliente client) {
+    public void insertar(Compra compra) throws BBDDException {
     }
 
     @Override
-    public Producto visualizarProducto() {
+    public void insertar(Cliente client) throws BBDDException {
+    }
+
+    @Override
+    public Producto visualizarProducto() throws BBDDException {
         return new Producto();
     }
 
     @Override
-    public List<Producto> visualizarProductos() {
+    public List<Producto> visualizarProductos() throws BBDDException {
         return new ArrayList<Producto>();
     }
 
     @Override
-    public List<Cliente> visualizarClientes() {
+    public List<Cliente> visualizarClientes() throws BBDDException {
         return new ArrayList<Cliente>();
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() {
+    public List<Empleado> visualizarEmpleados() throws BBDDException {
         return new ArrayList<Empleado>();
     }
 
     @Override
-    public List<Compra> visualizarCompras() {
+    public List<Compra> visualizarCompras() throws BBDDException {
         return new ArrayList<Compra>();
     }
 
     @Override
-    public Map<Producto, Integer> visualizarStock() {
+    public Map<Producto, Integer> visualizarStock() throws BBDDException {
         return new HashMap<Producto,Integer>();
     }
 }
