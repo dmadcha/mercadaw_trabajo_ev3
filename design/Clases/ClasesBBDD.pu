@@ -8,10 +8,7 @@ top to bottom direction
         }
 
         interface MercaDAO{
-        + crearTablaEmpleado()
-        + crearTablaProducto()
-        + crearTablaCliente()
-        + crearTablaCompra()
+        + crearTablas()
 
         + insertar(Empleado empleado)
         + insertar(Producto producto)
@@ -37,9 +34,7 @@ top to bottom direction
         }
 
         abstract MercaDAOImp {
-            - {abstract} connection: Connection
-            - {abstract} connect(): Connection
-            
+            - {abstract} connection: Connection            
         }
 
         class MercaDAOImpMock{
