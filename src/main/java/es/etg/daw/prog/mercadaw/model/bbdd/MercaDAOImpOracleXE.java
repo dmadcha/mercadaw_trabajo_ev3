@@ -107,25 +107,25 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public void insertar(Empleado emp) {
+    public void insertar(Empleado emp) throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Producto prod) {
+    public void insertar(Producto prod) throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Compra compra) {
+    public void insertar(Compra compra) throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Cliente client) {
+    public void insertar(Cliente client) throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
@@ -175,25 +175,25 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Cliente> visualizarClientes() {
+    public List<Cliente> visualizarClientes() throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarClientes'");
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() {
+    public List<Empleado> visualizarEmpleados() throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarEmpleados'");
     }
 
     @Override
-    public List<Compra> visualizarCompras() {
+    public List<Compra> visualizarCompras() throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarCompras'");
     }
 
     @Override
-    public Map<Producto, Integer> visualizarStock() {
+    public Map<Producto, Integer> visualizarStock() throws BBDDException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarStock'");
     }

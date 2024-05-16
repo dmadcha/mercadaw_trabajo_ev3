@@ -18,9 +18,21 @@ public class MercaDAOImpMock implements MercaDAO{
 
 
     @Override
-    public void crearTabla() throws BBDDException {
+    public void crearTablaClientes() throws BBDDException {
     }
 
+    @Override
+    public void crearTablaProductos() throws BBDDException {
+    }
+
+    @Override
+    public void crearTablaEmpleados() throws BBDDException {
+    }
+
+    @Override
+    public void crearTablaCompras() throws BBDDException {
+    }
+    
     @Override
     public void insertar(Empleado emp) throws BBDDException {
     }
