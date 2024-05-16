@@ -14,6 +14,9 @@ import es.etg.daw.prog.mercadaw.model.entities.Producto;
  */
 public interface MercaDAO {
 
+
+    public void crearTablas();
+    
     /**
      * Inserta el empleado en la Base de datos.
      * \param empleado Empleado a insertar.
