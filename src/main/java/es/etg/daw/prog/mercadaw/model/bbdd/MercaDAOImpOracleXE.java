@@ -13,6 +13,7 @@ import es.etg.daw.prog.mercadaw.model.entities.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 
 /**
@@ -69,7 +70,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.close();
 
     }
-
+    @Override
     public void crearTablaEmpleados()throws BBDDException{
 
         final String TABLA_EMPLEADOS = "CREATE TABLE Empleado (\n" +
@@ -87,7 +88,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.close();
 
     }
-
+    @Override
     public void crearTablaCompras()throws BBDDException{
 
         final String TABLA_COMPRAS = "CREATE TABLE Compras (\n" +
@@ -131,7 +132,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public Producto visualizarProducto() throws SQLException{
+    public Producto visualizarProducto() throws BBDDException{
         final String QUERY = "SELECT nombre, apellido, nacimiento FROM alumno WHERE ";
 
         PreparedStatement ps = connection.prepareStatement(QUERY);
@@ -151,7 +152,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Producto> visualizarProductos() throws SQLException{
+    public List<Producto> visualizarProductos() throws BBDDException{
         final String QUERY = "SELECT nombre, apellido, nacimiento FROM alumno";
 
         List<Producto> productos = new ArrayList<>();

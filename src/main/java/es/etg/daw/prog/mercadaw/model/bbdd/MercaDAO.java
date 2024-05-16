@@ -7,6 +7,7 @@ import es.etg.daw.prog.mercadaw.model.entities.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 /**
  * La interfaz MercaDAO expone los metodos de acceso a la base de datos.

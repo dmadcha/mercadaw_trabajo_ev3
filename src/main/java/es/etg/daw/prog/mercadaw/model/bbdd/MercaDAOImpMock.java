@@ -9,6 +9,7 @@ import es.etg.daw.prog.mercadaw.model.entities.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 /**
  * La clase MercaDAOImpMock provee de datos de prueba para el desarrollo del software.
