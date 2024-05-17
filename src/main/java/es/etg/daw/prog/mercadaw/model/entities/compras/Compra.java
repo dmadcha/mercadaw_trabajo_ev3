@@ -8,16 +8,23 @@ import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 public class Compra {
     private static int numCompras;
 
+    private Integer id;
     private Date fecha;
     private Cliente cliente;
     private List<Producto> productos;
 
-    public Compra(Date fecha, Cliente cliente, List<Producto> productos) {
+    public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) {
+        if (id == null) {
+            this.id = numCompras;
+            numCompras++;
+        } else {
+            this.id = id;
+        }
         this.fecha = fecha;
         this.cliente = cliente;
         this.productos = productos;
 
-        numCompras++;
+        
     }
 
     public static int getNumCompras() {
@@ -50,6 +57,14 @@ public class Compra {
 
     public void setProductos(List<Producto> productos) {
         this.productos = productos;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
 }
