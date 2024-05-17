@@ -13,6 +13,7 @@ import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 
 /**
@@ -120,12 +121,12 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public void crearCompras(Statement st)throws SQLException{
 
         final String TABLA_COMPRAS = "CREATE TABLE Compras (" +
-                                                "cod_compra NUMERIC(4) PRIMARY KEY, " +
-                                                "cod_product NUMERIC(4), " +
-                                                "cod_client NUMERIC(4), " +
-                                                "fecha DATE, " +
-                                                "FOREIGN KEY (cod_product) REFERENCES Productos(cod_product)," +
-                                                "FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client))";
+                                        "cod_compra NUMERIC(4) PRIMARY KEY, " +
+                                        "cod_product NUMERIC(4), " +
+                                        "cod_client NUMERIC(4), " +
+                                        "fecha DATE, " +
+                                        "FOREIGN KEY (cod_product) REFERENCES Productos(cod_product), " +
+                                        "FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client))";
 
         final String VISTA_COMPRAS = "CREATE OR REPLACE VIEW Vista_Compras AS " +
                                         "SELECT cod_compra, cod_product, cod_client, fecha " +
@@ -166,9 +167,13 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         ps.setInt(1, prod.getId());
         ps.setString(2, prod.getNombre());
         ps.setString(3, prod.getMarca());
-        ps.setString(4, prod.());
-        ps.setDouble(5, prod.getSueldo());
-    
+        ps.setDouble(4, prod.getAltura());
+        ps.setDouble(5, prod.getAnchura());
+        ps.setDouble(6, prod.getPeso());
+        ps.setInt(7, prod.getNumElementos());
+        ps.setString(8, prod.getDescripcion());
+        ps.setDouble(9, prod.getIva());
+
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
@@ -178,8 +183,21 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Compra compra) throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
+        int numRegistrosActualizados = 0;
+        final String sql = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(sql);
+
+        ps.setDate(1, compra.getFecha());
+        ps.setInt(2, compra.getCliente().getId());
+        ps.setString(3, compra.getProductos().);
+        ps.setDouble(4, compra.getId());
+        
+
+
+        numRegistrosActualizados = ps.executeUpdate();
+        ps.close();
+
+        return numRegistrosActualizados;
     }
 
     @Override
@@ -239,9 +257,9 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws SQLException{
+    public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException{
         final String QUERY = "SELECT cod_emple, nombre, apellidos, categoria " +
-                                "FROM Empleados";
+                                "FROM Vista_Empleados";
 
 
         List<Empleado> empleados = new ArrayList<>();
@@ -257,7 +275,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
             
             
 
-            Empleado empleado = EmpleadoFactory.obtener(categoria, nombre, apellido); 
+            Empleado empleado = EmpleadoFactory.obtener(categoria, id, nombre, apellido); 
             empleados.add(empleado);
         }
 
