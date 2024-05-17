@@ -2,7 +2,6 @@ package es.etg.daw.prog.mercadaw.model.bbdd;
 
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Map;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
@@ -25,25 +24,25 @@ public interface MercaDAO {
      * Inserta el empleado en la Base de datos.
      * \param empleado Empleado a insertar.
      */
-    public void insertar(Empleado emp) throws SQLException;
+    public int insertar(Empleado emp) throws SQLException;
 
     /**
      * Inserta el producto en la Base de datos.
      * \param producto Producto a insertar.
      */
-    public void insertar(Producto prod) throws SQLException;
+    public int insertar(Producto prod) throws SQLException;
 
     /**
      * Inserta la compra en la Base de datos.
      * \param compra Compra a insertar.
      */
-    public void insertar(Compra compra) throws SQLException;
+    public int insertar(Compra compra) throws SQLException;
 
     /**
      * Inserta el cliente en la Base de datos.
      * \param client Cliente a insertar.
      */
-    public void insertar(Cliente client) throws SQLException;
+    public int insertar(Cliente client) throws SQLException;
     
     /**
      * Devuelve los datos de un producto.
@@ -75,10 +74,4 @@ public interface MercaDAO {
      * \return Una lista de Compras.
      */
     public List<Compra> visualizarCompras() throws SQLException;
-
-    /**
-     * Devuelve el Stock que de productos con la cantidad del producto.
-     * \return El producto con la cantidad que queda de el.
-     */
-    public Map<Producto, Integer> visualizarStock() throws SQLException;
 }
