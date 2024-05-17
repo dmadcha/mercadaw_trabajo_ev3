@@ -7,6 +7,7 @@ import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La interfaz MercaDAO expone los metodos de acceso a la base de datos.
@@ -67,7 +68,7 @@ public interface MercaDAO {
      * Devuelve la lista de Empleados de la BD completa.
      * \return Una lista de Empleados.
      */
-    public List<Empleado> visualizarEmpleados() throws SQLException;
+    public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException;
 
     /**
      * Devuelve la lista de Compras de la BD completa.
