@@ -13,7 +13,6 @@ import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
-import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 
 /**
@@ -35,153 +34,135 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public void iniciarBBDD() throws SQLException {
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        Statement st = connection.createStatement();
+
+        bbdd.crearClientes(st);
+        bbdd.crearProductos(st);
+        bbdd.crearEmpleados(st);
+        bbdd.crearCompras(st);
         
-        bbdd.crearClientes();
-        bbdd.crearCompras();
-        bbdd.crearEmpleados();
-        bbdd.crearProductos();
+        st.close();
     }
 
     /**
      * Este metodo crea la tabla y vista de Clientes en la base de datos
      * @throws SQLException
      */
-    public void crearClientes()throws SQLException{
+    public void crearClientes(Statement st)throws SQLException{
 
-        final String TABLA_CLIENTES = "CREATE OR REPLACE TABLE Clientes (\n" +
-                                        "  cod_client NUMERIC(4) NOT NULL,\n" +
-                                        "  cod_postal NUMERIC(5) NOT NULL,\n" +
-                                        "  correo VARCHAR(255),\n" +
-                                        "  nombre VARCHAR(255),\n" +
-                                        "  PRIMARY KEY (cod_client)\n" +
-                                        ");";
+        final String TABLA_CLIENTES = "CREATE TABLE Clientes( " +
+                                        "cod_client NUMERIC(4) PRIMARY KEY, " +
+                                        "cod_postal NUMERIC(5), " +
+                                        "correo VARCHAR(255), " +
+                                        "nombre VARCHAR(255))";
 
         final String VISTA_CLIENTES = "CREATE OR REPLACE VIEW Vista_Clientes AS " +
-        "SELECT cod_postal, correo, cod_client, categoria, " +
-        "iva, altura, anchura, peso, num_elementos, desc, stock " + 
-        "FROM Clientes";
+                                        "SELECT cod_client, cod_postal, correo, nombre " +
+                                        "FROM Clientes";
 
-        Statement st = connection.createStatement();
         st.execute(TABLA_CLIENTES);
         st.execute(VISTA_CLIENTES);
-        st.close();
-
     }
 
     /**
      * Este metodo crea la tabla y vista de Productos en la base de datos
      * @throws SQLException
      */
-    public void crearProductos()throws SQLException{
+    public void crearProductos(Statement st)throws SQLException{
 
-        final String TABLA_PRODUCTOS = "CREATE OR REPLACE TABLE Productos (\n" +
-                                        "  cod_produc NUMERIC(4) NOT NULL,\n" +
-                                        "  nombre VARCHAR(255) NOT NULL,\n" +
-                                        "  marca VARCHAR(255) NOT NULL,\n" +
-                                        "  categoria VARCHAR(255) NOT NULL,\n" +
-                                        "  iva NUMERIC NOT NULL,\n" +
-                                        "  altura NUMERIC NOT NULL,\n" +
-                                        "  anchura NUMERIC NOT NULL,\n" +
-                                        "  peso NUMERIC NOT NULL,\n" +
-                                        "  num_elementos NUMERIC NOT NULL,\n" +
-                                        "  desc VARCHAR(255) NOT NULL,\n" +
-                                        "  stock NUMERIC NOT NULL, \n" +
-                                        "  PRIMARY KEY (cod_produc)\n" +
-                                        ")";
+        final String TABLA_PRODUCTOS = "CREATE TABLE Productos( " +
+                                        "cod_product NUMERIC(4) PRIMARY KEY, " +
+                                        "nombre VARCHAR(255), " +
+                                        "marca VARCHAR(255), " +
+                                        "descr VARCHAR(255), " +
+                                        "categoria VARCHAR(255), " +
+                                        "iva NUMERIC(5,4), " +
+                                        "altura NUMERIC(5,4), " +
+                                        "anchura NUMERIC(5,4), " +
+                                        "peso NUMERIC(5,4), " +
+                                        "num_elementos NUMERIC(2), " +
+                                        "stock NUMERIC(5))";
 
         final String VISTA_PRODUCTOS = "CREATE OR REPLACE VIEW Vista_Productos AS " +
-                                        "SELECT cod_produc, nombre, marca, categoria, " +
-                                        "iva, altura, anchura, peso, num_elementos, desc, stock " + 
+                                        "SELECT cod_product, nombre, marca, categoria, " +
+                                        "iva, altura, anchura, peso, num_elementos, descr, stock " + 
                                         "FROM Productos";
 
-
-        Statement st = connection.createStatement();
         st.execute(TABLA_PRODUCTOS);
         st.execute(VISTA_PRODUCTOS);
-        st.close();
-
     }
     
     /**
      * Este metodo crea la tabla y vista de Empleados en la base de datos
      * @throws SQLException
      */
-    public void crearEmpleados()throws SQLException{
+    public void crearEmpleados(Statement st)throws SQLException{
 
-        final String TABLA_EMPLEADOS = "CREATE OR REPLACE TABLE Empleados (\n" +
-                                        "  cod_emple NUMERIC(4) NOT NULL,\n" +
-                                        "  nombre VARCHAR(255) NOT NULL,\n" +
-                                        "  apellidos VARCHAR(255) NOT NULL,\n" +
-                                        "  categoria VARCHAR(255) NOT NULL,\n" +
-                                        "  cod_produc NUMERIC NOT NULL,\n" +
-                                        "  PRIMARY KEY (cod_emple),\n" +
-                                        "  FOREIGN KEY (cod_produc) REFERENCES Producto(cod_produc)\n" +
-                                        ")";
+        final String TABLA_EMPLEADOS = "CREATE TABLE Empleados( " +
+                                        "cod_emple NUMERIC(4) PRIMARY KEY, " +
+                                        "cod_product NUMERIC(4), " +
+                                        "nombre VARCHAR(255), " +
+                                        "apellidos VARCHAR(255), " +
+                                        "categoria VARCHAR(255), " +
+                                        "FOREIGN KEY (cod_product) REFERENCES Productos(cod_product))";
 
         final String VISTA_EMPLEADOS = "CREATE OR REPLACE VIEW Vista_Empleados AS " +
-                                        "SELECT cod_emple, nombre, appellidos, categoria, cod_produc " +
+                                        "SELECT cod_emple, nombre, apellidos, categoria, cod_product " +
                                         "FROM Empleados";
 
-        Statement st = connection.createStatement();
         st.execute(TABLA_EMPLEADOS);
         st.execute(VISTA_EMPLEADOS);
-        st.close();
-
     }
 
     /**
      * Este metodo crea la tabla y vista de Compras en la base de datos
      * @throws SQLException
      */
-    public void crearCompras()throws SQLException{
+    public void crearCompras(Statement st)throws SQLException{
 
-        final String TABLA_COMPRAS = "CREATE OR REPLACE TABLE Compras (\n" +
-                                                "  cod_compra NUMERIC(4) NOT NULL,\n" +
-                                                "  cod_produc NUMERIC(4) NOT NULL,\n" +
-                                                "  cod_client NUMERIC(4) NOT NULL,\n" +
-                                                "  fecha DATE NOT NULL,\n" +
-                                                "  PRIMARY KEY (cod_compra),\n" +
-                                                "  FOREIGN KEY (cod_produc) REFERENCES Producto(cod_produc),\n" +
-                                                "  FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client)\n" +
-                                                ")";
+        final String TABLA_COMPRAS = "CREATE TABLE Compras (" +
+                                                "cod_compra NUMERIC(4) PRIMARY KEY, " +
+                                                "cod_product NUMERIC(4), " +
+                                                "cod_client NUMERIC(4), " +
+                                                "fecha DATE, " +
+                                                "FOREIGN KEY (cod_product) REFERENCES Productos(cod_product)," +
+                                                "FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client))";
 
         final String VISTA_COMPRAS = "CREATE OR REPLACE VIEW Vista_Compras AS " +
-        "SELECT cod_compra, cod_produc, cod_client, fecha " +
-        "FROM Compras";
+                                        "SELECT cod_compra, cod_product, cod_client, fecha " +
+                                        "FROM Compras";
 
-        Statement st = connection.createStatement();
+
         st.execute(TABLA_COMPRAS);
         st.execute(VISTA_COMPRAS);
-        st.close();
-
     }
 
     @Override
-    public void insertar(Empleado emp) throws BBDDException{
+    public void insertar(Empleado emp) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Producto prod) throws BBDDException{
+    public void insertar(Producto prod) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Compra compra) throws BBDDException{
+    public void insertar(Compra compra) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Cliente client) throws BBDDException{
+    public void insertar(Cliente client) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public Producto visualizarProducto() throws BBDDException{
+    public Producto visualizarProducto() throws SQLException{
         final String QUERY = "SELECT nombre, apellido, nacimiento FROM alumno WHERE ";
 
         PreparedStatement ps = connection.prepareStatement(QUERY);
@@ -191,7 +172,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         String nombre = rs.getString("nombre");
         String apellido = rs.getString("apellido");
         
-        Producto producto = new ;
+        Producto producto = null;
             
         
         rs.close();
@@ -201,7 +182,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Producto> visualizarProductos() throws BBDDException{
+    public List<Producto> visualizarProductos() throws SQLException{
         final String QUERY = "SELECT nombre, apellido, nacimiento FROM PRODUCTOS";
 
         List<Producto> productos = new ArrayList<>();
@@ -215,7 +196,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
             String apellido = rs.getString("apellido");
 
             
-            Producto producto = new Producto();
+            Producto producto = null;
             productos.add(producto);
         }
         rs.close();
@@ -225,25 +206,25 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Cliente> visualizarClientes() throws BBDDException{
+    public List<Cliente> visualizarClientes() throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarClientes'");
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws BBDDException{
+    public List<Empleado> visualizarEmpleados() throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarEmpleados'");
     }
 
     @Override
-    public List<Compra> visualizarCompras() throws BBDDException{
+    public List<Compra> visualizarCompras() throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarCompras'");
     }
 
     @Override
-    public Map<Producto, Integer> visualizarStock() throws BBDDException{
+    public Map<Producto, Integer> visualizarStock() throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarStock'");
     }
