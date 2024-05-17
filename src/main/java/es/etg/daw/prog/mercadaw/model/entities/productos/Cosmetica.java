@@ -6,4 +6,9 @@ public class Cosmetica extends Producto{
         super(nombre, marca, precio, altura, anchura, peso, numElementos, descripcion);
         this.iva = IVA_COSM;
     }
+
+    @Override
+    public String toString() {
+        return TipoProducto.COSMETICA.toString();
+    }
 }

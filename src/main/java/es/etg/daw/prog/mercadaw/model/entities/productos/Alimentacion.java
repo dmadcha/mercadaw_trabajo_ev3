@@ -7,4 +7,9 @@ public class Alimentacion extends Producto{
         super(nombre, marca, precio, altura, anchura, peso, numElementos, descripcion);
         this.iva = IVA_ALIM;
     }
+
+    @Override
+    public String toString() {
+        return TipoProducto.ALIMENTACION.toString();
+    }
 }

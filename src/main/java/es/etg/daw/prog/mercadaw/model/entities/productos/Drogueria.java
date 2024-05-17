@@ -7,4 +7,9 @@ public class Drogueria extends Producto{
         super(nombre, marca, precio, altura, anchura, peso, numElementos, descripcion);
         this.iva = IVA_DROG;
     }
+
+    @Override
+    public String toString() {
+        return TipoProducto.DROGUERIA.toString();
+    }
 }
