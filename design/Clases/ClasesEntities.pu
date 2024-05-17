@@ -3,13 +3,12 @@
 package model{
     package entities {
         package productos{
-            enum CategoriaProducto{
-                ALIMENTACION(4), DROGUERIA(10), COSMETICA(21)
-                - iva: int
+            enum TipoProducto{
+                ALIMENTACION, DROGUERIA, COSMETICA
             }
 
             class ProductoFactory{
-                {static} obtenerProducto(categoria: CategoriaProducto):Producible
+                + {static} obtenerProducto(tipo: TipoProducto):Producible    
             }
 
             interface Producible{
@@ -19,9 +18,8 @@ package model{
             abstract class Producto {
                 - nombre: String
                 - marca: String
-                - categoria: CategoriaProducto
                 - precio: double
-                - iva: int
+                - iva: double
                 - altura: double
                 - anchura: double
                 - peso: double
@@ -33,23 +31,22 @@ package model{
             }
 
             class Alimentacion {
-                - iva: int
+                - iva: double
             }
 
             class Drogueria {
-                - iva: int
+                - iva: double
             }
 
             class Cosmetica {
-                - iva: int
+                - iva: double
             }
 
             class ProductoBuilder {
                 - nombre: String
                 - marca: String
-                - categoria: CategoriaProducto
                 - precio: double
-                - iva: int
+                - iva: double
                 - altura: double
                 - anchura: double
                 - peso: double
@@ -82,14 +79,8 @@ package model{
                 + calcularNomina();
             }
 
-            enum TipoEmpleado{
-                REPONEDOR(1200), CAJERO(1300), ENCARGADO(1500), ESTANDAR(1000)
-
-                - sueldo: double
-            }
-
             class EmpleadoFactory{
-                {static} obtenerEmpleado(TipoEmpleado:TipoEmpleado):Contratable
+                {static} crear(E):Contratable
             }
 
             class EmpleadoBuilder {
@@ -108,6 +99,8 @@ package model{
             }
 
             class Empleado {
+                + SUELDO: double = 1000
+
                 - id: int
                 - nombre: String
                 - apellidos: String
@@ -118,14 +111,20 @@ package model{
             }
 
             class Reponedor {
+                + SUELDO: double = 1200
+
                 - sueldo: double
             }
 
             class Cajero {
+                + SUELDO: double = 1300
+
                 - sueldo: double
             }
 
             class Encargado {
+                + SUELDO: double = 1500
+
                 - sueldo: double
             }
 
