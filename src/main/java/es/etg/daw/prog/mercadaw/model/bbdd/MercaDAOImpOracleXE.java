@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
@@ -141,14 +140,15 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Empleado emp) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?)";
-        PreparedStatement ps = conn.prepareStatement(sql);
+        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(sql);
 
         ps.setInt(1, emp.getId());
         ps.setString(2, emp.getNombre());
         ps.setString(3, emp.getApellidos());
-        ps.setString(4, emp.);
-
+        ps.setString(4, emp.toString());
+        ps.setDouble(5, emp.getSueldo());
+    
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
@@ -163,13 +163,13 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public void insertar(Compra compra) throws SQLException{
+    public int insertar(Compra compra) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Cliente client) throws SQLException{
+    public int insertar(Cliente client) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
@@ -226,8 +226,30 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public List<Empleado> visualizarEmpleados() throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'visualizarEmpleados'");
+        final String QUERY = "SELECT cod_emple, nombre, apellidos, categoria " +
+                                "FROM Empleados";
+
+        List<Empleado> empleados = new ArrayList<>();
+        PreparedStatement ps = connection.prepareStatement(QUERY);
+        ResultSet rs = ps.executeQuery();
+
+        while(rs.next()){
+
+            int id = rs.getInt("cod_emple");
+            String nombre = rs.getString("nombre");
+            String apellido = rs.getString("apellidos");
+            String categoria = rs.getString("categoria");
+
+
+            
+            Empleado empleado = null; //TODO LLAMAR A FACTOría
+            empleados.add(empleado);
+        }
+
+        rs.close();
+        ps.close();
+
+        return empleados;
     }
 
     @Override
@@ -235,12 +257,5 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarCompras'");
     }
-
-    @Override
-    public Map<Producto, Integer> visualizarStock() throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'visualizarStock'");
-    }
-
     
 }
