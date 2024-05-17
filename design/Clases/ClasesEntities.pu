@@ -2,38 +2,150 @@
 
 package model{
     package entities {
-        package producto{
-            enum TipoProducto{
-                ALIMENTACION, DROGUERIA, COSMETICA
+        package productos{
+            enum CategoriaProducto{
+                ALIMENTACION(4), DROGUERIA(10), COSMETICA(21)
+                - iva: int
             }
 
             class ProductoFactory{
-                {static} obtenerProducto(TipoProducto:TipoProducto):IProducto
+                {static} obtenerProducto(categoria: CategoriaProducto):Producible
             }
 
-            interface IProducible{
-
+            interface Producible{
+                + getPrecioVenta(Producto p): double
             }
 
+            abstract class Producto {
+                - nombre: String
+                - marca: String
+                - categoria: CategoriaProducto
+                - precio: double
+                - iva: int
+                - altura: double
+                - anchura: double
+                - peso: double
+                - numElementos: int
+                - descripcion: String
+
+                + Producto(builder: ProductoBuilder)
+                + {static} builder(): ProductoBuilder
+            }
+
+            class Alimentacion {
+                - iva: int
+            }
+
+            class Drogueria {
+                - iva: int
+            }
+
+            class Cosmetica {
+                - iva: int
+            }
+
+            class ProductoBuilder {
+                - nombre: String
+                - marca: String
+                - categoria: CategoriaProducto
+                - precio: double
+                - iva: int
+                - altura: double
+                - anchura: double
+                - peso: double
+                - numElementos: int
+                - descripcion: String
+
+                + setNombre(nom: String): ProductoBuilder
+                + setMarca(marca: String): ProductoBuilder
+                + setCategoria(cat: int): ProductoBuilder
+                + setPrecio(precio: double): ProductoBuilder
+                + setIva(iva: int): ProductoBuilder
+                + setAltura(alt: double): ProductoBuilder
+                + setAnchura(anch: double): ProductoBuilder
+                + setPeso(peso: double): ProductoBuilder
+                + setNumElementos(numElem: int): ProductoBuilder
+                + setDescripcion(desc: String): ProductoBuilder
+                ProductoBuilder()
+                + build(): Producto
+            }
+
+            Producible <|.. Producto
+            Producto <|-- Alimentacion
+            Producto <|-- Drogueria
+            Producto <|-- Cosmetica
 
         }
 
-        package empleado{
+        package empleados {
+            interface Contratable {
+                + calcularNomina();
+            }
+
             enum TipoEmpleado{
-                REPONEDOR, CAJERO, ENCARGADO
+                REPONEDOR(1200), CAJERO(1300), ENCARGADO(1500), ESTANDAR(1000)
+
+                - sueldo: double
             }
 
             class EmpleadoFactory{
-                {static} obtenerEmpleado(TipoEmpleado:TipoEmpleado):IEmpleado
+                {static} obtenerEmpleado(TipoEmpleado:TipoEmpleado):Contratable
             }
 
-            interface IEmpleado{
-
+            class EmpleadoBuilder {
+                - id: int
+                - nombre: String
+                - apellidos: String
+                - categoria: CategoriaEmpleado
+                - sueldo: double
+                + setId(id: int): int
+                + setNombre(nom: String): String
+                + setApellidos(ape: String): String
+                + setCategoria(cat: CategoriaEmpleado): CategoriaEmpleado
+                + setSueldo(sueldo: double): double
+                EmpleadoBuilder()
+                + build(): Empleado
             }
+
+            class Empleado {
+                - id: int
+                - nombre: String
+                - apellidos: String
+                - categoria: CategoriaEmpleado
+                - sueldo: double
+                + Empleado(builder: EmpleadoBuilder)
+                + {static} builder(): EmpleadoBuilder
+            }
+
+            class Reponedor {
+                - sueldo: double
+            }
+
+            class Cajero {
+                - sueldo: double
+            }
+
+            class Encargado {
+                - sueldo: double
+            }
+
+            Contratable <|.. Empleado
+            Empleado <|-- Encargado
+            Empleado <|-- Reponedor
+            Empleado <|-- Cajero
         }
 
+        package clientes {
+            class Cliente {
+                - nombre: String 
+                - correo: String 
+                - codPostal: String
+            }
 
-
+            class Compra {
+                - fecha: Date
+            }
+        }
     }
 }
 @enduml
