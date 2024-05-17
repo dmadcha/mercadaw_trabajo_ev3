@@ -3,8 +3,8 @@ package es.etg.daw.prog.mercadaw.model.entities.empleados;
 public class Reponedor extends Empleado{
     private double sueldo;
 
-    public Reponedor(int id, String nombre, String apellidos) {
-        super(id, nombre, apellidos);
+    public Reponedor(String nombre, String apellidos) {
+        super(nombre, apellidos);
         this.sueldo = SUELDO_REPON;
     }
 
