@@ -1,12 +1,13 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-import es.etg.daw.prog.mercadaw.model.entities.Cliente;
-import es.etg.daw.prog.mercadaw.model.entities.Compra;
-import es.etg.daw.prog.mercadaw.model.entities.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.Producto;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 /**
@@ -15,11 +16,7 @@ import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
  */
 public interface MercaDAO {
 
-    public void crearTablaClientes() throws BBDDException;
-    public void crearTablaProductos()throws BBDDException;
-    public void crearTablaEmpleados()throws BBDDException;
-    public void crearTablaCompras()throws BBDDException;
-
+    public void iniciarBBDD() throws SQLException;
 
 
     public void insertar(Empleado emp) throws BBDDException;

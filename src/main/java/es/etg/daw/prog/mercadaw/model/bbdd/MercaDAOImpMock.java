@@ -1,14 +1,10 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-import es.etg.daw.prog.mercadaw.model.entities.Cliente;
-import es.etg.daw.prog.mercadaw.model.entities.Compra;
-import es.etg.daw.prog.mercadaw.model.entities.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.Producto;
+
 import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 /**
@@ -17,66 +13,72 @@ import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
  */
 public class MercaDAOImpMock implements MercaDAO{
 
-
     @Override
-    public void crearTablaClientes() throws BBDDException {
+    public void iniciarBBDD() throws SQLException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'iniciarBBDD'");
     }
 
     @Override
-    public void crearTablaProductos() throws BBDDException {
+    public void insertar(es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado emp) throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void crearTablaEmpleados() throws BBDDException {
+    public void insertar(es.etg.daw.prog.mercadaw.model.entities.productos.Producto prod) throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void crearTablaCompras() throws BBDDException {
-    }
-    
-    @Override
-    public void insertar(Empleado emp) throws BBDDException {
+    public void insertar(es.etg.daw.prog.mercadaw.model.entities.compras.Compra compra) throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Producto prod) throws BBDDException {
+    public void insertar(es.etg.daw.prog.mercadaw.model.entities.compras.Cliente client) throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }
 
     @Override
-    public void insertar(Compra compra) throws BBDDException {
+    public es.etg.daw.prog.mercadaw.model.entities.productos.Producto visualizarProducto() throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'visualizarProducto'");
     }
 
     @Override
-    public void insertar(Cliente client) throws BBDDException {
+    public List<es.etg.daw.prog.mercadaw.model.entities.productos.Producto> visualizarProductos() throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'visualizarProductos'");
     }
 
     @Override
-    public Producto visualizarProducto() throws BBDDException {
-        return new Producto();
+    public List<es.etg.daw.prog.mercadaw.model.entities.compras.Cliente> visualizarClientes() throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'visualizarClientes'");
     }
 
     @Override
-    public List<Producto> visualizarProductos() throws BBDDException {
-        return new ArrayList<Producto>();
+    public List<es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado> visualizarEmpleados() throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'visualizarEmpleados'");
     }
 
     @Override
-    public List<Cliente> visualizarClientes() throws BBDDException {
-        return new ArrayList<Cliente>();
+    public List<es.etg.daw.prog.mercadaw.model.entities.compras.Compra> visualizarCompras() throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'visualizarCompras'");
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws BBDDException {
-        return new ArrayList<Empleado>();
+    public Map<es.etg.daw.prog.mercadaw.model.entities.productos.Producto, Integer> visualizarStock()
+            throws BBDDException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'visualizarStock'");
     }
 
-    @Override
-    public List<Compra> visualizarCompras() throws BBDDException {
-        return new ArrayList<Compra>();
-    }
 
-    @Override
-    public Map<Producto, Integer> visualizarStock() throws BBDDException {
-        return new HashMap<Producto,Integer>();
-    }
 }

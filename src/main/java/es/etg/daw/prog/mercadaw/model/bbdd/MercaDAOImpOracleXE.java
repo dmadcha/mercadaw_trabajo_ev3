@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import es.etg.daw.prog.mercadaw.model.entities.Cliente;
-import es.etg.daw.prog.mercadaw.model.entities.Compra;
-import es.etg.daw.prog.mercadaw.model.entities.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.Producto;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 
@@ -30,79 +30,128 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         connection = DriverManager.getConnection(String.format(URL, DATABASE_USER, DATABASE_PASS));
     }
 
-    @Override
-    public void crearTablaClientes()throws BBDDException{
+    
 
-        final String TABLA_CLIENTES = "CREATE TABLE Clientes (\n" +
-                                        "  cod_postal NUMERIC NOT NULL,\n" +
-                                        "  correo VARCHAR,\n" +
-                                        "  nombre VARCHAR,\n" +
-                                        "  cod_client NUMERIC NOT NULL,\n" +
+    @Override
+    public void iniciarBBDD() throws SQLException {
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        
+        bbdd.crearClientes();
+        bbdd.crearCompras();
+        bbdd.crearEmpleados();
+        bbdd.crearProductos();
+    }
+
+    /**
+     * Este metodo crea la tabla y vista de Clientes en la base de datos
+     * @throws SQLException
+     */
+    public void crearClientes()throws SQLException{
+
+        final String TABLA_CLIENTES = "CREATE OR REPLACE TABLE Clientes (\n" +
+                                        "  cod_client NUMERIC(4) NOT NULL,\n" +
+                                        "  cod_postal NUMERIC(5) NOT NULL,\n" +
+                                        "  correo VARCHAR(255),\n" +
+                                        "  nombre VARCHAR(255),\n" +
                                         "  PRIMARY KEY (cod_client)\n" +
                                         ");";
 
+        final String VISTA_CLIENTES = "CREATE OR REPLACE VIEW Vista_Clientes AS " +
+        "SELECT cod_postal, correo, cod_client, categoria, " +
+        "iva, altura, anchura, peso, num_elementos, desc, stock " + 
+        "FROM Clientes";
+
         Statement st = connection.createStatement();
         st.execute(TABLA_CLIENTES);
+        st.execute(VISTA_CLIENTES);
         st.close();
 
     }
 
-    @Override
-    public void crearTablaProductos()throws BBDDException{
+    /**
+     * Este metodo crea la tabla y vista de Productos en la base de datos
+     * @throws SQLException
+     */
+    public void crearProductos()throws SQLException{
 
-        final String TABLA_PRODUCTOS = "CREATE TABLE Producto (\n" +
-                                        "  nombre VARCHAR NOT NULL,\n" +
-                                        "  precio NUMERIC NOT NULL,\n" +
-                                        "  marca VARCHAR NOT NULL,\n" +
-                                        "  categoria VARCHAR NOT NULL,\n" +
+        final String TABLA_PRODUCTOS = "CREATE OR REPLACE TABLE Productos (\n" +
+                                        "  cod_produc NUMERIC(4) NOT NULL,\n" +
+                                        "  nombre VARCHAR(255) NOT NULL,\n" +
+                                        "  marca VARCHAR(255) NOT NULL,\n" +
+                                        "  categoria VARCHAR(255) NOT NULL,\n" +
                                         "  iva NUMERIC NOT NULL,\n" +
                                         "  altura NUMERIC NOT NULL,\n" +
                                         "  anchura NUMERIC NOT NULL,\n" +
                                         "  peso NUMERIC NOT NULL,\n" +
                                         "  num_elementos NUMERIC NOT NULL,\n" +
-                                        "  desc VARCHAR NOT NULL,\n" +
-                                        "  cod_produc NUMERIC NOT NULL,\n" +
+                                        "  desc VARCHAR(255) NOT NULL,\n" +
+                                        "  stock NUMERIC NOT NULL, \n" +
                                         "  PRIMARY KEY (cod_produc)\n" +
-                                        ");";
+                                        ")";
+
+        final String VISTA_PRODUCTOS = "CREATE OR REPLACE VIEW Vista_Productos AS " +
+                                        "SELECT cod_produc, nombre, marca, categoria, " +
+                                        "iva, altura, anchura, peso, num_elementos, desc, stock " + 
+                                        "FROM Productos";
+
 
         Statement st = connection.createStatement();
         st.execute(TABLA_PRODUCTOS);
+        st.execute(VISTA_PRODUCTOS);
         st.close();
 
     }
-    @Override
-    public void crearTablaEmpleados()throws BBDDException{
+    
+    /**
+     * Este metodo crea la tabla y vista de Empleados en la base de datos
+     * @throws SQLException
+     */
+    public void crearEmpleados()throws SQLException{
 
-        final String TABLA_EMPLEADOS = "CREATE TABLE Empleado (\n" +
-                                        "  cod_emple NUMERIC NOT NULL,\n" +
-                                        "  nombre VARCHAR NOT NULL,\n" +
-                                        "  apellidos VARCHAR NOT NULL,\n" +
-                                        "  categoria VARCHAR NOT NULL,\n" +
+        final String TABLA_EMPLEADOS = "CREATE OR REPLACE TABLE Empleados (\n" +
+                                        "  cod_emple NUMERIC(4) NOT NULL,\n" +
+                                        "  nombre VARCHAR(255) NOT NULL,\n" +
+                                        "  apellidos VARCHAR(255) NOT NULL,\n" +
+                                        "  categoria VARCHAR(255) NOT NULL,\n" +
                                         "  cod_produc NUMERIC NOT NULL,\n" +
                                         "  PRIMARY KEY (cod_emple),\n" +
                                         "  FOREIGN KEY (cod_produc) REFERENCES Producto(cod_produc)\n" +
-                                        ");";
+                                        ")";
+
+        final String VISTA_EMPLEADOS = "CREATE OR REPLACE VIEW Vista_Empleados AS " +
+                                        "SELECT cod_emple, nombre, appellidos, categoria, cod_produc " +
+                                        "FROM Empleados";
 
         Statement st = connection.createStatement();
         st.execute(TABLA_EMPLEADOS);
+        st.execute(VISTA_EMPLEADOS);
         st.close();
 
     }
-    @Override
-    public void crearTablaCompras()throws BBDDException{
 
-        final String TABLA_COMPRAS = "CREATE TABLE Compras (\n" +
+    /**
+     * Este metodo crea la tabla y vista de Compras en la base de datos
+     * @throws SQLException
+     */
+    public void crearCompras()throws SQLException{
+
+        final String TABLA_COMPRAS = "CREATE OR REPLACE TABLE Compras (\n" +
+                                                "  cod_compra NUMERIC(4) NOT NULL,\n" +
+                                                "  cod_produc NUMERIC(4) NOT NULL,\n" +
+                                                "  cod_client NUMERIC(4) NOT NULL,\n" +
                                                 "  fecha DATE NOT NULL,\n" +
-                                                "  cod_compra NUMERIC NOT NULL,\n" +
-                                                "  cod_produc NUMERIC NOT NULL,\n" +
-                                                "  cod_client NUMERIC NOT NULL,\n" +
                                                 "  PRIMARY KEY (cod_compra),\n" +
                                                 "  FOREIGN KEY (cod_produc) REFERENCES Producto(cod_produc),\n" +
                                                 "  FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client)\n" +
-                                                ");";
+                                                ")";
+
+        final String VISTA_COMPRAS = "CREATE OR REPLACE VIEW Vista_Compras AS " +
+        "SELECT cod_compra, cod_produc, cod_client, fecha " +
+        "FROM Compras";
 
         Statement st = connection.createStatement();
         st.execute(TABLA_COMPRAS);
+        st.execute(VISTA_COMPRAS);
         st.close();
 
     }
@@ -142,7 +191,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         String nombre = rs.getString("nombre");
         String apellido = rs.getString("apellido");
         
-        Producto producto = new Producto();
+        Producto producto = new ;
             
         
         rs.close();
@@ -153,7 +202,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public List<Producto> visualizarProductos() throws BBDDException{
-        final String QUERY = "SELECT nombre, apellido, nacimiento FROM alumno";
+        final String QUERY = "SELECT nombre, apellido, nacimiento FROM PRODUCTOS";
 
         List<Producto> productos = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
@@ -198,4 +247,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'visualizarStock'");
     }
+
+    
 }
