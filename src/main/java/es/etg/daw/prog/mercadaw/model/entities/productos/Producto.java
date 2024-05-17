@@ -7,7 +7,6 @@ public abstract class Producto implements Producible {
     private int id;
     private String nombre;
     private String marca;
-    private double precio;;
     private double altura;
     private double anchura;
     private double peso;
@@ -15,12 +14,11 @@ public abstract class Producto implements Producible {
     private String descripcion;
     protected double iva;
 
-    public Producto(String nombre, String marca, double precio, double altura, double anchura,
+    public Producto(String nombre, String marca, double altura, double anchura,
             double peso, int numElementos, String descripcion) {
         this.id = numProductos;
         this.nombre = nombre;
         this.marca = marca;
-        this.precio = precio;
         this.altura = altura;
         this.anchura = anchura;
         this.peso = peso;
@@ -68,14 +66,6 @@ public abstract class Producto implements Producible {
 
     public void setMarca(String marca) {
         this.marca = marca;
-    }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
     }
 
     public double getAltura() {
