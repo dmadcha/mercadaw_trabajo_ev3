@@ -4,18 +4,22 @@ public class Empleado implements Contratable {
 
     private static int numEmpleados;
 
-    private int id;
+    private Integer id;
     private String nombre;
     private String apellidos;
     private double sueldo;
 
-    public Empleado(String nombre, String apellidos) {
-        this.id = numEmpleados;
+    public Empleado(Integer id, String nombre, String apellidos) {
+
+        if (id == null) {
+            this.id = numEmpleados;
+            numEmpleados++;
+        } else {
+            this.id = id;
+        }
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.sueldo = SUELDO_EMPLE;
-
-        numEmpleados++;
     }
 
     public static int getNumEmpleados() {

@@ -3,8 +3,8 @@ package es.etg.daw.prog.mercadaw.model.entities.empleados;
 public class Encargado extends Empleado{
     private double sueldo;
 
-    public Encargado(String nombre, String apellidos) {
-        super(nombre, apellidos);
+    public Encargado(Integer id, String nombre, String apellidos) {
+        super(id, nombre, apellidos);
         this.sueldo = SUELDO_ENCAR;
     }
 

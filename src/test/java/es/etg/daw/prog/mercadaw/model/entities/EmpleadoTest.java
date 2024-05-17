@@ -11,9 +11,9 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 public class EmpleadoTest {
     @Test
     public void crearEmpleadoTest() throws MercaDAWException{
-        EmpleadoFactory.obtener("Empleado", "Jesús", "Herrera");
+        EmpleadoFactory.obtener("Empleado", null, "Jesús", "Herrera");
         assertEquals(1, Empleado.getNumEmpleados());
-        EmpleadoFactory.obtener("Cajero", "Iván", "Madroñero");
+        EmpleadoFactory.obtener("Cajero", null, "Iván", "Madroñero");
         assertEquals(2, Empleado.getNumEmpleados());
     }
 }
