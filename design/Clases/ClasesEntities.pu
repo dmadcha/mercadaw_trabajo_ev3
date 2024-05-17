@@ -92,12 +92,29 @@ package model{
                 {static} obtenerEmpleado(TipoEmpleado:TipoEmpleado):Contratable
             }
 
+            class EmpleadoBuilder {
+                - id: int
+                - nombre: String
+                - apellidos: String
+                - categoria: CategoriaEmpleado
+                - sueldo: double
+                + setId(id: int): int
+                + setNombre(nom: String): String
+                + setApellidos(ape: String): String
+                + setCategoria(cat: CategoriaEmpleado): CategoriaEmpleado
+                + setSueldo(sueldo: double): double
+                EmpleadoBuilder()
+                + build(): Empleado
+            }
+
             class Empleado {
                 - id: int
                 - nombre: String
                 - apellidos: String
                 - categoria: CategoriaEmpleado
                 - sueldo: double
+                + Empleado(builder: EmpleadoBuilder)
+                + {static} builder(): EmpleadoBuilder
             }
 
             class Reponedor {
