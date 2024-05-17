@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class MercaDAOImpOracleXETest {
     @Test
-    public void test() throws Exception{
+    public void iniciarBBDDTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         bbdd.iniciarBBDD();
     }

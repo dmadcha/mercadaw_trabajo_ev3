@@ -36,17 +36,37 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         Statement st = connection.createStatement();
 
+        bbdd.crearEmpleados(st);
         bbdd.crearClientes(st);
         bbdd.crearProductos(st);
-        bbdd.crearEmpleados(st);
         bbdd.crearCompras(st);
         
         st.close();
     }
 
     /**
+     * Este metodo crea la tabla y vista de Empleados en la base de datos
+     * \throws SQLException
+     */
+    public void crearEmpleados(Statement st)throws SQLException{
+
+        final String TABLA_EMPLEADOS = "CREATE TABLE Empleados( " +
+                                        "cod_emple NUMERIC(4) PRIMARY KEY, " +
+                                        "nombre VARCHAR(255), " +
+                                        "apellidos VARCHAR(255), " +
+                                        "categoria VARCHAR(255)) ";
+
+        final String VISTA_EMPLEADOS = "CREATE OR REPLACE VIEW Vista_Empleados AS " +
+                                        "SELECT cod_emple, nombre, apellidos, categoria " +
+                                        "FROM Empleados";
+
+        st.execute(TABLA_EMPLEADOS);
+        st.execute(VISTA_EMPLEADOS);
+    }
+
+    /**
      * Este metodo crea la tabla y vista de Clientes en la base de datos
-     * @throws SQLException
+     * \throws SQLException
      */
     public void crearClientes(Statement st)throws SQLException{
 
@@ -66,7 +86,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     /**
      * Este metodo crea la tabla y vista de Productos en la base de datos
-     * @throws SQLException
+     * \throws SQLException
      */
     public void crearProductos(Statement st)throws SQLException{
 
@@ -92,31 +112,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.execute(VISTA_PRODUCTOS);
     }
     
-    /**
-     * Este metodo crea la tabla y vista de Empleados en la base de datos
-     * @throws SQLException
-     */
-    public void crearEmpleados(Statement st)throws SQLException{
-
-        final String TABLA_EMPLEADOS = "CREATE TABLE Empleados( " +
-                                        "cod_emple NUMERIC(4) PRIMARY KEY, " +
-                                        "cod_product NUMERIC(4), " +
-                                        "nombre VARCHAR(255), " +
-                                        "apellidos VARCHAR(255), " +
-                                        "categoria VARCHAR(255), " +
-                                        "FOREIGN KEY (cod_product) REFERENCES Productos(cod_product))";
-
-        final String VISTA_EMPLEADOS = "CREATE OR REPLACE VIEW Vista_Empleados AS " +
-                                        "SELECT cod_emple, nombre, apellidos, categoria, cod_product " +
-                                        "FROM Empleados";
-
-        st.execute(TABLA_EMPLEADOS);
-        st.execute(VISTA_EMPLEADOS);
-    }
-
+    
     /**
      * Este metodo crea la tabla y vista de Compras en la base de datos
-     * @throws SQLException
+     * \throws SQLException
      */
     public void crearCompras(Statement st)throws SQLException{
 
@@ -137,14 +136,26 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.execute(VISTA_COMPRAS);
     }
 
+
+
     @Override
-    public void insertar(Empleado emp) throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
+    public int insertar(Empleado emp) throws SQLException{
+        int numRegistrosActualizados = 0;
+        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
+        PreparedStatement ps = conn.prepareStatement(sql);
+
+        ps.setInt(1, emp.getId());
+        ps.setString(2, emp.);
+        ps.setDate(3, emp.);
+
+        numRegistrosActualizados = ps.executeUpdate();
+        ps.close();
+
+        return numRegistrosActualizados;
     }
 
     @Override
-    public void insertar(Producto prod) throws SQLException{
+    public int insertar(Producto prod) throws SQLException{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'insertar'");
     }

@@ -15,11 +15,17 @@ import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
  */
 public interface MercaDAO {
 
+    /**
+     * Prepara la base de datos. (Crea las tablas y vistas).
+     * \throws SQLException
+     */
     public void iniciarBBDD() throws SQLException;
 
-
+    /**
+     * Inserta el empleado en la Base de datos.
+     * \param empleado Empleado a insertar.
+     */
     public void insertar(Empleado emp) throws SQLException;
-
 
     /**
      * Inserta el producto en la Base de datos.
