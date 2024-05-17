@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 
-public class MainViewController {
+public class MainViewController extends ViewController{
 
     @FXML
     private Button btnCompra;
@@ -37,5 +37,4 @@ public class MainViewController {
     void accesoGestionSistema(MouseEvent event) {
 
     }
-
 }
