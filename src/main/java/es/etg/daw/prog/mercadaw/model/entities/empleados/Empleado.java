@@ -9,7 +9,7 @@ public class Empleado implements Contratable {
     private String apellidos;
     private double sueldo;
 
-    public Empleado(int id, String nombre, String apellidos) {
+    public Empleado(String nombre, String apellidos) {
         this.id = numEmpleados;
         this.nombre = nombre;
         this.apellidos = apellidos;

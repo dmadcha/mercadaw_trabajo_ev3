@@ -3,8 +3,8 @@ package es.etg.daw.prog.mercadaw.model.entities.empleados;
 public class Cajero extends Empleado{
     private double sueldo;
 
-    public Cajero(int id, String nombre, String apellidos) {
-        super(id, nombre, apellidos);
+    public Cajero(String nombre, String apellidos) {
+        super(nombre, apellidos);
         this.sueldo = SUELDO_CAJER;
     }
 
