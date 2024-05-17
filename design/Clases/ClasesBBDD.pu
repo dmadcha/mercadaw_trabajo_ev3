@@ -8,18 +8,12 @@ top to bottom direction
         }
 
         interface MercaDAO{
-        + crearTablas()
+        + iniziarBBDD()
 
-        + insertar(Empleado empleado)
-        + insertar(Producto producto)
-        + insertar(Compra compra)
-        + insertar(Cliente cliente)
-
-        + actualizar(Empleado empleado)
-        + actualizar(Producto producto)
-        
-        + borrar(Empleado empleado)
-        + borrar(Producto producto)
+        + insertar(Empleado empleado):int
+        + insertar(Producto producto): int
+        + insertar(Compra compra): int
+        + insertar(Cliente cliente): int
         
         + visualizarProducto():Producto
         + visualizarProductos():List<Producto>

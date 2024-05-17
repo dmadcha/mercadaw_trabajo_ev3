@@ -141,12 +141,14 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Empleado emp) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
+        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?)";
         PreparedStatement ps = conn.prepareStatement(sql);
 
         ps.setInt(1, emp.getId());
-        ps.setString(2, emp.);
-        ps.setDate(3, emp.);
+        ps.setString(2, emp.getNombre());
+        ps.setString(3, emp.getApellidos());
+        ps.setString(4, emp.);
+
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
