@@ -11,6 +11,7 @@ import java.util.List;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 
 
@@ -158,8 +159,21 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Producto prod) throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
+        int numRegistrosActualizados = 0;
+        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(sql);
+
+        ps.setInt(1, prod.getId());
+        ps.setString(2, prod.getNombre());
+        ps.setString(3, prod.getMarca());
+        ps.setString(4, prod.());
+        ps.setDouble(5, prod.getSueldo());
+    
+
+        numRegistrosActualizados = ps.executeUpdate();
+        ps.close();
+
+        return numRegistrosActualizados;
     }
 
     @Override
@@ -229,6 +243,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         final String QUERY = "SELECT cod_emple, nombre, apellidos, categoria " +
                                 "FROM Empleados";
 
+
         List<Empleado> empleados = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
         ResultSet rs = ps.executeQuery();
@@ -239,10 +254,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
             String nombre = rs.getString("nombre");
             String apellido = rs.getString("apellidos");
             String categoria = rs.getString("categoria");
-
-
             
-            Empleado empleado = null; //TODO LLAMAR A FACTOría
+            
+
+            Empleado empleado = EmpleadoFactory.obtener(categoria, nombre, apellido); 
             empleados.add(empleado);
         }
 
