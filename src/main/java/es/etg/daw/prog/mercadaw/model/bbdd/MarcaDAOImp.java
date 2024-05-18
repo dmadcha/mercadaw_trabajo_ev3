@@ -13,9 +13,17 @@ public abstract class MarcaDAOImp implements MercaDAO{
 
     protected Connection connection;
 
+    
     public abstract void crearEmpleados(Statement st) throws SQLException;
     public abstract void crearClientes(Statement st) throws SQLException;
     public abstract void crearCompras(Statement st) throws SQLException;
     public abstract void crearProductos(Statement st) throws SQLException;
 
+
+    public Connection getConnection() {
+        return connection;
+    }
+    public void setConnection(Connection connection) {
+        this.connection = connection;
+    }
 }

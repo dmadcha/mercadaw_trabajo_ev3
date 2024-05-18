@@ -2,18 +2,18 @@ package es.etg.daw.prog.mercadaw.model.bbdd;
 
 
 import java.sql.Date;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Drogueria;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 
 public class MercaDAOImpOracleXETest {
     @Test
@@ -30,26 +30,75 @@ public class MercaDAOImpOracleXETest {
         bbdd.insertar(emp);
     }
 
+
+    @Test
+    public void insertarProductoTest() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+
+        Producto pr1 = ProductoFactory.obtener("Alimentacion", null, "ACEITE", "OLIVA", 2, 8, 1, 1, 1, 10.99, "Aceite de oliva");
+        Producto pr2 = ProductoFactory.obtener("Cosmetica", null, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
+        Producto pr3 = ProductoFactory.obtener("Drogueria", null, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
+
+        bbdd.insertar(pr1);
+        bbdd.insertar(pr2);
+        bbdd.insertar(pr3);
+
+        
+
+    }
+
+    @Test
+    public void insertarClienteTest() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+
+        Cliente cl1 = new Cliente(null, "María López", "maria@example.com", 28001);
+        Cliente cl2 = new Cliente(null, "Juan Martínez", "juan@example.com", 25842);
+        
+        bbdd.insertar(cl1);
+        bbdd.insertar(cl2);
+
+    }
+
     @Test
     public void insertarCompraTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
 
-        Cliente cliente = new Cliente(null, "Paco", "@pack", "28001");
+        Cliente cliente = new Cliente(0, "Paco", "@pack", 28001);
 
-        Producto producto = new Drogueria(null, "Perfumes", "OneDirecction", 0.15, 0.20, 0.3, 1, "Una nueva fragancia olores exclusivos del himalalla");
-        Producto producto2 = new Cosmetica(null, "Maquillaje Embalaje", "Cajas", 0.25, 0.60, 0.7, 4, "Este maqullaje te dejará la cara en forma de embalaje");
-        Producto producto3 = new Alimentacion(null, "Patatas Adelgazadoras", "Sano", 0.8, 0.6, 1.2, 9, "Estas patatas grasientas hacen perder peso de forma incremental");
+        Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "Aceite de Oliva Virgen Extra", "OlivaDorada", 25, 8, 1, 1, 150, 10.99, "Aceite de oliva virgen extra de la mejor calidad, prensado en frío y sin aditivos. Perfecto para ensaladas, cocinar y dar sabor a tus platos favoritos.");
+        Producto pr2 = ProductoFactory.obtener("Cosmetica", 1, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
+        Producto pr3 = ProductoFactory.obtener("Drogueria", 2, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
 
         List<Producto> productos = new ArrayList<Producto>();
 
-        productos.add(producto);
-        productos.add(producto2);
-        productos.add(producto3);
+        productos.add(pr1);
+        productos.add(pr2);
+        productos.add(pr3);
 
         Date fecha = new Date(1003);
 
         Compra compra = new Compra(null, fecha, cliente, productos);
         bbdd.insertar(compra);
+    }
+
+
+    @BeforeAll
+    public void borrarTablas() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        Statement st = bbdd.getConnection().createStatement();
+
+        final String EMPELADOS = "DROP TABLE EMPLEADOS";
+        final String COMPRAS = "DROP TABLE COMPRAS";
+        final String PRODUCTOS = "DROP TABLE PRODUCTOS";
+        final String CLIENTES = "DROP TABLE CLIENTES";
+
+
+        st.execute(EMPELADOS);
+        st.execute(COMPRAS);
+        st.execute(PRODUCTOS);
+        st.execute(CLIENTES);
+
+        st.close();
     }
 
 }

@@ -100,15 +100,16 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         final String TABLA_CLIENTES = "CREATE TABLE Clientes( " +
                                         CLIEN_ID +" NUMERIC(4) PRIMARY KEY, " +
-                                        CLIEN_POST + " NUMERIC(5), " +
                                         CLIEN_NOMB + " VARCHAR(255), " +
-                                        CLIEN_CORR + " VARCHAR(255))";
+                                        CLIEN_CORR + " VARCHAR(255), " +
+                                        CLIEN_POST + " NUMERIC(5)) ";
 
         final String VISTA_CLIENTES = "CREATE OR REPLACE VIEW Vista_Clientes AS " +
                                         "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Clientes";
 
         st.execute(TABLA_CLIENTES);
         st.execute(VISTA_CLIENTES);
+        st.close();
     }
     @Override
     /**
@@ -121,14 +122,17 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
                                         PROD_ID + " NUMERIC(4) PRIMARY KEY, " +
                                         PROD_NOMB + " VARCHAR(255), " +
                                         PROD_MARC + " VARCHAR(255), " +
+                                        PROD_ALTU + " NUMERIC(20,4), " +
+                                        PROD_ANCH + " NUMERIC(20,4), " +
+                                        PROD_PESO + " NUMERIC(20,4), " +
+                                        PROD_ELEM + " NUMERIC(5), "   +
+                                        PROD_STOK + " NUMERIC(5), "   +
+                                        PROD_PREC + " NUMERIC(20,4), " +
                                         PROD_DESC + " VARCHAR(255), " +
-                                        PROD_CATE + " VARCHAR(255), " +
-                                        PROD_PREC + " NUMERIC(5,4), " +
-                                        PROD_ALTU + " NUMERIC(5,4), " +
-                                        PROD_ANCH + " NUMERIC(5,4), " +
-                                        PROD_PESO + " NUMERIC(5,4), " +
-                                        PROD_ELEM + " NUMERIC(2), " +
-                                        PROD_STOK + " NUMERIC(5))";
+                                        PROD_CATE + " VARCHAR(255)) " ;
+                                        
+                                        
+                                        
 
                                         
 
@@ -138,6 +142,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         st.execute(TABLA_PRODUCTOS);
         st.execute(VISTA_PRODUCTOS);
+        st.close();
     }
     
     @Override
@@ -149,9 +154,9 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         final String TABLA_COMPRAS = "CREATE TABLE Compras (" +
                                         COMP_ID + " NUMERIC(4) PRIMARY KEY, " +
-                                        PROD_ID + " NUMERIC(4), " +
-                                        CLIEN_ID + " NUMERIC(4), " +
                                         COMP_FECH + " DATE, " +
+                                        CLIEN_ID + " NUMERIC(4), " +
+                                        PROD_ID + " NUMERIC(4), " +
                                         "FOREIGN KEY ("+PROD_ID+") REFERENCES Productos("+PROD_ID+"), " +
                                         "FOREIGN KEY ("+CLIEN_ID+") REFERENCES Clientes("+CLIEN_ID+"))";
 
@@ -161,6 +166,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         st.execute(TABLA_COMPRAS);
         st.execute(VISTA_COMPRAS);
+        st.close();
     }
 
     @Override
@@ -184,7 +190,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Producto prod) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+        final String SQL = "INSERT INTO Productos VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
         ps.setInt(1, prod.getId());
@@ -194,7 +200,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         ps.setDouble(5, prod.getAnchura());
         ps.setDouble(6, prod.getPeso());
         ps.setInt(7, prod.getNumElementos());
-        ps.setString(8, prod.getDescripcion());
+        ps.setInt(8, prod.getStock());
+        ps.setDouble(9, prod.getPrecio());
+        ps.setString(10, prod.getDescripcion());
+        ps.setString(11, prod.toString());
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
@@ -204,18 +213,25 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Compra compra) throws SQLException{
-        int numRegistrosActualizados = 0;
+        
         final String SQL = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
-        ps.setDouble(1, compra.getId());
-        ps.setInt(3, compra.getCliente().getId());
-        ps.setDate(4, compra.getFecha());
+        int numRegistrosActualizados = 0;
+        int id = compra.getId();
 
+        for (int i = 0; i < compra.getProductos().size(); i ++) {
+           
 
-        for (int i = 0; i < compra.getProductos().size(); i++) {
-            ps.setInt(2, compra.getProductos().get(i).getId());
+            ps.setInt(1, id);
+            ps.setDate(2, compra.getFecha());
+            ps.setInt(3, compra.getCliente().getId());
+            
+            ps.setInt(4, compra.getProductos().get(i).getId());
+            
             numRegistrosActualizados += ps.executeUpdate();
+
+            id++;
         }
         
         ps.close();
@@ -226,13 +242,15 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Cliente client) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?)";
+        final String SQL = "INSERT INTO Clientes VALUES (?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
         ps.setInt(1, client.getId());
-        ps.setInt(2, client.getCodPostal());
+        ps.setString(2, client.getNombre());
         ps.setString(3, client.getCorreo());
-        ps.setString(4, client.getNombre());
+        ps.setInt(4, client.getCodPostal());
+        
+        
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
@@ -265,9 +283,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
 
         Producto producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
+        rs.close();
+        ps.close();
 
         return producto;
-
     }
 
     @Override
@@ -320,6 +339,8 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         
         Cliente cliente = new Cliente(id, nombre, correo, codPostal);
+        rs.close();
+        ps.close();
         return cliente;
     }
 
@@ -409,6 +430,5 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         ps.close();
 
         return compras;
-    }
-    
+    } 
 }
