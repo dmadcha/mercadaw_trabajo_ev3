@@ -1,31 +1,29 @@
 package es.etg.daw.prog.mercadaw.model.util;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.io.File;
+
+
+import org.junit.jupiter.api.Test;
+
+import es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario;
+
 public class FicheroBinarioTest {
 
-    private static final String TEST_FILE = "fichero.txt";
+    File fichero = new File("test.txt");
 
-   
-
-    /* 
+    FicheroBinario ficheroBinario = new FicheroBinario();
     @Test
-    public void escribitTest() throws Exception{
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+    public void leerEscribirTest() throws Exception {
+        String textoOriginal = "Hola, este es un texto de prueba.";
 
-        File archivo = new File("test.txt");
-        String texto = "Hola, mundo!";
+        ficheroBinario.escribir(fichero, textoOriginal);
 
-        escribir(archivo, texto);
+        byte[] datosLeidos = ficheroBinario.leer(fichero);
 
-        assertEquals(texto, outputStream.toString());
+        String textoLeido = new String(datosLeidos);
+
+        assertEquals(textoOriginal, textoLeido);
     }
-    @Test
-    public void leerTest() throws Exception {
-        FicheroBinario fileTest = new FicheroBinario();
-        byte[] expectedBytes = "Hola, mundo!".getBytes();
-        byte[] actualBytes = fileTest.leer(TEST_FILE);
-        assertArrayEquals(expectedBytes, actualBytes);
-    }
-
-    */
-
 }
