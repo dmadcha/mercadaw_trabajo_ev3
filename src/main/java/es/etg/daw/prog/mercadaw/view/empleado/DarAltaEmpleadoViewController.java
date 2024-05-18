@@ -1,12 +1,15 @@
 package es.etg.daw.prog.mercadaw.view.empleado;
 
+import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
+import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-public class DarAltaEmpleadoViewController {
+public class DarAltaEmpleadoViewController extends ViewController {
+    private MercaDAWController controller = new MercaDAWController();
 
     @FXML
     private Button btnAñadir;
@@ -34,17 +37,17 @@ public class DarAltaEmpleadoViewController {
 
     @FXML
     void accesoCalcularNomina(MouseEvent event) {
-
+        controller.cargarNomina();
     }
 
     @FXML
     void accesoConsultarDatos(MouseEvent event) {
-
+        controller.cargarListarEmpleados();
     }
 
     @FXML
     void accesoDarAltaEmple(MouseEvent event) {
-
+        controller.cargarEmpleados();
     }
 
     @FXML
@@ -54,7 +57,7 @@ public class DarAltaEmpleadoViewController {
 
     @FXML
     void salir(MouseEvent event) {
-
+        controller.cargarApp();
     }
 
 }

@@ -1,5 +1,7 @@
 package es.etg.daw.prog.mercadaw.view.producto;
 
+import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
+import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -7,7 +9,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseEvent;
 
-public class VentaProductoViewController {
+public class VentaProductoViewController extends ViewController {
+    private MercaDAWController controller = new MercaDAWController();
 
     @FXML
     private Button btnConsultarDatos;
@@ -50,22 +53,22 @@ public class VentaProductoViewController {
 
     @FXML
     void accesoConsultarDatos(MouseEvent event) {
-
+        controller.cargarListarProductos();
     }
 
     @FXML
     void accesoDarAltaProd(MouseEvent event) {
-
+        controller.cargarProductos();
     }
 
     @FXML
     void accesoListarStock(MouseEvent event) {
-
+        controller.cargarListarStock();
     }
 
     @FXML
     void accesoPrecioVenta(MouseEvent event) {
-
+        controller.cargarVentaProductos();
     }
 
     @FXML
@@ -75,7 +78,7 @@ public class VentaProductoViewController {
 
     @FXML
     void salir(MouseEvent event) {
-
+        controller.cargarApp();
     }
 
 }

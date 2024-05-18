@@ -1,11 +1,14 @@
 package es.etg.daw.prog.mercadaw.view.sistema;
 
+import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
+import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-public class CargaDatosViewController {
+public class CargaDatosViewController extends ViewController {
+    private MercaDAWController controller = new MercaDAWController();
 
     @FXML
     private Button btnCargarDatos;
@@ -27,12 +30,12 @@ public class CargaDatosViewController {
 
     @FXML
     void accesoCargarDatos(MouseEvent event) {
-
+        controller.cargarImportar();
     }
 
     @FXML
     void accesoExportarDatos(MouseEvent event) {
-
+        controller.cargarExportar();
     }
 
     @FXML
@@ -42,7 +45,7 @@ public class CargaDatosViewController {
 
     @FXML
     void salir(MouseEvent event) {
-
+        controller.cargarApp();
     }
 
     @FXML
