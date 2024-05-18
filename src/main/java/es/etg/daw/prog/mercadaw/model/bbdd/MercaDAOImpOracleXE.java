@@ -109,7 +109,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         st.execute(TABLA_CLIENTES);
         st.execute(VISTA_CLIENTES);
-        st.close();
     }
     @Override
     /**
@@ -142,7 +141,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         st.execute(TABLA_PRODUCTOS);
         st.execute(VISTA_PRODUCTOS);
-        st.close();
     }
     
     @Override
@@ -166,7 +164,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         st.execute(TABLA_COMPRAS);
         st.execute(VISTA_COMPRAS);
-        st.close();
     }
 
     @Override
@@ -327,20 +324,29 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public Cliente visualizarCliente(int id) throws SQLException{
 
-        final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+
-        " FROM Vista_Clientes WHERE "+CLIEN_ID+"= '"+id+"'";
+        final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Vista_Clientes WHERE "+CLIEN_ID+" = ?";
 
+
+        List<Cliente> clientes = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
+        ps.setInt(1, id);
         ResultSet rs = ps.executeQuery();
 
-        int codPostal = rs.getInt(CLIEN_POST);
-        String nombre = rs.getString(CLIEN_NOMB);
-        String correo = rs.getString(CLIEN_CORR);
+        Cliente cliente = null;
 
-        
-        Cliente cliente = new Cliente(id, nombre, correo, codPostal);
+        while(rs.next()){
+
+            int codPostal = rs.getInt(CLIEN_POST);
+            String nombre = rs.getString(CLIEN_NOMB);
+            String correo = rs.getString(CLIEN_CORR);
+
+            cliente = new Cliente(id, nombre, correo, codPostal); 
+            clientes.add(cliente);
+        }
+
         rs.close();
         ps.close();
+
         return cliente;
     }
 
