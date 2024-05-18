@@ -2,8 +2,6 @@ package es.etg.daw.prog.mercadaw.model.util;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.io.File;
-
 
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +9,7 @@ import es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario;
 
 public class FicheroBinarioTest {
 
-    File fichero = new File("test.txt");
+    String fichero = "test.txt";
 
     FicheroBinario ficheroBinario = new FicheroBinario();
     @Test
