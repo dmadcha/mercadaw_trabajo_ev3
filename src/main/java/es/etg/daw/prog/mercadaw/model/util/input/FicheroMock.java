@@ -6,7 +6,7 @@ public class FicheroMock implements Fichero{
 
 
      @Override
-    public void escribir(File fichero) {
+    public void escribir(File fichero, String texto) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'escribir'");
     }
