@@ -81,7 +81,7 @@
                   </Button>
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="209.0" text="Gestión de Productos" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2">
                      <font>
-                        <Font name="Segoe UI Bold" size="18.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                   </Label>
                   <Separator prefHeight="0.0" prefWidth="204.0" GridPane.rowIndex="1" />
@@ -121,15 +121,15 @@
          <children>
             <FlowPane prefHeight="25.0" prefWidth="335.0">
                <children>
-                  <Label prefHeight="18.0" prefWidth="56.0" text="Nombre" textFill="#007c4f">
+                  <Label prefHeight="18.0" prefWidth="99.0" text="Nombre" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfNombre" prefWidth="381.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfNombre" prefWidth="381.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets left="10.0" top="5.0" />
                      </FlowPane.margin>
@@ -140,13 +140,13 @@
                <children>
                   <Label prefHeight="18.0" prefWidth="56.0" text="Marca" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfMarca" prefHeight="25.0" prefWidth="381.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfMarca" prefHeight="25.0" prefWidth="381.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets left="10.0" top="5.0" />
                      </FlowPane.margin>
@@ -157,16 +157,20 @@
                <children>
                   <Label prefHeight="18.0" prefWidth="225.0" text="Categoría" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <ChoiceBox id="box" fx:id="choiceCategoria" prefWidth="381.0" stylesheets="@choice-box.css">
+                  <ChoiceBox id="box" fx:id="choiceCategoria" prefWidth="381.0">
                      <FlowPane.margin>
                         <Insets left="10.0" top="5.0" />
                      </FlowPane.margin>
+                     <stylesheets>
+                        <URL value="@choice-box.css" />
+                        <URL value="@../css/choice-box.css" />
+                     </stylesheets>
                   </ChoiceBox>
                </children>
             </FlowPane>
@@ -174,26 +178,26 @@
                <children>
                   <Label alignment="CENTER" prefHeight="18.0" prefWidth="52.0" text="Precio" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfPrecio" prefHeight="25.0" prefWidth="80.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfPrecio" prefHeight="25.0" prefWidth="80.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets top="20.0" />
                      </FlowPane.margin>
                   </TextField>
                   <Label alignment="CENTER" prefHeight="18.0" prefWidth="79.0" text="IVA" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfIva" prefHeight="25.0" prefWidth="80.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfIva" prefHeight="25.0" prefWidth="80.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
@@ -204,26 +208,26 @@
                <children>
                   <Label alignment="CENTER" prefHeight="18.0" prefWidth="52.0" text="Altura" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfAltura" prefHeight="25.0" prefWidth="80.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfAltura" prefHeight="25.0" prefWidth="80.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets top="20.0" />
                      </FlowPane.margin>
                   </TextField>
                   <Label alignment="CENTER" prefHeight="18.0" prefWidth="89.0" text="Anchura" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfAnchura" prefHeight="25.0" prefWidth="80.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfAnchura" prefHeight="25.0" prefWidth="80.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets top="20.0" />
                      </FlowPane.margin>
@@ -234,26 +238,26 @@
                <children>
                   <Label alignment="CENTER" prefHeight="18.0" prefWidth="56.0" text="Peso" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="5.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfPeso" prefHeight="25.0" prefWidth="80.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfPeso" prefHeight="25.0" prefWidth="80.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets top="20.0" />
                      </FlowPane.margin>
                   </TextField>
                   <Label alignment="CENTER" prefHeight="18.0" prefWidth="90.0" text="Elementos" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets left="10.0" top="20.0" />
                      </FlowPane.margin>
                   </Label>
-                  <TextField id="txf" fx:id="txfElementos" prefHeight="25.0" prefWidth="80.0" stylesheets="@textfield.css">
+                  <TextField id="txf" fx:id="txfElementos" prefHeight="25.0" prefWidth="80.0" stylesheets="@../css/textfield.css">
                      <FlowPane.margin>
                         <Insets top="20.0" />
                      </FlowPane.margin>
@@ -262,9 +266,9 @@
             </FlowPane>
             <FlowPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6">
                <children>
-                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="77.0" text="Descripción" textFill="#007c4f">
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="94.0" text="Descripción" textFill="#007c4f">
                      <font>
-                        <Font name="Segoe UI Bold" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <FlowPane.margin>
                         <Insets bottom="5.0" left="20.0" top="20.0" />
@@ -277,7 +281,7 @@
                   </TextArea>
                </children>
             </FlowPane>
-            <Button id="button" fx:id="btnAñadirProd" mnemonicParsing="false" onMouseClicked="#addProducto" prefHeight="28.0" prefWidth="71.0" stylesheets="@buttons-sidebar.css" text="Añadir" GridPane.rowIndex="7">
+            <Button id="button" fx:id="btnAñadirProd" mnemonicParsing="false" onMouseClicked="#addProducto" prefHeight="28.0" prefWidth="71.0" stylesheets="@../css/buttons-sidebar.css" text="Añadir" GridPane.rowIndex="7">
                <GridPane.margin>
                   <Insets bottom="3.0" left="330.0" />
                </GridPane.margin>

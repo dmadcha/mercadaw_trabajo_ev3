@@ -20,7 +20,7 @@
    <children>
       <SplitPane prefHeight="441.0" prefWidth="206.0">
          <items>
-            <GridPane id="sidebar" prefHeight="25.0" prefWidth="204.0" stylesheets="@gradient.css">
+            <GridPane id="sidebar" prefHeight="25.0" prefWidth="204.0" stylesheets="@../css/gradient.css">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="204.0" />
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.0" minWidth="0.0" prefWidth="0.0" />
@@ -41,33 +41,33 @@
                         <Image url="@../../Downloads/LogoMercaDAW.png" />
                      </image>
                   </ImageView>
-                  <Button id="button" fx:id="btnDarAltaProd" mnemonicParsing="false" onMouseClicked="#accesoDarAltaProd" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Dar de Alta" GridPane.rowIndex="3">
+                  <Button id="button" fx:id="btnDarAltaProd" mnemonicParsing="false" onMouseClicked="#accesoDarAltaProd" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Dar de Alta" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button id="button" fx:id="btnConsultarDatos" mnemonicParsing="false" onMouseClicked="#accesoConsultarDatos" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Consultar Datos" GridPane.rowIndex="4">
+                  <Button id="button" fx:id="btnConsultarDatos" mnemonicParsing="false" onMouseClicked="#accesoConsultarDatos" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Consultar Datos" GridPane.rowIndex="4">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button id="button" fx:id="btnListarStock" mnemonicParsing="false" onMouseClicked="#accesoListarStock" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Listado de Stock" GridPane.rowIndex="5">
+                  <Button id="button" fx:id="btnListarStock" mnemonicParsing="false" onMouseClicked="#accesoListarStock" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Listado de Stock" GridPane.rowIndex="5">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button id="button" fx:id="btnPrecioVenta" mnemonicParsing="false" onMouseClicked="#accesoPrecioVenta" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Obtener Precio de Venta" GridPane.rowIndex="6">
+                  <Button id="button" fx:id="btnPrecioVenta" mnemonicParsing="false" onMouseClicked="#accesoPrecioVenta" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Obtener Precio de Venta" GridPane.rowIndex="6">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="209.0" text="Gestión de Productos" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2">
                      <font>
-                        <Font name="Segoe UI Bold" size="18.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                   </Label>
                   <Separator prefHeight="0.0" prefWidth="204.0" GridPane.rowIndex="1" />
-                  <Button id="button" fx:id="btnSalir" mnemonicParsing="false" onMouseClicked="#salir" prefHeight="0.0" prefWidth="32.0" stylesheets="@buttons-sidebar.css" text="⬅" GridPane.rowIndex="7">
+                  <Button id="button" fx:id="btnSalir" mnemonicParsing="false" onMouseClicked="#salir" prefHeight="0.0" prefWidth="32.0" stylesheets="@../css/buttons-sidebar.css" text="⬅" GridPane.rowIndex="7">
                      <GridPane.margin>
                         <Insets left="10.0" top="242.0" />
                      </GridPane.margin>
@@ -87,7 +87,7 @@
           <RowConstraints maxHeight="382.0" minHeight="10.0" prefHeight="283.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TableView id="table-view" fx:id="tabProducto" prefHeight="220.0" prefWidth="517.0" stylesheets="@table.css">
+            <TableView id="table-view" fx:id="tabProducto" prefHeight="220.0" prefWidth="517.0" stylesheets="@../css/table.css">
               <columns>
                 <TableColumn id="table-cell" fx:id="colCodigo" prefWidth="100.0" styleClass="table.css" text="Código" />
                 <TableColumn id="table-cell" fx:id="colNombre" minWidth="0.0" prefWidth="100.0" styleClass="table.css" text="Nombre" />
@@ -99,9 +99,9 @@
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
             </TableView>
-            <Button id="button" fx:id="btnGetPrecioVenta" mnemonicParsing="false" onMouseClicked="#getPrecioVenta" stylesheets="@buttons-sidebar.css" text="Obtener Precio de Venta" GridPane.rowIndex="1">
+            <Button id="button" fx:id="btnGetPrecioVenta" mnemonicParsing="false" onMouseClicked="#getPrecioVenta" stylesheets="@../css/buttons-sidebar.css" text="Obtener Precio de Venta" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="335.0" />
+                  <Insets left="300.0" />
                </GridPane.margin></Button>
             <TextArea fx:id="txaPrecioVenta" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                <GridPane.margin>

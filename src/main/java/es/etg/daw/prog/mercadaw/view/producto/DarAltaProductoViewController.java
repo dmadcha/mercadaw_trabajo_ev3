@@ -1,7 +1,11 @@
 package es.etg.daw.prog.mercadaw.view.producto;
 
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
+import es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;
 import es.etg.daw.prog.mercadaw.view.ViewController;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -11,6 +15,7 @@ import javafx.scene.input.MouseEvent;
 
 public class DarAltaProductoViewController extends ViewController {
     private MercaDAWController controller = new MercaDAWController();
+    private ObservableList<Producto> productos;
 
     @FXML
     private Button btnAñadirProd;
@@ -31,7 +36,7 @@ public class DarAltaProductoViewController extends ViewController {
     private Button btnSalir;
 
     @FXML
-    private ChoiceBox<?> choiceCategoria;
+    private ChoiceBox<TipoProducto> choiceCategoria;
 
     @FXML
     private TextArea txaDescripcion;
@@ -82,7 +87,25 @@ public class DarAltaProductoViewController extends ViewController {
 
     @FXML
     void addProducto(MouseEvent event) {
+        try {
+            String nombre = txfNombre.getText();
+            String marca = txfMarca.getText();
+            String descripcion = txaDescripcion.getText();
+            double altura = Double.parseDouble(txfAltura.getText());
+            double anchura = Double.parseDouble(txfAnchura.getText());
+            double peso = Double.parseDouble(txfPeso.getText());
+            double precio = Double.parseDouble(txfPrecio.getText());
+            double iva = Double.parseDouble(txfIva.getText());
+            int numElementos = Integer.parseInt(txfElementos.getText());            
+        
+            Producto producto;
 
+            if (this.productos.contains.(producto)) {
+                
+            }
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 
     @FXML

@@ -15,11 +15,11 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="986.0" style="-fx-background-color: #f8f5ec;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.etg.daw.prog.mercadaw.view.empleado.NominaViewController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="1162.0" style="-fx-background-color: #f8f5ec;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.etg.daw.prog.mercadaw.view.empleado.NominaViewController">
    <children>
       <SplitPane prefHeight="441.0" prefWidth="206.0">
          <items>
-            <GridPane id="sidebar" prefHeight="25.0" prefWidth="204.0" stylesheets="@gradient.css">
+            <GridPane id="sidebar" prefHeight="25.0" prefWidth="204.0" stylesheets="@../css/gradient.css">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="204.0" />
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.0" minWidth="0.0" prefWidth="0.0" />
@@ -40,31 +40,31 @@
                         <Image url="@../../Downloads/LogoMercaDAW.png" />
                      </image>
                   </ImageView>
-                  <Button id="button" fx:id="btnDarAltaEmple" mnemonicParsing="false" onMouseClicked="#accesoDarAltaProd" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Dar de Alta" GridPane.rowIndex="3">
+                  <Button id="button" fx:id="btnDarAltaEmple" mnemonicParsing="false" onMouseClicked="#accesoDarAltaProd" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Dar de Alta" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button id="button" fx:id="btnConsultarDatos" mnemonicParsing="false" onMouseClicked="#accesoConsultarDatos" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Consultar Datos" GridPane.rowIndex="4">
+                  <Button id="button" fx:id="btnConsultarDatos" mnemonicParsing="false" onMouseClicked="#accesoConsultarDatos" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Consultar Datos" GridPane.rowIndex="4">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button id="button" fx:id="btnCalcularNomina" mnemonicParsing="false" onMouseClicked="#accesoCalcularNomina" prefHeight="25.0" prefWidth="180.0" stylesheets="@buttons-sidebar.css" text="Calcular Nómina" GridPane.rowIndex="5">
+                  <Button id="button" fx:id="btnCalcularNomina" mnemonicParsing="false" onMouseClicked="#accesoCalcularNomina" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Calcular Nómina" GridPane.rowIndex="5">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin>
                   </Button>
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="209.0" text="Gestión de Empleados" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2">
                      <font>
-                        <Font name="Segoe UI Bold" size="18.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
                   </Label>
                   <Separator prefHeight="0.0" prefWidth="204.0" GridPane.rowIndex="1" />
-                  <Button id="button" fx:id="btnSalir" mnemonicParsing="false" onMouseClicked="#salir" prefHeight="0.0" prefWidth="32.0" stylesheets="@buttons-sidebar.css" text="⬅" GridPane.rowIndex="7">
+                  <Button id="button" fx:id="btnSalir" mnemonicParsing="false" onMouseClicked="#salir" prefHeight="0.0" prefWidth="32.0" stylesheets="@../css/buttons-sidebar.css" text="⬅" GridPane.rowIndex="7">
                      <GridPane.margin>
                         <Insets left="10.0" top="10.0" />
                      </GridPane.margin>
@@ -73,15 +73,15 @@
             </GridPane>
          </items>
       </SplitPane>
-      <TableView id="table-view" fx:id="tabNomina" prefHeight="340.0" prefWidth="740.0" stylesheets="@table.css">
+      <TableView id="table-view" fx:id="tabNomina" prefHeight="340.0" prefWidth="915.0" stylesheets="@../css/table.css">
         <columns>
           <TableColumn id="table-cell" fx:id="colCodigo" prefWidth="60.0" styleClass="table.css" text="Código" />
-            <TableColumn id="table-cell" fx:id="colSalarioBruto" prefWidth="100.0" styleClass="table.css" text="Salario Bruto" />
-            <TableColumn id="table-cell" fx:id="colSalarioNeto" prefWidth="100.0" styleClass="table.css" text="Salario Neto" />
-            <TableColumn id="table-cell" fx:id="colTotalNomina" prefWidth="100.0" styleClass="table.css" text="Total Nomina" />
-            <TableColumn id="table-cell" fx:id="colAportacionSalarial" prefWidth="130.0" styleClass="table.css" text="Aportación Salarial" />
-            <TableColumn id="table-cell" fx:id="colIndemnizacion" prefWidth="110.0" styleClass="table.css" text="Indemnización" />
-            <TableColumn id="table-cell" fx:id="colTotalCosteLaboral" prefWidth="140.0" styleClass="table.css" text="Total Coste Laboral" />
+            <TableColumn id="table-cell" fx:id="colSalarioBruto" prefWidth="120.0" styleClass="table.css" text="Salario Bruto" />
+            <TableColumn id="table-cell" fx:id="colSalarioNeto" prefWidth="120.0" styleClass="table.css" text="Salario Neto" />
+            <TableColumn id="table-cell" fx:id="colTotalNomina" prefWidth="120.0" styleClass="table.css" text="Total Nomina" />
+            <TableColumn id="table-cell" fx:id="colAportacionSalarial" prefWidth="200.0" styleClass="table.css" text="Aportación Salarial" />
+            <TableColumn id="table-cell" fx:id="colIndemnizacion" prefWidth="120.0" styleClass="table.css" text="Indemnización" />
+            <TableColumn id="table-cell" fx:id="colTotalCosteLaboral" prefWidth="175.0" styleClass="table.css" text="Total Coste Laboral" />
         </columns>
          <HBox.margin>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
