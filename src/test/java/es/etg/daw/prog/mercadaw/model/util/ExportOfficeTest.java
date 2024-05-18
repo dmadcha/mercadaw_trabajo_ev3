@@ -1,4 +1,4 @@
-package es.etg.daw.prog.mercadaw.model.bbdd;
+package es.etg.daw.prog.mercadaw.model.util;
 
 import java.io.FileOutputStream;
 import java.util.ArrayList;
@@ -16,34 +16,32 @@ import es.etg.daw.prog.mercadaw.model.util.export.Exportable;
 @TestMethodOrder(OrderAnnotation.class)
 public class ExportOfficeTest {
 
-    private static MercaDAW mercadaw = new MercaDAW();
+    private static Empleado empleado = new Empleado();
 
     @BeforeAll
-    public static void init() {
+    public void init() {
         List<Empleado> empleados = new ArrayList<>();
+        empleados.add(new Empleado(1, "nuevo1", "Apellido1"));
+        empleados.add(new Empleado(2, "nuevo2", "Apellido2"));
+        empleados.add(new Empleado(3, "nuevo3", "Apellido3"));
 
-        Empleado.add(new Empleado("nuevo1", "nuevo1", 1));
-        Empleado.add(new Empleado("nuevo2", "nuevo2", 2));
-        Empleado.add(new Empleado("nuevo3", "nuevo3", 3));
-
-        mercadaw.setEmpleados(empleados);
-
+        empleado.setNumEmpleados(emplados);
     }
 
     @Test
     public void exportarPDF() throws Exception {
-        FileOutputStream fichero = new FileOutputStream("test.pdf");
-
-        fichero.write(DocumentoFactory.obtener(Exportable.PDF).crearFichero(mercadaw));
-        fichero.close();
+        try (FileOutputStream fichero = new FileOutputStream("test.pdf")) {
+            byte[] data = DocumentoFactory.obtener(Exportable.PDF).crearFichero(empleados);
+            fichero.write(data);
+        }
     }
 
     @Test
     public void exportarExcel() throws Exception {
-        FileOutputStream fichero = new FileOutputStream("test.xlsx");
+        try (FileOutputStream fichero = new FileOutputStream("test.xlsx")) {
+            byte[] data = DocumentoFactory.crearFichero(empleados);
+            fichero.write(data);
+        }
 
-        fichero.write(DocumentoFactory.obtener(Exportable.EXCEL).crearFichero(mercadaw));
-        fichero.close();
     }
-
 }

@@ -1,4 +1,4 @@
-package es.etg.daw.prog.mercadaw.model.bbdd;
+package es.etg.daw.prog.mercadaw.model.util;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
