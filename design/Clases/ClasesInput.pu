@@ -1,35 +1,36 @@
-@startuml fichero
+@startuml input
 
-    package model{
-        package input{
-            enum Formato{
-                BINARIO, MOCK
-            }
+set separator none
+package es.etg.daw.prog.mercadaw.model.util.input{
 
-            class FicheroFactory{
-                {static} + obtenerFicheroBinario():Fichero
-            }
-
-            class FicheroMock{
-
-            }
-
-            class FicheroBinario{
-
-            }
-
-            abstract FicheroImp{
-
-            }
-
-            interface Fichero{
-                + leer(): byte[] 
-                
-            }
-        }
+    enum Formato{
+        BINARIO, MOCKs
     }
 
-     FicheroImp <|-- FicheroBinario 
-     FicheroMock ..|> Fichero 
-     FicheroImp ..|> Fichero
+    class FicheroFactory{
+        {static} + obtenerFicheroBinario():Fichero
+    }
+
+    class FicheroMock{
+
+    }
+
+    class FicheroBinario{
+
+    }
+
+    abstract FicheroImp{
+
+    }
+
+    interface Fichero{
+        + leer(): byte[]
+
+    }
+}
+
+
+FicheroImp <|-- FicheroBinario
+FicheroMock ..|> Fichero
+FicheroImp ..|> Fichero
 @enduml

@@ -1,29 +1,18 @@
 @startuml export
+
 set separator none
 package es.etg.daw.prog.mercadaw.model.util.export{
-    
-    enum Exportable{
-        PDF, EXCEL, OTRO
-    }
 
-    class PDFUtil{
 
-    }
+    class Util{
 
-    class ExcelUtil{
-
-    }
-
-    abstract Util{
-        + crearFichero(exportable:Exportable): byte[]
     }
 
     interface ExportableUtil{
-        + crearFichero(exportable:Exportable): byte[]
-    }
 
-    class DocumentoFactory{
-       {static} obtenerExport(tipo:Tipo): Exportable
+        + exportar(ruta:String): void
+        + getUser(): String
+        + getGrupo(): String
     }
 
     interface Documento{
@@ -38,11 +27,7 @@ package es.etg.daw.prog.mercadaw.model.entity{
 }
 
 
-
-
-Util <|-- PDFUtil
-Util <|-- ExcelUtil
-ExportableUtil <|.. Util 
+ExportableUtil <|.. Util
 Documento <|.. MercaDAW
 
 @enduml
