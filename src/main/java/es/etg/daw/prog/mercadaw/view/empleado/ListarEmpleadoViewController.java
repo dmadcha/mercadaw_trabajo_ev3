@@ -2,6 +2,8 @@ package es.etg.daw.prog.mercadaw.view.empleado;
 
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -24,22 +26,22 @@ public class ListarEmpleadoViewController extends ViewController {
     private Button btnSalir;
 
     @FXML
-    private TableColumn<?, ?> colApellidos;
+    private TableColumn<Empleado, String> colApellidos;
 
     @FXML
-    private TableColumn<?, ?> colCategoria;
+    private TableColumn<Empleado, TipoEmpleado> colCategoria;
 
     @FXML
-    private TableColumn<?, ?> colCodigo;
+    private TableColumn<Empleado, Integer> colCodigo;
 
     @FXML
-    private TableColumn<?, ?> colNombre;
+    private TableColumn<Empleado, String> colNombre;
 
     @FXML
-    private TableColumn<?, ?> colSueldo;
+    private TableColumn<Empleado, Double> colSueldo;
 
     @FXML
-    private TableView<?> tabEmpleado;
+    private TableView<Empleado> tabEmpleado;
 
 
     @FXML

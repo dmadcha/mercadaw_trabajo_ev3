@@ -1,14 +1,19 @@
 package es.etg.daw.prog.mercadaw.view.empleado;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-public class DarAltaEmpleadoViewController extends ViewController {
+public class DarAltaEmpleadoViewController extends ViewController implements Initializable {
     private MercaDAWController controller = new MercaDAWController();
 
     @FXML
@@ -27,7 +32,7 @@ public class DarAltaEmpleadoViewController extends ViewController {
     private Button btnSalir;
 
     @FXML
-    private ChoiceBox<?> choiceCategoria;
+    private ChoiceBox<TipoEmpleado> choiceCategoria;
 
     @FXML
     private TextField txfApellido;
@@ -60,4 +65,8 @@ public class DarAltaEmpleadoViewController extends ViewController {
         controller.cargarApp();
     }
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        choiceCategoria.getItems().setAll(TipoEmpleado.values());    
+    }
 }

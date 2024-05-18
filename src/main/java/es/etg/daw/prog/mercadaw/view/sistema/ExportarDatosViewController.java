@@ -1,5 +1,7 @@
 package es.etg.daw.prog.mercadaw.view.sistema;
 
+import java.io.File;
+
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.fxml.FXML;
@@ -7,8 +9,13 @@ import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.DirectoryChooser;
+import javafx.stage.Stage;
 
 public class ExportarDatosViewController extends ViewController {
+    public static final String NOMBRE_VENTANA = "Seleccionar Destino";
+
+    private Stage stage;
     private MercaDAWController controller = new MercaDAWController();
 
     @FXML
@@ -47,7 +54,15 @@ public class ExportarDatosViewController extends ViewController {
 
     @FXML
     void exportar(MouseEvent event) {
+        boolean seleccionadoPDF = checkPDF.isSelected();
+        boolean seleccionadoExcel = checkExcel.isSelected();
 
+        if (seleccionadoExcel == true) {
+            
+        }
+        if (seleccionadoPDF == true) {
+            
+        }
     }
 
     @FXML
@@ -57,7 +72,11 @@ public class ExportarDatosViewController extends ViewController {
 
     @FXML
     void seleccionarDestino(MouseEvent event) {
-        
-    }
+        DirectoryChooser carpeta = new DirectoryChooser();
+        carpeta.setTitle(NOMBRE_VENTANA);
 
+        File directorio = carpeta.showDialog(stage);
+
+        txfRuta.setText(directorio.getAbsolutePath());
+    }
 }
