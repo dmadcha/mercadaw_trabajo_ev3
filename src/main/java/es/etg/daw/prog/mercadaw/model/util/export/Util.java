@@ -27,7 +27,7 @@ public class Util implements ExportableUtil {
     }
 
     @Override
-    public String getUser() throws Exception{
+    public String getUser() throws Exception {
         String[] command = { "id", "-u" };
         Process process = Runtime.getRuntime().exec(command);
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -36,7 +36,7 @@ public class Util implements ExportableUtil {
     }
 
     @Override
-    public String getGrupo() throws Exception{
+    public String getGrupo() throws Exception {
 
         String[] command = { "id", "-g" };
         Process process = Runtime.getRuntime().exec(command);
