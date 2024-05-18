@@ -4,11 +4,11 @@ set separator none
 top to bottom direction
     package model.bbdd{
         enum Database{
-            ORACLE XE, MOCK
+            ORACLE, MOCK
         }
 
         interface MercaDAO{
-        + iniziarBBDD()
+        + iniciarBBDD()
 
         + insertar(Empleado empleado):int
         + insertar(Producto producto): int
@@ -28,7 +28,12 @@ top to bottom direction
         }
 
         abstract MercaDAOImp {
-            - {abstract} connection: Connection            
+            - {abstract} connection: Connection  
+            + {abstract} crearCliente()
+            + {abstract} crearProducto()         
+            + {abstract} crearCompra()         
+            + {abstract} crearEmpleado()         
+
         }
 
         class MercaDAOImpMock{
