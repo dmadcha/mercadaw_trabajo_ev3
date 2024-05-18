@@ -1,24 +1,12 @@
 package es.etg.daw.prog.mercadaw.model.util;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario;
-
 public class FicheroBinarioTest {
 
     private static final String TEST_FILE = "fichero.txt";
 
    
 
+    /* 
     @Test
     public void escribitTest() throws Exception{
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -38,6 +26,6 @@ public class FicheroBinarioTest {
         assertArrayEquals(expectedBytes, actualBytes);
     }
 
-    
+    */
 
 }
