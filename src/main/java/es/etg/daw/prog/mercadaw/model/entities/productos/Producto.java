@@ -26,8 +26,8 @@ public abstract class Producto implements Producible {
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
             double peso, int numElementos, int stock, double precio, String descripcion) {
         if (id == null) {
-            this.id = numProductos;
             numProductos++;
+            this.id = numProductos;
         } else {
             this.id = id;
         }
@@ -236,5 +236,31 @@ public abstract class Producto implements Producible {
         } 
 
         return recargoNumElementos;
+    }
+
+    public double getPrecioFinalEuros(){
+        double precioEuros = 0;
+
+        precioEuros = getPrecioVenta() + getRecargoPeso() + getRecargoAltura() + getRecargoAnchura() + getRecargoNumElementos();
+
+        return precioEuros;
+    }
+
+    public double getPrecioFinalDolares(){
+        final double CONVERSION = 0.9;
+
+        double precioDolares = 0;
+
+        precioDolares = getPrecioFinalEuros() / CONVERSION;
+
+        return precioDolares;
+    }
+
+    public double getIvaCalculado(){
+        double ivaCalculado = 0;
+
+        ivaCalculado = getPrecioFinalEuros() * getIva();
+
+        return ivaCalculado;
     }
 }
