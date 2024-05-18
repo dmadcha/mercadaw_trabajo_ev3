@@ -5,36 +5,27 @@ import java.util.StringTokenizer;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
-import es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;
+import es.etg.daw.prog.mercadaw.model.exception.LectorException;
 
 public class LectorCSV {
 
-    private Producto procesarProducto(String fila) {
-        TipoProducto tipo;
-        String nombre;
-        String marca;
-        double precio;
-        double altura;
-        double anchura;
-        double peso;
-        int numElementos;
-        String descripcion;
+   private Producto procesar(String fila) throws LectorException {
+    StringTokenizer st = new StringTokenizer(fila, ",");
+    String nombre = st.nextToken();
+    double precio = Double.parseDouble(st.nextToken());
+    int stock = Integer.parseInt(st.nextToken());
 
-        StringTokenizer st = new StringTokenizer(fila, ",");
-
-
-        nombre = st.nextToken();
-        marca = st.nextToken();
-        precio = Double.parseDouble(st.nextToken());
-        altura = Double.parseDouble(st.nextToken());
-        anchura = Double.parseDouble(st.nextToken());
-        peso = Double.parseDouble(st.nextToken());
-        numElementos = Integer.parseInt(st.nextToken());
-        descripcion = st.nextToken();
-
-        
-       
+    switch (tipoProducto) {
+        case DROGUERIA:
+            return new ProductoDrogueria(nombre, precio, stock);
+        case PERFUMERIA:
+            return new ProductoPerfumeria(nombre, precio, stock);
+        case COSMETICA:
+            return new ProductoCosmetica(nombre, precio, stock);
+        default:
+            throw new LectorException("Tipo de producto no válido");
     }
+}
 
     private Empleado procesarEmpleado(String fila) {
         TipoEmpleado tipo;

@@ -2,5 +2,7 @@ package es.etg.daw.prog.mercadaw.model.util.export;
 
 public interface ExportableUtil {
 
-  public byte[] crearFichero(Documento documento) throws Exception;  
+  public void exportar(String ruta) throws Exception;
+  public String getUser() throws Exception;
+  public String getGrupo() throws Exception;
 } 
