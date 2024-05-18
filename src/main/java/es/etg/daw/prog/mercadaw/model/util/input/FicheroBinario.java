@@ -7,11 +7,9 @@ import java.io.FileOutputStream;
 public class FicheroBinario extends FicheroImp {
 
     @Override
-    public void escribir(File fichero) {
+    public void escribir(File fichero, String texto) {
 
         try (FileOutputStream fos = new FileOutputStream(fichero)) {
-
-            String texto = "";
 
             byte codigos[] = texto.getBytes();
 
