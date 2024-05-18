@@ -1,12 +1,15 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import java.sql.Date;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
@@ -82,7 +85,69 @@ public class MercaDAOImpOracleXETest {
     }
 
 
-    @BeforeAll
+
+    @Test
+    public void visualizarClienteTest() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        Cliente cl = new Cliente(0, "María López", "maria@example.com", 28001);
+        Cliente cliente = bbdd.visualizarCliente(0);
+        boolean sonIguales = false;
+
+        if (cliente.getId() == cl.getId()) {
+            sonIguales = true;
+        }
+
+        assertTrue(sonIguales);
+    }
+
+    @Test
+    public void visualizarClientesTest() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        List<Cliente> clientesEsperados = new ArrayList<>();
+        List<Cliente> clientes = bbdd.visualizarClientes();
+
+        Cliente cl = new Cliente(0, "María López", "maria@example.com", 28001);
+        Cliente c2 = new Cliente(1, "Juan Martínez", "juan@example.com", 25842);
+        
+        boolean sonIguales = false;
+
+        clientesEsperados.add(cl);
+        clientesEsperados.add(c2);
+
+
+        if (clientes.get(0).getId() == clientesEsperados.get(0).getId()) {
+            sonIguales = true;
+        }
+
+        assertTrue(sonIguales);
+    }
+
+
+    @Test
+    public void visualizarEmpleadosTest() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        List<Cliente> clientesEsperados = new ArrayList<>();
+        List<Cliente> clientes = bbdd.visualizarClientes();
+
+        Cliente cl = new Cliente(0, "María López", "maria@example.com", 28001);
+        Cliente c2 = new Cliente(1, "Juan Martínez", "juan@example.com", 25842);
+        
+        boolean sonIguales = false;
+
+        clientesEsperados.add(cl);
+        clientesEsperados.add(c2);
+
+
+        if (clientes.get(0).getId() == clientesEsperados.get(0).getId()) {
+            sonIguales = true;
+        }
+
+        assertTrue(sonIguales);
+    }
+
+
+
+    @Test
     public void borrarTablas() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         Statement st = bbdd.getConnection().createStatement();
@@ -100,5 +165,4 @@ public class MercaDAOImpOracleXETest {
 
         st.close();
     }
-
 }
