@@ -6,9 +6,9 @@ public class Cliente {
     private Integer id;
     private String nombre;
     private String correo;
-    private String codPostal;
+    private int codPostal;
 
-    public Cliente(Integer id, String nombre, String correo, String codPostal) {
+    public Cliente(Integer id, String nombre, String correo, int codPostal) {
         if (id == null) {
             this.id = numClientes;
             numClientes++;
@@ -52,11 +52,11 @@ public class Cliente {
         this.correo = correo;
     }
 
-    public String getCodPostal() {
+    public int getCodPostal() {
         return codPostal;
     }
 
-    public void setCodPostal(String codPostal) {
+    public void setCodPostal(int codPostal) {
         this.codPostal = codPostal;
     }
 
