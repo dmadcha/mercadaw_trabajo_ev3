@@ -1,5 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
+import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,11 +9,15 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.print.DocFlavor.STRING;
+
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Drogueria;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 
@@ -22,15 +27,41 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
  */
 public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
+    public static final String PROD_ID = "cod_product";
+    public static final String PROD_NOMB = "nombre";
+    public static final String PROD_MARC = "marca";
+    public static final String PROD_DESC = "descr";
+    public static final String PROD_CATE = "categoria";
+    public static final String PROD_PREC = "precio";
+    public static final String PROD_ALTU = "altura";
+    public static final String PROD_ANCH = "anchura";
+    public static final String PROD_PESO = "peso";
+    public static final String PROD_ELEM = "num_elementos";
+    public static final String PROD_STOK = "stock";
+
+    public static final String EMPLE_ID = "cod_emple";
+    public static final String EMPLE_NOMB = "nombre";
+    public static final String EMPLE_APEL = "apellidos";
+    public static final String EMPLE_CATE = "categoria";
+
+    public static final String CLIEN_ID = "cod_client";
+    public static final String CLIEN_POST = "cod_postal";
+    public static final String CLIEN_CORR = "correo";
+    public static final String CLIEN_NOMB = "nombre";
+
+    public static final String COMP_ID = "cod_compra";
+    public static final String COMP_FECH = "fecha";
+
+
     private final String URL = "jdbc:oracle:thin:%s/%s@localhost:1521/XEPDB1";
     private final String DATABASE_USER = "SYSTEM";
     private final String DATABASE_PASS = "secret";
 
+
+
     public MercaDAOImpOracleXE() throws SQLException{
         connection = DriverManager.getConnection(String.format(URL, DATABASE_USER, DATABASE_PASS));
     }
-
-    
 
     @Override
     public void iniciarBBDD() throws SQLException {
@@ -52,14 +83,13 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public void crearEmpleados(Statement st)throws SQLException{
 
         final String TABLA_EMPLEADOS = "CREATE TABLE Empleados( " +
-                                        "cod_emple NUMERIC(4) PRIMARY KEY, " +
-                                        "nombre VARCHAR(255), " +
-                                        "apellidos VARCHAR(255), " +
-                                        "categoria VARCHAR(255)) ";
+                                        EMPLE_ID + " NUMERIC(4) PRIMARY KEY, " +
+                                        EMPLE_NOMB + " VARCHAR(255), " +
+                                        EMPLE_APEL + " VARCHAR(255), " +
+                                        EMPLE_CATE + " VARCHAR(255)) ";
 
         final String VISTA_EMPLEADOS = "CREATE OR REPLACE VIEW Vista_Empleados AS " +
-                                        "SELECT cod_emple, nombre, apellidos, categoria " +
-                                        "FROM Empleados";
+                                        "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+" FROM Empleados";
 
         st.execute(TABLA_EMPLEADOS);
         st.execute(VISTA_EMPLEADOS);
@@ -72,14 +102,13 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public void crearClientes(Statement st)throws SQLException{
 
         final String TABLA_CLIENTES = "CREATE TABLE Clientes( " +
-                                        "cod_client NUMERIC(4) PRIMARY KEY, " +
-                                        "cod_postal NUMERIC(5), " +
-                                        "correo VARCHAR(255), " +
-                                        "nombre VARCHAR(255))";
+                                        CLIEN_ID +" NUMERIC(4) PRIMARY KEY, " +
+                                        CLIEN_POST + " NUMERIC(5), " +
+                                        CLIEN_NOMB + " VARCHAR(255), " +
+                                        CLIEN_CORR + " VARCHAR(255))";
 
         final String VISTA_CLIENTES = "CREATE OR REPLACE VIEW Vista_Clientes AS " +
-                                        "SELECT cod_client, cod_postal, correo, nombre " +
-                                        "FROM Clientes";
+                                        "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Clientes";
 
         st.execute(TABLA_CLIENTES);
         st.execute(VISTA_CLIENTES);
@@ -92,27 +121,27 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public void crearProductos(Statement st)throws SQLException{
 
         final String TABLA_PRODUCTOS = "CREATE TABLE Productos( " +
-                                        "cod_product NUMERIC(4) PRIMARY KEY, " +
-                                        "nombre VARCHAR(255), " +
-                                        "marca VARCHAR(255), " +
-                                        "descr VARCHAR(255), " +
-                                        "categoria VARCHAR(255), " +
-                                        "iva NUMERIC(5,4), " +
-                                        "altura NUMERIC(5,4), " +
-                                        "anchura NUMERIC(5,4), " +
-                                        "peso NUMERIC(5,4), " +
-                                        "num_elementos NUMERIC(2), " +
-                                        "stock NUMERIC(5))";
+                                        PROD_ID + " NUMERIC(4) PRIMARY KEY, " +
+                                        PROD_NOMB + " VARCHAR(255), " +
+                                        PROD_MARC + " VARCHAR(255), " +
+                                        PROD_DESC + " VARCHAR(255), " +
+                                        PROD_CATE + " VARCHAR(255), " +
+                                        PROD_PREC + " NUMERIC(5,4), " +
+                                        PROD_ALTU + " NUMERIC(5,4), " +
+                                        PROD_ANCH + " NUMERIC(5,4), " +
+                                        PROD_PESO + " NUMERIC(5,4), " +
+                                        PROD_ELEM + " NUMERIC(2), " +
+                                        PROD_STOK + " NUMERIC(5))";
 
-        final String VISTA_PRODUCTOS = "CREATE OR REPLACE VIEW Vista_Productos AS " +
-                                        "SELECT cod_product, nombre, marca, categoria, " +
-                                        "iva, altura, anchura, peso, num_elementos, descr, stock " + 
-                                        "FROM Productos";
+                                        
+
+        final String VISTA_PRODUCTOS = "CREATE OR REPLACE VIEW Vista_Productos AS " 
+                                        +"SELECT "+PROD_ID+", "+PROD_NOMB+", "+PROD_MARC+", "+PROD_DESC+", "+PROD_CATE+", "
+                                        +PROD_ALTU+", "+PROD_PREC+", "+PROD_ANCH+", "+PROD_PESO+", "+PROD_ELEM+", "+PROD_STOK+" FROM Productos";
 
         st.execute(TABLA_PRODUCTOS);
         st.execute(VISTA_PRODUCTOS);
     }
-    
     
     /**
      * Este metodo crea la tabla y vista de Compras en la base de datos
@@ -121,35 +150,31 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public void crearCompras(Statement st)throws SQLException{
 
         final String TABLA_COMPRAS = "CREATE TABLE Compras (" +
-                                        "cod_compra NUMERIC(4) PRIMARY KEY, " +
-                                        "cod_product NUMERIC(4), " +
-                                        "cod_client NUMERIC(4), " +
-                                        "fecha DATE, " +
-                                        "FOREIGN KEY (cod_product) REFERENCES Productos(cod_product), " +
-                                        "FOREIGN KEY (cod_client) REFERENCES Clientes(cod_client))";
+                                        COMP_ID + " NUMERIC(4) PRIMARY KEY, " +
+                                        PROD_ID + " NUMERIC(4), " +
+                                        CLIEN_ID + " NUMERIC(4), " +
+                                        COMP_FECH + " DATE, " +
+                                        "FOREIGN KEY ("+PROD_ID+") REFERENCES Productos("+PROD_ID+"), " +
+                                        "FOREIGN KEY ("+CLIEN_ID+") REFERENCES Clientes("+CLIEN_ID+"))";
 
         final String VISTA_COMPRAS = "CREATE OR REPLACE VIEW Vista_Compras AS " +
-                                        "SELECT cod_compra, cod_product, cod_client, fecha " +
-                                        "FROM Compras";
-
+                                        "SELECT "+COMP_ID+", "+PROD_ID+", "+CLIEN_ID+", "+COMP_FECH+" FROM Compras";
+                                        
 
         st.execute(TABLA_COMPRAS);
         st.execute(VISTA_COMPRAS);
     }
 
-
-
     @Override
     public int insertar(Empleado emp) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(sql);
+        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(SQL);
 
         ps.setInt(1, emp.getId());
         ps.setString(2, emp.getNombre());
         ps.setString(3, emp.getApellidos());
         ps.setString(4, emp.toString());
-        ps.setDouble(5, emp.getSueldo());
     
 
         numRegistrosActualizados = ps.executeUpdate();
@@ -161,8 +186,8 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Producto prod) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String sql = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(sql);
+        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(SQL);
 
         ps.setInt(1, prod.getId());
         ps.setString(2, prod.getNombre());
@@ -172,8 +197,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         ps.setDouble(6, prod.getPeso());
         ps.setInt(7, prod.getNumElementos());
         ps.setString(8, prod.getDescripcion());
-        ps.setDouble(9, prod.getIva());
-
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
@@ -184,15 +207,34 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Compra compra) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String sql = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(sql);
+        final String SQL = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(SQL);
 
-        ps.setDate(1, compra.getFecha());
-        ps.setInt(2, compra.getCliente().getId());
-        ps.setString(3, compra.getProductos().);
-        ps.setDouble(4, compra.getId());
+        ps.setDouble(1, compra.getId());
+        ps.setInt(3, compra.getCliente().getId()); // TODO EL ID NO FUNCIONA POR AHORA
+        ps.setDate(4, compra.getFecha());
+
+
+        for (int i = 0; i < compra.getProductos().size(); i++) {
+            ps.setInt(2, compra.getProductos().get(i).getId());
+            numRegistrosActualizados += ps.executeUpdate();
+        }
         
+        ps.close();
 
+        return numRegistrosActualizados;
+    }
+
+    @Override
+    public int insertar(Cliente client) throws SQLException{
+        int numRegistrosActualizados = 0;
+        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?)";
+        PreparedStatement ps = connection.prepareStatement(SQL);
+
+        ps.setInt(1, client.getId()); // TODO EL ID NO FUNCIONA POR AHORA
+        ps.setInt(2, client.getCodPostal()); //TODO COD POSTAL ES STRING EN LA CLASE CLIENTE DEBE SER INT
+        ps.setString(3, client.getCorreo());
+        ps.setString(4, client.getNombre());
 
         numRegistrosActualizados = ps.executeUpdate();
         ps.close();
@@ -201,47 +243,62 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public int insertar(Cliente client) throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertar'");
-    }
+    public Producto visualizarProducto(int id) {
 
-    @Override
-    public Producto visualizarProducto() throws SQLException{
-        final String QUERY = "SELECT nombre, apellido, nacimiento FROM alumno WHERE ";
+        final String QUERY = "SELECT "+PROD_ID+", "+PROD_NOMB+", "+PROD_MARC+", "+PROD_DESC+", "+PROD_CATE+", "
+                                +PROD_ALTU+", "+PROD_PREC+", "+PROD_ANCH+", "+PROD_PESO+", "+PROD_ELEM+", "+PROD_STOK+
+                                " FROM Vista_Productos WHERE "+PROD_ID+"= '"+id+"'";
 
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ResultSet rs = ps.executeQuery();
 
-        // TODO Datos del Producto
-        String nombre = rs.getString("nombre");
-        String apellido = rs.getString("apellido");
-        
-        Producto producto = null;
-            
-        
-        rs.close();
-        ps.close();
-
-        return producto;
-    }
-
-    @Override
-    public List<Producto> visualizarProductos() throws SQLException{
-        final String QUERY = "SELECT nombre, apellido, nacimiento FROM PRODUCTOS";
 
         List<Producto> productos = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
         ResultSet rs = ps.executeQuery();
 
+        String nombre = rs.getString(PROD_NOMB);
+        String marca = rs.getString(PROD_MARC);
+        String descr = rs.getString(PROD_DESC);
+        String cate = rs.getString(PROD_CATE);
+        double altu = rs.getDouble(PROD_ALTU);
+        double anchu = rs.getDouble(PROD_ANCH);
+        double peso = rs.getDouble(PROD_PESO);
+        int num_elementos = rs.getInt(PROD_ELEM);
+        int stock = rs.getInt(PROD_STOK);
+
+
+        Producto producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, descr, stock); //TODO LE FALTA AL PRODUCTO TENER STOCK
+
+
+        return producto;
+
+    }
+
+    @Override
+    public List<Producto> visualizarProductos(){
+
+        final String QUERY = "SELECT "+PROD_ID+", "+PROD_NOMB+", "+PROD_MARC+", "+PROD_DESC+", "+PROD_CATE+", "
+                            +PROD_ALTU+", "+PROD_PREC+", "+PROD_ANCH+", "+PROD_PESO+", "+PROD_ELEM+", "+PROD_STOK+" FROM Vista_Productos";
+        
+        List<Producto> productos = new ArrayList<>();
+        PreparedStatement ps = connection.prepareStatement(QUERY);
+        ResultSet rs = ps.executeQuery();
+
+
         while(rs.next()){
 
-            // TODO Datos del Producto
-            String nombre = rs.getString("nombre");
-            String apellido = rs.getString("apellido");
+            int id = rs.getInt(PROD_ID);
+            String nombre = rs.getString(PROD_NOMB);
+            String marca = rs.getString(PROD_MARC);
+            String descr = rs.getString(PROD_DESC);
+            String cate = rs.getString(PROD_CATE);
+            double altu = rs.getDouble(PROD_ALTU);
+            double anchu = rs.getDouble(PROD_ANCH);
+            double peso = rs.getDouble(PROD_PESO);
+            int num_elementos = rs.getInt(PROD_ELEM);
+            int stock = rs.getInt(PROD_STOK);
 
             
-            Producto producto = null;
+            Producto producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, descr, stock); //TODO LE FALTA AL PRODUCTO TENER STOCK
             productos.add(producto);
         }
         rs.close();
@@ -251,15 +308,54 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Cliente> visualizarClientes() throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'visualizarClientes'");
+    public Cliente visualizarCliente(int id){
+
+        final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+
+        " FROM Vista_Clientes WHERE "+CLIEN_ID+"= '"+id+"'";
+
+        List<Cliente> clientes = new ArrayList<>();
+        PreparedStatement ps = connection.prepareStatement(QUERY);
+        ResultSet rs = ps.executeQuery();
+
+        int codPostal = rs.getInt(CLIEN_POST);
+        String nombre = rs.getString(CLIEN_NOMB);
+        String correo = rs.getString(CLIEN_CORR);
+
+        
+        Cliente cliente = new Cliente(id, nombre, correo, codPostal); //TODO CODIGO POSTAL ES STRING DEBE SER INT
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException{
-        final String QUERY = "SELECT cod_emple, nombre, apellidos, categoria " +
-                                "FROM Vista_Empleados";
+    public List<Cliente> visualizarClientes(){
+        final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Vista_Clientes";
+
+
+        List<Cliente> clientes = new ArrayList<>();
+        PreparedStatement ps = connection.prepareStatement(QUERY);
+        ResultSet rs = ps.executeQuery();
+
+        while(rs.next()){
+
+            int id = rs.getInt(CLIEN_ID);
+            int codPostal = rs.getInt(CLIEN_POST);
+            String nombre = rs.getString(CLIEN_NOMB);
+            String correo = rs.getString(CLIEN_CORR);
+
+            Cliente cliente = new Cliente(id, nombre, correo, codPostal); //TODO CODIGO POSTAL ES STRING DEBE SER INT
+            clientes.add(cliente);
+        }
+
+        rs.close();
+        ps.close();
+
+        return clientes;
+    }
+
+    @Override
+    public List<Empleado> visualizarEmpleados(){
+        final String QUERY = "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+" FROM Vista_Empleados";
+        
+        
 
 
         List<Empleado> empleados = new ArrayList<>();
@@ -268,10 +364,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         while(rs.next()){
 
-            int id = rs.getInt("cod_emple");
-            String nombre = rs.getString("nombre");
-            String apellido = rs.getString("apellidos");
-            String categoria = rs.getString("categoria");
+            int id = rs.getInt(EMPLE_ID);
+            String nombre = rs.getString(EMPLE_NOMB);
+            String apellido = rs.getString(EMPLE_APEL);
+            String categoria = rs.getString(EMPLE_CATE);
             
             
 
@@ -286,9 +382,35 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public List<Compra> visualizarCompras() throws SQLException{
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'visualizarCompras'");
+    public List<Compra> visualizarCompras(){
+        final String QUERY = "SELECT "+COMP_ID+", "+PROD_ID+", "+CLIEN_ID+", "+COMP_FECH+" FROM Vista_Compras";
+
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        List<Compra> compras = new ArrayList<>();
+        PreparedStatement ps = connection.prepareStatement(QUERY);
+        ResultSet rs = ps.executeQuery();
+        Compra compra;
+        while(rs.next()){
+
+            int id = rs.getInt(COMP_ID);
+            int prod = rs.getInt(PROD_ID);
+            int cliente = rs.getInt(CLIEN_ID);
+            Date fecha = rs.getDate(COMP_FECH);
+            
+            Cliente cli = bbdd.visualizarCliente(cliente);
+            Producto pr = bbdd.visualizarProducto(prod);
+
+            List<Producto> productos = new ArrayList<>();
+            productos.add(pr);
+
+            compra = new Compra(id, fecha, cli, productos); 
+            compras.add(compra);
+        }
+
+        rs.close();
+        ps.close();
+
+        return compras;
     }
     
 }
