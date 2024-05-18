@@ -50,20 +50,20 @@ public interface MercaDAO {
      * @param id
      * @return
      */
-    public Producto visualizarProducto(int id) throws MercaDAWException;
+    public Producto visualizarProducto(int id) throws SQLException, MercaDAWException;
 
     /**
      * Devuelve la lista de Clientes de la BD completa.
      * \return Una lista de Clientes.
      */
-    public List<Producto> visualizarProductos() throws SQLException , MercaDAWException;
+    public List<Producto> visualizarProductos() throws SQLException, MercaDAWException;
 
     /**
      * 
      * @param id
      * @return
      */
-    public Cliente visualizarCliente(int id) throws ;
+    public Cliente visualizarCliente(int id) throws SQLException;
 
     /**
      * Devuelve la lista de Clientes de la BD completa.
@@ -81,5 +81,5 @@ public interface MercaDAO {
      * Devuelve la lista de Compras de la BD completa.
      * \return Una lista de Compras.
      */
-    public List<Compra> visualizarCompras() throws SQLException;
+    public List<Compra> visualizarCompras() throws SQLException, MercaDAWException;
 }

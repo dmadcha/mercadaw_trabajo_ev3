@@ -1,47 +1,39 @@
 package es.etg.daw.prog.mercadaw.model.util;
 
-import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.List;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.PrintStream;
+
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
 
-import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
-import es.etg.daw.prog.mercadaw.model.util.export.DocumentoFactory;
-import es.etg.daw.prog.mercadaw.model.util.export.Exportable;
+import es.etg.daw.prog.mercadaw.model.util.export.Util;
 
-@TestMethodOrder(OrderAnnotation.class)
 public class ExportOfficeTest {
 
-    private static Empleado empleado = new Empleado();
-
-    @BeforeAll
-    public void init() {
-        List<Empleado> empleados = new ArrayList<>();
-        empleados.add(new Empleado(1, "nuevo1", "Apellido1"));
-        empleados.add(new Empleado(2, "nuevo2", "Apellido2"));
-        empleados.add(new Empleado(3, "nuevo3", "Apellido3"));
-
-        empleado.setNumEmpleados(emplados);
-    }
-
     @Test
-    public void exportarPDF() throws Exception {
-        try (FileOutputStream fichero = new FileOutputStream("test.pdf")) {
-            byte[] data = DocumentoFactory.obtener(Exportable.PDF).crearFichero(empleados);
-            fichero.write(data);
-        }
-    }
+    public void exportarTest() {
+        Util util = new Util();
+        String rutaPrueba = "/home/usuario/Desktop/mercadaw_trabajo_ev3/test.txt"; // Directorio que contiene test.txt
 
-    @Test
-    public void exportarExcel() throws Exception {
-        try (FileOutputStream fichero = new FileOutputStream("test.xlsx")) {
-            byte[] data = DocumentoFactory.crearFichero(empleados);
-            fichero.write(data);
+        // Redirigir la salida estándar para capturar cualquier error
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outputStream));
+
+        try {
+            util.exportar(rutaPrueba);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+        // Verificar que no hay errores en la salida estándar
+        assertEquals("", outputStream.toString().trim(), "La salida no debe contener errores");
+
+        // Verificar que el archivo PDF se haya creado
+        File archivoPDF = new File(rutaPrueba + "/test.pdf");
+        assertTrue(archivoPDF.exists(), "El archivo PDF debería existir");
 
     }
 }

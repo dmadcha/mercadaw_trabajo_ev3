@@ -8,6 +8,6 @@ import java.io.File;
  */
 public interface Fichero {
 
-  public void escribir(File fichero, String texto);
-  public byte[] leer(File fichero);
+  public void escribir(String fichero, String texto);
+  public byte[] leer(String fichero);
 } 

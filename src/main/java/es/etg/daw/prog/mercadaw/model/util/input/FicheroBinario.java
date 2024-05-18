@@ -7,7 +7,9 @@ import java.io.FileOutputStream;
 public class FicheroBinario extends FicheroImp {
 
     @Override
-    public void escribir(File fichero, String texto) {
+    public void escribir(String ruta, String texto) {
+
+        File fichero = new File(ruta);
 
         try (FileOutputStream fos = new FileOutputStream(fichero)) {
 
@@ -21,7 +23,7 @@ public class FicheroBinario extends FicheroImp {
     }
 
     @Override
-    public byte[] leer(File fichero) {
+    public byte[] leer(String fichero) {
 
         byte[] datos = null;
 
