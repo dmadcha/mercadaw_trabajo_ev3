@@ -46,17 +46,24 @@ public interface MercaDAO {
     public int insertar(Cliente client) throws SQLException;
     
     /**
-     * Devuelve los datos de un producto.
-     * \param 
-     * \return 
+     * 
+     * @param id
+     * @return
      */
-    public Producto visualizarProducto() throws SQLException;
+    public Producto visualizarProducto(int id) throws MercaDAWException;
 
     /**
-     * Devuelve la lista de Productos de la BD completa.
-     * \return Una lista de Productos.
+     * Devuelve la lista de Clientes de la BD completa.
+     * \return Una lista de Clientes.
      */
-    public List<Producto> visualizarProductos() throws SQLException;
+    public List<Producto> visualizarProductos() throws SQLException , MercaDAWException;
+
+    /**
+     * 
+     * @param id
+     * @return
+     */
+    public Cliente visualizarCliente(int id) throws ;
 
     /**
      * Devuelve la lista de Clientes de la BD completa.
