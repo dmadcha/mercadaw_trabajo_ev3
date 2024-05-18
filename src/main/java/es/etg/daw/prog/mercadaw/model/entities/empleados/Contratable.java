@@ -6,5 +6,8 @@ public interface Contratable {
     public static final double SUELDO_CAJER = 1300;
     public static final double SUELDO_ENCAR = 1500;
 
-    public double calcularNomina();
+    public double getSalarioNeto();
+    public double getSalarioBruto();
+    public double getAportaciones();
+    public double getIndemnizacion(TipoDespido tipo);
 }

@@ -26,8 +26,8 @@ public abstract class Producto implements Producible {
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
             double peso, int numElementos, int stock, double precio, String descripcion) {
         if (id == null) {
-            this.id = numProductos;
             numProductos++;
+            this.id = numProductos;
         } else {
             this.id = id;
         }
