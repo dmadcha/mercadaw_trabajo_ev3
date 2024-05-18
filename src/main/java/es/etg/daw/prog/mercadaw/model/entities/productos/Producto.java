@@ -12,10 +12,11 @@ public abstract class Producto implements Producible {
     private double peso;
     private int numElementos;
     private String descripcion;
+    private int stock;
     protected double iva;
 
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
-            double peso, int numElementos, String descripcion) {
+            double peso, int numElementos, int stock, String descripcion) {
         if (id == null) {
             this.id = numProductos;
             numProductos++;
@@ -28,9 +29,9 @@ public abstract class Producto implements Producible {
         this.anchura = anchura;
         this.peso = peso;
         this.numElementos = numElementos;
+        this.stock = stock;
         this.descripcion = descripcion;
 
-        
     }
 
     public double getIva() {
@@ -47,14 +48,6 @@ public abstract class Producto implements Producible {
 
     public static void setNumProductos(int numProductos) {
         Producto.numProductos = numProductos;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getNombre() {
@@ -119,4 +112,19 @@ public abstract class Producto implements Producible {
         return 0;
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
 }
