@@ -1,9 +1,13 @@
 package es.etg.daw.prog.mercadaw.model.entities.productos;
 
 public interface Producible {
-    public static double IVA_ALIM = 0.04;
-    public static double IVA_COSM = 0.10;
-    public static double IVA_DROG = 0.21;
+    public static final int PESO_MIN = 1;
+    public static final int PESO_MAX = 5;
+    public static final double ALTURA_MIN = 0.5;
+    public static final double ANCHURA_MIN = 0.5;
+    public static final double IVA_ALIM = 0.04;
+    public static final double IVA_COSM = 0.10;
+    public static final double IVA_DROG = 0.21;
 
     public double getPrecioVenta();
 }

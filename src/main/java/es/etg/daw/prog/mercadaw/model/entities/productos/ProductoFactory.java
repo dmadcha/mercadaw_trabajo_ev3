@@ -3,7 +3,7 @@ package es.etg.daw.prog.mercadaw.model.entities.productos;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 public class ProductoFactory {
-    public static Producto obtener(String tipoString, Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, String descripcion) throws MercaDAWException{
+    public static Producto obtener(String tipoString, Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion) throws MercaDAWException{
         
         TipoProducto tipoProducto;
         try {
@@ -12,11 +12,11 @@ public class ProductoFactory {
             throw new MercaDAWException();
         }
         if (tipoProducto.equals(TipoProducto.ALIMENTACION)) {
-            return new Alimentacion(id, nombre, marca, altura, anchura, peso, numElementos, stock, descripcion);
+            return new Alimentacion(id, nombre, marca, altura, anchura, peso, numElementos, stock, precio, descripcion);
         } else if (tipoProducto.equals(TipoProducto.COSMETICA)) {
-            return new Cosmetica(id, nombre, marca, altura, anchura, peso, numElementos, stock, descripcion);
+            return new Cosmetica(id, nombre, marca, altura, anchura, peso, numElementos, stock, precio, descripcion);
         } else if (tipoProducto.equals(TipoProducto.DROGUERIA)) {
-            return new Drogueria(id, nombre, marca, altura, anchura, peso, numElementos, stock, descripcion);
+            return new Drogueria(id, nombre, marca, altura, anchura, peso, numElementos, stock, precio, descripcion);
         } else 
         throw new MercaDAWException();
     }
