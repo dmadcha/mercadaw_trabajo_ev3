@@ -14,6 +14,10 @@ import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.exception.LectorException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
+/**
+ * La clase LectorJSON utiliza la clase LectorImp para poder leer las entities y porcesarlas.
+ * \author Iván Rafael Redondo.
+ */
 public class LectorJSON extends LectorImp {
 
     @Override

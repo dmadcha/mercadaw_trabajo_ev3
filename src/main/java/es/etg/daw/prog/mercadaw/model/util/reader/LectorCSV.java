@@ -13,6 +13,10 @@ import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
+/**
+ * La clase LectorCSV utiliza la inetrfaz LectorIMp para poder leer los entities y poder procesarlos.
+ * \author Iván Rafael Redondo.
+ */
 public class LectorCSV extends LectorImp {
 
     @Override
