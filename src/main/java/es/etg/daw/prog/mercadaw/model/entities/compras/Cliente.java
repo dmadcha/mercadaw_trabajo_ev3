@@ -10,8 +10,8 @@ public class Cliente {
 
     public Cliente(Integer id, String nombre, String correo, int codPostal) {
         if (id == null) {
-            this.id = numClientes;
             numClientes++;
+            this.id = numClientes;
         } else {
             this.id = id;
         }

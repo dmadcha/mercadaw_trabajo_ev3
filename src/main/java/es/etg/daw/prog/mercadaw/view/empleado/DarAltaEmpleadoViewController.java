@@ -1,6 +1,8 @@
 package es.etg.daw.prog.mercadaw.view.empleado;
 
 import java.net.URL;
+import java.sql.Date;
+import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
@@ -69,6 +71,9 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private TableColumn<Empleado, Double> colSueldo;
 
     @FXML
+    private TableColumn<Empleado, Date> colFecha;
+
+    @FXML
     private TableColumn<Empleado, Double> colTotalCosteLab;
 
     @FXML
@@ -100,6 +105,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         this.colApellidos.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_APELLIDO));
         this.colCategoria.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_CATEGORIA));
         this.colSueldo.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_SUELDO));
+        this.colFecha.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_FECHA));
         this.tabEmpleados.setItems(empleados);
     }
 
@@ -109,8 +115,9 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
             String nombre = txfNombre.getText();
             String apellidos = txfApellido.getText();
             String tipo = choiceCategoria.getValue().toString();
+            Date fecha = Date.valueOf(LocalDate.now());
 
-            Empleado empleado = EmpleadoFactory.obtener(tipo, null, nombre, apellidos);
+            Empleado empleado = EmpleadoFactory.obtener(tipo, null, nombre, apellidos, fecha);
             if (this.empleados.contains(empleado)) {
                 mostrarAviso(MSG_ERROR, AlertType.ERROR);
             } else {

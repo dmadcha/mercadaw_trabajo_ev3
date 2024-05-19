@@ -53,16 +53,10 @@ public class ExportarDatosViewController extends ViewController {
     }
 
     @FXML
-    void exportar(MouseEvent event) {
-        boolean seleccionadoPDF = checkPDF.isSelected();
-        boolean seleccionadoExcel = checkExcel.isSelected();
-
-        if (seleccionadoExcel == true) {
-            
-        }
-        if (seleccionadoPDF == true) {
-            
-        }
+    void exportar(MouseEvent event) throws Exception {
+        String ruta = txfRuta.getText();
+        MercaDAWController controller = new MercaDAWController();
+        controller.exportar(ruta);
     }
 
     @FXML

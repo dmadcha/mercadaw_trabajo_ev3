@@ -1,10 +1,12 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
+import java.sql.Date;
+
 public class Encargado extends Empleado{
     private double sueldo;
 
-    public Encargado(Integer id, String nombre, String apellidos) {
-        super(id, nombre, apellidos);
+    public Encargado(Integer id, String nombre, String apellidos, Date fechaInicio) {
+        super(id, nombre, apellidos, fechaInicio);
         this.sueldo = SUELDO_ENCAR;
     }
 

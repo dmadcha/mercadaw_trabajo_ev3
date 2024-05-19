@@ -5,7 +5,7 @@ public class Alimentacion extends Producto{
     public Alimentacion(Integer id, String nombre, String marca, double altura, double anchura, double peso,
             int numElementos, int stock, double precio, String descripcion) {
         super(id, nombre, marca, altura, anchura, peso, numElementos, stock, precio, descripcion);
-        this.iva = IVA_DROG;
+        this.iva = IVA_ALIM;
     }
 
     @Override

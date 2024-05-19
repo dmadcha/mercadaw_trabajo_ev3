@@ -3,27 +3,15 @@ package es.etg.daw.prog.mercadaw.view.producto;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import org.apache.poi.sl.draw.DrawSlide;
-
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Producible;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
-import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
-import es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.view.ViewController;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 

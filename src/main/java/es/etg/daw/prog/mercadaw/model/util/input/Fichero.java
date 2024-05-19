@@ -1,6 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.util.input;
 
-import java.io.File;
 
 /**
  * Esta interface nos permite escribir y leer un fichero de forma binaria.
@@ -8,6 +7,6 @@ import java.io.File;
  */
 public interface Fichero {
 
-  public void escribir(File fichero, String texto);
-  public byte[] leer(File fichero);
+  public void escribir(String fichero, String texto);
+  public byte[] leer(String fichero);
 } 

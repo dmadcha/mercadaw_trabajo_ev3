@@ -15,8 +15,8 @@ public class Compra {
 
     public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) {
         if (id == null) {
+            numCompras+= productos.size();
             this.id = numCompras;
-            numCompras++;
         } else {
             this.id = id;
         }

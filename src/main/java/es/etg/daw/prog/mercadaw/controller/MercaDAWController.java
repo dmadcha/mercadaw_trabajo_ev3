@@ -1,8 +1,16 @@
 package es.etg.daw.prog.mercadaw.controller;
 
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
 
 import es.etg.daw.prog.mercadaw.App;
+import es.etg.daw.prog.mercadaw.model.bbdd.Database;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
+import es.etg.daw.prog.mercadaw.model.util.export.Util;
 import es.etg.daw.prog.mercadaw.view.MainViewController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import es.etg.daw.prog.mercadaw.view.Vista;
@@ -107,5 +115,10 @@ public class MercaDAWController extends Application{
         } catch (Exception e) {
 
         }
+    }
+
+    public void exportar(String ruta) throws Exception {
+        Util util = new Util();
+        util.exportar(ruta);
     }
 }
