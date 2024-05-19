@@ -1,5 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.util.reader;
 
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -13,92 +14,97 @@ import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.exception.LectorException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
-public class LectorJSON {
-    private void comprobar(String cadena) throws MercaDAWException {
+public class LectorJSON extends LectorImp {
 
-        if (cadena == null || cadena.trim().length() == 0)
-            throw new LectorException();
-
-    }
-
+    @Override
     public List<Producto> leerProducto(String codigo) throws MercaDAWException {
-        boolean primeraFila = true;
+
         List<Producto> productos = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
-        StringTokenizer st = new StringTokenizer(codigo, "\n");
+        StringTokenizer st = new StringTokenizer(codigo, "{}", true);
         while (st.hasMoreTokens()) {
-            String fila = st.nextToken();
+            String token = st.nextToken();
 
-            if (!primeraFila && !"".equals(fila))
-                productos.add(procesarProducto(fila));
+            if (token.equals("{")) {
 
-            primeraFila = false;
+                token = st.nextToken();
+                productos.add(procesarProducto(token));
+            }
         }
 
         return productos;
     }
 
+    @Override
     public List<Empleado> leerEmpleado(String codigo) throws MercaDAWException {
-        boolean primeraFila = true;
+
         List<Empleado> empleados = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
-        StringTokenizer st = new StringTokenizer(codigo, "\n");
+        StringTokenizer st = new StringTokenizer(codigo, "{}", true);
         while (st.hasMoreTokens()) {
-            String fila = st.nextToken();
+            String token = st.nextToken();
 
-            if (!primeraFila && !"".equals(fila))
-                empleados.add(procesarEmpleado(fila));
+            if (token.equals("{")) {
 
-            primeraFila = false;
+                token = st.nextToken();
+                empleados.add(procesarEmpleado(token));
+            }
         }
 
         return empleados;
     }
 
+    @Override
     public List<Cliente> leerCliente(String codigo) throws MercaDAWException {
-        boolean primeraFila = true;
+
         List<Cliente> clientes = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
-        StringTokenizer st = new StringTokenizer(codigo, "\n");
+        StringTokenizer st = new StringTokenizer(codigo, "{}", true);
         while (st.hasMoreTokens()) {
-            String fila = st.nextToken();
+            String token = st.nextToken();
 
-            if (!primeraFila && !"".equals(fila))
-                clientes.add(procesarCliente(fila));
+            if (token.equals("{")) {
 
-            primeraFila = false;
+                token = st.nextToken();
+                clientes.add(procesarCliente(token));
+            }
         }
 
         return clientes;
     }
 
-    public List<Compra> leer(String codigo) throws MercaDAWException {
-        boolean primeraFila = true;
+    @Override
+    public List<Compra> leerCompra(String codigo) throws MercaDAWException {
+
         List<Compra> compras = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
-        StringTokenizer st = new StringTokenizer(codigo, "\n");
+        StringTokenizer st = new StringTokenizer(codigo, "{}", true);
         while (st.hasMoreTokens()) {
-            String fila = st.nextToken();
+            String token = st.nextToken();
 
-            if (!primeraFila && !"".equals(fila))
-                // compras.add(procesarCompra(fila));
+            if (token.equals("{")) {
 
-                primeraFila = false;
+                token = st.nextToken();
+            //    compras.add(procesarCompra(token));
+            }
         }
 
         return compras;
+    }
+
+    private void comprobar(String cadena) throws MercaDAWException {
+
+        if (cadena == null || cadena.trim().length() == 0)
+            throw new LectorException();
+
     }
 
     private Producto procesarProducto(String fila) throws MercaDAWException {
@@ -114,22 +120,20 @@ public class LectorJSON {
         String descripcion;
         int stock;
         double precio;
-        double iva;
 
         StringTokenizer st = new StringTokenizer(fila, ",");
 
-        tipo = st.nextToken();
-        id = Integer.parseInt(st.nextToken());
-        nombre = st.nextToken();
-        marca = st.nextToken();
-        altura = Double.parseDouble(st.nextToken());
-        anchura = Double.parseDouble(st.nextToken());
-        peso = Double.parseDouble(st.nextToken());
-        numElementos = Integer.parseInt(st.nextToken());
-        descripcion = st.nextToken();
-        stock = Integer.parseInt(st.nextToken());
-        precio = Double.parseDouble(st.nextToken());
-        iva = Double.parseDouble(st.nextToken());
+        tipo = procesarString(st.nextToken());
+        id = procesarInt(st.nextToken());
+        nombre = procesarString(st.nextToken());
+        marca = procesarString(st.nextToken());
+        altura = procesarDouble(st.nextToken());
+        anchura = procesarDouble(st.nextToken());
+        peso = procesarDouble(st.nextToken());
+        numElementos = procesarInt(st.nextToken());
+        descripcion = procesarString(st.nextToken());
+        stock = procesarInt(st.nextToken());
+        precio = procesarDouble(st.nextToken());
 
         return ProductoFactory.obtener(tipo, id, nombre, marca, altura, anchura, peso, numElementos, stock, precio,
                 descripcion);
@@ -141,15 +145,17 @@ public class LectorJSON {
         int id;
         String nombre;
         String apellidos;
+        Date fechaInicio;
 
         StringTokenizer st = new StringTokenizer(fila, ",");
 
-        tipo = st.nextToken();
-        id = Integer.parseInt(st.nextToken());
-        nombre = st.nextToken();
-        apellidos = st.nextToken();
+        tipo = procesarString(st.nextToken());
+        id = procesarInt(st.nextToken());
+        nombre = procesarString(st.nextToken());
+        apellidos = procesarString(st.nextToken());
+        fechaInicio = Date.valueOf(st.nextToken());
 
-        return EmpleadoFactory.obtener(tipo, id, nombre, apellidos);
+        return EmpleadoFactory.obtener(tipo, id, nombre, apellidos, fechaInicio);
 
     }
 
@@ -162,48 +168,77 @@ public class LectorJSON {
 
         StringTokenizer st = new StringTokenizer(fila, ",");
 
-        id = Integer.parseInt(st.nextToken());
-        nombre = st.nextToken();
-        correo = st.nextToken();
-        codPostal = Integer.parseInt(st.nextToken());
+        id = procesarInt(st.nextToken());
+        nombre = procesarString(st.nextToken());
+        correo = procesarString(st.nextToken());
+        codPostal = procesarInt(st.nextToken());
 
         return new Cliente(id, nombre, correo, codPostal);
 
     }
 
-    /*
-     * private Compra procesarCompra(String fila) throws MercaDAWException {
-     * int id;
-     * Date fecha;
-     * Cliente cliente;
-     * List<Producto> productos;
-     * 
-     * StringTokenizer st = new StringTokenizer(fila, ",");
-     * 
-     * id = Integer.parseInt(st.nextToken());
-     * fecha =
-     * cliente = st.nextToken();
-     * productos = st.nextToken();
-     * 
-     * return new Compra(id, fecha, cliente, productos);
-     * }
-     */
+    /* 
+    private Compra procesarCompra(String fila) throws MercaDAWException {
+        int id;
+        Date fecha;
+        Cliente cliente;
+        List<Producto> productos;
 
-    private String procesarValor(String pareja) {
+        StringTokenizer st = new StringTokenizer(fila, ",");
+
+        id = procesarInt(st.nextToken());
+        fecha = cliente = procesarValor(st.nextToken());
+        productos = procesarValor(st.nextToken());
+
+        return new Compra(id, fecha, cliente, productos);
+    }
+*/
+    private String procesarString(String pareja) {
         String valor = null;
 
-        pareja = pareja.trim();// Quito los blancos
+        pareja = pareja.trim();
 
         StringTokenizer st = new StringTokenizer(pareja, ":");
 
-        // Leo el valor del campo y lo ignoro:
         st.nextToken();
 
-        // el siguiente campo tiene el valor, lo leo y le quito las comillas:
         valor = st.nextToken().trim();
         valor = valor.substring(1, valor.length() - 1);
 
         return valor;
+    }
+
+    private int procesarInt(String pareja) {
+        int valorNumerico = 0;
+
+        pareja = pareja.trim();
+
+        StringTokenizer st = new StringTokenizer(pareja, ":");
+
+        st.nextToken();
+
+        String valor = st.nextToken().trim();
+        valor = valor.substring(1, valor.length() - 1);
+
+        valorNumerico = Integer.parseInt(valor);
+
+        return valorNumerico;
+    }
+
+    private double procesarDouble(String pareja) {
+        double valorNumerico = 0.0;
+
+        pareja = pareja.trim();
+        StringTokenizer st = new StringTokenizer(pareja, ":");
+
+        st.nextToken();
+
+        String valor = st.nextToken().trim();
+        valor = valor.substring(1, valor.length() - 1);
+
+        valorNumerico = Double.parseDouble(valor);
+
+        return valorNumerico;
     }
 
 }
