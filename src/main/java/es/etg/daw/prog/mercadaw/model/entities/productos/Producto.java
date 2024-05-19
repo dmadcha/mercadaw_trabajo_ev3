@@ -29,16 +29,16 @@ public abstract class Producto implements Producible {
 
     /**
      * Constructor que inicializa productos, generando el ID de estos automaticamente.
-     * \param id
-     * \param nombre
-     * \param marca
-     * \param altura
-     * \param anchura
-     * \param peso
-     * \param numElementos
-     * \param stock
-     * \param precio
-     * \param descripcion
+     * \param ID del producto
+     * \param Nombre del producto
+     * \param Marca del producto
+     * \param Altura del producto
+     * \param Anchura del producto
+     * \param Peso del producto
+     * \param Numero de elementos del producto
+     * \param Stock del producto
+     * \param Precio del producto
+     * \param Descripcion del producto
      */
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
             double peso, int numElementos, int stock, double precio, String descripcion) {
@@ -282,7 +282,7 @@ public abstract class Producto implements Producible {
 
         return recargoNumElementos;
     }
-    
+
     /**
      * Calcula el precio final de venta de un producto con todos los recargos aplicados.
      * \return Un double con el precio final en euros.
