@@ -101,7 +101,7 @@ public class MercaDAOImpOracleXETest {
         Producto pr2 = ProductoFactory.obtener("Cosmetica", 2, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
         Producto pr3 = ProductoFactory.obtener("Drogueria", 3, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
 
-        Compra compra = new Compra(1, null, cl1, productos);
+        Compra compra = new Compra(null, null, cl1, productos);
 
         productos.add(pr1);
         productos.add(pr2);
