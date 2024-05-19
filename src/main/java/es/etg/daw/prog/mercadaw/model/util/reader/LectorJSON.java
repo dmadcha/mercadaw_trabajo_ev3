@@ -153,8 +153,7 @@ public class LectorJSON extends LectorImp {
         id = procesarInt(st.nextToken());
         nombre = procesarString(st.nextToken());
         apellidos = procesarString(st.nextToken());
-        fechaInicio = Date.valueOf(st.nextToken());
-
+        fechaInicio = Date.valueOf(procesarString(st.nextToken()));
         return EmpleadoFactory.obtener(tipo, id, nombre, apellidos, fechaInicio);
 
     }
