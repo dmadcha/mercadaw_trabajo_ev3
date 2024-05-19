@@ -7,6 +7,10 @@ import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_15;
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_5;
 
+/**
+ * La clase Producto representa un producto de MercaDAW.
+ * \author Diego Madroñero Chamorro.
+ */
 public abstract class Producto implements Producible {
 
     private static int numProductos = 0;
@@ -23,6 +27,19 @@ public abstract class Producto implements Producible {
     private double precio;
     protected double iva;
 
+    /**
+     * Constructor que inicializa productos, generando el ID de estos automaticamente.
+     * \param id
+     * \param nombre
+     * \param marca
+     * \param altura
+     * \param anchura
+     * \param peso
+     * \param numElementos
+     * \param stock
+     * \param precio
+     * \param descripcion
+     */
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
             double peso, int numElementos, int stock, double precio, String descripcion) {
         if (id == null) {
@@ -149,6 +166,10 @@ public abstract class Producto implements Producible {
         return precioVenta;
     }
 
+    /**
+     * Calcula y devuelve el recargo dependiendo del peso del producto.
+     * \return Un double con el recargo del peso.
+     */
     public double getRecargoPeso() {
         double recargoPeso = 0;
 
@@ -163,6 +184,10 @@ public abstract class Producto implements Producible {
         return recargoPeso;
     }
 
+    /**
+     * Calcula y devuelve el porcentaje que se usa para calcular el recargo del peso.
+     * \return Un double con el porcentaje del recargo del peso.
+     */
     public double getPorcentajePeso() {
         double porcentajePeso = 0;
 
@@ -177,6 +202,10 @@ public abstract class Producto implements Producible {
         return porcentajePeso;
     }
 
+    /**
+     * Calcula y devuelve el recargo dependiendo de la altura del producto.
+     * \return Un double con el recargo de la altura.
+     */
     public double getRecargoAltura() {
         double recargoAltura = 0;
 
@@ -189,6 +218,10 @@ public abstract class Producto implements Producible {
         return recargoAltura;
     }
 
+    /**
+     * Calcula y devuelve el porcentaje que se usa para calcular el recargo de la altura.
+     * \return Un double con el porcentaje del recargo de la altura.
+     */
     public double getPorcentajeAltura() {
         double porcentajeAltura = 0;
 
@@ -201,6 +234,10 @@ public abstract class Producto implements Producible {
         return porcentajeAltura;
     }
 
+    /**
+     * Calcula y devuelve el recargo dependiendo de la anchura del producto.
+     * \return Un double con el recargo de la anchura.
+     */
     public double getRecargoAnchura() {
         double recargoAnchura = 0;
 
@@ -213,6 +250,10 @@ public abstract class Producto implements Producible {
         return recargoAnchura;
     }
 
+    /**
+     * Calcula y devuelve el porcentaje que se usa para calcular el recargo de la anchura.
+     * \return Un double con el porcentaje del recargo de la anchura.
+     */
     public double getPorcentajeAnchura() {
         double porcentajeAnchura = 0;
 
@@ -225,6 +266,10 @@ public abstract class Producto implements Producible {
         return porcentajeAnchura;
     }
 
+    /**
+     * Calcula y devuelve el recargo dependiendo del numero de elementos del producto.
+     * \return Un double con el recargo del numero de elementos.
+     */
     public double getRecargoNumElementos(){
         final int NUM_ELEMENTOS_MAX = 2;
         final double GASTO_ADICIONAL = 0.10;
@@ -247,6 +292,10 @@ public abstract class Producto implements Producible {
         return precioEuros;
     }
 
+    /**
+     * Calcula y devuelve el precio final de venta de un producto convertido a dolares.
+     * \return Un double con el precio final en dolares.
+     */
     public double getPrecioFinalDolares(){
         final double CONVERSION = 0.9;
 
@@ -257,6 +306,10 @@ public abstract class Producto implements Producible {
         return precioDolares;
     }
 
+    /**
+     * Calcula y devuelve el iva calculado de un producto.
+     * \return Un double con el iva calculado.
+     */
     public double getIvaCalculado(){
         double ivaCalculado = 0;
 
