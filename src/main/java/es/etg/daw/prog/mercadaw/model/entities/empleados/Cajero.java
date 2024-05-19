@@ -11,10 +11,10 @@ public class Cajero extends Empleado{
 
     /**
      * Constructor que inicializa cajeros, generando el ID de estas automaticamente.
-     * \param id
-     * \param nombre
-     * \param apellidos
-     * \param fechaInicio
+     * \param Id del empleado
+     * \param Nombre del empleado
+     * \param Apellidos del empleado
+     * \param Fecha de contratación del empleado
      */
     public Cajero(Integer id, String nombre, String apellidos, Date fechaInicio) {
         super(id, nombre, apellidos, fechaInicio);
