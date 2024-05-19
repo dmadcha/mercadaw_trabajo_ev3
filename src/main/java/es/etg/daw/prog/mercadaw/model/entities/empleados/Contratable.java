@@ -1,5 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
+/**
+ * La interfaz Contratable expone los principales metodos del calculo de la nómina.
+ * \author Diego Madroñero Chamorro.
+ */
 public interface Contratable {
     public static final double SUELDO_EMPLE = 1000;
     public static final double SUELDO_REPON = 1200;

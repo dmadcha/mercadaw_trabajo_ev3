@@ -5,6 +5,10 @@ import java.util.List;
 
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 
+/**
+ * La clase Compra representa las compras realizadas por los clientes de MercaDAW.
+ * \author Diego Madroñero Chamorro.
+ */
 public class Compra {
     private static int numCompras;
 
@@ -13,6 +17,13 @@ public class Compra {
     private Cliente cliente;
     private List<Producto> productos;
 
+    /**
+     * Constructor que inicializa compras, generando el ID de estas automaticamente.
+     * \param id
+     * \param fecha
+     * \param cliente
+     * \param productos
+     */
     public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) {
         if (id == null) {
             numCompras+= productos.size();
