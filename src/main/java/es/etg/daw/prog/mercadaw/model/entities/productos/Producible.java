@@ -9,5 +9,15 @@ public interface Producible {
     public static final double IVA_COSM = 0.10;
     public static final double IVA_DROG = 0.21;
 
+    /**
+     * Calcula em precio de venta de un producto.
+     * \return Un double con el precio final de venta del
+     */
     public double getPrecioVenta();
+
+    /**
+     * Calcula el precio final de venta de un producto con todos los recargos aplicados.
+     * \return Un double con el precio final en euros.
+     */
+    public double getPrecioFinalEuros();
 }

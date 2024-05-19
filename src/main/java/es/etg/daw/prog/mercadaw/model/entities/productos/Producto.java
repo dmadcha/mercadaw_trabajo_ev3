@@ -238,6 +238,7 @@ public abstract class Producto implements Producible {
         return recargoNumElementos;
     }
 
+    @Override
     public double getPrecioFinalEuros(){
         double precioEuros = 0;
 
