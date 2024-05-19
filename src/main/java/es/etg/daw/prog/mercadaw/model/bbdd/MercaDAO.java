@@ -22,64 +22,78 @@ public interface MercaDAO {
     public void iniciarBBDD() throws SQLException;
 
     /**
-     * Inserta el empleado en la Base de datos.
+     * Inserta el Empleado en la Base de datos.
      * \param empleado Empleado a insertar.
+     * \return int Numero de insercciones completadas.
+     * \throws SQLException
      */
     public int insertar(Empleado emp) throws SQLException;
 
     /**
-     * Inserta el producto en la Base de datos.
+     * Inserta el Producto en la Base de datos.
      * \param producto Producto a insertar.
+     * \return int Numero de insercciones completadas. 
+     * \throws SQLException
      */
     public int insertar(Producto prod) throws SQLException;
 
     /**
-     * Inserta la compra en la Base de datos.
+     * Inserta la Compra en la Base de datos.
      * \param compra Compra a insertar.
+     * \return int Numero de insercciones completadas. 
+     * \throws SQLException
      */
     public int insertar(Compra compra) throws SQLException;
 
     /**
-     * Inserta el cliente en la Base de datos.
+     * Inserta el Cliente en la Base de datos.
      * \param client Cliente a insertar.
+     * \return int Numero de insercciones completadas. 
+     * \throws SQLException
      */
     public int insertar(Cliente client) throws SQLException;
     
     /**
-     * 
-     * @param id
-     * @return
+     * Hace un select a la BD con la id pasada.
+     * \param id Id del producto que quieres.
+     * \return Producto con la id pasada por.
+     * \throws SQLException, MercaDAWException
      */
     public Producto visualizarProducto(int id) throws SQLException, MercaDAWException;
 
     /**
-     * Devuelve la lista de Clientes de la BD completa.
-     * \return Una lista de Clientes.
+     * Devuelve la lista de Productos de la BD completa.
+     * \return List<Producto> Los productos de la BD.
+     * \throws SQLException, MercaDAWException
      */
     public List<Producto> visualizarProductos() throws SQLException, MercaDAWException;
 
     /**
-     * 
-     * @param id
-     * @return
+     * Visualiza el Cliente con la id del parametro.
+     * \param id Id del Cliente que quieres.
+     * \return Cliente El cliente con la id del parametro.
+     * \throws SQLException
      */
     public Cliente visualizarCliente(int id) throws SQLException;
 
     /**
      * Devuelve la lista de Clientes de la BD completa.
-     * \return Una lista de Clientes.
+     * \return List<Cliente> Los clientes de la BD.
+     * \throws SQLException
      */
     public List<Cliente> visualizarClientes() throws SQLException;
 
     /**
      * Devuelve la lista de Empleados de la BD completa.
-     * \return Una lista de Empleados.
+     * \return List<Empleado> Los empleados de la BD.
+     * \throws SQLException, MercaDAWException
      */
     public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException;
 
     /**
      * Devuelve la lista de Compras de la BD completa.
-     * \return Una lista de Compras.
+     * \return List<Compra> Las compas de la BD.
+     * \throws SQLException, MercaDAWException
      */
     public List<Compra> visualizarCompras() throws SQLException, MercaDAWException;
 }

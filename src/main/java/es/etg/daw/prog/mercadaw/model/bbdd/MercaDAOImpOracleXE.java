@@ -72,11 +72,12 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         
         st.close();
     }
-    @Override
+       
     /**
      * Este metodo crea la tabla y vista de Empleados en la base de datos
      * \throws SQLException
      */
+    @Override
     public void crearEmpleados(Statement st) throws SQLException{
 
         final String TABLA_EMPLEADOS = "CREATE TABLE Empleados( " +
@@ -91,11 +92,12 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.execute(TABLA_EMPLEADOS);
         st.execute(VISTA_EMPLEADOS);
     }
-    @Override
+    
     /**
      * Este metodo crea la tabla y vista de Clientes en la base de datos
      * \throws SQLException
      */
+    @Override
     public void crearClientes(Statement st) throws SQLException{
 
         final String TABLA_CLIENTES = "CREATE TABLE Clientes( " +
@@ -110,11 +112,12 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.execute(TABLA_CLIENTES);
         st.execute(VISTA_CLIENTES);
     }
-    @Override
+    
     /**
      * Este metodo crea la tabla y vista de Productos en la base de datos
      * \throws SQLException
      */
+    @Override
     public void crearProductos(Statement st) throws SQLException{
 
         final String TABLA_PRODUCTOS = "CREATE TABLE Productos( " +
@@ -143,11 +146,11 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.execute(VISTA_PRODUCTOS);
     }
     
-    @Override
     /**
      * Este metodo crea la tabla y vista de Compras en la base de datos
      * \throws SQLException
      */
+    @Override
     public void crearCompras(Statement st) throws SQLException{
 
         final String TABLA_COMPRAS = "CREATE TABLE Compras (" +
@@ -166,9 +169,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         st.execute(VISTA_COMPRAS);
     }
 
+
     @Override
     public int insertar(Empleado emp) throws SQLException{
-        int numRegistrosActualizados = 0;
+        int numRegistrosActualizados = -1;
         final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
@@ -187,7 +191,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Producto prod) throws SQLException{
-        int numRegistrosActualizados = 0;
+        int numRegistrosActualizados = -1;
         final String SQL = "INSERT INTO Productos VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
@@ -215,7 +219,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         final String SQL = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
-        int numRegistrosActualizados = 0;
+        int numRegistrosActualizados = -1;
 
         /**
          * Esta variable se usa para poner la id de los productos de dentro de la lista
@@ -245,7 +249,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         
         final String SQL = "INSERT INTO Clientes VALUES (?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
-        int numRegistrosActualizados = 0;
+        int numRegistrosActualizados = -1;
 
         ps.setInt(1, client.getId());
         ps.setString(2, client.getNombre());
