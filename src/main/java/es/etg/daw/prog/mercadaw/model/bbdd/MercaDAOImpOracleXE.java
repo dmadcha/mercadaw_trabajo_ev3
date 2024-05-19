@@ -414,27 +414,34 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         final String QUERY = "SELECT "+COMP_ID+", "+PROD_ID+", "+CLIEN_ID+", "+COMP_FECH+" FROM Vista_Compras";
 
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        List<Producto> productos = new ArrayList<>();
         List<Compra> compras = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
         ResultSet rs = ps.executeQuery();
+        Cliente cli = null;
+        
         Compra compra;
+        int id = -1;
+        Date fecha = null;
+
         while(rs.next()){
 
-            int id = rs.getInt(COMP_ID);
-            Date fecha = rs.getDate(COMP_FECH);
+            id = rs.getInt(COMP_ID);
+            fecha = rs.getDate(COMP_FECH);
             int prod = rs.getInt(PROD_ID);
             int cliente = rs.getInt(CLIEN_ID);
             
             
-            Cliente cli = bbdd.visualizarCliente(cliente);
+            cli = bbdd.visualizarCliente(cliente);
             Producto pr = bbdd.visualizarProducto(prod);
 
-            List<Producto> productos = new ArrayList<>();
+
             productos.add(pr);
 
-            compra = new Compra(id, fecha, cli, productos); 
-            compras.add(compra);
         }
+
+        compra = new Compra(id, fecha, cli, productos); 
+        compras.add(compra);
 
         rs.close();
         ps.close();

@@ -22,6 +22,8 @@ public class MercaDAOImpOracleXETest {
         bbdd.iniciarBBDD();
     }
 
+
+
     @Test
     public void insertarEmpleadoTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
@@ -29,7 +31,6 @@ public class MercaDAOImpOracleXETest {
         Empleado emp = new Empleado(0, "Paco", "Fiestas", null);
         bbdd.insertar(emp);
     }
-
 
     @Test
     public void insertarProductoTest() throws Exception{
@@ -77,7 +78,7 @@ public class MercaDAOImpOracleXETest {
 
         Date fecha = new Date(1003);
 
-        Compra compra = new Compra(null, fecha, cl1, productos);
+        Compra compra = new Compra(0, fecha, cl1, productos);
         bbdd.insertar(compra);
     }
 
@@ -141,6 +142,7 @@ public class MercaDAOImpOracleXETest {
         assertTrue(sonIguales);
     }
 
+
     @Test
     public void visualizarProductoTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
@@ -157,7 +159,7 @@ public class MercaDAOImpOracleXETest {
     
     @Test
     public void visualizarProductosTest() throws Exception{
-        
+
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         List<Producto> productosEsperado = new ArrayList<>();
         List<Producto> productos = bbdd.visualizarProductos();
@@ -183,6 +185,41 @@ public class MercaDAOImpOracleXETest {
         assertTrue(sonIguales);
     }
 
+
+    @Test
+    public void visualizarComprasTest() throws Exception{
+
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        List<Compra> comprasEsperadas = new ArrayList<>();
+        List<Compra> compras = bbdd.visualizarCompras();
+
+        Cliente cl1 = new Cliente(0, "María López", "maria@example.com", 28001);
+
+        Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "Aceite de Oliva Virgen Extra", "OlivaDorada", 25, 8, 1, 1, 150, 10.99, "Aceite de oliva virgen extra de la mejor calidad, prensado en frío y sin aditivos. Perfecto para ensaladas, cocinar y dar sabor a tus platos favoritos.");
+        Producto pr2 = ProductoFactory.obtener("Cosmetica", 1, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
+        Producto pr3 = ProductoFactory.obtener("Drogueria", 2, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
+
+        List<Producto> productos = new ArrayList<Producto>();
+
+        productos.add(pr1);
+        productos.add(pr2);
+        productos.add(pr3);
+
+        Date fecha = new Date(1003);
+
+        Compra compra = new Compra(0, fecha, cl1, productos);
+
+        comprasEsperadas.add(compra);
+
+        boolean sonIguales = false;
+
+
+        if (comprasEsperadas.get(0).getId() == compras.get(0).getId()) {
+            sonIguales = true;
+        }
+
+        assertTrue(sonIguales);
+    }
 
     @Test
     public void borrarTablas() throws Exception{
