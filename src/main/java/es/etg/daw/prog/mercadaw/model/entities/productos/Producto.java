@@ -9,7 +9,7 @@ import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO
 
 public abstract class Producto implements Producible {
 
-    private static int numProductos;
+    private static int numProductos = 0;
 
     private Integer id;
     private String nombre;

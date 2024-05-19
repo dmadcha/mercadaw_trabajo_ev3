@@ -94,7 +94,7 @@ public class Empleado implements Contratable {
     public double getSalarioBruto() {
         double bruto = 0;
 
-        bruto = sueldo + getPPE();
+        bruto = getSueldo() + getPPE();
 
         return bruto;
     }
@@ -105,7 +105,7 @@ public class Empleado implements Contratable {
         
         double ppe = 0;
 
-        ppe = (NUM_PAGAS * sueldo) / NUM_MESES;
+        ppe = (NUM_PAGAS * getSueldo()) / NUM_MESES;
 
         return ppe;
     }
@@ -115,7 +115,7 @@ public class Empleado implements Contratable {
 
         double deducciones = 0;
 
-        deducciones = sueldo * TOTAL_DEDUC;
+        deducciones = getSueldo() * TOTAL_DEDUC;
 
         return deducciones;
     }
@@ -141,21 +141,21 @@ public class Empleado implements Contratable {
     }
 
     public double getIndemnizacionLegal(TipoDespido tipo) {
-        final int DIAS_INDEM = 33;
-        final int DIAS_ANYO = 365;
+        final int DIAS_INDEM_IMPRO = 33;
+        final int DIAS_INDEM_PROC = 0;
 
         double indemLegal = 0;
 
         if (tipo.equals(TipoDespido.IMPROCEDENTE)) {
-            indemLegal = DIAS_INDEM / DIAS_ANYO;
+            indemLegal = DIAS_INDEM_IMPRO;
         } else {
-            indemLegal = 0;
+            indemLegal = DIAS_INDEM_PROC;
         }
         return indemLegal;
     }
 
     public double getSalarioDiario(){
-        final int NUM_DIAS = 365;
+        final int NUM_DIAS = 30;
 
         double salarioDiario = 0;
 
@@ -164,11 +164,12 @@ public class Empleado implements Contratable {
         return salarioDiario;
     }
 
-    public double getAntiguedad(){
+    public int getAntiguedad(){
         LocalDate fechaInicial = fechaInicio.toLocalDate();
         LocalDate fechaActual = LocalDate.now();
         Period periodo = Period.between(fechaInicial, fechaActual);
+        int anyos = periodo.getYears();
 
-        return periodo.getYears();
+        return anyos;
     }
 }
