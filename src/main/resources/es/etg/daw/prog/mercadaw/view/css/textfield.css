@@ -1,0 +1,6 @@
+#txf {
+    -fx-background-color: transparent;
+    -fx-border-color: #009660;
+    -fx-border-width: 0px 0px 2px 0px; /* Anchos diferentes para cada lado */
+    -fx-font-family: 'Segoe UI';
+}

@@ -1,34 +1,124 @@
 package es.etg.daw.prog.mercadaw.controller;
 
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
 
 import es.etg.daw.prog.mercadaw.App;
+import es.etg.daw.prog.mercadaw.model.bbdd.Database;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
+import es.etg.daw.prog.mercadaw.model.util.export.Util;
 import es.etg.daw.prog.mercadaw.view.MainViewController;
+import es.etg.daw.prog.mercadaw.view.ViewController;
+import es.etg.daw.prog.mercadaw.view.Vista;
+import es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController;
+import es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController;
+import es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController;
+import es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController;
+import es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MercaDAWController extends Application {
-    public final static String MAIN_VIEW = "view/MainView.fxml";
+public class MercaDAWController extends Application{
     public static Stage currentStage;
-
+    
     @Override
     public void start(Stage stage) throws Exception {
         currentStage = stage;
-        cargarVista(MAIN_VIEW);
+        stage.setTitle("MercaDAW");
+        cargarVista(Vista.MAIN);
     }
 
-    private Scene cargarVista(String ficheroView) throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(ficheroView));
+    private ViewController cargarVista(Vista vista) throws IOException{
+        ViewController controller = null;
+
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(vista.getRuta()));
         Parent root = (Parent)fxmlLoader.load();  
 
-        //Obtengo el controlador de la vista para pasarle una referencia al controlador - MVC:
-        MainViewController viewController = fxmlLoader.<MainViewController>getController();
-        viewController.(this);
+        if (Vista.MAIN == vista) {
+            controller = fxmlLoader.<MainViewController>getController();
+        } else if (Vista.DAR_ALTA_PROD == vista) {
+            controller = fxmlLoader.<DarAltaProductoViewController>getController();         
+        } else if (Vista.DAR_ALTA_EMPLE == vista) {
+            controller = fxmlLoader.<DarAltaEmpleadoViewController>getController();        
+        } else if (Vista.CARGA_DATOS == vista) {
+            controller = fxmlLoader.<CargaDatosViewController>getController();               
+        } else if (Vista.DAR_ALTA_COMP == vista) {
+            controller = fxmlLoader.<DarAltaCompraViewController>getController();     
+        } else if (Vista.EXPORTAR_DATOS == vista) {
+            controller = fxmlLoader.<ExportarDatosViewController>getController();   
+        }
+
+        controller.setMercaDAWController(this);
+
         Scene scene = new Scene(root); 
-        
-        return scene;
+    
+        currentStage.setScene(scene);
+        currentStage.show();
+
+        return controller;   
+    }
+
+    /* Productos */
+    public void cargarProductos() {
+        try {
+            cargarVista(Vista.DAR_ALTA_PROD);
+        } catch (Exception e) {
+
+        }
+    }
+
+    /* Empleados */
+    public void cargarEmpleados() {
+        try {
+            cargarVista(Vista.DAR_ALTA_EMPLE);
+        } catch (Exception e) {
+
+        }
+    }
+
+    /* Compras */
+    public void cargarCompras() {
+        try {
+            cargarVista(Vista.DAR_ALTA_COMP);
+        } catch (Exception e) {
+
+        }
+    }
+
+    /* Sistemas */
+    public void cargarImportar() {
+        try {
+            cargarVista(Vista.CARGA_DATOS);
+        } catch (Exception e) {
+
+        }
+    }
+    public void cargarExportar() {
+        try {
+            cargarVista(Vista.EXPORTAR_DATOS);
+        } catch (Exception e) {
+
+        }
+    }
+
+    /* Main */
+    public void cargarApp() {
+        try {
+            cargarVista(Vista.MAIN);
+        } catch (Exception e) {
+
+        }
+    }
+
+    public void exportar(String ruta) throws Exception {
+        Util util = new Util();
+        util.exportar(ruta);
     }
 }

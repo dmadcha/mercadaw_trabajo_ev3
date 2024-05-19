@@ -1,0 +1,26 @@
+#button {
+    -fx-padding: 0.8em 1.75em;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+    -fx-border-color: #009660;
+    -fx-position: relative;
+    -fx-cursor: pointer;
+    -fx-font-weight: 300;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Segoe UI';
+    -fx-text-fill: #009660; 
+    -fx-z-index: 1;
+    -fx-font-weight: bold;
+}
+
+#button:hover {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-color: #009660;
+}
+
+#button:pressed {
+    -fx-filter: brightness(0.7);
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}

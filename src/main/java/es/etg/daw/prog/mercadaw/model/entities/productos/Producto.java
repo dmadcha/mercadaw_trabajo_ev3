@@ -8,6 +8,18 @@ import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_5;
 
 public abstract class Producto implements Producible {
+    public static final String ATT_ID = "id";
+    public static final String ATT_NOMBRE = "nombre";
+    public static final String ATT_MARCA = "marca";
+    public static final String ATT_CATEGORIA = "categoria";
+    public static final String ATT_ALTURA = "altura";
+    public static final String ATT_ANCHURA = "anchura";
+    public static final String ATT_PESO = "peso";
+    public static final String ATT_ELEMENTOS = "elementos";
+    public static final String ATT_DESCRIPCION = "descripcion";
+    public static final String ATT_STOCK = "stock";
+    public static final String ATT_PRECIO = "precio";
+    public static final String ATT_IVA = "iva";
 
     private static int numProductos = 0;
 
@@ -262,5 +274,37 @@ public abstract class Producto implements Producible {
         ivaCalculado = getPrecioFinalEuros() * getIva();
 
         return ivaCalculado;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this)
+            return true;
+
+        if (obj == null)
+            return false;
+
+        Producto otro = (Producto) obj;
+        if (!otro.id.equals(this.id))
+            return false;
+        if (!otro.nombre.equals(this.nombre))
+            return false;
+        if (!otro.marca.equals(this.marca))
+            return false;
+        if (otro.altura != this.altura)
+            return false;
+        if (otro.anchura != this.anchura)
+            return false;
+        if (otro.peso != this.peso)
+            return false;
+        if (otro.numElementos != this.numElementos)
+            return false;
+        if (otro.precio != this.precio)
+            return false;
+        if (otro.stock != this.stock)
+            return false;
+        if (!otro.descripcion.equals(this.descripcion))
+            return false;
+        return true;
     }
 }

@@ -5,6 +5,12 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Empleado implements Contratable {
+    public static final String ATT_ID_EMPLE = "id";
+    public static final String ATT_NOM_EMPLE = "nombre";
+    public static final String ATT_APELLIDO = "apellidos";
+    public static final String ATT_CATEGORIA = "categoria";
+    public static final String ATT_SUELDO = "sueldo";
+    public static final String ATT_FECHA = "fechaInicio";
 
     private static int numEmpleados;
 
@@ -164,7 +170,7 @@ public class Empleado implements Contratable {
         return salarioDiario;
     }
 
-    public int getAntiguedad(){
+    public int getAntiguedad() {
         LocalDate fechaInicial = fechaInicio.toLocalDate();
         LocalDate fechaActual = LocalDate.now();
         Period periodo = Period.between(fechaInicial, fechaActual);
@@ -172,4 +178,29 @@ public class Empleado implements Contratable {
         
         return anyos;
     }
+
+    public boolean equals(Object obj) {
+        if(obj == this)
+            return true;
+
+        if (obj ==null)
+            return false;
+
+        Empleado otro = (Empleado) obj;
+        if(!otro.id.equals(this.id))
+            return false;
+        if(!otro.nombre.equals(this.nombre))
+            return false;
+        if(!otro.apellidos.equals(this.apellidos))
+            return false;
+        if(!otro.toString().equals(this.toString()))
+            return false;
+        if(otro.sueldo != this.sueldo)
+            return false;
+        if(!otro.fechaInicio.equals(this.fechaInicio))
+            return false;
+            
+        return true;
+    }
+
 }
