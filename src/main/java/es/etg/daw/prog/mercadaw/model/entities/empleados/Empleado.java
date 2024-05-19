@@ -169,7 +169,7 @@ public class Empleado implements Contratable {
         LocalDate fechaActual = LocalDate.now();
         Period periodo = Period.between(fechaInicial, fechaActual);
         int anyos = periodo.getYears();
-
+        
         return anyos;
     }
 }
