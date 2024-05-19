@@ -13,7 +13,7 @@ public class Cliente {
     private int codPostal;
 
     /**
-     * Constructor que inicializa clientes.
+     * Constructor que inicializa clientes, generando el ID de estos automaticamente.
      * \param id
      * \param nombre
      * \param correo
