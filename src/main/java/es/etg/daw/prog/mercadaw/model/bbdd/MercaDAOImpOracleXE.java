@@ -216,15 +216,18 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         PreparedStatement ps = connection.prepareStatement(SQL);
 
         int numRegistrosActualizados = 0;
+
+        /**
+         * Esta variable se usa para poner la id de los productos de dentro de la lista
+         */
         int id = compra.getId();
 
+        ps.setDate(2, compra.getFecha());
+        ps.setInt(3, compra.getCliente().getId());
+
         for (int i = 0; i < compra.getProductos().size(); i ++) {
-           
 
             ps.setInt(1, id);
-            ps.setDate(2, compra.getFecha());
-            ps.setInt(3, compra.getCliente().getId());
-            
             ps.setInt(4, compra.getProductos().get(i).getId());
             
             numRegistrosActualizados += ps.executeUpdate();
@@ -239,9 +242,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Cliente client) throws SQLException{
-        int numRegistrosActualizados = 0;
+        
         final String SQL = "INSERT INTO Clientes VALUES (?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
+        int numRegistrosActualizados = 0;
 
         ps.setInt(1, client.getId());
         ps.setString(2, client.getNombre());
@@ -357,7 +361,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public List<Cliente> visualizarClientes() throws SQLException{
         final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Vista_Clientes";
 
-
         List<Cliente> clientes = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
         ResultSet rs = ps.executeQuery();
@@ -382,9 +385,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException{
         final String QUERY = "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+", "+EMPLE_FECH+" FROM Vista_Empleados";
-        
-        
-
 
         List<Empleado> empleados = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
