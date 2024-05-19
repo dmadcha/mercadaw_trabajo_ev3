@@ -1,6 +1,10 @@
 package es.etg.daw.prog.mercadaw.model.util.input;
 
-
+/**
+ * La clase abstracta FicheroImp utiliza Fichero, pero no las implementa, si no que permite la herencia
+ * para que cada clase los pueda implementar como deba.
+ * \author Iván Rafael Redondo.
+ */
 public abstract class FicheroImp implements Fichero{
 
     @Override

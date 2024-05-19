@@ -8,6 +8,11 @@ import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
+/**
+ * La clase abstracta LectorImp utiliza Lector, pero sin implementarla, esta clase sirve para poder
+ * tener hijas para que cad auan las implemente como deba.
+ * \author Iván Rafael Redondo.
+ */
 public abstract class LectorImp implements Lector{
 
     @Override

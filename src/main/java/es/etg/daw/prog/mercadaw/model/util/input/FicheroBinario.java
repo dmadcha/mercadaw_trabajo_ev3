@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+/**
+ * Clase FicheroBinario que utiliza la interfaz FicheroImp para sobreescribir los métodos para leer y escribir en binario.
+ * \author Iván Rafael Redondo.
+ */
 public class FicheroBinario extends FicheroImp {
 
     @Override

@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * La clase Util sirve para exportar un documento usando pandoc y getUser() y getGrupo().
+ * \author Iván Rafael Redondo.
+ */
 public class Util implements ExportableUtil {
 
     @Override
@@ -36,7 +40,7 @@ public class Util implements ExportableUtil {
         
     }
 
-    // Método para obtener el ID del usuario actual
+    // Método para obtener el ID del grupo actual
     @Override
     public String getGrupo() throws Exception{
         
