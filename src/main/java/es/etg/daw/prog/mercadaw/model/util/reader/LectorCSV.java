@@ -1,5 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.util.reader;
 
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -10,23 +11,15 @@ import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
-import es.etg.daw.prog.mercadaw.model.exception.LectorException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
-public class LectorCSV {
+public class LectorCSV extends LectorImp {
 
-    private void comprobar(String cadena) throws MercaDAWException {
-
-        if (cadena == null || cadena.trim().length() == 0)
-            throw new LectorException();
-
-    }
-
+    @Override
     public List<Producto> leerProducto(String codigo) throws MercaDAWException {
         boolean primeraFila = true;
         List<Producto> productos = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -42,11 +35,12 @@ public class LectorCSV {
         return productos;
     }
 
+    @Override
     public List<Empleado> leerEmpleado(String codigo) throws MercaDAWException {
         boolean primeraFila = true;
         List<Empleado> empleados = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
+        
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -62,11 +56,11 @@ public class LectorCSV {
         return empleados;
     }
 
+    @Override
     public List<Cliente> leerCliente(String codigo) throws MercaDAWException {
         boolean primeraFila = true;
         List<Cliente> clientes = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -82,11 +76,11 @@ public class LectorCSV {
         return clientes;
     }
 
-    public List<Compra> leer(String codigo) throws MercaDAWException {
+    @Override
+    public List<Compra> leerCompra(String codigo) throws MercaDAWException {
         boolean primeraFila = true;
         List<Compra> compras = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -94,15 +88,22 @@ public class LectorCSV {
             String fila = st.nextToken();
 
             if (!primeraFila && !"".equals(fila))
-                // compras.add(procesarCompra(fila));
+                //compras.add(procesarCompra(fila));
 
-                primeraFila = false;
+            primeraFila = false;
         }
 
         return compras;
     }
 
-    private Producto procesarProducto(String fila) throws MercaDAWException {
+    public void comprobar(String cadena) throws MercaDAWException {
+
+        if (cadena == null || cadena.trim().length() == 0)
+            throw new MercaDAWException();
+
+    }
+
+    public Producto procesarProducto(String fila) throws MercaDAWException {
 
         String tipo;
         int id;
@@ -115,7 +116,6 @@ public class LectorCSV {
         String descripcion;
         int stock;
         double precio;
-        double iva;
 
         StringTokenizer st = new StringTokenizer(fila, ",");
 
@@ -130,7 +130,6 @@ public class LectorCSV {
         descripcion = st.nextToken();
         stock = Integer.parseInt(st.nextToken());
         precio = Double.parseDouble(st.nextToken());
-        iva = Double.parseDouble(st.nextToken());
 
         return ProductoFactory.obtener(tipo, id, nombre, marca, altura, anchura, peso, numElementos, stock, precio,
                 descripcion);
@@ -139,9 +138,10 @@ public class LectorCSV {
 
     private Empleado procesarEmpleado(String fila) throws MercaDAWException {
         String tipo;
-        int id;
+        Integer id;
         String nombre;
         String apellidos;
+        Date fechaInicio;
 
         StringTokenizer st = new StringTokenizer(fila, ",");
 
@@ -149,8 +149,9 @@ public class LectorCSV {
         id = Integer.parseInt(st.nextToken());
         nombre = st.nextToken();
         apellidos = st.nextToken();
+        fechaInicio = Date.valueOf(st.nextToken());
 
-        return EmpleadoFactory.obtener(tipo, id, nombre, apellidos);
+        return EmpleadoFactory.obtener(tipo, id, nombre, apellidos, fechaInicio);
 
     }
 
@@ -172,21 +173,21 @@ public class LectorCSV {
 
     }
 
-    /*
-     * private Compra procesarCompra(String fila) throws MercaDAWException {
-     * int id;
-     * Date fecha;
-     * Cliente cliente;
-     * List<Producto> productos;
-     * 
-     * StringTokenizer st = new StringTokenizer(fila, ",");
-     * 
-     * id = Integer.parseInt(st.nextToken());
-     * fecha =
-     * cliente = st.nextToken();
-     * productos = st.nextToken();
-     * 
-     * return new Compra(id, fecha, cliente, productos);
-     * }
-     */
+   /*  private Compra procesarCompra(String fila) throws MercaDAWException {
+        int id;
+        Date fecha;
+        Cliente cliente;
+        List<Producto> productos;
+
+        StringTokenizer st = new StringTokenizer(fila, ",");
+
+        id = Integer.parseInt(st.nextToken());
+        fecha = Date.valueOf(st.nextToken());
+      
+
+
+
+        return new Compra(id, fecha, cliente, productos);
+    }
+*/
 }
