@@ -5,7 +5,7 @@ package es.etg.daw.prog.mercadaw.model.util.export{
 
 
     class Util{
-
+        +  public void exportar(String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt)
     }
 
     interface ExportableUtil{
@@ -15,20 +15,12 @@ package es.etg.daw.prog.mercadaw.model.util.export{
         + getGrupo(): String
     }
 
-    interface Documento{
-        + getContenido:Map<String, Object[]>
-        + getTitulo():String
-        + getPie():String
-    }
-}
 
-package es.etg.daw.prog.mercadaw.model.entity{
-    class MercaDAW
 }
 
 
 ExportableUtil <|.. Util
-Documento <|.. MercaDAW
+
 
 @enduml
 
