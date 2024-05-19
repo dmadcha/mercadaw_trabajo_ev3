@@ -21,7 +21,6 @@ public class CargaDatosViewController extends ViewController {
     public static final String DESC_SQL = "SQL";
     public static final String DESC_JSON = "JSON";
 
-
     private Stage stage;
     private MercaDAWController controller = new MercaDAWController();
 

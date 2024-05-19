@@ -158,7 +158,7 @@
          <children>
             <TableView id="table-view" fx:id="tabEmpleados" prefHeight="117.0" prefWidth="505.0" stylesheets="@../css/table.css">
               <columns>
-                <TableColumn id="table-cell" fx:id="colCodigo" prefWidth="75.0" styleClass="table.css" text="Codigo" />
+                <TableColumn id="table-cell" fx:id="colCodigo" prefWidth="75.0" text="Codigo" />
                 <TableColumn id="table-cell" fx:id="colNombre" prefWidth="75.0" text="Nombre" />
                   <TableColumn id="table-cell" fx:id="colApellidos" prefWidth="92.0" text="Apellidos" />
                   <TableColumn id="table-cell" fx:id="colCategoria" prefWidth="106.0" text="Categoria" />

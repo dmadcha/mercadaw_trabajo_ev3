@@ -1,6 +1,11 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 public class Empleado implements Contratable {
+    public static final String ATT_ID_EMPLE = "id";
+    public static final String ATT_NOM_EMPLE = "nombre";
+    public static final String ATT_APELLIDO = "apellidos";
+    public static final String ATT_CATEGORIA = "categoria";
+    public static final String ATT_SUELDO = "sueldo";
 
     private static int numEmpleados;
 
@@ -71,6 +76,27 @@ public class Empleado implements Contratable {
     @Override
     public String toString() {
         return TipoEmpleado.EMPLEADO.toString();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == this)
+            return true;
+
+        if (obj ==null)
+            return false;
+
+        Empleado otro = (Empleado) obj;
+        if(otro.id != this.id)
+            return false;
+        if(!otro.nombre.equals(this.nombre))
+            return false;
+        if(!otro.apellidos.equals(this.apellidos))
+            return false;
+        if(otro.sueldo != this.sueldo)
+            return false;
+            
+        return true;
     }
 
 }

@@ -7,7 +7,6 @@ import es.etg.daw.prog.mercadaw.view.MainViewController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import es.etg.daw.prog.mercadaw.view.Vista;
 import es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController;
-import es.etg.daw.prog.mercadaw.view.compra.ListarCompraViewController;
 import es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController;
 import es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController;
 import es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController;
