@@ -4,6 +4,10 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.time.Period;
 
+/**
+ * La clase Empleado representa un empleado de MercaDAW.
+ * \author Diego Madroñero Chamorro.
+ */
 public class Empleado implements Contratable {
     public static final String ATT_ID_EMPLE = "id";
     public static final String ATT_NOM_EMPLE = "nombre";
@@ -20,6 +24,13 @@ public class Empleado implements Contratable {
     private double sueldo;
     private Date fechaInicio;
 
+    /**
+     * Constructor que inicializa empleados, generando el ID de estas automaticamente.
+     * \param Id del empleado
+     * \param Nombre del empleado
+     * \param Apellidos del empleado
+     * \param Fecha de contratación del empleado
+     */
     public Empleado(Integer id, String nombre, String apellidos, Date fechaInicio) {
 
         if (id == null) {
@@ -105,6 +116,10 @@ public class Empleado implements Contratable {
         return bruto;
     }
 
+    /**
+     * Calcula y devuelve las pagas extra de un empleado.
+     * \return Un double con la prorrata de pagas extra.
+     */
     public double getPPE(){
         final int NUM_PAGAS = 2;
         final int NUM_MESES = 12;
@@ -115,7 +130,10 @@ public class Empleado implements Contratable {
 
         return ppe;
     }
-
+    /**
+     * Calcula y devuelve las deducciones de la nomina de un empleado.
+     * \return Un double con las deducciones.
+     */
     public double getDeducciones(){
         final double TOTAL_DEDUC = 0.2047;
 
@@ -146,6 +164,11 @@ public class Empleado implements Contratable {
         return indemnizacion;
     }
 
+    /**
+     * Devuelve los dias de indemnizacion legal que corresponden segun el tipo de despido.
+     * \param tipo: Tipo del despido, ya sea procedente o improcedente.
+     * \return Un double con los dias dias de indemnizacion legal.
+     */
     public double getIndemnizacionLegal(TipoDespido tipo) {
         final int DIAS_INDEM_IMPRO = 33;
         final int DIAS_INDEM_PROC = 0;
@@ -160,6 +183,10 @@ public class Empleado implements Contratable {
         return indemLegal;
     }
 
+    /**
+     * Calcula y devuelve el salario diario de un empleado.
+     * \return Un double con el salario deiario.
+     */
     public double getSalarioDiario(){
         final int NUM_DIAS = 30;
 
@@ -170,7 +197,11 @@ public class Empleado implements Contratable {
         return salarioDiario;
     }
 
-    public int getAntiguedad() {
+    /**
+     * Calcula y devuelve la antigüedad de un empleado.
+     * \return Un int con la antigüedad del empleado.
+     */
+    public int getAntiguedad(){
         LocalDate fechaInicial = fechaInicio.toLocalDate();
         LocalDate fechaActual = LocalDate.now();
         Period periodo = Period.between(fechaInicial, fechaActual);

@@ -4,7 +4,7 @@ set separator none
 package es.etg.daw.prog.mercadaw.model.util.input{
 
     enum Formato{
-        BINARIO, MOCKs
+        BINARIO, MOCK
     }
 
     class FicheroFactory{
@@ -24,7 +24,8 @@ package es.etg.daw.prog.mercadaw.model.util.input{
     }
 
     interface Fichero{
-        + leer(): byte[]
+        + escribir(fichero: String, texto :String) : void 
+        + leer(fichero: String): byte[]
 
     }
 }

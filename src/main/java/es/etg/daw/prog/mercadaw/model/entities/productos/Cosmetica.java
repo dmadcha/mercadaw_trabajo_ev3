@@ -1,6 +1,24 @@
 package es.etg.daw.prog.mercadaw.model.entities.productos;
 
+/**
+ * La clase Cosmetica representa un producto de cosmética de MercaDAW.
+ * \author Diego Madroñero Chamorro.
+ */
 public class Cosmetica extends Producto{
+
+    /**
+     * Constructor que inicializa productos de cosmética, generando el ID de estos automaticamente.
+     * \param ID del producto
+     * \param Nombre del producto
+     * \param Marca del producto
+     * \param Altura del producto
+     * \param Anchura del producto
+     * \param Peso del producto
+     * \param Numero de elementos del producto
+     * \param Stock del producto
+     * \param Precio del producto
+     * \param Descripcion del producto
+     */
     public Cosmetica(Integer id, String nombre, String marca, double altura, double anchura, double peso,
             int numElementos, int stock, double precio, String descripcion) {
         super(id, nombre, marca, altura, anchura, peso, numElementos, stock, precio, descripcion);
