@@ -142,7 +142,7 @@ public class MercaDAOImpOracleXETest {
     }
 
     @Test
-    public void visualizarProducto() throws Exception{
+    public void visualizarProductoTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "Aceite de Oliva Virgen Extra", "OlivaDorada", 25, 8, 1, 1, 150, 10.99, "Aceite de oliva virgen extra de la mejor calidad, prensado en frío y sin aditivos. Perfecto para ensaladas, cocinar y dar sabor a tus platos favoritos.");
         Producto pr2 = bbdd.visualizarProducto(0);
@@ -154,7 +154,34 @@ public class MercaDAOImpOracleXETest {
 
         assertTrue(sonIguales);
     }
+    
+    @Test
+    public void visualizarProductosTest() throws Exception{
+        
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        List<Producto> productosEsperado = new ArrayList<>();
+        List<Producto> productos = bbdd.visualizarProductos();
 
+        Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "ACEITE", "OLIVA", 2, 8, 1, 1, 1, 10.99, "Aceite de oliva");
+        Producto pr2 = ProductoFactory.obtener("Cosmetica", 1, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
+        Producto pr3 = ProductoFactory.obtener("Drogueria", 2, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
+        
+
+        boolean sonIguales = false;
+
+        productosEsperado.add(pr1);
+        productosEsperado.add(pr2);
+        productosEsperado.add(pr3);
+
+        
+
+
+        if (productosEsperado.get(0).getId() == productos.get(0).getId()) {
+            sonIguales = true;
+        }
+
+        assertTrue(sonIguales);
+    }
 
 
     @Test
