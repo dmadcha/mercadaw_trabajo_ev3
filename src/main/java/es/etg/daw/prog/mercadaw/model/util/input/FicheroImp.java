@@ -1,6 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.util.input;
 
-import java.io.File;
 
 public abstract class FicheroImp implements Fichero{
 
