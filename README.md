@@ -6,3 +6,10 @@ Trabajo de programación de la tercera evaluación de Erik Herrera, Iván Rafael
 ## Información Diseño
 
 En el Diagrama de Despliegue, el device Docker está fuera de la máquina usuario porque es un servidor al que se pueden conectar más usuarios a la misma BBDD.
+
+
+# IMPORTANTE
+
+Iniciar la base de datos usando 
+
+`docker compose up`
