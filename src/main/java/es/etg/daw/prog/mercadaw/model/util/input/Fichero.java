@@ -1,6 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.util.input;
 
-import java.io.File;
 
 /**
  * Esta interface nos permite escribir y leer un fichero de forma binaria.
