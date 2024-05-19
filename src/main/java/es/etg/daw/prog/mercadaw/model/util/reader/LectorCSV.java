@@ -40,7 +40,6 @@ public class LectorCSV extends LectorImp {
         boolean primeraFila = true;
         List<Empleado> empleados = new ArrayList<>();
 
-        
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -88,9 +87,9 @@ public class LectorCSV extends LectorImp {
             String fila = st.nextToken();
 
             if (!primeraFila && !"".equals(fila))
-                //compras.add(procesarCompra(fila));
+                // compras.add(procesarCompra(fila));
 
-            primeraFila = false;
+                primeraFila = false;
         }
 
         return compras;
@@ -172,22 +171,4 @@ public class LectorCSV extends LectorImp {
         return new Cliente(id, nombre, correo, codPostal);
 
     }
-
-   /*  private Compra procesarCompra(String fila) throws MercaDAWException {
-        int id;
-        Date fecha;
-        Cliente cliente;
-        List<Producto> productos;
-
-        StringTokenizer st = new StringTokenizer(fila, ",");
-
-        id = Integer.parseInt(st.nextToken());
-        fecha = Date.valueOf(st.nextToken());
-      
-
-
-
-        return new Compra(id, fecha, cliente, productos);
-    }
-*/
 }

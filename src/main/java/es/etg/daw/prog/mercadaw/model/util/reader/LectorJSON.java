@@ -176,22 +176,7 @@ public class LectorJSON extends LectorImp {
 
     }
 
-    /* 
-    private Compra procesarCompra(String fila) throws MercaDAWException {
-        int id;
-        Date fecha;
-        Cliente cliente;
-        List<Producto> productos;
 
-        StringTokenizer st = new StringTokenizer(fila, ",");
-
-        id = procesarInt(st.nextToken());
-        fecha = cliente = procesarValor(st.nextToken());
-        productos = procesarValor(st.nextToken());
-
-        return new Compra(id, fecha, cliente, productos);
-    }
-*/
     private String procesarString(String pareja) {
         String valor = null;
 
