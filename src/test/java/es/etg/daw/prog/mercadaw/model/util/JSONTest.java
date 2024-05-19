@@ -9,41 +9,63 @@ import es.etg.daw.prog.mercadaw.model.util.reader.LectorJSON;
 
 public class JSONTest {
 
+    @Test
+    public void cargarProducto() throws MercaDAWException {
+        final String cadena = "[\n" +
+                "    {\n" +
+                "      \"Tipo\": \"Cosmetica\",\n" +
+                "      \"Id\": \"1\",\n" +
+                "      \"Nombre\": \"Producto1\",\n" +
+                "      \"Marca\": \"Marca1\",\n" +
+                "      \"Altura\": \"1.1\",\n" +
+                "      \"Anchura\": \"1.2\",\n" +
+                "      \"Peso\": \"1.3\",\n" +
+                "      \"NumElementos\": \"3\",\n" +
+                "      \"Descripcion\": \"Descripcion1\",\n" +
+                "      \"Stock\": \"10\",\n" +
+                "      \"Precio\": \"100.0\"\n" +
+                "    }\n" +
+                "  ]";
 
-     @Test
-    public void cargarProducto() {
-        final String cadena = "Cosmetica,1,Producto1,Marca1,10.0,5.0,1.0,3,Descripción1,10,100.0\n" + //
-                "";
         Lector lector = new LectorJSON();
 
-        Assertions.assertDoesNotThrow(() -> {
-            lector.leerProducto(cadena);
-        });
+        lector.leerProducto(cadena);
+
     }
 
-     @Test
-    public void cargarEmpleado() {
+    @Test
+    public void cargarEmpleado() throws MercaDAWException {
 
-        final String cadena = "1,Juan,Luis,1000,19/02/2019\n" + //
-                "";
-
+        final String cadena = "[\n" + 
+                "    {\n" + 
+                "       \"Tipo\":\"Cajero\",\n" + 
+                "       \"Id\":\"1\",\n" + 
+                "       \"Nombre\":\"Paco\",\n" + 
+                "       \"Apellidos\":\"Taco\",\n" + 
+                "       \"FechaInicio\":\"2023-09-05\",\n" + 
+                "    }\n" + 
+                "   ]";
         Lector lector = new LectorJSON();
 
-        Assertions.assertDoesNotThrow(() -> {
-            lector.leerEmpleado(cadena);
-        });
+        lector.leerEmpleado(cadena);
+
     }
 
-       @Test
-    public void cargarCliente() {
-        final String cadena = "7,Juan,unodos@gmail.com,1234" + //
-                "";
+    @Test
+    public void cargarCliente() throws MercaDAWException {
+        final String cadena = "[\n" +
+                "    {\n" +
+                "      \"Id\": \"1\",\n" +
+                "      \"Nombre\": \"Alex\",\n" +
+                "      \"Correo\": \"alex@gmail.com\",\n" +
+                "      \"CodigoPostal\": \"12345\",\n" +
+                "    }\n" +
+                "  ]";
 
         Lector lector = new LectorJSON();
 
-        Assertions.assertDoesNotThrow(() -> {
-            lector.leerCliente(cadena);
-        });
+        lector.leerCliente(cadena);
+
     }
 
     @Test
@@ -57,7 +79,7 @@ public class JSONTest {
 
     }
 
-     @Test
+    @Test
     public void cargarVacioTestEmpleado() {
         String cadena = "";
         Lector lector = new LectorJSON();
@@ -68,7 +90,7 @@ public class JSONTest {
 
     }
 
-     @Test
+    @Test
     public void cargarVacioTestCliente() {
         String cadena = "";
         Lector lector = new LectorJSON();

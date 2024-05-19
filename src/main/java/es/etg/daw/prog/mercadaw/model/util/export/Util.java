@@ -7,38 +7,40 @@ import java.io.InputStreamReader;
 public class Util implements ExportableUtil {
 
     @Override
-    public void exportar(String ruta) throws Exception {
-        String archivoSalida = "EXPORT.%s";
-        String extension = ".pdf";
-
+    public void exportar(String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt) throws Exception{
+        
         String[] command = {
-                "sudo", "docker", "run", "--rm",
-                "--volume", ruta + ":/data",
-                "--user", getUser() + ":" + getGrupo(),
-                "pandoc/extra", "README.md", "-o", archivoSalida.format(archivoSalida, extension)
+            "sudo", "docker", "run", "--rm",
+            "--volume", rutaArcEnt + ":/data",
+            "--user", getUser() + ":" + getGrupo(),
+            "pandoc/extra", nombreArcEnt, "-o", nombreArcSal.format(nombreArcSal, extension)
         };
 
         try {
-            Process process = Runtime.getRuntime().exec(command);
-
+            Runtime.getRuntime().exec(command);
+                
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace();   
         }
     }
 
+    // Método para obtener el ID del usuario actual
     @Override
-    public String getUser() throws Exception {
-        String[] command = { "id", "-u" };
+    public String getUser() throws Exception{
+
+        String[] command = {"id", "-u"};
         Process process = Runtime.getRuntime().exec(command);
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 
         return reader.readLine();
+        
     }
 
+    // Método para obtener el ID del usuario actual
     @Override
-    public String getGrupo() throws Exception {
-
-        String[] command = { "id", "-g" };
+    public String getGrupo() throws Exception{
+        
+        String[] command = {"id", "-g"};
         Process process = Runtime.getRuntime().exec(command);
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 
