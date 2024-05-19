@@ -16,6 +16,7 @@ package model{
             }
 
             abstract class Producto {
+                - id: int
                 - nombre: String
                 - marca: String
                 - precio: double
@@ -24,10 +25,8 @@ package model{
                 - anchura: double
                 - peso: double
                 - numElementos: int
+                - stock: int
                 - descripcion: String
-
-                + Producto(builder: ProductoBuilder)
-                + {static} builder(): ProductoBuilder
             }
 
             class Alimentacion {
@@ -42,31 +41,6 @@ package model{
                 - iva: double
             }
 
-            class ProductoBuilder {
-                - nombre: String
-                - marca: String
-                - precio: double
-                - iva: double
-                - altura: double
-                - anchura: double
-                - peso: double
-                - numElementos: int
-                - descripcion: String
-
-                + setNombre(nom: String): ProductoBuilder
-                + setMarca(marca: String): ProductoBuilder
-                + setCategoria(cat: int): ProductoBuilder
-                + setPrecio(precio: double): ProductoBuilder
-                + setIva(iva: int): ProductoBuilder
-                + setAltura(alt: double): ProductoBuilder
-                + setAnchura(anch: double): ProductoBuilder
-                + setPeso(peso: double): ProductoBuilder
-                + setNumElementos(numElem: int): ProductoBuilder
-                + setDescripcion(desc: String): ProductoBuilder
-                ProductoBuilder()
-                + build(): Producto
-            }
-
             Producible <|.. Producto
             Producto <|-- Alimentacion
             Producto <|-- Drogueria
@@ -76,55 +50,41 @@ package model{
 
         package empleados {
             interface Contratable {
-                + calcularNomina();
+                + {static} SUELDO_EMPLE: double = 1000
+                + {static} SUELDO_REPON: double = 1200
+                + {static} SUELDO_CAJER: double = 1300
+                + {static} SUELDO_ENCAR: double = 1500
+                + calcularSalarioNeto();
+                + calcularSalarioBruto();
+                + calcularAportaciones();
+                + calcularIndemnizacion();
             }
 
             class EmpleadoFactory{
                 {static} crear(E):Contratable
             }
 
-            class EmpleadoBuilder {
-                - id: int
-                - nombre: String
-                - apellidos: String
-                - categoria: CategoriaEmpleado
-                - sueldo: double
-                + setId(id: int): int
-                + setNombre(nom: String): String
-                + setApellidos(ape: String): String
-                + setCategoria(cat: CategoriaEmpleado): CategoriaEmpleado
-                + setSueldo(sueldo: double): double
-                EmpleadoBuilder()
-                + build(): Empleado
+            enum TipoEmpleado{
+                EMPLEADO, REPONEDOR, CAJERO, ENCARGADO
             }
 
             class Empleado {
-                + SUELDO: double = 1000
-
                 - id: int
                 - nombre: String
                 - apellidos: String
-                - categoria: CategoriaEmpleado
                 - sueldo: double
-                + Empleado(builder: EmpleadoBuilder)
-                + {static} builder(): EmpleadoBuilder
+                - fechaInicio: Date
             }
 
             class Reponedor {
-                + SUELDO: double = 1200
-
                 - sueldo: double
             }
 
             class Cajero {
-                + SUELDO: double = 1300
-
                 - sueldo: double
             }
 
             class Encargado {
-                + SUELDO: double = 1500
-
                 - sueldo: double
             }
 
@@ -136,13 +96,17 @@ package model{
 
         package clientes {
             class Cliente {
+                - id: int
                 - nombre: String 
                 - correo: String 
                 - codPostal: String
             }
 
             class Compra {
+                - id: int
                 - fecha: Date
+                - cliente: Cliente
+                - productos: List<Producto>
             }
         }
     }
