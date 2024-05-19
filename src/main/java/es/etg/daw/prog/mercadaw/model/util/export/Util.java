@@ -9,7 +9,7 @@ public class Util implements ExportableUtil {
     @Override
     public void exportar(String ruta) throws Exception {
         String archivoSalida = "EXPORT.%s";
-        String extension = "pdf";
+        String extension = ".pdf";
 
         String[] command = {
                 "sudo", "docker", "run", "--rm",
