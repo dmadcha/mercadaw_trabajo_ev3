@@ -11,7 +11,6 @@ import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
-import es.etg.daw.prog.mercadaw.model.exception.LectorException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 public class LectorCSV extends LectorImp {
@@ -21,7 +20,6 @@ public class LectorCSV extends LectorImp {
         boolean primeraFila = true;
         List<Producto> productos = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -42,7 +40,7 @@ public class LectorCSV extends LectorImp {
         boolean primeraFila = true;
         List<Empleado> empleados = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
+        
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -63,7 +61,6 @@ public class LectorCSV extends LectorImp {
         boolean primeraFila = true;
         List<Cliente> clientes = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -84,7 +81,6 @@ public class LectorCSV extends LectorImp {
         boolean primeraFila = true;
         List<Compra> compras = new ArrayList<>();
 
-        // Comprobamos que la cadena tiene contenido, si no devuelve una excepción.
         comprobar(codigo);
 
         StringTokenizer st = new StringTokenizer(codigo, "\n");
@@ -100,14 +96,14 @@ public class LectorCSV extends LectorImp {
         return compras;
     }
 
-    private void comprobar(String cadena) throws MercaDAWException {
+    public void comprobar(String cadena) throws MercaDAWException {
 
         if (cadena == null || cadena.trim().length() == 0)
-            throw new LectorException();
+            throw new MercaDAWException();
 
     }
 
-    private Producto procesarProducto(String fila) throws MercaDAWException {
+    public Producto procesarProducto(String fila) throws MercaDAWException {
 
         String tipo;
         int id;
