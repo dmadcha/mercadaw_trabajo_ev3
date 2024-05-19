@@ -56,12 +56,12 @@ public class ExportarDatosViewController extends ViewController {
         controller.cargarExportar();
     }
 
-    @FXML
+    /*@FXML
     void exportar(MouseEvent event) throws Exception {
         String ruta = txfRuta.getText();
         MercaDAWController controller = new MercaDAWController();
         controller.exportar(ruta);
-    }
+    }*/
 
     @FXML
     void salir(MouseEvent event) {

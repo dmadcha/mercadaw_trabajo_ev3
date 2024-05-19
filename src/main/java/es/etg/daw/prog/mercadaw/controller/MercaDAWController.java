@@ -130,11 +130,6 @@ public class MercaDAWController extends Application{
         }
     }
 
-    public void exportar(String ruta) throws Exception {
-        Util util = new Util();
-        util.exportar(ruta);
-    }
-
     public void importar(String ruta) {
         Fichero fichero = FicheroFactory.obtener(Formato.BINARIO);
         fichero.leer(ruta);
