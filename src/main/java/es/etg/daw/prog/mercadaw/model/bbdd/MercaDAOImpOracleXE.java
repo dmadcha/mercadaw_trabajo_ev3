@@ -261,26 +261,30 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         final String QUERY = "SELECT "+PROD_ID+", "+PROD_NOMB+", "+PROD_MARC+", "+PROD_DESC+", "+PROD_CATE+", "
                                 +PROD_ALTU+", "+PROD_PREC+", "+PROD_ANCH+", "+PROD_PESO+", "+PROD_ELEM+", "+PROD_STOK+
-                                " FROM Vista_Productos WHERE "+PROD_ID+"= '"+id+"'";
+                                " FROM Vista_Productos WHERE "+PROD_ID+"= ?";
 
-
+        Producto producto = null;
 
         PreparedStatement ps = connection.prepareStatement(QUERY);
+        ps.setInt(1, id);
         ResultSet rs = ps.executeQuery();
+        while(rs.next()){
 
-        String nombre = rs.getString(PROD_NOMB);
-        String marca = rs.getString(PROD_MARC);
-        String descr = rs.getString(PROD_DESC);
-        String cate = rs.getString(PROD_CATE);
-        double altu = rs.getDouble(PROD_ALTU);
-        double anchu = rs.getDouble(PROD_ANCH);
-        double peso = rs.getDouble(PROD_PESO);
-        int num_elementos = rs.getInt(PROD_ELEM);
-        double precio = rs.getDouble(PROD_PREC);
-        int stock = rs.getInt(PROD_STOK);
+            String nombre = rs.getString(PROD_NOMB);
+            String marca = rs.getString(PROD_MARC);
+            String descr = rs.getString(PROD_DESC);
+            String cate = rs.getString(PROD_CATE);
+            double altu = rs.getDouble(PROD_ALTU);
+            double anchu = rs.getDouble(PROD_ANCH);
+            double peso = rs.getDouble(PROD_PESO);
+            double precio = rs.getDouble(PROD_PREC);
+            int num_elementos = rs.getInt(PROD_ELEM);
+            int stock = rs.getInt(PROD_STOK);
 
+            
+            producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
+        }
 
-        Producto producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
         rs.close();
         ps.close();
 
@@ -328,7 +332,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Vista_Clientes WHERE "+CLIEN_ID+" = ?";
 
 
-        List<Cliente> clientes = new ArrayList<>();
         PreparedStatement ps = connection.prepareStatement(QUERY);
         ps.setInt(1, id);
         ResultSet rs = ps.executeQuery();
@@ -342,7 +345,6 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
             String correo = rs.getString(CLIEN_CORR);
 
             cliente = new Cliente(id, nombre, correo, codPostal); 
-            clientes.add(cliente);
         }
 
         rs.close();

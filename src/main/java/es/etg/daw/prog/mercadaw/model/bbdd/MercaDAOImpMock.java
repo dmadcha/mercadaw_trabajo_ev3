@@ -87,9 +87,9 @@ public class MercaDAOImpMock implements MercaDAO{
 
     @Override
     public List<Empleado> visualizarEmpleados() throws MercaDAWException {
-        Empleado emp1 = new Empleado(null, "PRUEBA", "APELLIDOS");
-        Empleado emp2 = new Empleado(null, "PRUEBA", "APELLIDOS");
-        Empleado emp3 = new Empleado(null, "PRUEBA", "APELLIDOS");
+        Empleado emp1 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
+        Empleado emp2 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
+        Empleado emp3 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
         
         List<Empleado> empleados = new ArrayList<>();
         

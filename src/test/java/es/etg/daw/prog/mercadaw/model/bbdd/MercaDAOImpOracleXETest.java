@@ -35,9 +35,9 @@ public class MercaDAOImpOracleXETest {
     public void insertarProductoTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
 
-        Producto pr1 = ProductoFactory.obtener("Alimentacion", null, "ACEITE", "OLIVA", 2, 8, 1, 1, 1, 10.99, "Aceite de oliva");
-        Producto pr2 = ProductoFactory.obtener("Cosmetica", null, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
-        Producto pr3 = ProductoFactory.obtener("Drogueria", null, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
+        Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "ACEITE", "OLIVA", 2, 8, 1, 1, 1, 10.99, "Aceite de oliva");
+        Producto pr2 = ProductoFactory.obtener("Cosmetica", 1, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
+        Producto pr3 = ProductoFactory.obtener("Drogueria", 2, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
 
         bbdd.insertar(pr1);
         bbdd.insertar(pr2);
@@ -51,8 +51,8 @@ public class MercaDAOImpOracleXETest {
     public void insertarClienteTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
 
-        Cliente cl1 = new Cliente(null, "María López", "maria@example.com", 28001);
-        Cliente cl2 = new Cliente(null, "Juan Martínez", "juan@example.com", 25842);
+        Cliente cl1 = new Cliente(0, "María López", "maria@example.com", 28001);
+        Cliente cl2 = new Cliente(1, "Juan Martínez", "juan@example.com", 25842);
         
         bbdd.insertar(cl1);
         bbdd.insertar(cl2);
@@ -63,7 +63,7 @@ public class MercaDAOImpOracleXETest {
     public void insertarCompraTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
 
-        Cliente cliente = new Cliente(0, "Paco", "@pack", 28001);
+        Cliente cl1 = new Cliente(0, "María López", "maria@example.com", 28001);
 
         Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "Aceite de Oliva Virgen Extra", "OlivaDorada", 25, 8, 1, 1, 150, 10.99, "Aceite de oliva virgen extra de la mejor calidad, prensado en frío y sin aditivos. Perfecto para ensaladas, cocinar y dar sabor a tus platos favoritos.");
         Producto pr2 = ProductoFactory.obtener("Cosmetica", 1, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
@@ -77,7 +77,7 @@ public class MercaDAOImpOracleXETest {
 
         Date fecha = new Date(1003);
 
-        Compra compra = new Compra(null, fecha, cliente, productos);
+        Compra compra = new Compra(null, fecha, cl1, productos);
         bbdd.insertar(compra);
     }
 
@@ -135,6 +135,20 @@ public class MercaDAOImpOracleXETest {
 
 
         if (empleadosEsperados.get(0).getId() == empleados.get(0).getId()) {
+            sonIguales = true;
+        }
+
+        assertTrue(sonIguales);
+    }
+
+    @Test
+    public void visualizarProducto() throws Exception{
+        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        Producto pr1 = ProductoFactory.obtener("Alimentacion", 0, "Aceite de Oliva Virgen Extra", "OlivaDorada", 25, 8, 1, 1, 150, 10.99, "Aceite de oliva virgen extra de la mejor calidad, prensado en frío y sin aditivos. Perfecto para ensaladas, cocinar y dar sabor a tus platos favoritos.");
+        Producto pr2 = bbdd.visualizarProducto(0);
+        boolean sonIguales = false;
+
+        if (pr2.getId() == pr1.getId()) {
             sonIguales = true;
         }
 
