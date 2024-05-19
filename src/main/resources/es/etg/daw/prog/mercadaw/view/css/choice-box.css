@@ -1,0 +1,6 @@
+#box {
+    -fx-background-color: linear-gradient(to bottom, #60daad, #00af83);
+    -fx-font-size: 14px;
+    -fx-font-family: 'Segoe UI';
+    -fx-text-background-color: white;
+}

@@ -1,0 +1,12 @@
+#box {
+    -fx-background-color: #009660;
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-padding: 6px;
+}
+
+#box:hover {
+    -fx-background-color: #09b374;
+}
