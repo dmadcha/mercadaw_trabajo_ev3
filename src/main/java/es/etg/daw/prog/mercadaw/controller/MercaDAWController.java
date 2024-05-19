@@ -3,24 +3,16 @@ package es.etg.daw.prog.mercadaw.controller;
 import java.io.IOException;
 
 import es.etg.daw.prog.mercadaw.App;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.view.MainViewController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import es.etg.daw.prog.mercadaw.view.Vista;
 import es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController;
 import es.etg.daw.prog.mercadaw.view.compra.ListarCompraViewController;
 import es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController;
-import es.etg.daw.prog.mercadaw.view.empleado.ListarEmpleadoViewController;
-import es.etg.daw.prog.mercadaw.view.empleado.NominaViewController;
 import es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController;
-import es.etg.daw.prog.mercadaw.view.producto.ListarProductoViewController;
-import es.etg.daw.prog.mercadaw.view.producto.ListarStockViewController;
-import es.etg.daw.prog.mercadaw.view.producto.VentaProductoViewController;
 import es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController;
 import es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController;
 import javafx.application.Application;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -28,9 +20,6 @@ import javafx.stage.Stage;
 
 public class MercaDAWController extends Application{
     public static Stage currentStage;
-    private ObservableList<Producto> productos = FXCollections.observableArrayList();
-    private DarAltaProductoViewController darAlta = new DarAltaProductoViewController();
-    private ListarProductoViewController listarProd = new ListarProductoViewController();
     
     @Override
     public void start(Stage stage) throws Exception {
@@ -54,19 +43,7 @@ public class MercaDAWController extends Application{
         } else if (Vista.CARGA_DATOS == vista) {
             controller = fxmlLoader.<CargaDatosViewController>getController();               
         } else if (Vista.DAR_ALTA_COMP == vista) {
-            controller = fxmlLoader.<DarAltaCompraViewController>getController();   
-        } else if (Vista.LISTAR_COMP == vista) {
-            controller = fxmlLoader.<ListarCompraViewController>getController();   
-        } else if (Vista.LISTAR_EMPLE == vista) {
-            controller = fxmlLoader.<ListarEmpleadoViewController>getController();   
-        } else if (Vista.NOMINA == vista) {
-            controller = fxmlLoader.<NominaViewController>getController();   
-        } else if (Vista.LISTAR_PROD == vista) {
-            controller = fxmlLoader.<ListarProductoViewController>getController();
-        } else if (Vista.LISTAR_STOCK == vista) {
-            controller = fxmlLoader.<ListarStockViewController>getController();   
-        } else if (Vista.VENTA_PROD == vista) {
-            controller = fxmlLoader.<VentaProductoViewController>getController();   
+            controller = fxmlLoader.<DarAltaCompraViewController>getController();     
         } else if (Vista.EXPORTAR_DATOS == vista) {
             controller = fxmlLoader.<ExportarDatosViewController>getController();   
         }
@@ -89,27 +66,6 @@ public class MercaDAWController extends Application{
 
         }
     }
-    public void cargarListarProductos() {
-        try {
-            cargarVista(Vista.LISTAR_PROD);
-        } catch (Exception e) {
-
-        }
-    }
-    public void cargarListarStock() {
-        try {
-            cargarVista(Vista.LISTAR_STOCK);
-        } catch (Exception e) {
-
-        }
-    }
-    public void cargarVentaProductos() {
-        try {
-            cargarVista(Vista.VENTA_PROD);
-        } catch (Exception e) {
-
-        }
-    }
 
     /* Empleados */
     public void cargarEmpleados() {
@@ -119,32 +75,11 @@ public class MercaDAWController extends Application{
 
         }
     }
-    public void cargarListarEmpleados() {
-        try {
-            cargarVista(Vista.LISTAR_EMPLE);
-        } catch (Exception e) {
-
-        }
-    }
-    public void cargarNomina() {
-        try {
-            cargarVista(Vista.NOMINA);
-        } catch (Exception e) {
-
-        }
-    }
 
     /* Compras */
     public void cargarCompras() {
         try {
             cargarVista(Vista.DAR_ALTA_COMP);
-        } catch (Exception e) {
-
-        }
-    }
-    public void cargarListarCompras() {
-        try {
-            cargarVista(Vista.LISTAR_COMP);
         } catch (Exception e) {
 
         }

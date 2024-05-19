@@ -10,14 +10,8 @@ public enum Vista {
     CARGA_DATOS("view/sistema/CargaDatosView.fxml"),
     EXPORTAR_DATOS("view/sistema/ExportarDatosView.fxml"),
     DAR_ALTA_PROD("view/producto/DarAltaProductoView.fxml"),
-    LISTAR_PROD("view/producto/ListarProductoView.fxml"),
-    LISTAR_STOCK("view/producto/ListarStockView.fxml"),
-    VENTA_PROD("view/producto/VentaProductoView.fxml"),
     DAR_ALTA_EMPLE("view/empleado/DarAltaEmpleadoView.fxml"),
-    LISTAR_EMPLE("view/empleado/ListarEmpleadoView.fxml"),
-    NOMINA("view/empleado/NominaView.fxml"),
-    DAR_ALTA_COMP("view/compra/DarAltaCompraView.fxml"),
-    LISTAR_COMP("view/compra/ListarCompraView.fxml");
+    DAR_ALTA_COMP("view/compra/DarAltaCompraView.fxml");
 
     private String ruta;
 

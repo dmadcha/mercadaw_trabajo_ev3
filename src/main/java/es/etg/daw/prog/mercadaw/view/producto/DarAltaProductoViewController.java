@@ -21,6 +21,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
@@ -29,57 +31,61 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     private MercaDAWController controller = new MercaDAWController();
 
     @FXML
-    private Button btnAñadirProd;
+    private Button btnAñadir;
 
     @FXML
-    private Button btnConsultarDatos;
-
-    @FXML
-    private Button btnDarAltaProd;
-
-    @FXML
-    private Button btnListarStock;
-
-    @FXML
-    private Button btnPrecioVenta;
+    private Button btnDarAltaEmple;
 
     @FXML
     private Button btnSalir;
 
     @FXML
-    private ChoiceBox<TipoProducto> choiceCategoria;
+    private ChoiceBox<?> choiceCategoria;
 
     @FXML
-    private TextArea txaDescripcion;
+    private TableColumn<?, ?> colApellidos;
 
     @FXML
-    private TextField txfAltura;
+    private TableColumn<?, ?> colAportacionSal;
 
     @FXML
-    private TextField txfAnchura;
+    private TableColumn<?, ?> colCategoria;
 
     @FXML
-    private TextField txfElementos;
+    private TableColumn<?, ?> colCodigo;
 
     @FXML
-    private TextField txfIva;
+    private TableColumn<?, ?> colIndemnizacion;
 
     @FXML
-    private TextField txfMarca;
+    private TableColumn<?, ?> colNombre;
+
+    @FXML
+    private TableColumn<?, ?> colSalBruto;
+
+    @FXML
+    private TableColumn<?, ?> colSalNeto;
+
+    @FXML
+    private TableColumn<?, ?> colSueldo;
+
+    @FXML
+    private TableColumn<?, ?> colTotalCosteLab;
+
+    @FXML
+    private TableColumn<?, ?> colTotalNomina;
+
+    @FXML
+    private TableView<?> tabEmpleados;
+
+    @FXML
+    private TableView<?> tabNomina;
+
+    @FXML
+    private TextField txfApellido;
 
     @FXML
     private TextField txfNombre;
-
-    @FXML
-    private TextField txfPeso;
-
-    @FXML
-    private TextField txfPrecio;
-
-    @FXML
-    void accesoConsultarDatos(MouseEvent event) {
-        controller.cargarListarProductos();
-    }
 
     @FXML
     void accesoDarAltaProd(MouseEvent event) {
@@ -87,27 +93,8 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     }
 
     @FXML
-    void accesoListarStock(MouseEvent event) {
-        controller.cargarListarStock();
-    }
-
-    @FXML
-    void accesoPrecioVenta(MouseEvent event) {
-        controller.cargarVentaProductos();
-    }
-
-    @FXML
     void addProducto(MouseEvent event) throws MercaDAWException {
-        String nombre = txfNombre.getText();
-        String marca = txfMarca.getText();
-        //TipoProducto categoria = choiceCategoria.getValue();
-        String descripcion = txaDescripcion.getText();
-        double altura = Double.parseDouble(txfAltura.getText());
-        double anchura = Double.parseDouble(txfAnchura.getText());
-        double peso = Double.parseDouble(txfPeso.getText());
-        double precio = Double.parseDouble(txfPrecio.getText());
-        //double iva = Double.parseDouble(txfIva.getText());
-        int numElementos = Integer.parseInt(txfElementos.getText());
+
     }
 
     @FXML
@@ -117,6 +104,6 @@ public class DarAltaProductoViewController extends ViewController implements Ini
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        choiceCategoria.getItems().setAll(TipoProducto.values());
+        //choiceCategoria.getItems().setAll(TipoProducto.values());
     }
 }
