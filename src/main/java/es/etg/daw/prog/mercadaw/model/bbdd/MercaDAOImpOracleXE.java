@@ -40,7 +40,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     public static final String EMPLE_NOMB = "nombre";
     public static final String EMPLE_APEL = "apellidos";
     public static final String EMPLE_CATE = "categoria";
-
+    public static final String EMPLE_FECH = "fecha_inic";
     public static final String CLIEN_ID = "cod_client";
     public static final String CLIEN_POST = "cod_postal";
     public static final String CLIEN_CORR = "correo";
@@ -83,10 +83,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
                                         EMPLE_ID + " NUMERIC(4) PRIMARY KEY, " +
                                         EMPLE_NOMB + " VARCHAR(255), " +
                                         EMPLE_APEL + " VARCHAR(255), " +
-                                        EMPLE_CATE + " VARCHAR(255)) ";
-
+                                        EMPLE_CATE + " VARCHAR(255), " +
+                                        EMPLE_FECH + " DATE)";
         final String VISTA_EMPLEADOS = "CREATE OR REPLACE VIEW Vista_Empleados AS " +
-                                        "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+" FROM Empleados";
+                                        "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+", "+EMPLE_FECH+" FROM Empleados";
 
         st.execute(TABLA_EMPLEADOS);
         st.execute(VISTA_EMPLEADOS);
@@ -169,13 +169,14 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     @Override
     public int insertar(Empleado emp) throws SQLException{
         int numRegistrosActualizados = 0;
-        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?)";
+        final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
         ps.setInt(1, emp.getId());
         ps.setString(2, emp.getNombre());
         ps.setString(3, emp.getApellidos());
         ps.setString(4, emp.toString());
+        ps.setDate(5, emp.getFechaInicio());
     
 
         numRegistrosActualizados = ps.executeUpdate();
@@ -378,7 +379,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException{
-        final String QUERY = "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+" FROM Vista_Empleados";
+        final String QUERY = "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+", "+EMPLE_FECH+" FROM Vista_Empleados";
         
         
 
@@ -393,10 +394,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
             String nombre = rs.getString(EMPLE_NOMB);
             String apellido = rs.getString(EMPLE_APEL);
             String categoria = rs.getString(EMPLE_CATE);
-            
+            Date fecha = rs.getDate(EMPLE_FECH);
             
 
-            Empleado empleado = EmpleadoFactory.obtener(categoria, id, nombre, apellido); 
+            Empleado empleado = EmpleadoFactory.obtener(categoria, id, nombre, apellido, fecha); 
             empleados.add(empleado);
         }
 
@@ -418,9 +419,10 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         while(rs.next()){
 
             int id = rs.getInt(COMP_ID);
+            Date fecha = rs.getDate(COMP_FECH);
             int prod = rs.getInt(PROD_ID);
             int cliente = rs.getInt(CLIEN_ID);
-            Date fecha = rs.getDate(COMP_FECH);
+            
             
             Cliente cli = bbdd.visualizarCliente(cliente);
             Producto pr = bbdd.visualizarProducto(prod);

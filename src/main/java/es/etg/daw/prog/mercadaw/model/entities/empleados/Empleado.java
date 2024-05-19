@@ -28,6 +28,14 @@ public class Empleado implements Contratable {
         this.sueldo = SUELDO_EMPLE;
     }
 
+    public Date getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public void setFechaInicio(Date fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+    
     public static int getNumEmpleados() {
         return numEmpleados;
     }

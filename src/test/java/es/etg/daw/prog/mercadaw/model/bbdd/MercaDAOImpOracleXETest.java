@@ -1,8 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
-
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.sql.Date;
@@ -29,7 +26,7 @@ public class MercaDAOImpOracleXETest {
     public void insertarEmpleadoTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
 
-        Empleado emp = new Empleado(0, "Paco", "Fiestas");
+        Empleado emp = new Empleado(0, "Paco", "Fiestas", null);
         bbdd.insertar(emp);
     }
 
@@ -126,19 +123,18 @@ public class MercaDAOImpOracleXETest {
     @Test
     public void visualizarEmpleadosTest() throws Exception{
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
-        List<Cliente> clientesEsperados = new ArrayList<>();
-        List<Cliente> clientes = bbdd.visualizarClientes();
+        List<Empleado> empleadosEsperados = new ArrayList<>();
+        List<Empleado> empleados = bbdd.visualizarEmpleados();
 
-        Cliente cl = new Cliente(0, "María López", "maria@example.com", 28001);
-        Cliente c2 = new Cliente(1, "Juan Martínez", "juan@example.com", 25842);
+        Empleado emp = new Empleado(0, "Paco", "Fiestas", null);
         
         boolean sonIguales = false;
 
-        clientesEsperados.add(cl);
-        clientesEsperados.add(c2);
+        empleadosEsperados.add(emp);
+        
 
 
-        if (clientes.get(0).getId() == clientesEsperados.get(0).getId()) {
+        if (empleadosEsperados.get(0).getId() == empleados.get(0).getId()) {
             sonIguales = true;
         }
 
