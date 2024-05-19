@@ -1,5 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.productos;
 
+/**
+ * La interfaz Producible expone los principales metodos de calculo del precio de venta de los productos.
+ * \author Diego Madroñero Chamorro.
+ */
 public interface Producible {
     public static final int PESO_MIN = 1;
     public static final int PESO_MAX = 5;
