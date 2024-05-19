@@ -172,7 +172,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Empleado emp) throws SQLException{
-        int numRegistrosActualizados = -1;
+        int numRegistrosActualizados = 0;
         final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
@@ -191,7 +191,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
     @Override
     public int insertar(Producto prod) throws SQLException{
-        int numRegistrosActualizados = -1;
+        int numRegistrosActualizados = 0;
         final String SQL = "INSERT INTO Productos VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
@@ -219,7 +219,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         final String SQL = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
         PreparedStatement ps = connection.prepareStatement(SQL);
 
-        int numRegistrosActualizados = -1;
+        int numRegistrosActualizados = 0;
 
         /**
          * Esta variable se usa para poner la id de los productos de dentro de la lista
@@ -231,7 +231,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         for (int i = 0; i < compra.getProductos().size(); i ++) {
 
-            ps.setInt(1, id);
+            ps.setInt(1, id+1);
             ps.setInt(4, compra.getProductos().get(i).getId());
             
             numRegistrosActualizados += ps.executeUpdate();
