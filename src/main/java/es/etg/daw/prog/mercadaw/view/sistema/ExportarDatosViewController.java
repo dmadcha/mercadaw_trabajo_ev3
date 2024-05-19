@@ -12,6 +12,10 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
+/**
+ * Vusta de la exportación de datos del sistema.
+ * \author Erik Herrera Llamas
+ */
 public class ExportarDatosViewController extends ViewController {
     public static final String NOMBRE_VENTANA = "Seleccionar Destino";
 
@@ -52,12 +56,12 @@ public class ExportarDatosViewController extends ViewController {
         controller.cargarExportar();
     }
 
-    @FXML
+    /*@FXML
     void exportar(MouseEvent event) throws Exception {
         String ruta = txfRuta.getText();
         MercaDAWController controller = new MercaDAWController();
         controller.exportar(ruta);
-    }
+    }*/
 
     @FXML
     void salir(MouseEvent event) {

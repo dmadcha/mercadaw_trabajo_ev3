@@ -12,6 +12,10 @@ import javafx.stage.FileChooser;
 import javafx.stage.FileChooser.ExtensionFilter;
 import javafx.stage.Stage;
 
+/**
+ * Vista de la carga de datos del sistema.
+ * \author Erik Herrera Llamas
+ */
 public class CargaDatosViewController extends ViewController {
     public static final String NOMBRE_VENTANA = "Seleccionar Archivo";
     public static final String EXTENSION_CSV = "*.csv";
@@ -59,7 +63,9 @@ public class CargaDatosViewController extends ViewController {
 
     @FXML
     void enviar(MouseEvent event) {
-        
+        String ruta = txfRuta.getText();
+        MercaDAWController controller = new MercaDAWController();
+        controller.importar(ruta);
     }
 
     @FXML
