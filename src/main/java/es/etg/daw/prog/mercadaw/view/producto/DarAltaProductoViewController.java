@@ -3,11 +3,17 @@ package es.etg.daw.prog.mercadaw.view.producto;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import org.apache.poi.sl.draw.DrawSlide;
+
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Producible;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.view.ViewController;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -20,9 +26,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 public class DarAltaProductoViewController extends ViewController implements Initializable {
-
     private MercaDAWController controller = new MercaDAWController();
-    private ObservableList<Producto> productos;
 
     @FXML
     private Button btnAñadirProd;
@@ -93,26 +97,17 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     }
 
     @FXML
-    void addProducto(MouseEvent event) {
-        try {
-            String nombre = txfNombre.getText();
-            String marca = txfMarca.getText();
-            TipoProducto categoria = choiceCategoria.getValue();
-            String descripcion = txaDescripcion.getText();
-            double altura = Double.parseDouble(txfAltura.getText());
-            double anchura = Double.parseDouble(txfAnchura.getText());
-            double peso = Double.parseDouble(txfPeso.getText());
-            double precio = Double.parseDouble(txfPrecio.getText());
-            double iva = Double.parseDouble(txfIva.getText());
-            int numElementos = Integer.parseInt(txfElementos.getText());            
-        
-
-            if (this.productos.contains.(producto)) {
-                
-            }
-        } catch (Exception e) {
-
-        }
+    void addProducto(MouseEvent event) throws MercaDAWException {
+        String nombre = txfNombre.getText();
+        String marca = txfMarca.getText();
+        //TipoProducto categoria = choiceCategoria.getValue();
+        String descripcion = txaDescripcion.getText();
+        double altura = Double.parseDouble(txfAltura.getText());
+        double anchura = Double.parseDouble(txfAnchura.getText());
+        double peso = Double.parseDouble(txfPeso.getText());
+        double precio = Double.parseDouble(txfPrecio.getText());
+        //double iva = Double.parseDouble(txfIva.getText());
+        int numElementos = Integer.parseInt(txfElementos.getText());
     }
 
     @FXML

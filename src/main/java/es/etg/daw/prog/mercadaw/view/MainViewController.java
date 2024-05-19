@@ -7,6 +7,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 
+/**
+ * El controlador de la vista principal de nuestra aplicación.
+ * @author: Erik Herrera Llamas
+ * @version: 1.0
+ */
 public class MainViewController extends ViewController{
     private MercaDAWController controller = new MercaDAWController();
 

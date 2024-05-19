@@ -3,6 +3,7 @@ package es.etg.daw.prog.mercadaw.controller;
 import java.io.IOException;
 
 import es.etg.daw.prog.mercadaw.App;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.view.MainViewController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import es.etg.daw.prog.mercadaw.view.Vista;
@@ -18,6 +19,8 @@ import es.etg.daw.prog.mercadaw.view.producto.VentaProductoViewController;
 import es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController;
 import es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -25,7 +28,10 @@ import javafx.stage.Stage;
 
 public class MercaDAWController extends Application{
     public static Stage currentStage;
-
+    private ObservableList<Producto> productos = FXCollections.observableArrayList();
+    private DarAltaProductoViewController darAlta = new DarAltaProductoViewController();
+    private ListarProductoViewController listarProd = new ListarProductoViewController();
+    
     @Override
     public void start(Stage stage) throws Exception {
         currentStage = stage;
@@ -56,7 +62,7 @@ public class MercaDAWController extends Application{
         } else if (Vista.NOMINA == vista) {
             controller = fxmlLoader.<NominaViewController>getController();   
         } else if (Vista.LISTAR_PROD == vista) {
-            controller = fxmlLoader.<ListarProductoViewController>getController();    
+            controller = fxmlLoader.<ListarProductoViewController>getController();
         } else if (Vista.LISTAR_STOCK == vista) {
             controller = fxmlLoader.<ListarStockViewController>getController();   
         } else if (Vista.VENTA_PROD == vista) {

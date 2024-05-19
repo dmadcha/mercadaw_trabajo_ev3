@@ -15,7 +15,6 @@ import javafx.scene.input.MouseEvent;
 
 public class ListarProductoViewController extends ViewController {
     private MercaDAWController controller = new MercaDAWController();
-    private ObservableList<Producto> productos;
 
     @FXML
     private Button btnConsultarDatos;
@@ -95,18 +94,19 @@ public class ListarProductoViewController extends ViewController {
 
     @FXML
     public void inicializarTabla() {
-        productos = FXCollections.observableArrayList();
+        this.colNombre.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_NOMBRE));
+        this.colMarca.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_MARCA));
+        this.colCategoria.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_CATEGORIA));
+        this.colPrecio.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_PRECIO));
+        this.colIVA.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_IVA));
+        this.colAltura.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_ALTURA));
+        this.colAnchura.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_ANCHURA));   
+        this.colPeso.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_PESO));   
+        this.colElemento.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_ELEMENTOS));    
+        this.colDescripcion.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_DESCRIPCION));   
+    }
 
-        this.colNombre.setCellFactory(new PropertyValueFactory<>());
-        this.colMarca.setCellFactory(new PropertyValueFactory<>());
-        this.colCategoria.setCellFactory(new PropertyValueFactory<>());
-        this.colPrecio.setCellFactory(new PropertyValueFactory<>());
-        this.colIVA.setCellFactory(new PropertyValueFactory<>());
-        this.colAltura.setCellFactory(new PropertyValueFactory<>());
-        this.colAnchura.setCellFactory(new PropertyValueFactory<>());   
-        this.colPeso.setCellFactory(new PropertyValueFactory<>());   
-        this.colElemento.setCellFactory(new PropertyValueFactory<>());    
-        this.colDescripcion.setCellFactory(new PropertyValueFactory<>());   
-    
+    public void setProductos(ObservableList<Producto> productos) {
+        tabProducto.setItems(productos);
     }
 }

@@ -54,13 +54,13 @@ public class CargaDatosViewController extends ViewController {
     }
 
     @FXML
-    void enviar(MouseEvent event) {
-        
+    void salir(MouseEvent event) {
+        controller.cargarApp();
     }
 
     @FXML
-    void salir(MouseEvent event) {
-        controller.cargarApp();
+    void enviar(MouseEvent event) {
+        
     }
 
     @FXML
