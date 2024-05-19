@@ -1,5 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.compras;
 
+/**
+ * La clase Cliente representa un cliente de MercaDAW.
+ * \author Diego Madroñero Chamorro.
+ */
 public class Cliente {
     private static int numClientes;
 
@@ -8,6 +12,13 @@ public class Cliente {
     private String correo;
     private int codPostal;
 
+    /**
+     * Constructor que inicializa clientes.
+     * \param id
+     * \param nombre
+     * \param correo
+     * \param codPostal
+     */
     public Cliente(Integer id, String nombre, String correo, int codPostal) {
         if (id == null) {
             numClientes++;
