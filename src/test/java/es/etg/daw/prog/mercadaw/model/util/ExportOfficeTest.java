@@ -11,7 +11,7 @@ public class ExportOfficeTest {
 
         Util util = new Util();
 
-        util.exportar("EXPORT.%s", "Prueba.md", "pdf", "/home/usuario/Desktop/mercadaw_trabajo_ev3/");
+        util.exportar("EXPORT.%s", "README.md", "pdf", "/home/usuario/Desktop/mercadaw_trabajo_ev3/");
 
     }
 }

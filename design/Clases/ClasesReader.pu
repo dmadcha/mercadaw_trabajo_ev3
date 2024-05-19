@@ -4,7 +4,7 @@ set separator none
 package es.etg.daw.prog.mercadaw.model.util.reader{
     
     enum Formato{
-        CSV, JSON, XML, MOCK
+        CSV, JSON, MOCK
     }
 
     class LectorCSV{
@@ -15,20 +15,20 @@ package es.etg.daw.prog.mercadaw.model.util.reader{
 
     }
 
-    class LectorXML{
-
-    }
 
     class LectorMock{
 
     }
 
     abstract LectorImp{
-        + cargar(file:File):String
+        
     }
 
     interface Lector{
-        + leer(file:File):String
+        + leerProducto(codigo: String): List<Producto>
+        + leerEmpleado(codigo: String): List<Empleado>
+        + leerCliente(codigo: String): List<Producto>
+        + leerCompra(codigo: String): List<Compra>
     }
 
 
@@ -41,7 +41,6 @@ package es.etg.daw.prog.mercadaw.model.util.reader{
 }
 LectorImp <|-- LectorCSV
 LectorImp <|-- LectorJSON
-LectorImp <|-- LectorXML
 LectorImp ..|> Lector
 LectorMock ..|> Lector
 @enduml
