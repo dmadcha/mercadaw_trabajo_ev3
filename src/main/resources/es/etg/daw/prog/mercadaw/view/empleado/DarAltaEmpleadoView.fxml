@@ -162,8 +162,6 @@
                 <TableColumn id="table-cell" fx:id="colNombre" prefWidth="75.0" text="Nombre" />
                   <TableColumn id="table-cell" fx:id="colApellidos" prefWidth="92.0" text="Apellidos" />
                   <TableColumn id="table-cell" fx:id="colCategoria" prefWidth="106.0" text="Categoria" />
-                  <TableColumn id="table-cell" fx:id="colSueldo" prefWidth="106.0" text="Sueldo" />
-                  <TableColumn id="table-cell" fx:id="colFecha" prefWidth="106.0" text="Fecha" />
               </columns>
                <GridPane.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

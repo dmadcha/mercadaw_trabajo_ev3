@@ -2,8 +2,8 @@ package es.etg.daw.prog.mercadaw.view;
 
 /**
  * Esta clase contiene las rutas hacia las diferentes vistas de nuestra aplicación.
- * @author: Erik Herrera Llamas
- * @version: 1.0
+ * \author Erik Herrera Llamas
+ * \version 1.0
  */
 public enum Vista {
     MAIN("view/MainView.fxml"),

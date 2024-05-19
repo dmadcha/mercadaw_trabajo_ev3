@@ -1,9 +1,6 @@
 package es.etg.daw.prog.mercadaw.view.compra;
 
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
-import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
-import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
-import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -11,6 +8,10 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 
+/**
+ * Vista de dar alta compra.
+ * \author Erik Herrera Llamas
+ */
 public class DarAltaCompraViewController extends ViewController {
     private MercaDAWController controller = new MercaDAWController();
 

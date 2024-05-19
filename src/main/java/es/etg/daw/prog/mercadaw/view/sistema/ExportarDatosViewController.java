@@ -12,6 +12,10 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
+/**
+ * Vusta de la exportación de datos del sistema.
+ * \author Erik Herrera Llamas
+ */
 public class ExportarDatosViewController extends ViewController {
     public static final String NOMBRE_VENTANA = "Seleccionar Destino";
 

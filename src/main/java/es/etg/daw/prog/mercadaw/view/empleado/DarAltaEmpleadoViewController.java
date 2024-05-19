@@ -2,6 +2,7 @@ package es.etg.daw.prog.mercadaw.view.empleado;
 
 import java.net.URL;
 import java.sql.Date;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
@@ -25,6 +26,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
+/**
+ * Vista de dar alta empleado.
+ * \author Erik Herrera Llamas
+ */
 public class DarAltaEmpleadoViewController extends ViewController implements Initializable{
     public static final String MSG_ERROR = "ERROR";
     
@@ -68,12 +73,6 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private TableColumn<Empleado, Double>colSalNeto;
 
     @FXML
-    private TableColumn<Empleado, Double> colSueldo;
-
-    @FXML
-    private TableColumn<Empleado, Date> colFecha;
-
-    @FXML
     private TableColumn<Empleado, Double> colTotalCosteLab;
 
     @FXML
@@ -104,13 +103,11 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         this.colNombre.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_NOM_EMPLE));
         this.colApellidos.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_APELLIDO));
         this.colCategoria.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_CATEGORIA));
-        this.colSueldo.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_SUELDO));
-        this.colFecha.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_FECHA));
         this.tabEmpleados.setItems(empleados);
     }
 
     @FXML
-    void addEmpleado(MouseEvent event) throws MercaDAWException {
+    void addEmpleado(MouseEvent event) throws MercaDAWException, SQLException {
         try {
             String nombre = txfNombre.getText();
             String apellidos = txfApellido.getText();
@@ -123,6 +120,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
             } else {
                 this.empleados.add(empleado);
                 this.tabEmpleados.refresh();
+                controller.getEmpleados(empleado);
             }
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
