@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.model.entities.productos.Recargos</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Recargos</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1a44d31eb6d27e9130208ddf48d97df7b1"/>double <emphasis role="strong">getRecargo</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1a0cff7480fdbc2477491bd633b04c7c2e"/>void <emphasis role="strong">setRecargo</emphasis> (double recargo)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1afdd068940a131bb9da74b4a0da9fa0c5"/><emphasis role="strong">RECARGO_15</emphasis> =(0.15)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1adeb8e1e7f93f1755abb01ed176d265f9"/><emphasis role="strong">RECARGO_10</emphasis> =(0.10)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1aa7b83b4884dd5d668831ab1c5221d0ea"/><emphasis role="strong">RECARGO_5</emphasis> =(0.05)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La enumeracion <link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos">Recargos</link> representa los recargos posibles y su valor correspondiente. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Recargos.java</section>
+</section>

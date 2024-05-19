@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_6743d9102e5ff543d7a27b89bdb4062c" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util</compoundname>
+    <innerfile refid="_c_s_v_test_8java">CSVTest.java</innerfile>
+    <innerfile refid="_export_office_test_8java">ExportOfficeTest.java</innerfile>
+    <innerfile refid="_fichero_binario_test_8java">FicheroBinarioTest.java</innerfile>
+    <innerfile refid="_j_s_o_n_test_8java">JSONTest.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/"/>
+  </compounddef>
+</doxygen>

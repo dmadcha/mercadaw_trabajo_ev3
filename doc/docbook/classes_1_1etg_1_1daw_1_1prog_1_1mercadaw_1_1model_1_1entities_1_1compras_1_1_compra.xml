@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.compras.Compra</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.compras.Compra</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1afa7b6fcdb0f733237f4446cd22fbb46d">Compra</link> (Integer id, Date fecha, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> cliente, List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; productos)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a37c67d325bf2619ccd7206d12dbed0cc"/>Date <emphasis role="strong">getFecha</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4069b76afd90625fb5faeeb85723265c"/>void <emphasis role="strong">setFecha</emphasis> (Date fecha)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a75bb593383527c238fee3bd05f610792"/><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> <emphasis role="strong">getCliente</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a2c77cfad2207d83655f79fa4b9c855c9"/>void <emphasis role="strong">setCliente</emphasis> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> cliente)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ad2cd44c24058ba85f28646d0e643c918"/>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; <emphasis role="strong">getProductos</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a35d836e37df2f671ec255bdc2af4d0df"/>void <emphasis role="strong">setProductos</emphasis> (List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; productos)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac4de595a766294183ea38b21a70a54fc"/>Integer <emphasis role="strong">getId</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a83e55390c6e12314c595fbce39fa3915"/>void <emphasis role="strong">setId</emphasis> (Integer id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Métodos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a6b1cd29ff37bf1c9de1d0859a0d4942d"/>static int <emphasis role="strong">getNumCompras</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a1bbec7141df9a92400bb071fb876db54"/>static void <emphasis role="strong">setNumCompras</emphasis> (int numCompras)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> representa las compras realizadas por los clientes de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1afa7b6fcdb0f733237f4446cd22fbb46d"/><section>
+    <title>Compra()</title>
+<indexterm><primary>Compra</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.compras.Compra</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.compras.Compra</primary><secondary>Compra</secondary></indexterm>
+<para><computeroutput>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.Compra (Integer id, Date fecha, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> cliente, List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; productos)</computeroutput></para>
+<para>Constructor que inicializa compras, generando el ID de estas automaticamente. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>fecha</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>cliente</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>productos</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java</section>
+</section>

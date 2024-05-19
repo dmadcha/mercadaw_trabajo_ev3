@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto</primary></indexterm>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1aef22578cf0c6ef8dc2593a6b70a575c9"/><emphasis role="strong">ALIMENTACION</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a0a40b8ddb97811da78faec82d9bd0cfd"/><emphasis role="strong">DROGUERIA</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a941a736969426ba6a260bdd891ac41bb"/><emphasis role="strong">COSMETICA</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La enumeracion <link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto">TipoProducto</link> representa las categoría en las que están clasificadas los productos de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java</section>
+</section>

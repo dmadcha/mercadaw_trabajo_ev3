@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="es">
+    <info>
+    <title>MercaDAW</title>
+    </info>
+<chapter>
+    <title>Documentación de las clases</title>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1_app.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_cliente_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_export_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_export_office_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_fichero_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_formato_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_lector_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_despido.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

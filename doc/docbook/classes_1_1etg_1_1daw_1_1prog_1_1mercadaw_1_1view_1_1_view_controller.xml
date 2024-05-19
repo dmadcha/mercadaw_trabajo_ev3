@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.view.ViewController</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.view.ViewController</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.view.ViewController    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57"/>void <emphasis role="strong">setMercaDAWController</emphasis> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller">MercaDAWController</link> mercaDAWController)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos protegidos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2"/><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller">MercaDAWController</link> <emphasis role="strong">mercaDAWController</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>Esta clase es la que nos permite la comunicación entre las vistas y el controlador de la aplicación. <formalpara><title>Autor</title>
+
+<para>Erik Herrera Llamas. </para>
+</formalpara>
+<formalpara><title>Versión</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java</section>
+</section>

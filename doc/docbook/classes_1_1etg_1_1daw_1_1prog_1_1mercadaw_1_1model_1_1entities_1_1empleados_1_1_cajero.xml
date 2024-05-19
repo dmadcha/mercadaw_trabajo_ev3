@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a4106992003db65007d40f076c22ac0ee">Cajero</link> (Integer id, String nombre, String apellidos, Date fechaInicio)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1ae31141721047b4a5a3d522f8493ee0d4">getSueldo</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1af841a09dbd7ed3941f972e658d73e312">setSueldo</link> (double sueldo)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a79b5f0c74aba96fad1ef325ffb5c5446">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Otros miembros heredados    </title>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero">Cajero</link> representa un cajero de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a4106992003db65007d40f076c22ac0ee"/><section>
+    <title>Cajero()</title>
+<indexterm><primary>Cajero</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</primary><secondary>Cajero</secondary></indexterm>
+<para><computeroutput>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero.Cajero (Integer id, String nombre, String apellidos, Date fechaInicio)</computeroutput></para>
+<para>Constructor que inicializa cajeros, generando el ID de estas automaticamente. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Id</entry><entry>
+<para>del empleado </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Nombre</entry><entry>
+<para>del empleado </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Apellidos</entry><entry>
+<para>del empleado </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Fecha</entry><entry>
+<para>de contratación del empleado </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1ae31141721047b4a5a3d522f8493ee0d4"/><section>
+    <title>getSueldo()</title>
+<indexterm><primary>getSueldo</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</primary><secondary>getSueldo</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero.getSueldo ( )</computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1af841a09dbd7ed3941f972e658d73e312"/><section>
+    <title>setSueldo()</title>
+<indexterm><primary>setSueldo</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</primary><secondary>setSueldo</secondary></indexterm>
+<para><computeroutput>void es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero.setSueldo (double sueldo)</computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a79b5f0c74aba96fad1ef325ffb5c5446"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero.toString ( )</computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Cajero.java</section>
+</section>

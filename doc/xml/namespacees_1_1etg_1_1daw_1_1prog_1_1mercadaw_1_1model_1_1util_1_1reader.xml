@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader" kind="namespace" language="Java">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::reader</compoundname>
+    <innerclass refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::Formato</innerclass>
+    <innerclass refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::Lector</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::LectorFactory</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::LectorImp</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::LectorJSON</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock" prot="public">es::etg::daw::prog::mercadaw::model::util::reader::LectorMock</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/Formato.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

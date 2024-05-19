@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database" kind="enum" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::bbdd::Database</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1a692a3bb706f467bd9ea5e9963fcd87ee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.bbdd.Database.ORACLE</definition>
+        <argsstring></argsstring>
+        <name>ORACLE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.Database.ORACLE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java" line="8" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1ab496273bf39e1967c25b437aad200d5b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.bbdd.Database.MOCK</definition>
+        <argsstring></argsstring>
+        <name>MOCK</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.Database.MOCK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java" line="9" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La enumeración <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" kindref="compound">MercaDAOFactory</ref> posee las posibles BD disponibles. <simplesect kind="author"><para>Jesús Pérez Enríquez. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java" line="7" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1ab496273bf39e1967c25b437aad200d5b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::Database</scope><name>MOCK</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1a692a3bb706f467bd9ea5e9963fcd87ee" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::Database</scope><name>ORACLE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

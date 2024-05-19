@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="_merca_d_a_o_factory_8java" kind="file" language="Java">
+    <compoundname>MercaDAOFactory.java</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" prot="public">es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOFactory</innerclass>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd">es::etg::daw::prog::mercadaw::model::bbdd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">es.etg.daw.prog.mercadaw.model.bbdd;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.sql.SQLException;</highlight></codeline>
+<codeline lineno="8" refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" kindref="compound">MercaDAOFactory</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o" kindref="compound">MercaDAO</ref><sp/>obtener(<ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database" kindref="compound">Database</ref><sp/>tipo)</highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>SQLException{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tipo<sp/>==<sp/><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database" kindref="compound">Database</ref>.ORACLE)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e" kindref="compound">MercaDAOImpOracleXE</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock" kindref="compound">MercaDAOImpMock</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOFactory.java"/>
+  </compounddef>
+</doxygen>

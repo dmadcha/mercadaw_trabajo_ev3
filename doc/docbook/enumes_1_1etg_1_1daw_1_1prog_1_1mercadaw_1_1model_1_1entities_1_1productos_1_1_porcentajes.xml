@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a0855f74fda9c7d76aae6c3f6bfbdfea3"/>double <emphasis role="strong">getPorcentaje</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a7e80d9988282af63c7a46c5cb67255c5"/>void <emphasis role="strong">setPorcentaje</emphasis> (double porcentaje)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1aec33ca510b6be158b7c4f010772959b0"/><emphasis role="strong">PORCENTAJE_5</emphasis> =(5)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a10bd452b93dbb5780dba9d1ded2c0544"/><emphasis role="strong">PORCENTAJE_10</emphasis> =(10)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4a43abb6e013ad5b664aa654eb964ae0"/><emphasis role="strong">PORCENTAJE_15</emphasis> =(15)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La enumeracion <link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos">Recargos</link> representa los porcentajes posibles y su valor correspondiente. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java</section>
+</section>

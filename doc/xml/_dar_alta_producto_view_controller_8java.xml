@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="_dar_alta_producto_view_controller_8java" kind="file" language="Java">
+    <compoundname>DarAltaProductoViewController.java</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller" prot="public">es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</innerclass>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto">es::etg::daw::prog::mercadaw::view::producto</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">es.etg.daw.prog.mercadaw.view.producto;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.net.URL;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ResourceBundle;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>es.etg.daw.prog.mercadaw.controller.MercaDAWController;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>es.etg.daw.prog.mercadaw.model.entities.productos.Producto;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>es.etg.daw.prog.mercadaw.view.ViewController;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.collections.FXCollections;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.collections.ObservableList;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.fxml.FXML;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.fxml.Initializable;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.Alert;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.Alert.AlertType;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.Button;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.ChoiceBox;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.TableColumn;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.TableView;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.TextArea;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.TextField;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.cell.PropertyValueFactory;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.input.MouseEvent;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller" kindref="compound">DarAltaProductoViewController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" kindref="compound">ViewController</ref><sp/>implements<sp/>Initializable<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/>MSG_ERROR<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ERROR&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref><sp/>controller<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>ObservableList&lt;Producto&gt;<sp/>productos;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Button<sp/>btnAñadirProd;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Button<sp/>btnDarAltaProd;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Button<sp/>btnObtenerPrecio;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Button<sp/>btnSalir;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>ChoiceBox&lt;TipoProducto&gt;<sp/>choiceCategoria;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Double&gt;<sp/>colAltura;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Double&gt;<sp/>colAnchura;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>String&gt;<sp/>colCategoria;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>String&gt;<sp/>colMarca;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Integer&gt;<sp/>colCodigo;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>String&gt;<sp/>colDesc;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Integer&gt;<sp/>colElementos;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Double&gt;<sp/>colIVA;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>String&gt;<sp/>colNombre;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Double&gt;<sp/>colPeso;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Double&gt;<sp/>colPrecio;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableColumn&lt;Producto,<sp/>Integer&gt;<sp/>colStock;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TableView&lt;Producto&gt;<sp/>tabProductos;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextArea<sp/>txaDescripcion;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextArea<sp/>txaPrecioVenta;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfAltura;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfAnchura;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfElementos;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfIva;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfMarca;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfNombre;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfPeso;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>TextField<sp/>txfPrecio;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>accesoDarAltaProd(MouseEvent<sp/>event)<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>controller.cargarProductos();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>iniciarTabla()<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.productos<sp/>=<sp/>FXCollections.observableArrayList();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colCodigo.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_ID));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colNombre.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_NOMBRE));</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colMarca.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_MARCA));</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colCategoria.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_CATEGORIA));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colPrecio.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_PRECIO));</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//this.colIVA.setCellValueFactory(new<sp/>PropertyValueFactory&lt;&gt;(Producto.ATT_IVA));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colAltura.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_ALTURA));</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colAnchura.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_ANCHURA));</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colPeso.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_PESO));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colElementos.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_ELEMENTOS));</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colDesc.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_DESCRIPCION)<sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.colStock.setCellValueFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PropertyValueFactory&lt;&gt;(<ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>.ATT_STOCK));</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.tabProductos.setItems(productos);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addProducto(MouseEvent<sp/>event)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>nombre<sp/>=<sp/>txfNombre.getText();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>marca<sp/>=<sp/>txfMarca.getText();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>tipo<sp/>=<sp/>choiceCategoria.getValue().toString();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>precio<sp/>=<sp/>Double.parseDouble(colPrecio.getText());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>iva<sp/>=<sp/>Double.parseDouble(txfIva.getText());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>altura<sp/>=<sp/>Double.parseDouble(txfAltura.getText());</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>anchura<sp/>=<sp/>Double.parseDouble(txfAnchura.getText());</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>peso<sp/>=<sp/>Double.parseDouble(txfPeso.getText());</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numElementos<sp/>=<sp/>Integer.parseInt(txfElementos.getText());</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>desc<sp/>=<sp/>txaDescripcion.getText();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref><sp/>producto<sp/>=<sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_factory" kindref="compound">ProductoFactory</ref>.obtener(tipo,<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>nombre,<sp/>marca,<sp/>altura,<sp/>anchura,<sp/>peso,<sp/>numElementos,<sp/>0,<sp/>precio,<sp/>desc);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this.productos.contains(producto))<sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mostrarAviso(MSG_ERROR,<sp/>AlertType.ERROR);<sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.productos.add(producto);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.tabProductos.refresh();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(NumberFormatException<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mostrarAviso(MSG_ERROR,<sp/>AlertType.ERROR);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>@FXML</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>salir(MouseEvent<sp/>event)<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>controller.cargarApp();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initialize(URL<sp/>location,<sp/>ResourceBundle<sp/>resources)<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>choiceCategoria.getItems().setAll(<ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" kindref="compound">TipoProducto</ref>.values());</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iniciarTabla();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>mostrarAviso(String<sp/>msg,<sp/>AlertType<sp/>tipo)<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Alert<sp/>alerta<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Alert(tipo);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alerta.setHeaderText(</highlight><highlight class="keyword">null</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alerta.setTitle(MSG_ERROR);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alerta.setContentText(msg);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alerta.showAndWait();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java"/>
+  </compounddef>
+</doxygen>

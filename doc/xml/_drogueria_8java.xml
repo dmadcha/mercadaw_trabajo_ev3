@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="_drogueria_8java" kind="file" language="Java">
+    <compoundname>Drogueria.java</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria" prot="public">es::etg::daw::prog::mercadaw::model::entities::productos::Drogueria</innerclass>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos">es::etg::daw::prog::mercadaw::model::entities::productos</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">es.etg.daw.prog.mercadaw.model.entities.productos;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria" kindref="compound">Drogueria</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria_1a42bb19e9e05d01536bfc27f696713923" kindref="member">Drogueria</ref>(Integer<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>String<sp/>nombre,<sp/>String<sp/>marca,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>altura,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>anchura,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>peso,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numElementos,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>stock,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>precio,<sp/>String<sp/>descripcion)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>nombre,<sp/>marca,<sp/>altura,<sp/>anchura,<sp/>peso,<sp/>numElementos,<sp/>stock,<sp/>precio,<sp/>descripcion);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.iva<sp/>=<sp/>IVA_DROG;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/>toString()<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" kindref="compound">TipoProducto</ref>.DROGUERIA.toString();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Drogueria.java"/>
+  </compounddef>
+</doxygen>

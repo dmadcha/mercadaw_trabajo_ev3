@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Atributos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1ad8abaffdd1df26e73b8ddf3589646378"/>static final String <emphasis role="strong">NOMBRE_VENTANA</emphasis> = &quot;Seleccionar Destino&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Otros miembros heredados    </title>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>Vusta de la exportación de datos del sistema. <formalpara><title>Autor</title>
+
+<para>Erik Herrera Llamas </para>
+</formalpara>
+</para>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/sistema/ExportarDatosViewController.java</section>
+</section>

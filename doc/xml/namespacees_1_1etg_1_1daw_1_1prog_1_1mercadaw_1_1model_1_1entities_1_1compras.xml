@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras" kind="namespace" language="Java">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::compras</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" prot="public">es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" prot="public">es::etg::daw::prog::mercadaw::model::entities::compras::Compra</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

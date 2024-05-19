@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a4fd5b55cd16c847c53178d3026b32ce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt; Producto &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerProducto</definition>
+        <argsstring>(String codigo)</argsstring>
+        <name>leerProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerProducto</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1a8ece86d2ea9d942caf6222d99f10fc20">leerProducto</reimplements>
+        <param>
+          <type>String</type>
+          <declname>codigo</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="23" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="23" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a982d78701bd915d8d949a2eb14478d2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref> &gt;</type>
+        <definition>List&lt; Empleado &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerEmpleado</definition>
+        <argsstring>(String codigo)</argsstring>
+        <name>leerEmpleado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerEmpleado</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1a96029606239332b272954823a6451629">leerEmpleado</reimplements>
+        <param>
+          <type>String</type>
+          <declname>codigo</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="43" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="43" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a426680829af3619b4e332b9fc3e0874d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref> &gt;</type>
+        <definition>List&lt; Cliente &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerCliente</definition>
+        <argsstring>(String codigo)</argsstring>
+        <name>leerCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerCliente</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1acbfcfd123cdc0a62bc691564d291f371">leerCliente</reimplements>
+        <param>
+          <type>String</type>
+          <declname>codigo</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="63" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="63" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a9f7544f8d5412a6584896868691b8e48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+        <definition>List&lt; Compra &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerCompra</definition>
+        <argsstring>(String codigo)</argsstring>
+        <name>leerCompra</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerCompra</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1a070312d07f43b4ffc448b4a6f6561353">leerCompra</reimplements>
+        <param>
+          <type>String</type>
+          <declname>codigo</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="83" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="83" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1acdbb703e83ec00890ba20e49607f74bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.comprobar</definition>
+        <argsstring>(String cadena)</argsstring>
+        <name>comprobar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.comprobar</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>cadena</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="102" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abc81b6a1df13a8fcdc7b42ccaf879ea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+        <definition>Producto es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.procesarProducto</definition>
+        <argsstring>(String fila)</argsstring>
+        <name>procesarProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.procesarProducto</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fila</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="109" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="109" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abb13c9e7fb76004b72bf1b701ce63130" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+        <definition>Empleado es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.procesarEmpleado</definition>
+        <argsstring>(String fila)</argsstring>
+        <name>procesarEmpleado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.procesarEmpleado</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fila</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="142" column="22" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="142" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a470fab546086d4cccbb769f4222331b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+        <definition>Cliente es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.procesarCliente</definition>
+        <argsstring>(String fila)</argsstring>
+        <name>procesarCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.procesarCliente</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fila</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="161" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="161" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v" kindref="compound">LectorCSV</ref> utiliza la inetrfaz LectorIMp para poder leer los entities y poder procesarlos. <simplesect kind="author"><para>Iván Rafael Redondo. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.util.reader.Lector</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.util.reader.Lector</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" line="20" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java" bodystart="20" bodyend="178"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1acdbb703e83ec00890ba20e49607f74bf" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>comprobar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a426680829af3619b4e332b9fc3e0874d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>leerCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a9f7544f8d5412a6584896868691b8e48" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>leerCompra</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a982d78701bd915d8d949a2eb14478d2c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>leerEmpleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a4fd5b55cd16c847c53178d3026b32ce3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>leerProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a470fab546086d4cccbb769f4222331b8" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>procesarCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abb13c9e7fb76004b72bf1b701ce63130" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>procesarEmpleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abc81b6a1df13a8fcdc7b42ccaf879ea2" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</scope><name>procesarProducto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</compoundname>
+    <basecompoundref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.productos.Producible</basecompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.productos.Drogueria</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a02286395556b7af7c9c6048347acb43e" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ID</definition>
+        <argsstring></argsstring>
+        <name>ATT_ID</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ID</qualifiedname>
+        <initializer>= &quot;id&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="15" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988b4cf2f0ad5036082e8191591ac4e3" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_NOMBRE</definition>
+        <argsstring></argsstring>
+        <name>ATT_NOMBRE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_NOMBRE</qualifiedname>
+        <initializer>= &quot;nombre&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="16" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a81b3668e95553cd9e67678b5f4b0ef3d" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_MARCA</definition>
+        <argsstring></argsstring>
+        <name>ATT_MARCA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_MARCA</qualifiedname>
+        <initializer>= &quot;marca&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="17" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1435191382b61ac8fd4fd4344c427884" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_CATEGORIA</definition>
+        <argsstring></argsstring>
+        <name>ATT_CATEGORIA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_CATEGORIA</qualifiedname>
+        <initializer>= &quot;categoria&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="18" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a9f9927456b89969f9c6e2b65763d09cb" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ALTURA</definition>
+        <argsstring></argsstring>
+        <name>ATT_ALTURA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ALTURA</qualifiedname>
+        <initializer>= &quot;altura&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="19" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aca7afeef6113c9a6d2ebd0ff5f549a34" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ANCHURA</definition>
+        <argsstring></argsstring>
+        <name>ATT_ANCHURA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ANCHURA</qualifiedname>
+        <initializer>= &quot;anchura&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="20" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0467b386f8cb92205493178d839ed942" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_PESO</definition>
+        <argsstring></argsstring>
+        <name>ATT_PESO</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_PESO</qualifiedname>
+        <initializer>= &quot;peso&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="21" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a33d0e1d930c3786d2c2335ab418243b9" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ELEMENTOS</definition>
+        <argsstring></argsstring>
+        <name>ATT_ELEMENTOS</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_ELEMENTOS</qualifiedname>
+        <initializer>= &quot;elementos&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="22" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988c58a18c7d70253c4b2fdbea8af136" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_DESCRIPCION</definition>
+        <argsstring></argsstring>
+        <name>ATT_DESCRIPCION</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_DESCRIPCION</qualifiedname>
+        <initializer>= &quot;descripcion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="23" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab31fc7445b3563beb52b4bb41e39c1ff" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_STOCK</definition>
+        <argsstring></argsstring>
+        <name>ATT_STOCK</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_STOCK</qualifiedname>
+        <initializer>= &quot;stock&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="24" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a2dac56f436f78e6428ceddaafb29d2f4" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_PRECIO</definition>
+        <argsstring></argsstring>
+        <name>ATT_PRECIO</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_PRECIO</qualifiedname>
+        <initializer>= &quot;precio&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="25" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab8bbda631b95311a7a39ef2caf8d649d" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_IVA</definition>
+        <argsstring></argsstring>
+        <name>ATT_IVA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.ATT_IVA</qualifiedname>
+        <initializer>= &quot;iva&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="26" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a732ceb306a11276b03ec664a1feb5ecd" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.productos.Producto.numProductos</definition>
+        <argsstring></argsstring>
+        <name>numProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.numProductos</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="28" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ad57fbe58145a32d577922de3e4292a65" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer es.etg.daw.prog.mercadaw.model.entities.productos.Producto.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="30" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac5da81f175c3271c7e4a5ee1343a7cb8" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.nombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="31" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a638b5b2b6888ed21591ab69a26ebd685" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.marca</definition>
+        <argsstring></argsstring>
+        <name>marca</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.marca</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="32" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6d4fcc84702a4168bec600b9a317ce32" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.altura</definition>
+        <argsstring></argsstring>
+        <name>altura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.altura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="33" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0b0317dec65db096bf2e01035e576f03" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.anchura</definition>
+        <argsstring></argsstring>
+        <name>anchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.anchura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="34" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a7dacd76c00877da77bf268d1d8b29bfb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.peso</definition>
+        <argsstring></argsstring>
+        <name>peso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.peso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="35" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acbae015408484186b4bee434a2928f5c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.productos.Producto.numElementos</definition>
+        <argsstring></argsstring>
+        <name>numElementos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.numElementos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="36" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6a48bcbca9e05aae459c1ff77b5eb5c1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.descripcion</definition>
+        <argsstring></argsstring>
+        <name>descripcion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.descripcion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="37" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a392277151629d3493fc7eb055e5d5b5e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.productos.Producto.stock</definition>
+        <argsstring></argsstring>
+        <name>stock</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.stock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="38" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acc99b92bb41264239a975879dd18484a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.precio</definition>
+        <argsstring></argsstring>
+        <name>precio</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.precio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="39" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a85fbb3236fef0fa5cb945d1658d0f585" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.iva</definition>
+        <argsstring></argsstring>
+        <name>iva</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.iva</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="40" column="22" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae346965b004e04bd1fe300d0856ed7ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.Producto</definition>
+        <argsstring>(Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)</argsstring>
+        <name>Producto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.Producto</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>marca</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>altura</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anchura</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>peso</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numElementos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stock</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>precio</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>descripcion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que inicializa productos, generando el ID de estos automaticamente. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Nombre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Marca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Altura</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Anchura</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Peso</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Numero</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de elementos del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Stock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Precio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Descripcion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="55" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="55" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abc77639a7de6f02986d15e9936e0fef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getIva</definition>
+        <argsstring>()</argsstring>
+        <name>getIva</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getIva</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="74" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a83d0365d356d7ec805830d0754c21bef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setIva</definition>
+        <argsstring>(double iva)</argsstring>
+        <name>setIva</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setIva</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>iva</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="78" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aeb765bb408ea349fd9c5be948c73cd97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getNombre</definition>
+        <argsstring>()</argsstring>
+        <name>getNombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getNombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="90" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acd816783d04f4b696770594984551e75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setNombre</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>setNombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setNombre</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="94" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab90680ce130fa3fe64821c0d493e8967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getMarca</definition>
+        <argsstring>()</argsstring>
+        <name>getMarca</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getMarca</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="98" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1adf39279e6fd87557039479f639dc67d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setMarca</definition>
+        <argsstring>(String marca)</argsstring>
+        <name>setMarca</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setMarca</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>marca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="102" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a18517c316e1b69b1340bfdd3be6b969e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getAltura</definition>
+        <argsstring>()</argsstring>
+        <name>getAltura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getAltura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="106" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a14abb17fcc838f9cddb96b9a36aa3c8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setAltura</definition>
+        <argsstring>(double altura)</argsstring>
+        <name>setAltura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setAltura</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>altura</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="110" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac012bf84017995cfc06c2c6887a45c6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getAnchura</definition>
+        <argsstring>()</argsstring>
+        <name>getAnchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getAnchura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="114" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae07b9ae9810f0a45bcb8d4cd2de5bc44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setAnchura</definition>
+        <argsstring>(double anchura)</argsstring>
+        <name>setAnchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setAnchura</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>anchura</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="118" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="118" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac72bc47e66fdf5f3049e74e4bd86c3b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPeso</definition>
+        <argsstring>()</argsstring>
+        <name>getPeso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPeso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="122" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abca61e59f235ec4d7f892fa11900de52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setPeso</definition>
+        <argsstring>(double peso)</argsstring>
+        <name>setPeso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setPeso</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>peso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="126" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a06a17c696684f509c8e7d00a05fea7e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getNumElementos</definition>
+        <argsstring>()</argsstring>
+        <name>getNumElementos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getNumElementos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="130" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a05c6170b93346950a0b228d050d2b7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setNumElementos</definition>
+        <argsstring>(int numElementos)</argsstring>
+        <name>setNumElementos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setNumElementos</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numElementos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="134" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aac7337fc87c155a7deb22e567aa06e57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getDescripcion</definition>
+        <argsstring>()</argsstring>
+        <name>getDescripcion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getDescripcion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="138" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a3965e52d82cf34fff35d1400e60c38ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setDescripcion</definition>
+        <argsstring>(String descripcion)</argsstring>
+        <name>setDescripcion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setDescripcion</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>descripcion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="142" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a4c38dff964bc463e229dccc945ebb13a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="146" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aec28104820c716c2e50f10fb61539dc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setId</definition>
+        <argsstring>(Integer id)</argsstring>
+        <name>setId</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setId</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="150" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a17c0bbae7fc3df07c5f55bc702287b51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getStock</definition>
+        <argsstring>()</argsstring>
+        <name>getStock</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getStock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="154" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a43ae1b5f74d27747d8e578b3e818e1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setStock</definition>
+        <argsstring>(int stock)</argsstring>
+        <name>setStock</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setStock</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>stock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="158" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="158" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae31588ea5ae305b7799996a586602635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecio</definition>
+        <argsstring>()</argsstring>
+        <name>getPrecio</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="162" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="162" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a549ab23d0034389a9c5d74bb10b1064b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setPrecio</definition>
+        <argsstring>(double precio)</argsstring>
+        <name>setPrecio</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setPrecio</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>precio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="166" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioVenta</definition>
+        <argsstring>()</argsstring>
+        <name>getPrecioVenta</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioVenta</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5">getPrecioVenta</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula em precio de venta de un producto. <simplesect kind="return"><para>Un double con el precio final de venta del </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="171" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="171" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a623a13553a0cc653842431c80d7c07e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoPeso</definition>
+        <argsstring>()</argsstring>
+        <name>getRecargoPeso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoPeso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el recargo dependiendo del peso del producto. <simplesect kind="return"><para>Un double con el recargo del peso. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="185" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="185" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6392244e78ca3a5e22f3099790653bae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajePeso</definition>
+        <argsstring>()</argsstring>
+        <name>getPorcentajePeso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajePeso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el porcentaje que se usa para calcular el recargo del peso. <simplesect kind="return"><para>Un double con el porcentaje del recargo del peso. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="203" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="203" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1af4a4204e044e1720189f2a37c5f7a455" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoAltura</definition>
+        <argsstring>()</argsstring>
+        <name>getRecargoAltura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoAltura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el recargo dependiendo de la altura del producto. <simplesect kind="return"><para>Un double con el recargo de la altura. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="221" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="221" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a32ae34d4ed0e1a7e3cc661e86444335f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajeAltura</definition>
+        <argsstring>()</argsstring>
+        <name>getPorcentajeAltura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajeAltura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el porcentaje que se usa para calcular el recargo de la altura. <simplesect kind="return"><para>Un double con el porcentaje del recargo de la altura. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="237" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="237" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a5fbad8e893a02d779537e88596006dbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoAnchura</definition>
+        <argsstring>()</argsstring>
+        <name>getRecargoAnchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoAnchura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el recargo dependiendo de la anchura del producto. <simplesect kind="return"><para>Un double con el recargo de la anchura. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="253" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="253" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a149368ce0eb4896a0cb32ea01395d396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajeAnchura</definition>
+        <argsstring>()</argsstring>
+        <name>getPorcentajeAnchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajeAnchura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el porcentaje que se usa para calcular el recargo de la anchura. <simplesect kind="return"><para>Un double con el porcentaje del recargo de la anchura. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="269" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="269" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae41c79e047ee17da75fc92c8b9bc73ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoNumElementos</definition>
+        <argsstring>()</argsstring>
+        <name>getRecargoNumElementos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoNumElementos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el recargo dependiendo del numero de elementos del producto. <simplesect kind="return"><para>Un double con el recargo del numero de elementos. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="285" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="285" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a652e6159626f1fdc445c67b1aa07ea3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioFinalEuros</definition>
+        <argsstring>()</argsstring>
+        <name>getPrecioFinalEuros</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioFinalEuros</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula el precio final de venta de un producto con todos los recargos aplicados. <simplesect kind="return"><para>Un double con el precio final en euros. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="302" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="302" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aa8611742cb7aee7307a5c9d07049b4ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioFinalDolares</definition>
+        <argsstring>()</argsstring>
+        <name>getPrecioFinalDolares</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioFinalDolares</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el precio final de venta de un producto convertido a dolares. <simplesect kind="return"><para>Un double con el precio final en dolares. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="314" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="314" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1e3d513dea7c3f1ef656495085f49469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getIvaCalculado</definition>
+        <argsstring>()</argsstring>
+        <name>getIvaCalculado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getIvaCalculado</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el iva calculado de un producto. <simplesect kind="return"><para>Un double con el iva calculado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="328" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="328" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a12885410489aec3eb10466ee4239b8a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.etg.daw.prog.mercadaw.model.entities.productos.Producto.equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>equals</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.equals</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="337" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="337" bodyend="366"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6b036aeef94d9361b59bbccd3f877609" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getNumProductos</definition>
+        <argsstring>()</argsstring>
+        <name>getNumProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getNumProductos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="82" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a710454d78d3fa56caa464649d04eb231" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setNumProductos</definition>
+        <argsstring>(int numProductos)</argsstring>
+        <name>setNumProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.setNumProductos</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numProductos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="86" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="86" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> representa un producto de MercaDAW. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Drogueria</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" line="14" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java" bodystart="14" bodyend="367"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6d4fcc84702a4168bec600b9a317ce32" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>altura</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1ade960064df002b12d09e39d09b8dc63a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ALTURA_MIN</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0b0317dec65db096bf2e01035e576f03" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>anchura</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1acd80a8db2c7ac1514f6e4a49bc138a36" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ANCHURA_MIN</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a9f9927456b89969f9c6e2b65763d09cb" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_ALTURA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aca7afeef6113c9a6d2ebd0ff5f549a34" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_ANCHURA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1435191382b61ac8fd4fd4344c427884" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_CATEGORIA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988c58a18c7d70253c4b2fdbea8af136" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_DESCRIPCION</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a33d0e1d930c3786d2c2335ab418243b9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_ELEMENTOS</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a02286395556b7af7c9c6048347acb43e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_ID</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab8bbda631b95311a7a39ef2caf8d649d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_IVA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a81b3668e95553cd9e67678b5f4b0ef3d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_MARCA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988b4cf2f0ad5036082e8191591ac4e3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_NOMBRE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0467b386f8cb92205493178d839ed942" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_PESO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a2dac56f436f78e6428ceddaafb29d2f4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_PRECIO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab31fc7445b3563beb52b4bb41e39c1ff" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>ATT_STOCK</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6a48bcbca9e05aae459c1ff77b5eb5c1" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>descripcion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a12885410489aec3eb10466ee4239b8a8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>equals</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a18517c316e1b69b1340bfdd3be6b969e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac012bf84017995cfc06c2c6887a45c6e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aac7337fc87c155a7deb22e567aa06e57" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getDescripcion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a4c38dff964bc463e229dccc945ebb13a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abc77639a7de6f02986d15e9936e0fef3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getIva</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1e3d513dea7c3f1ef656495085f49469" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getIvaCalculado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab90680ce130fa3fe64821c0d493e8967" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getMarca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aeb765bb408ea349fd9c5be948c73cd97" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a06a17c696684f509c8e7d00a05fea7e0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getNumElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6b036aeef94d9361b59bbccd3f877609" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getNumProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac72bc47e66fdf5f3049e74e4bd86c3b1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a32ae34d4ed0e1a7e3cc661e86444335f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPorcentajeAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a149368ce0eb4896a0cb32ea01395d396" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPorcentajeAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6392244e78ca3a5e22f3099790653bae" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPorcentajePeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae31588ea5ae305b7799996a586602635" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPrecio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aa8611742cb7aee7307a5c9d07049b4ed" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPrecioFinalDolares</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a652e6159626f1fdc445c67b1aa07ea3d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPrecioFinalEuros</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getPrecioVenta</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1af4a4204e044e1720189f2a37c5f7a455" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getRecargoAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a5fbad8e893a02d779537e88596006dbc" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getRecargoAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae41c79e047ee17da75fc92c8b9bc73ef" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getRecargoNumElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a623a13553a0cc653842431c80d7c07e5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getRecargoPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a17c0bbae7fc3df07c5f55bc702287b51" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>getStock</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ad57fbe58145a32d577922de3e4292a65" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>id</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a85fbb3236fef0fa5cb945d1658d0f585" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>iva</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a23f248c67de967b92ccb36f99eb9bdc1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>IVA_ALIM</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1abf6c087d5a7d70640b0d64bc9b76adff" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>IVA_COSM</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a45ec1418a62c7dd04052a2ecaa4f346f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>IVA_DROG</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a638b5b2b6888ed21591ab69a26ebd685" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>marca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac5da81f175c3271c7e4a5ee1343a7cb8" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>nombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acbae015408484186b4bee434a2928f5c" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>numElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a732ceb306a11276b03ec664a1feb5ecd" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>numProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a7dacd76c00877da77bf268d1d8b29bfb" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>peso</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1aae8a87db9926df6f0f9d035a715b8fea" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>PESO_MAX</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a2e008822799a898b3f2db015ff70722b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>PESO_MIN</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acc99b92bb41264239a975879dd18484a" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>precio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae346965b004e04bd1fe300d0856ed7ed" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>Producto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a14abb17fcc838f9cddb96b9a36aa3c8c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae07b9ae9810f0a45bcb8d4cd2de5bc44" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a3965e52d82cf34fff35d1400e60c38ab" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setDescripcion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aec28104820c716c2e50f10fb61539dc4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a83d0365d356d7ec805830d0754c21bef" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setIva</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1adf39279e6fd87557039479f639dc67d5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setMarca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acd816783d04f4b696770594984551e75" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a05c6170b93346950a0b228d050d2b7b0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setNumElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a710454d78d3fa56caa464649d04eb231" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setNumProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abca61e59f235ec4d7f892fa11900de52" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a549ab23d0034389a9c5d74bb10b1064b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setPrecio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a43ae1b5f74d27747d8e578b3e818e1e8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>setStock</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a392277151629d3493fc7eb055e5d5b5e" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</scope><name>stock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

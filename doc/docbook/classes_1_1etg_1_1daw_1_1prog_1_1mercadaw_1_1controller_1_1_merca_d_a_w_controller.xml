@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.controller.MercaDAWController</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.controller.MercaDAWController</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.controller.MercaDAWController    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a270a62bcd5cadffc6cb67484f778f04e"/>void <emphasis role="strong">start</emphasis> (Stage stage)  throws Exception </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a4023dfc98e84aa4bb52c23339e9ccd0c"/>void <emphasis role="strong">cargarProductos</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8dc483cda985bf8229435c9cac84a55d"/>void <emphasis role="strong">cargarEmpleados</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a9d43c0a1db8422a0e60ca689a06d00af"/>void <emphasis role="strong">cargarCompras</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1aef48de27b4a40a3d6009e24f1515958a"/>void <emphasis role="strong">cargarImportar</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a530c574b636b81ee1a387faa42e03f69"/>void <emphasis role="strong">cargarExportar</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a38348101e5e2ac6ee7f1143083d347e9"/>void <emphasis role="strong">cargarApp</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a3f9fb006880316a4c30806ec66c47c04"/>void <emphasis role="strong">importar</emphasis> (String ruta)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a0ccbf35edc7a43efbb959c89e7490992"/>void <emphasis role="strong">getEmpleados</emphasis> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> empleado)  throws SQLException, MercaDAWException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a57961ed5a9e8b36ea8b4c6da7cc1ed98"/>static final String <emphasis role="strong">MSG_ERROR</emphasis> = &quot;ERROR&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a1d24b49e8acaf538f72cead8afca9f5a"/>static Stage <emphasis role="strong">currentStage</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java</section>

@@ -1,0 +1,1008 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a214ada40a93384f0de3ed4bfddf70876" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ID</definition>
+        <argsstring></argsstring>
+        <name>PROD_ID</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ID</qualifiedname>
+        <initializer>= &quot;cod_product&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="27" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a9c2b7def48d37de0fc5c5f15ed28f07f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_NOMB</definition>
+        <argsstring></argsstring>
+        <name>PROD_NOMB</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_NOMB</qualifiedname>
+        <initializer>= &quot;nombre&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="28" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8cea353c33fe0916f54676512f9a4d0c" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_MARC</definition>
+        <argsstring></argsstring>
+        <name>PROD_MARC</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_MARC</qualifiedname>
+        <initializer>= &quot;marca&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="29" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1aaa55dfc6f06092b9456340de9ba8081a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_DESC</definition>
+        <argsstring></argsstring>
+        <name>PROD_DESC</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_DESC</qualifiedname>
+        <initializer>= &quot;descr&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="30" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a865fe300a77fdcde22744337a716d24c" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_CATE</definition>
+        <argsstring></argsstring>
+        <name>PROD_CATE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_CATE</qualifiedname>
+        <initializer>= &quot;categoria&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="31" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1acc0e213e0359b80980de8a63db7a90ad" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_PREC</definition>
+        <argsstring></argsstring>
+        <name>PROD_PREC</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_PREC</qualifiedname>
+        <initializer>= &quot;precio&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="32" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1aa1e230da166270834f06cd4864c27f24" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ALTU</definition>
+        <argsstring></argsstring>
+        <name>PROD_ALTU</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ALTU</qualifiedname>
+        <initializer>= &quot;altura&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="33" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a233d6a450c0d58e7ea8967dcb035bcd4" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ANCH</definition>
+        <argsstring></argsstring>
+        <name>PROD_ANCH</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ANCH</qualifiedname>
+        <initializer>= &quot;anchura&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="34" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a0929b073d3b7d86d4fa439ef1ade4fe3" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_PESO</definition>
+        <argsstring></argsstring>
+        <name>PROD_PESO</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_PESO</qualifiedname>
+        <initializer>= &quot;peso&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="35" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6212ab500b4d9082b13dad780deb41fb" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ELEM</definition>
+        <argsstring></argsstring>
+        <name>PROD_ELEM</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_ELEM</qualifiedname>
+        <initializer>= &quot;num_elementos&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="36" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1acf38f3a3f6d234301bba58dd8984806d" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_STOK</definition>
+        <argsstring></argsstring>
+        <name>PROD_STOK</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.PROD_STOK</qualifiedname>
+        <initializer>= &quot;stock&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="37" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a51e53aa0a8f7b4cdca1e3a4fc40cb5e5" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_ID</definition>
+        <argsstring></argsstring>
+        <name>EMPLE_ID</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_ID</qualifiedname>
+        <initializer>= &quot;cod_emple&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="39" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7f9bc3e829982e9e692995a15a1af1b0" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_NOMB</definition>
+        <argsstring></argsstring>
+        <name>EMPLE_NOMB</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_NOMB</qualifiedname>
+        <initializer>= &quot;nombre&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="40" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1c7fff6f718fa9a7e08bf6b9d5d72d0a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_APEL</definition>
+        <argsstring></argsstring>
+        <name>EMPLE_APEL</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_APEL</qualifiedname>
+        <initializer>= &quot;apellidos&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="41" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a601f4ff6c7805478e7b8aac44b685377" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_CATE</definition>
+        <argsstring></argsstring>
+        <name>EMPLE_CATE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_CATE</qualifiedname>
+        <initializer>= &quot;categoria&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="42" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad25c64829a89a2a71fbde576bc612e1f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_FECH</definition>
+        <argsstring></argsstring>
+        <name>EMPLE_FECH</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.EMPLE_FECH</qualifiedname>
+        <initializer>= &quot;fecha_inic&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="43" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab712567e48103812a0be08f5a8d81783" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_ID</definition>
+        <argsstring></argsstring>
+        <name>CLIEN_ID</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_ID</qualifiedname>
+        <initializer>= &quot;cod_client&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="44" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1af4de0c1175496176ce0d1f57ac15ab23" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_POST</definition>
+        <argsstring></argsstring>
+        <name>CLIEN_POST</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_POST</qualifiedname>
+        <initializer>= &quot;cod_postal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="45" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a808c4771d26018a00c2ee4fb83857045" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_CORR</definition>
+        <argsstring></argsstring>
+        <name>CLIEN_CORR</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_CORR</qualifiedname>
+        <initializer>= &quot;correo&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="46" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afd180850db8e3995bcf192699788746c" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_NOMB</definition>
+        <argsstring></argsstring>
+        <name>CLIEN_NOMB</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.CLIEN_NOMB</qualifiedname>
+        <initializer>= &quot;nombre&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="47" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad8d20f3c3473edda5e9bea47b27761aa" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.COMP_ID</definition>
+        <argsstring></argsstring>
+        <name>COMP_ID</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.COMP_ID</qualifiedname>
+        <initializer>= &quot;cod_compra&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="49" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1af1ad21122ebd0737dd75b7b239ec61d6" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.COMP_FECH</definition>
+        <argsstring></argsstring>
+        <name>COMP_FECH</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.COMP_FECH</qualifiedname>
+        <initializer>= &quot;fecha&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="50" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6ea0bf423c7565e99d11e67a6794d2e7" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.URL</definition>
+        <argsstring></argsstring>
+        <name>URL</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.URL</qualifiedname>
+        <initializer>= &quot;jdbc:oracle:thin:%s/%s@localhost:1521/XEPDB1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="53" column="26" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a0d34463063f404b63bf09d1b6f305262" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.DATABASE_USER</definition>
+        <argsstring></argsstring>
+        <name>DATABASE_USER</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.DATABASE_USER</qualifiedname>
+        <initializer>= &quot;SYSTEM&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="54" column="26" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae5bb269f30866dce3e121b8b5696a5ed" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.DATABASE_PASS</definition>
+        <argsstring></argsstring>
+        <name>DATABASE_PASS</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.DATABASE_PASS</qualifiedname>
+        <initializer>= &quot;secret&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="55" column="26" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6f849443555f117b6fb16efce4c547c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.MercaDAOImpOracleXE</definition>
+        <argsstring>()</argsstring>
+        <name>MercaDAOImpOracleXE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.MercaDAOImpOracleXE</qualifiedname>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="59" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a82facac8c08c31f89d97db63f20f5800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.iniciarBBDD</definition>
+        <argsstring>()</argsstring>
+        <name>iniciarBBDD</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.iniciarBBDD</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece58ae52a4f78677f7a4d1fe20d7016">iniciarBBDD</reimplements>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepara la base de datos. (Crea las tablas y vistas). <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="64" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="64" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a4b8165b155eb4152462ec25b23987029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearEmpleados</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearEmpleados</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a430b4faf0b3e009c5d6335374b21b2f4">crearEmpleados</reimplements>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Este metodo crea la tabla y vista de Empleados en la base de datos <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="81" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="81" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d13fb934477572f38a7344465e40405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearClientes</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearClientes</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ac416170209b40f401502246a878cfdaf">crearClientes</reimplements>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Este metodo crea la tabla y vista de Clientes en la base de datos <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="101" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="101" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7922c37b03a3143838c2396c07f04d38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearProductos</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearProductos</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a6924a09ab15565911fa7b16f102a579b">crearProductos</reimplements>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Este metodo crea la tabla y vista de Productos en la base de datos <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="121" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="121" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a154b32fb64ff7706b4b7c8301112277e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearCompras</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.crearCompras</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a951f056fdbfc17f5c43b7f4e80e4393c">crearCompras</reimplements>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Este metodo crea la tabla y vista de Compras en la base de datos <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="154" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="154" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab930d2e3054cb5ff546a03b1ad805cb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</definition>
+        <argsstring>(Empleado emp)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece2705dfa539a6c55e5d5115d756385">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+          <declname>emp</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta el Empleado en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>empleado</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Empleado a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="174" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="174" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae305a3e8acb60df380b0cd08eb5e7630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</definition>
+        <argsstring>(Producto prod)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a328ce97bad346babfb590e4082f1b1d3">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+          <declname>prod</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta el Producto en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>producto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Producto a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="193" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="193" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a3abbfc09b90b4ca0957d2c2343970ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</definition>
+        <argsstring>(Compra compra)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a74aaa84024ef8dd191cc50779cf0b126">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref></type>
+          <declname>compra</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta la Compra en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>compra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Compra a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Esta variable se usa para poner la id de los productos de dentro de la lista</para>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="217" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="217" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afbb1ded2f25b6ddcc1eb346d82988c76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</definition>
+        <argsstring>(Cliente client)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1abe232202d06c3caa909eabb8402ee08c">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+          <declname>client</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta el Cliente en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cliente a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="248" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="248" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d728bc3bf86e7ddc2437184d4d88f4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+        <definition>Producto es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarProducto</definition>
+        <argsstring>(int id)</argsstring>
+        <name>visualizarProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarProducto</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a8f41a3d6f26bbfb230b26b73689e6f0d">visualizarProducto</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <exceptions> throws SQLException, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hace un select a la BD con la id pasada. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id del producto que quieres. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Producto con la id pasada por. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="268" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="268" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1ea86bc48f89a448fd0f1869e4536c03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt; Producto &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarProductos</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarProductos</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a130b081dd4b062f308bd2162eb8615a9">visualizarProductos</reimplements>
+        <exceptions> throws SQLException, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Productos de la BD completa. <simplesect kind="return"><para>List&lt;Producto&gt; Los productos de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="303" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="303" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8ace547ab4c0e4550d29ae185ee7793f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+        <definition>Cliente es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarCliente</definition>
+        <argsstring>(int id)</argsstring>
+        <name>visualizarCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarCliente</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a50068156380f7bb07c1eaa8eb5acd8ee">visualizarCliente</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Visualiza el Cliente con la id del parametro. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id del Cliente que quieres. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Cliente El cliente con la id del parametro. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="338" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="338" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a04bd4cf5acce67f7f5bf21ab8cba9f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref> &gt;</type>
+        <definition>List&lt; Cliente &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarClientes</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarClientes</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a3a5a77c8b6cdff55b5fed49c051f5a39">visualizarClientes</reimplements>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Clientes de la BD completa. <simplesect kind="return"><para>List&lt;Cliente&gt; Los clientes de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="365" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="365" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad4a1435b3336206abaf4228c9a2d4b52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref> &gt;</type>
+        <definition>List&lt; Empleado &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarEmpleados</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarEmpleados</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a9136e507bfd4893f237166934fe96a9c">visualizarEmpleados</reimplements>
+        <exceptions> throws SQLException, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Empleados de la BD completa. <simplesect kind="return"><para>List&lt;Empleado&gt; Los empleados de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="390" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="390" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a38fa79c3ba9444406181dfce95ff68d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+        <definition>List&lt; Compra &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarCompras</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE.visualizarCompras</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1ababdc68ea53900d12b69e13e6da2fe8f">visualizarCompras</reimplements>
+        <exceptions> throws SQLException, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Compras de la BD completa. <simplesect kind="return"><para>List&lt;Compra&gt; Las compas de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="417" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="417" bodyend="454"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e" kindref="compound">MercaDAOImpOracleXE</ref> implementa el comportamiento con la base de datos. <simplesect kind="author"><para>Jesús Pérez Enríquez. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>connection</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o"/>
+      </node>
+      <node id="4">
+        <label>Connection</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" line="25" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXE.java" bodystart="25" bodyend="455"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a808c4771d26018a00c2ee4fb83857045" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>CLIEN_CORR</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab712567e48103812a0be08f5a8d81783" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>CLIEN_ID</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afd180850db8e3995bcf192699788746c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>CLIEN_NOMB</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1af4de0c1175496176ce0d1f57ac15ab23" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>CLIEN_POST</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1af1ad21122ebd0737dd75b7b239ec61d6" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>COMP_FECH</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad8d20f3c3473edda5e9bea47b27761aa" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>COMP_ID</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a0aaa9860c4cedccaacd94fb737574710" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>connection</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d13fb934477572f38a7344465e40405" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>crearClientes</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a154b32fb64ff7706b4b7c8301112277e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>crearCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a4b8165b155eb4152462ec25b23987029" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>crearEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7922c37b03a3143838c2396c07f04d38" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>crearProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae5bb269f30866dce3e121b8b5696a5ed" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>DATABASE_PASS</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a0d34463063f404b63bf09d1b6f305262" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>DATABASE_USER</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1c7fff6f718fa9a7e08bf6b9d5d72d0a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>EMPLE_APEL</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a601f4ff6c7805478e7b8aac44b685377" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>EMPLE_CATE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad25c64829a89a2a71fbde576bc612e1f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>EMPLE_FECH</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a51e53aa0a8f7b4cdca1e3a4fc40cb5e5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>EMPLE_ID</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7f9bc3e829982e9e692995a15a1af1b0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>EMPLE_NOMB</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ad73a0da59b0ca308913229df9c5599f4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>getConnection</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a82facac8c08c31f89d97db63f20f5800" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>iniciarBBDD</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab930d2e3054cb5ff546a03b1ad805cb1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae305a3e8acb60df380b0cd08eb5e7630" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a3abbfc09b90b4ca0957d2c2343970ba3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afbb1ded2f25b6ddcc1eb346d82988c76" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6f849443555f117b6fb16efce4c547c9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>MercaDAOImpOracleXE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1aa1e230da166270834f06cd4864c27f24" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_ALTU</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a233d6a450c0d58e7ea8967dcb035bcd4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_ANCH</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a865fe300a77fdcde22744337a716d24c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_CATE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1aaa55dfc6f06092b9456340de9ba8081a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_DESC</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6212ab500b4d9082b13dad780deb41fb" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_ELEM</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a214ada40a93384f0de3ed4bfddf70876" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_ID</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8cea353c33fe0916f54676512f9a4d0c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_MARC</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a9c2b7def48d37de0fc5c5f15ed28f07f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_NOMB</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a0929b073d3b7d86d4fa439ef1ade4fe3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_PESO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1acc0e213e0359b80980de8a63db7a90ad" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_PREC</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1acf38f3a3f6d234301bba58dd8984806d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>PROD_STOK</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a675ae461c86b3e3b3f99b9f21f37b467" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>setConnection</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6ea0bf423c7565e99d11e67a6794d2e7" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>URL</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8ace547ab4c0e4550d29ae185ee7793f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>visualizarCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a04bd4cf5acce67f7f5bf21ab8cba9f59" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>visualizarClientes</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a38fa79c3ba9444406181dfce95ff68d6" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>visualizarCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad4a1435b3336206abaf4228c9a2d4b52" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>visualizarEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d728bc3bf86e7ddc2437184d4d88f4e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>visualizarProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1ea86bc48f89a448fd0f1869e4536c03" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</scope><name>visualizarProductos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

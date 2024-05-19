@@ -1,0 +1,58 @@
+.TH "es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory" 3 "Domingo, 19 de Mayo de 2024" "MercaDAW" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory
+.SH SYNOPSIS
+.br
+.PP
+.SS "Métodos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static \fBEmpleado\fP \fBobtener\fP (String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio)  throws MercaDAWException"
+.br
+.in -1c
+.SH "Descripción detallada"
+.PP 
+La factoría \fBEmpleadoFactory\fP crea empleados según el tipo de estos\&. 
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro\&. 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "static \fBEmpleado\fP es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.EmpleadoFactory\&.obtener (String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio) throws \fBMercaDAWException\fP\fC [static]\fP"
+El metodo obtener es el utilizado para inicializar los empleados, pasandole los datos y el tipo de empleado que se quiera crear\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIEl\fP tipo de empleado, ya sea \fBReponedor\fP, \fBCajero\fP, \fBEncargado\fP o \fBEmpleado\fP\&. 
+.br
+\fIEl\fP ID del empleado (nulo para generarlo automaticamente) 
+.br
+\fIEl\fP nombre del empleado 
+.br
+\fILos\fP apellidos del empleado 
+.br
+\fILa\fP fecha de contratación del empleado 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Un empleado 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fIMercaDAWException\fP 
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para MercaDAW del código fuente\&.

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.reader.LectorMock    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1af8aaec662b31dc11193ea2ab33d85a12">leerProducto</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1aaa6ca90ba4ba9c72abf1be6ed22a904e">leerEmpleado</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1a963bfafc246b9d9c4363e137edb5bdde">leerCliente</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1a04fde4c507f8447183823db7e89bb621">leerCompra</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1a963bfafc246b9d9c4363e137edb5bdde"/><section>
+    <title>leerCliente()</title>
+<indexterm><primary>leerCliente</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</primary><secondary>leerCliente</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorMock.leerCliente (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector">es.etg.daw.prog.mercadaw.model.util.reader.Lector</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1a04fde4c507f8447183823db7e89bb621"/><section>
+    <title>leerCompra()</title>
+<indexterm><primary>leerCompra</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</primary><secondary>leerCompra</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorMock.leerCompra (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector">es.etg.daw.prog.mercadaw.model.util.reader.Lector</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1aaa6ca90ba4ba9c72abf1be6ed22a904e"/><section>
+    <title>leerEmpleado()</title>
+<indexterm><primary>leerEmpleado</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</primary><secondary>leerEmpleado</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorMock.leerEmpleado (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector">es.etg.daw.prog.mercadaw.model.util.reader.Lector</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1af8aaec662b31dc11193ea2ab33d85a12"/><section>
+    <title>leerProducto()</title>
+<indexterm><primary>leerProducto</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorMock</primary><secondary>leerProducto</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorMock.leerProducto (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector">es.etg.daw.prog.mercadaw.model.util.reader.Lector</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorMock.java</section>
+</section>

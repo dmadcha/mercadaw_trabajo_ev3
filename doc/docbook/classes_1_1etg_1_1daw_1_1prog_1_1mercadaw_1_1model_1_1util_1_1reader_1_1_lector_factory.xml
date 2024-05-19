@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.reader.LectorFactory</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorFactory</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory_1a3d49f83cda77698490156c63add85566"/>static <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector">Lector</link> <emphasis role="strong">obtener</emphasis> (<link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato">Formato</link> formato)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorFactory.java</section>

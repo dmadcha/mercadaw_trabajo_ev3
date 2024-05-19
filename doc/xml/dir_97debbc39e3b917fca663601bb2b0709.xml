@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_97debbc39e3b917fca663601bb2b0709" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java</compoundname>
+    <innerdir refid="dir_4b96a8b33d1f8ef41fbe8cb4eb39245a">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/"/>
+  </compounddef>
+</doxygen>

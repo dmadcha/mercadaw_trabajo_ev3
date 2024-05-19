@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.CSVTest</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.CSVTest</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1ac32abb105a9ead56bffb9bd46eaf74a8"/>void <emphasis role="strong">cargarProducto</emphasis> ()  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1aa5dff3a88cb2be7a42d07bb77ccb2f3c"/>void <emphasis role="strong">cargarEmpleado</emphasis> ()  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1a440c86f659180d779e25b35f4dd62e3f"/>void <emphasis role="strong">cargarCliente</emphasis> ()  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1aeb8f690d222dbfbb1d4f72be2c271d3c"/>void <emphasis role="strong">cargarCadenaVaciaTestProducto</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1a3480b3274736336899de2cc99ff20a28"/>void <emphasis role="strong">cargarVacioTestEmpelado</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1ab6b9ac31265d3a7dbb46197d86130387"/>void <emphasis role="strong">cargarVacioTestCliente</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/CSVTest.java</section>

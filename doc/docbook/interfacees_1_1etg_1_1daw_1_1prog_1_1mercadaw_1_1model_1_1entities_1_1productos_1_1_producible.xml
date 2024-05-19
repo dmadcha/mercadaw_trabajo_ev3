@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible" xml:lang="es">
+<title>Referencia de la Interfaz es.etg.daw.prog.mercadaw.model.entities.productos.Producible</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.entities.productos.Producible    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>double <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5">getPrecioVenta</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a2e008822799a898b3f2db015ff70722b"/>static final int <emphasis role="strong">PESO_MIN</emphasis> = 1</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1aae8a87db9926df6f0f9d035a715b8fea"/>static final int <emphasis role="strong">PESO_MAX</emphasis> = 5</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1ade960064df002b12d09e39d09b8dc63a"/>static final double <emphasis role="strong">ALTURA_MIN</emphasis> = 0.5</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1acd80a8db2c7ac1514f6e4a49bc138a36"/>static final double <emphasis role="strong">ANCHURA_MIN</emphasis> = 0.5</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a23f248c67de967b92ccb36f99eb9bdc1"/>static final double <emphasis role="strong">IVA_ALIM</emphasis> = 0.04</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1abf6c087d5a7d70640b0d64bc9b76adff"/>static final double <emphasis role="strong">IVA_COSM</emphasis> = 0.10</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a45ec1418a62c7dd04052a2ecaa4f346f"/>static final double <emphasis role="strong">IVA_DROG</emphasis> = 0.21</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La interfaz <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible">Producible</link> expone los principales metodos de calculo del precio de venta de los productos. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5"/><section>
+    <title>getPrecioVenta()</title>
+<indexterm><primary>getPrecioVenta</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</primary><secondary>getPrecioVenta</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.getPrecioVenta ( )</computeroutput></para>
+<para>Calcula em precio de venta de un producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el precio final de venta del </para>
+</formalpara>
+</para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667">es.etg.daw.prog.mercadaw.model.entities.productos.Producto</link>.</para>
+</section>
+<para>
+La documentación para este interfaz fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java</section>
+</section>

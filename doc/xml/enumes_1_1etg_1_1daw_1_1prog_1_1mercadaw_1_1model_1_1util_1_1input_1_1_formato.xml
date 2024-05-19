@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato" kind="enum" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::input::Formato</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato_1acc8e81e0fe55a1665db5f15d6146c1a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.util.input.Formato.BINARIO</definition>
+        <argsstring></argsstring>
+        <name>BINARIO</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.Formato.BINARIO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Formato.java" line="4" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Formato.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato_1a69ede0cafadee91d25a1ddde360960d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.util.input.Formato.MOCK</definition>
+        <argsstring></argsstring>
+        <name>MOCK</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.Formato.MOCK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Formato.java" line="5" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Formato.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Formato.java" line="3" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Formato.java" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato_1acc8e81e0fe55a1665db5f15d6146c1a7" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::Formato</scope><name>BINARIO</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato_1a69ede0cafadee91d25a1ddde360960d9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::Formato</scope><name>MOCK</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

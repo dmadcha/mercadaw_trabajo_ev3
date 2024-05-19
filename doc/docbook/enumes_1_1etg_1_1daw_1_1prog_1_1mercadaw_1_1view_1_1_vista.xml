@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.view.Vista</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.view.Vista</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a13befa7edeb559ac15887877db1f0cfa"/>String <emphasis role="strong">getRuta</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ae422c4dc7af5b3828d476bfa068ecf02"/><emphasis role="strong">MAIN</emphasis> =(&quot;view/MainView.fxml&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ad5a3f0aa41a4d6dadde287a0ed443422"/><emphasis role="strong">CARGA_DATOS</emphasis> =(&quot;view/sistema/CargaDatosView.fxml&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a82576cdb42ad2e7001e0f5b5100290d1"/><emphasis role="strong">EXPORTAR_DATOS</emphasis> =(&quot;view/sistema/ExportarDatosView.fxml&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3f9976127f48d93395a59da305cedbce"/><emphasis role="strong">DAR_ALTA_PROD</emphasis> =(&quot;view/producto/DarAltaProductoView.fxml&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3d8d1c721f2efdd235c8c1453ceb3ca2"/><emphasis role="strong">DAR_ALTA_EMPLE</emphasis> =(&quot;view/empleado/DarAltaEmpleadoView.fxml&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1aba4a0f357808ecf7d3aef724b276e581"/><emphasis role="strong">DAR_ALTA_COMP</emphasis> =(&quot;view/compra/DarAltaCompraView.fxml&quot;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>Esta clase contiene las rutas hacia las diferentes vistas de nuestra aplicación. <formalpara><title>Autor</title>
+
+<para>Erik Herrera Llamas </para>
+</formalpara>
+<formalpara><title>Versión</title>
+
+<para>1.0 </para>
+</formalpara>
+</para>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java</section>
+</section>

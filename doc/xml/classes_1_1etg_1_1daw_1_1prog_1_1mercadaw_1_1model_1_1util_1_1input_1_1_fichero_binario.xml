@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::input::FicheroBinario</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1ae003a7722d715802fff0da60213e3c61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario.escribir</definition>
+        <argsstring>(String ruta, String texto)</argsstring>
+        <name>escribir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario.escribir</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a422e75fba8e9c3a272c15c73a42a0ca3">escribir</reimplements>
+        <param>
+          <type>String</type>
+          <declname>ruta</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>texto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroBinario.java" line="14" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroBinario.java" bodystart="14" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1a91ce1f511749e3088b38badc34ac8eff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario.leer</definition>
+        <argsstring>(String fichero)</argsstring>
+        <name>leer</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario.leer</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a521255c472847d66eb0af9300fb54d7c">leer</reimplements>
+        <param>
+          <type>String</type>
+          <declname>fichero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroBinario.java" line="30" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroBinario.java" bodystart="30" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario" kindref="compound">FicheroBinario</ref> que utiliza la interfaz <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp" kindref="compound">FicheroImp</ref> para sobreescribir los métodos para leer y escribir en binario. <simplesect kind="author"><para>Iván Rafael Redondo. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.Fichero</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.Fichero</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroBinario.java" line="11" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroBinario.java" bodystart="11" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1ae003a7722d715802fff0da60213e3c61" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::FicheroBinario</scope><name>escribir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1a91ce1f511749e3088b38badc34ac8eff" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::FicheroBinario</scope><name>leer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_3cdcbf1c70320d6bf14c42784ae25721" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view</compoundname>
+    <innerdir refid="dir_746c70e226075e379cee056b61da418c">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra</innerdir>
+    <innerdir refid="dir_4bd8b713c41805524a524d316ebd0aa4">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/empleado</innerdir>
+    <innerdir refid="dir_b2703af12041d28cd4d81d053b633ea7">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto</innerdir>
+    <innerdir refid="dir_ba54dfc9020b50441b432959a1c7d500">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/sistema</innerdir>
+    <innerfile refid="_main_view_controller_8java">MainViewController.java</innerfile>
+    <innerfile refid="_view_controller_8java">ViewController.java</innerfile>
+    <innerfile refid="_vista_8java">Vista.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/"/>
+  </compounddef>
+</doxygen>

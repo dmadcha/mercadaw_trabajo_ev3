@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::reader::LectorFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory_1a3d49f83cda77698490156c63add85566" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector" kindref="compound">Lector</ref></type>
+        <definition>static Lector es.etg.daw.prog.mercadaw.model.util.reader.LectorFactory.obtener</definition>
+        <argsstring>(Formato formato)</argsstring>
+        <name>obtener</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.reader.LectorFactory.obtener</qualifiedname>
+        <param>
+          <type><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato" kindref="compound">Formato</ref></type>
+          <declname>formato</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorFactory.java" line="4" column="26" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorFactory.java" bodystart="4" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorFactory.java" line="3" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorFactory.java" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory_1a3d49f83cda77698490156c63add85566" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::reader::LectorFactory</scope><name>obtener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

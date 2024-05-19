@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a4fd5b55cd16c847c53178d3026b32ce3">leerProducto</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a982d78701bd915d8d949a2eb14478d2c">leerEmpleado</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a426680829af3619b4e332b9fc3e0874d">leerCliente</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a9f7544f8d5412a6584896868691b8e48">leerCompra</link> (String codigo)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1acdbb703e83ec00890ba20e49607f74bf"/>void <emphasis role="strong">comprobar</emphasis> (String cadena)  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abc81b6a1df13a8fcdc7b42ccaf879ea2"/><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> <emphasis role="strong">procesarProducto</emphasis> (String fila)  throws MercaDAWException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v">LectorCSV</link> utiliza la inetrfaz LectorIMp para poder leer los entities y poder procesarlos. <formalpara><title>Autor</title>
+
+<para>Iván Rafael Redondo. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a426680829af3619b4e332b9fc3e0874d"/><section>
+    <title>leerCliente()</title>
+<indexterm><primary>leerCliente</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</primary><secondary>leerCliente</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerCliente (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp">es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a9f7544f8d5412a6584896868691b8e48"/><section>
+    <title>leerCompra()</title>
+<indexterm><primary>leerCompra</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</primary><secondary>leerCompra</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerCompra (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp">es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a982d78701bd915d8d949a2eb14478d2c"/><section>
+    <title>leerEmpleado()</title>
+<indexterm><primary>leerEmpleado</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</primary><secondary>leerEmpleado</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerEmpleado (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp">es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a4fd5b55cd16c847c53178d3026b32ce3"/><section>
+    <title>leerProducto()</title>
+<indexterm><primary>leerProducto</primary><secondary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV</primary><secondary>leerProducto</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; es.etg.daw.prog.mercadaw.model.util.reader.LectorCSV.leerProducto (String codigo) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para><para>
+Reimplementado de <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp">es.etg.daw.prog.mercadaw.model.util.reader.LectorImp</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/LectorCSV.java</section>
+</section>

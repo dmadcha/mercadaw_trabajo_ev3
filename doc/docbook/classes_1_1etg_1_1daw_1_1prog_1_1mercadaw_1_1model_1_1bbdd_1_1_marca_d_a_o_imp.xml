@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>abstract void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a430b4faf0b3e009c5d6335374b21b2f4">crearEmpleados</link> (Statement st)  throws SQLException</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ac416170209b40f401502246a878cfdaf">crearClientes</link> (Statement st)  throws SQLException</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a951f056fdbfc17f5c43b7f4e80e4393c">crearCompras</link> (Statement st)  throws SQLException</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a6924a09ab15565911fa7b16f102a579b">crearProductos</link> (Statement st)  throws SQLException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ad73a0da59b0ca308913229df9c5599f4"/>Connection <emphasis role="strong">getConnection</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a675ae461c86b3e3b3f99b9f21f37b467"/>void <emphasis role="strong">setConnection</emphasis> (Connection connection)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos protegidos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a0aaa9860c4cedccaacd94fb737574710"/>Connection <emphasis role="strong">connection</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase MercaDAOImp servirá para futuras actualizaciones. <formalpara><title>Autor</title>
+
+<para>Jesús Pérez Enríquez. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ac416170209b40f401502246a878cfdaf"/><section>
+    <title>crearClientes()</title>
+<indexterm><primary>crearClientes</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</primary><secondary>crearClientes</secondary></indexterm>
+<para><computeroutput>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearClientes (Statement st) throws SQLException<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d13fb934477572f38a7344465e40405">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a951f056fdbfc17f5c43b7f4e80e4393c"/><section>
+    <title>crearCompras()</title>
+<indexterm><primary>crearCompras</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</primary><secondary>crearCompras</secondary></indexterm>
+<para><computeroutput>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearCompras (Statement st) throws SQLException<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a154b32fb64ff7706b4b7c8301112277e">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a430b4faf0b3e009c5d6335374b21b2f4"/><section>
+    <title>crearEmpleados()</title>
+<indexterm><primary>crearEmpleados</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</primary><secondary>crearEmpleados</secondary></indexterm>
+<para><computeroutput>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearEmpleados (Statement st) throws SQLException<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a4b8165b155eb4152462ec25b23987029">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a6924a09ab15565911fa7b16f102a579b"/><section>
+    <title>crearProductos()</title>
+<indexterm><primary>crearProductos</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</primary><secondary>crearProductos</secondary></indexterm>
+<para><computeroutput>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearProductos (Statement st) throws SQLException<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7922c37b03a3143838c2396c07f04d38">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java</section>
+</section>

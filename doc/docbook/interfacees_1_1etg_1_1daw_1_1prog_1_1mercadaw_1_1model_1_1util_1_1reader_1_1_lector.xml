@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector" xml:lang="es">
+<title>Referencia de la Interfaz es.etg.daw.prog.mercadaw.model.util.reader.Lector</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.Lector</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.reader.Lector    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a9873e52658b7a4d9f385633e27e8af63"/>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; <emphasis role="strong">leerProducto</emphasis> (String codigo)  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a63cb4110047738d8ee813f7207b059ff"/>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; <emphasis role="strong">leerEmpleado</emphasis> (String codigo)  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a7bda33516e351cbff01bbf531f447b98"/>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; <emphasis role="strong">leerCliente</emphasis> (String codigo)  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a1a079b79d94328d73f809bae368c2dac"/>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; <emphasis role="strong">leerCompra</emphasis> (String codigo)  throws MercaDAWException</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La interfaz <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector">Lector</link> permite leer cada una de los entities disponibles . <formalpara><title>Autor</title>
+
+<para>Iván Rafael Redondo. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este interfaz fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/Lector.java</section>
+</section>

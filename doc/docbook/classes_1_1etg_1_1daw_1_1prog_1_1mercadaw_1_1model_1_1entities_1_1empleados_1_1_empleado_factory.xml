@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory_1a28fa64029f67b318d00844530c8bf0ed">obtener</link> (String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio)  throws MercaDAWException</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La factoría <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory">EmpleadoFactory</link> crea empleados según el tipo de estos. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory_1a28fa64029f67b318d00844530c8bf0ed"/><section>
+    <title>obtener()</title>
+<indexterm><primary>obtener</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory</primary><secondary>obtener</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory.obtener (String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio) throws <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link><computeroutput>[static]</computeroutput></computeroutput></para>
+<para>El metodo obtener es el utilizado para inicializar los empleados, pasandole los datos y el tipo de empleado que se quiera crear. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>El</entry><entry>
+<para>tipo de empleado, ya sea <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor">Reponedor</link>, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero">Cajero</link>, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado">Encargado</link> o <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link>. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>El</entry><entry>
+<para>ID del empleado (nulo para generarlo automaticamente) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>El</entry><entry>
+<para>nombre del empleado </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Los</entry><entry>
+<para>apellidos del empleado </para>
+</entry>
+                            </row>
+                            <row>
+<entry>La</entry><entry>
+<para>fecha de contratación del empleado </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>Un empleado </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>MercaDAWException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/EmpleadoFactory.java</section>
+</section>

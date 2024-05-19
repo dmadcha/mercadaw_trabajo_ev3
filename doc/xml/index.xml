@@ -1,0 +1,926 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.4" xml:lang="es">
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion_1ad070b913372763f20b7f8a1dcc9cfb2a" kind="function"><name>Alimentacion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion_1af7df7d6e8c6080a9d751006f7f62f5ec" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1_app" kind="class"><name>es::etg::daw::prog::mercadaw::App</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1_app_1ade8d52a01413dcd07b4591e3d731d10b" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::Cajero</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a95f7a9596887d01244eb5e5f0e0b253a" kind="variable"><name>sueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a4106992003db65007d40f076c22ac0ee" kind="function"><name>Cajero</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1ae31141721047b4a5a3d522f8493ee0d4" kind="function"><name>getSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1af841a09dbd7ed3941f972e658d73e312" kind="function"><name>setSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero_1a79b5f0c74aba96fad1ef325ffb5c5446" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::sistema::CargaDatosViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ad3951075b3ee49588378181721c0d98f" kind="variable"><name>NOMBRE_VENTANA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ad1153ae70f803012264ca53422e9e2ef" kind="variable"><name>EXTENSION_CSV</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ab69d2a7aaa4ddef41bbef311b48814f2" kind="variable"><name>EXTENSION_SQL</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a956555cca54af3996f67eb748881e5f8" kind="variable"><name>EXTENSION_JSON</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1acd871e6fe0e328ec1cef2be894191491" kind="variable"><name>DESC_CSV</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a4c51b8ed35cd04e2de2d0d83b996ad3f" kind="variable"><name>DESC_SQL</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a5109d6352498e0390e730489b69bada0" kind="variable"><name>DESC_JSON</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a3509e2f30b72bb4880b2a29eef0fd87e" kind="variable"><name>stage</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a9471d0b2e66d0d4f7aa7360e913850ce" kind="variable"><name>controller</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a1ceb7311cabaf7544da3a28eacb4300c" kind="variable"><name>btnCargarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a16ded3bfe071da5e0fafebff541e2219" kind="variable"><name>btnCargarEnviar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a8226729e9a8c9a766be85512bebd2065" kind="variable"><name>btnExportarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ad7e86446d8e121394cf40cf951cd0557" kind="variable"><name>btnSalir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a9ed47ba929cf7b9a1d35a13ae2318ae6" kind="variable"><name>btnSelectArchivo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a84ac90df36bbc71753a5c07712dd7c65" kind="variable"><name>txfRuta</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a296a49af11cc85b4fa98eaf63b0f9a18" kind="function"><name>accesoCargarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a3db9a6b5507ebadf0f1fa95ac74c9e19" kind="function"><name>accesoExportarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a09e7708828fb37bd4c1afa893322c99d" kind="function"><name>salir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a1cc349a19265a9e9bb718c0dfe4eba06" kind="function"><name>enviar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a0fded7925e5ec65220ac7b9d1cbe68e0" kind="function"><name>selectArchivo</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aa1fbb9f27069a7d5d53d0f263191eaaf" kind="variable"><name>numClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1af8e42f8a36073fd8048a87fad0976b9f" kind="variable"><name>id</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9324d9d4c156dff5cd90c0a15533d49a" kind="variable"><name>nombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bec0dc7111530e4f778e51dfd561bf1" kind="variable"><name>correo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abe9608e2738a5a830888b3639acac260" kind="variable"><name>codPostal</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1adb180a225f1865a19eede0bb683db961" kind="function"><name>Cliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1afb47f6bd2a6b809d9fc3a500babea13b" kind="function"><name>getId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a35bfe92591a3f60d22bccb46eb260f8f" kind="function"><name>setId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bd6c5d84d3460d1eed2f4c098dcf2b7" kind="function"><name>getNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aad99e606a0f7fa2ce7947f4fb2a20947" kind="function"><name>setNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a213314d4e36ec28a2ec087542fa839a6" kind="function"><name>getCorreo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a4fb7698fd6d6c5a87b882a410d9efc6a" kind="function"><name>setCorreo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abedb4655bf7d71ffdfd30400298a92b5" kind="function"><name>getCodPostal</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1ac74b36d0a3c2d58ebaaf3539788e0e27" kind="function"><name>setCodPostal</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9e9514641ff2d55977175eb2fdd66fdf" kind="function"><name>getNumClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a0564df2abfb1c252a12a30f83d9b4a5b" kind="function"><name>setNumClientes</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_cliente_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::ClienteTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_cliente_test_1abacd8b8bf208266c1ca2a1aaed02268d" kind="variable"><name>cliente1</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_cliente_test_1a8bc693c02858f56742fbdcca8c8ce003" kind="variable"><name>cliente2</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_cliente_test_1abf3eeb73bd75715223fda4fd739722a6" kind="function"><name>creacionClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_cliente_test_1a6900f90b152ebe45a8e2b2678644d5b4" kind="function"><name>crearClienteTest</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a8bdfffaeeb15ad2849af95b9ca7b1b66" kind="variable"><name>numCompras</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac0fdb84664b6d39d816d90c3e125ef1a" kind="variable"><name>id</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1aa25f66cf39e2fd7cf880f5d85af99205" kind="variable"><name>fecha</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a54678f280e6aff1df52aba3dbb552e6e" kind="variable"><name>cliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4a653048396e05235b2d4b5224caf6d3" kind="variable"><name>productos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1afa7b6fcdb0f733237f4446cd22fbb46d" kind="function"><name>Compra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a37c67d325bf2619ccd7206d12dbed0cc" kind="function"><name>getFecha</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4069b76afd90625fb5faeeb85723265c" kind="function"><name>setFecha</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a75bb593383527c238fee3bd05f610792" kind="function"><name>getCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a2c77cfad2207d83655f79fa4b9c855c9" kind="function"><name>setCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ad2cd44c24058ba85f28646d0e643c918" kind="function"><name>getProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a35d836e37df2f671ec255bdc2af4d0df" kind="function"><name>setProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac4de595a766294183ea38b21a70a54fc" kind="function"><name>getId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a83e55390c6e12314c595fbce39fa3915" kind="function"><name>setId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a6b1cd29ff37bf1c9de1d0859a0d4942d" kind="function"><name>getNumCompras</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a1bbec7141df9a92400bb071fb876db54" kind="function"><name>setNumCompras</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::CompraTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a86ccdea0ca782f9991858915b80242e4" kind="variable"><name>producto1</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a60dff1a2ee866b55d819550cec9242ec" kind="variable"><name>producto2</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a273226fc9c11e31aae69c187f06038c4" kind="variable"><name>productos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a6caa6d3ca312ffcb1b7b3bc0dd99e544" kind="variable"><name>cliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1ad0287d1e3eb63bea41d6dd210a47ad1a" kind="variable"><name>compra1</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a53fbfdf0cfd392419e4157619dbc3864" kind="variable"><name>compra2</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a5f6790648390e57c38b72a2e6a1aeacd" kind="function"><name>creacionCompra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a15c1a9565bbd1f3ae87b75aa86ed89f1" kind="function"><name>crearCompraTest</name></member>
+  </compound>
+  <compound refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable" kind="interface"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</name>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a81c5f61ad96ba7037df6ea7e23ec443f" kind="variable"><name>SUELDO_EMPLE</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ad4db794540ded04f1d81ebd8cf6da41a" kind="variable"><name>SUELDO_REPON</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a61a62ab951d764a0a555d0724bd1df06" kind="variable"><name>SUELDO_CAJER</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a38274bcebd08b1b3170feb6ba10750b8" kind="variable"><name>SUELDO_ENCAR</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a80e155e59116e86f5ea47fe8dec7cdf8" kind="function"><name>getSalarioNeto</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ab741c07bdcfd5ca9fdf735bc59dd0116" kind="function"><name>getSalarioBruto</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a6223326cca9d8b4b1b773f2390ac7638" kind="function"><name>getAportaciones</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ae60ca84d96eb7c1947967cb22b5cf3bf" kind="function"><name>getIndemnizacion</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Cosmetica</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica_1a62c98845270a4b9e4b4a39c4f93c7bd2" kind="function"><name>Cosmetica</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica_1acdaa8ec1d1c8d605ff58f976f592fec3" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::CSVTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1ac32abb105a9ead56bffb9bd46eaf74a8" kind="function"><name>cargarProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1aa5dff3a88cb2be7a42d07bb77ccb2f3c" kind="function"><name>cargarEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1a440c86f659180d779e25b35f4dd62e3f" kind="function"><name>cargarCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1aeb8f690d222dbfbb1d4f72be2c271d3c" kind="function"><name>cargarCadenaVaciaTestProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1a3480b3274736336899de2cc99ff20a28" kind="function"><name>cargarVacioTestEmpelado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test_1ab6b9ac31265d3a7dbb46197d86130387" kind="function"><name>cargarVacioTestCliente</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a31c90f43be2e8d522f93381e6e1b51f1" kind="variable"><name>controller</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ab3fc3a29a666dc6b827af5ccc775a0d8" kind="variable"><name>btnAñadir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2972f4dff794b10f4bafa95e6fa0d45b" kind="variable"><name>btnConsultarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a54842bb2b19624cdf5c54977f0aec7ba" kind="variable"><name>btnDarAltaComp</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a360e1e9aae44b7aa66453dde5c877e72" kind="variable"><name>btnSalir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a4aa318729c5438ddf19aa118d55f4994" kind="variable"><name>colCodigoCli</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a0d2ceaa4f3f7f7bb87e65c8e3e74c8fb" kind="variable"><name>colCodigoProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2a88fe6aa6693e14d7602629fb550ef1" kind="variable"><name>colCorreoCli</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ace3905e97eec25724992dfc7c83f8011" kind="variable"><name>colNombreCli</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a220182708c11e818b460452654231a87" kind="variable"><name>colNombreProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a3b0a0b612c4d2a6fe41e3bb5d3202b79" kind="variable"><name>colPostCli</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ad5cd5c76fb9e1326edadad44964e6fb2" kind="variable"><name>colPrecioProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2312d35f2415e0ac264adfc73ffbd648" kind="variable"><name>colStockProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a975e69d505c5e74f8dae1a1e3a86262b" kind="variable"><name>tabCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a1b033de54be313c9b70924045f83a8be" kind="variable"><name>tabProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a4712332c698b006abb60406ced2c25cf" kind="function"><name>accesoDarAltaComp</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1afdd571262c3736b607b177a1932c514b" kind="function"><name>addCompra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ac1f446489286c1d9549d3a5265ff3e3a" kind="function"><name>salir</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::empleado::DarAltaEmpleadoViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1acbe3a2d02406835415fac3a54b4664d9" kind="variable"><name>MSG_ERROR</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a5ee59ffbb3c9ded8b4b70f658d3bf741" kind="variable"><name>controller</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1ad345f4ead60a18c3ace67b8918e9857b" kind="variable"><name>empleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a69d168c691cb5d36c3ca8b62a69b29a5" kind="variable"><name>btnAñadir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a572d40e8762375e976522d7fa5c8300a" kind="variable"><name>btnDarAltaEmple</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1ad11f75262c25d55c9960b891ae81321b" kind="variable"><name>btnSalir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a9db5981835f9111a7a511b2eae966f8e" kind="variable"><name>choiceCategoria</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1af8595f01bf53e6a1447eb1ff2af1130a" kind="variable"><name>colApellidos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a15d3f1b46e5a3c948771c26563ceeee2" kind="variable"><name>colAportacionSal</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a0bbcc63627ac4fc73131a825c1d9c802" kind="variable"><name>colCategoria</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1aab8f245aa1a052b79ddb1a0012443a71" kind="variable"><name>colCodigo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a132de2037b2ed7c2e26c7c9ac8a94226" kind="variable"><name>colIndemnizacion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1aa61a5972a3f0b26123b7846bfb762962" kind="variable"><name>colNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1af68096ea8e285d5701f49c6f6e538c8d" kind="variable"><name>colSalBruto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a282d1f14ae4112e65e85392817b3e336" kind="variable"><name>colSalNeto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1ade2e231d5290bafee0d7a0e5464163a5" kind="variable"><name>colTotalCosteLab</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a94d678fb63423e92d8141140f079866e" kind="variable"><name>colTotalNomina</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a8731da7a16e6db54e3cc12b203139944" kind="variable"><name>tabEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1ad4ebb9851c3c8dde49787e994dcabaa3" kind="variable"><name>tabNomina</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a91502920f8f1778964b041e7acfb4ed0" kind="variable"><name>txfApellido</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a37b3ba527361625635b897cb39a1585f" kind="variable"><name>txfNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a8bd78e54fc54bdac8783bd049d68f795" kind="function"><name>accesoDarAltaEmple</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a88323abcaa7a209f986f899337a7d795" kind="function"><name>addEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a4bf407e153acec02ff95762adbf752b5" kind="function"><name>salir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a104a94f16531cb5241222eb4c3f92dd9" kind="function"><name>iniciarTabla</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a980611b5011baec41ee9878cbd3aa28a" kind="function"><name>initialize</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a1f64469b2e52be3544ec3b4a0e9424b4" kind="function"><name>mostrarAviso</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a259c49db0e18644695f18a0684eff67b" kind="variable"><name>MSG_ERROR</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a51c26683a649b7317d5deb820c3cf3ed" kind="variable"><name>controller</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a8661ef9aa1e705a0ddd25e5a38e3571a" kind="variable"><name>productos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ab7c32acdd7b1abd30e58bf77cefbf80c" kind="variable"><name>btnAñadirProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a46c58d1910dbac08a2bbe43f4a75d026" kind="variable"><name>btnDarAltaProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1abab02835b40303fb40de3f2baf5b6d62" kind="variable"><name>btnObtenerPrecio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a43c6a0648670ada41a30cc77ac155b86" kind="variable"><name>btnSalir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ae2c8fb57228b70ccd84a50ea642152be" kind="variable"><name>choiceCategoria</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a1f512eb247787a2ea5586653656d21e4" kind="variable"><name>colAltura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a33ce4ff38f33006e30d48623783e424d" kind="variable"><name>colAnchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a586f2782451d932371ef6bff186b0903" kind="variable"><name>colCategoria</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a6b0dd0e6ec4ec0b129033a54d891c248" kind="variable"><name>colMarca</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a9804eb6d4c9fb0f4d313358a759afa59" kind="variable"><name>colCodigo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ad36cb809ad9ce48a744f52490482c6f8" kind="variable"><name>colDesc</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aa4c5a6a13c0e674b23e9875a2ef6da8d" kind="variable"><name>colElementos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1abba691a3a5c2f6a42c5463ea2188d8f1" kind="variable"><name>colIVA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a0ee3aeb7162b9996b0eff98fe2787bd1" kind="variable"><name>colNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a412a0e51adcc1489dc951d5226182cb6" kind="variable"><name>colPeso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a1c124f9df215be7152c20edf07b176d2" kind="variable"><name>colPrecio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1acdf6fe5ee30f33fe7f30d3b76ee301d7" kind="variable"><name>colStock</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a81ca8100f74e3b8ca0d7bd51893f421f" kind="variable"><name>tabProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a2e6f1568dafad969e8168da0dd085ac4" kind="variable"><name>txaDescripcion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aea80705e4325384f9aba0a0a99915aad" kind="variable"><name>txaPrecioVenta</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aa5df1da8f84f429752e4515d575df607" kind="variable"><name>txfAltura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a60a7da44fca6941e01f5eccda6536547" kind="variable"><name>txfAnchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a51c71d72064855ec5b20a592ffd6b80e" kind="variable"><name>txfElementos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1af34f87959b2cdaeb1c378ba04698e581" kind="variable"><name>txfIva</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a19ced45d86d18e02e62fdac77c98f7e8" kind="variable"><name>txfMarca</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a81e5c109a7e9863fc2adeb35cb9d5be3" kind="variable"><name>txfNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ab5cdbcf354b4c6160b4a0e94d984debc" kind="variable"><name>txfPeso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ac05dce11e602bfabb13a39f7ccf7e1c5" kind="variable"><name>txfPrecio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1adf7f1bced97753c4cfd65151a86d202c" kind="function"><name>accesoDarAltaProd</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aaf95dc192a4352d253c5c7612db0c0a4" kind="function"><name>addProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a7069465b2c8183e3081d1d93027e91d1" kind="function"><name>salir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a6f7b2025b4c7c7561de4bc13e5b0ae1c" kind="function"><name>iniciarTabla</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ad00778a8b22c9887f286659545e20f2f" kind="function"><name>initialize</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ae96c2efe32905f4b1482eb1c24f5d1d6" kind="function"><name>mostrarAviso</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database" kind="enum"><name>es::etg::daw::prog::mercadaw::model::bbdd::Database</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1a692a3bb706f467bd9ea5e9963fcd87ee" kind="variable"><name>ORACLE</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1ab496273bf39e1967c25b437aad200d5b" kind="variable"><name>MOCK</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Drogueria</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria_1a42bb19e9e05d01536bfc27f696713923" kind="function"><name>Drogueria</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria_1a70b8d7cc4854a2c420650265014fa463" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::Empleado</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aafd753ef67687bd8069c1a8de8b2181f" kind="variable"><name>ATT_ID_EMPLE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a2a7bd7d22a48d432ca3fbd49a35df0b0" kind="variable"><name>ATT_NOM_EMPLE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1afcb2d9d0c957f820b0703d2b6b1d46ac" kind="variable"><name>ATT_APELLIDO</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ab25552f331f8bc2d3f8aa798da6e7ac5" kind="variable"><name>ATT_CATEGORIA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ac7a2c00a0c821fb5761926a7faeddc80" kind="variable"><name>ATT_SUELDO</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a56ea8d4e8edf8382d32dbf1c631b14a1" kind="variable"><name>ATT_FECHA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1afb25951b95079b7e26cf5408ecc187a7" kind="variable"><name>numEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a682358d1465761ec84922bee884c7cfc" kind="variable"><name>id</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1acc663c9c067f5c7cfbc3f8989671324f" kind="variable"><name>nombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a6a2eb80fcbb5166fa50db44c9184e5a9" kind="variable"><name>apellidos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a626801934f0b482f212ec4f2da8c9d7c" kind="variable"><name>sueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a11cb2cc33d3e371f751083e87a344def" kind="variable"><name>fechaInicio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a6456de88e106f3cbd7f7da0097b59030" kind="function"><name>Empleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1af6f67bd058a4f633b5830ce419a0672f" kind="function"><name>getFechaInicio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a8ed8a3603932f5ec446d8e5ace199c2e" kind="function"><name>setFechaInicio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ad69c5fb6a280f727759eac51f9bf2a82" kind="function"><name>getId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aed9cd2f7b1d72294b467f1c4ad286793" kind="function"><name>setId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ae79c77bf0600e33e79c66a5ddab1b10a" kind="function"><name>getNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a928f6fc0168249b17d8175b7941c2d24" kind="function"><name>setNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1af347350468b5297e844ab7a53bc3a40a" kind="function"><name>getApellidos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1abaed76aa00a35990c821009070270cc2" kind="function"><name>setApellidos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a32eed8e48d524b5f1093d0f1cca8ba9c" kind="function"><name>getSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ac1169f360f6229b6e2318740216e5040" kind="function"><name>setSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a9a77d2c84354695e4843e9f89c7e578a" kind="function"><name>toString</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a24ff7469afcf85b0b47591716edf62ca" kind="function"><name>getSalarioNeto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1abea1026abf81bdaa13f6e4dc48422a29" kind="function"><name>getSalarioBruto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ab7a33e4fe555cb2425b23bf96458966b" kind="function"><name>getPPE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a0a76525548062663018ab8389b5a61c0" kind="function"><name>getDeducciones</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a79009bd654bcdb3f1bc562d18ee31736" kind="function"><name>getAportaciones</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a46218a6430becc3659974a670143ab08" kind="function"><name>getIndemnizacion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aa25ee49b50d3ab9162c2d82c1c265e33" kind="function"><name>getIndemnizacionLegal</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a2422019d7f109299eecb2fab3a5b4aa7" kind="function"><name>getSalarioDiario</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a1e06a200891dbfe633910f6025e64f05" kind="function"><name>getAntiguedad</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aad7597856db14a7111551fc0c21cafac" kind="function"><name>equals</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ae882f7d39dbac5b4ebc2fb3826827400" kind="function"><name>getNumEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ae9c763d8098f2520965c97b82addf877" kind="function"><name>setNumEmpleados</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::EmpleadoFactory</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory_1a28fa64029f67b318d00844530c8bf0ed" kind="function"><name>obtener</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a1295aa192e3f10fdedc3db06cf36cc19" kind="variable"><name>empleado1</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a282f82d3592ce3785c8b050e0cef3b34" kind="variable"><name>empleado2</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aec68f8eba978acda6d2daa3e99c4535f" kind="function"><name>creacionEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a87dc83894db168ba3f63da9735a12fc5" kind="function"><name>crearEmpleadoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1adccc4749d12e832324f136767b341a3f" kind="function"><name>getSueldoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aedac8fe319811c714494c8bf373e2f19" kind="function"><name>getPPETest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a9cac09a88dae9cfcfbc32496ff86a29c" kind="function"><name>getSalarioBrutoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1af841ae669973490e9cfcc414684fbcb5" kind="function"><name>getDeduccionesTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a027ef4f5b5f06be8cd8fd612ee81afa8" kind="function"><name>getSalarioNetoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a52b3f021c7fa7d8014eefa03e45199b0" kind="function"><name>getAportacionesTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8bb77aa7d36377632c0a4d2d569419ad" kind="function"><name>getIndemnizacion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae2f30af873f30b478f8a01d2dd142715" kind="function"><name>getSalarioDiarioTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae660494d816094d3a6ae33eb582f9d32" kind="function"><name>getIndemnizacionLegalTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8754260cb488503c37d7faa02e31b9e9" kind="function"><name>getAntiguedadTest</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a58a2dd0e1cb642f85ae26d5863b36d7f" kind="variable"><name>sueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a3aded7b5a51d0fcc6a851b57db8a3e75" kind="function"><name>Encargado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a8a1d04d8ae86a68cd76b377a378678e5" kind="function"><name>getSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1aa6271a3da9826514d791782690570736" kind="function"><name>setSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a856dc81ed4ad0282383591a3fbbeb42c" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util" kind="interface"><name>es::etg::daw::prog::mercadaw::model::util::export::ExportableUtil</name>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a81d036d2b61f0dd519d15c6ddb642ac1" kind="function"><name>exportar</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a243f6eef8ed2f9777e4357a42f5e5e4a" kind="function"><name>getUser</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1ad3aeef161d1140c067279720b02cc0e3" kind="function"><name>getGrupo</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::sistema::ExportarDatosViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1ad8abaffdd1df26e73b8ddf3589646378" kind="variable"><name>NOMBRE_VENTANA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a5b576474798d9e1144693307e2c789e6" kind="variable"><name>stage</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a3cc1854f1811697e3014a4e4db9f0e4f" kind="variable"><name>controller</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a6074a6857b509d013ce9373128a6df7f" kind="variable"><name>btnCargarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a78f20a5e0da7cca1a5f898a198df535c" kind="variable"><name>btnExportar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a2dd3100678f9d4ce1c3564997bc3edf0" kind="variable"><name>btnExportarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1aa7137bfd8e110045225b74e5e00612ae" kind="variable"><name>btnSalir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a6c10c4942ae4806b91383147892cc5fe" kind="variable"><name>btnSelectDestino</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1abfe5c9bd930e21ecde2231bdd01b9faa" kind="variable"><name>checkExcel</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a02bc47910991d386375397f600c50ace" kind="variable"><name>checkPDF</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1af54a979dc91be9ff0d1d5a5aecb430e6" kind="variable"><name>txfRuta</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a28beefe53841c02bea341bf42388ab21" kind="function"><name>accesoCargarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1a3764aa308aff2aeceb1f69458651e970" kind="function"><name>accesoExportarDatos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1aff7ec35b86f3cc0e9c174e153a65f18d" kind="function"><name>salir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller_1acd0acc55fbc65c8a0e676cf51c4564da" kind="function"><name>seleccionarDestino</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_export_exception" kind="class"><name>es::etg::daw::prog::mercadaw::model::exception::ExportException</name>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_export_office_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::ExportOfficeTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_export_office_test_1abf5c17fe5665e3c4cd5fcfb0aedd33e5" kind="function"><name>test</name></member>
+  </compound>
+  <compound refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero" kind="interface"><name>es::etg::daw::prog::mercadaw::model::util::input::Fichero</name>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1ab29deb742bfd1b59e186779fd980d68e" kind="function"><name>escribir</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1a2f70459a627c3e92a61eca77a4247c7d" kind="function"><name>leer</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::input::FicheroBinario</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1ae003a7722d715802fff0da60213e3c61" kind="function"><name>escribir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1a91ce1f511749e3088b38badc34ac8eff" kind="function"><name>leer</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::FicheroBinarioTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1af8df5b1f2138f02276ee492cf52e255c" kind="variable"><name>fichero</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a1e6f028d3f97c2e57cf5b1e8d81126b4" kind="variable"><name>ficheroBinario</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a3da80c7dbd66f7c44223a11a669573d3" kind="function"><name>leerEscribirTest</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_fichero_exception" kind="class"><name>es::etg::daw::prog::mercadaw::model::exception::FicheroException</name>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_factory" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::input::FicheroFactory</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_factory_1a9830b7815e4d43302e6b21be4c71e530" kind="function"><name>obtener</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::input::FicheroImp</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a422e75fba8e9c3a272c15c73a42a0ca3" kind="function"><name>escribir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a521255c472847d66eb0af9300fb54d7c" kind="function"><name>leer</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::input::FicheroMock</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1aa0fcc2e740756d012741bbaa39f69ce7" kind="function"><name>escribir</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1a7e7a4fa20dec090b67cf5524d317674d" kind="function"><name>leer</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato" kind="enum"><name>es::etg::daw::prog::mercadaw::model::util::input::Formato</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato_1acc8e81e0fe55a1665db5f15d6146c1a7" kind="variable"><name>BINARIO</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato_1a69ede0cafadee91d25a1ddde360960d9" kind="variable"><name>MOCK</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato" kind="enum"><name>es::etg::daw::prog::mercadaw::model::util::reader::Formato</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato_1af537dde4f6df181b73a434d1a06d0fa6" kind="variable"><name>CSV</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato_1a42057e32f212542d8ec56913513f502d" kind="variable"><name>JSON</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_formato_exception" kind="class"><name>es::etg::daw::prog::mercadaw::model::exception::FormatoException</name>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::JSONTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ab851f4c71aa0ebfcc1ad96e7f51aa693" kind="function"><name>cargarProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1a651dae6444f2c7e96da5784525a48818" kind="function"><name>cargarEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ae98be92687076d3791cdc3f8fdac993f" kind="function"><name>cargarCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1a49d24c6febda87f03dae31093fc0675f" kind="function"><name>cargarVacioTestProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1aa3248b19539a2dc11d4880537f56eab6" kind="function"><name>cargarVacioTestEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ab3fad5c4d66ba923a483d461bbc5d087" kind="function"><name>cargarVacioTestCliente</name></member>
+  </compound>
+  <compound refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector" kind="interface"><name>es::etg::daw::prog::mercadaw::model::util::reader::Lector</name>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a9873e52658b7a4d9f385633e27e8af63" kind="function"><name>leerProducto</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a63cb4110047738d8ee813f7207b059ff" kind="function"><name>leerEmpleado</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a7bda33516e351cbff01bbf531f447b98" kind="function"><name>leerCliente</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_1a1a079b79d94328d73f809bae368c2dac" kind="function"><name>leerCompra</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::reader::LectorCSV</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a4fd5b55cd16c847c53178d3026b32ce3" kind="function"><name>leerProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a982d78701bd915d8d949a2eb14478d2c" kind="function"><name>leerEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a426680829af3619b4e332b9fc3e0874d" kind="function"><name>leerCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a9f7544f8d5412a6584896868691b8e48" kind="function"><name>leerCompra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1acdbb703e83ec00890ba20e49607f74bf" kind="function"><name>comprobar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abc81b6a1df13a8fcdc7b42ccaf879ea2" kind="function"><name>procesarProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1abb13c9e7fb76004b72bf1b701ce63130" kind="function"><name>procesarEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_c_s_v_1a470fab546086d4cccbb769f4222331b8" kind="function"><name>procesarCliente</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_lector_exception" kind="class"><name>es::etg::daw::prog::mercadaw::model::exception::LectorException</name>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::reader::LectorFactory</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_factory_1a3d49f83cda77698490156c63add85566" kind="function"><name>obtener</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::reader::LectorImp</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1a8ece86d2ea9d942caf6222d99f10fc20" kind="function"><name>leerProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1a96029606239332b272954823a6451629" kind="function"><name>leerEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1acbfcfd123cdc0a62bc691564d291f371" kind="function"><name>leerCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_imp_1a070312d07f43b4ffc448b4a6f6561353" kind="function"><name>leerCompra</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::reader::LectorJSON</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a874d7d9d8e1e208ec99a509ea393d7e0" kind="function"><name>leerProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a26e8db715c36acbbc2cf49ba12845be7" kind="function"><name>leerEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a530ff9d29cf1f2edf5996976d9e1d4ff" kind="function"><name>leerCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a318d18b391dd5bd302bf622c7fbf25d9" kind="function"><name>leerCompra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a05c152a79280bba2824ee516c750da89" kind="function"><name>comprobar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a58fc4c2d91dc6ee39b1aa6a39a111b7f" kind="function"><name>procesarProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a38399280fd84d50d62f4daad149ca3dd" kind="function"><name>procesarEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1aeea41b4b27563be8ddaff17da8629f61" kind="function"><name>procesarCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a2dd489c5d5bcbb14ec10a17dd8b47191" kind="function"><name>procesarString</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a5f94fe948e600dda7e927d27fd4ae373" kind="function"><name>procesarInt</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_j_s_o_n_1a056eb72eed78763647aecafc9cb32024" kind="function"><name>procesarDouble</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::reader::LectorMock</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1af8aaec662b31dc11193ea2ab33d85a12" kind="function"><name>leerProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1aaa6ca90ba4ba9c72abf1be6ed22a904e" kind="function"><name>leerEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1a963bfafc246b9d9c4363e137edb5bdde" kind="function"><name>leerCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_lector_mock_1a04fde4c507f8447183823db7e89bb621" kind="function"><name>leerCompra</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::MainViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1a009aa25e6d89fc61f414d5d98aaa25ea" kind="variable"><name>controller</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ad0c3164531b35b0f329183b539f9e445" kind="variable"><name>btnCompra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ab5295138561dae61369aa07506f3010b" kind="variable"><name>btnEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1aa801d427cf42bfd2184c65d41808d97e" kind="variable"><name>btnProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ae1856173e740fcd329a8d166333ed004" kind="variable"><name>btnSistema</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ad028e0a08f1510437cdc7929627e8747" kind="function"><name>accesoGestionCompra</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ab9a8840283ad753d524b1a3fd47d4283" kind="function"><name>accesoGestionEmpleado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1a5f5ecf04cf2046fc7c021ad2d7ab29ed" kind="function"><name>accesoGestionProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1afa5249fe98bc32b52b00b9bd00ed80ab" kind="function"><name>accesoGestionSistema</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp" kind="class"><name>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a0aaa9860c4cedccaacd94fb737574710" kind="variable"><name>connection</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a430b4faf0b3e009c5d6335374b21b2f4" kind="function"><name>crearEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ac416170209b40f401502246a878cfdaf" kind="function"><name>crearClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a951f056fdbfc17f5c43b7f4e80e4393c" kind="function"><name>crearCompras</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a6924a09ab15565911fa7b16f102a579b" kind="function"><name>crearProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ad73a0da59b0ca308913229df9c5599f4" kind="function"><name>getConnection</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a675ae461c86b3e3b3f99b9f21f37b467" kind="function"><name>setConnection</name></member>
+  </compound>
+  <compound refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o" kind="interface"><name>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAO</name>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece58ae52a4f78677f7a4d1fe20d7016" kind="function"><name>iniciarBBDD</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece2705dfa539a6c55e5d5115d756385" kind="function"><name>insertar</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a328ce97bad346babfb590e4082f1b1d3" kind="function"><name>insertar</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a74aaa84024ef8dd191cc50779cf0b126" kind="function"><name>insertar</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1abe232202d06c3caa909eabb8402ee08c" kind="function"><name>insertar</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a8f41a3d6f26bbfb230b26b73689e6f0d" kind="function"><name>visualizarProducto</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a130b081dd4b062f308bd2162eb8615a9" kind="function"><name>visualizarProductos</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a50068156380f7bb07c1eaa8eb5acd8ee" kind="function"><name>visualizarCliente</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a3a5a77c8b6cdff55b5fed49c051f5a39" kind="function"><name>visualizarClientes</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a9136e507bfd4893f237166934fe96a9c" kind="function"><name>visualizarEmpleados</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1ababdc68ea53900d12b69e13e6da2fe8f" kind="function"><name>visualizarCompras</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" kind="class"><name>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOFactory</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory_1ac34e9e3e4b38063b7b5995b2ab3097c0" kind="function"><name>obtener</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock" kind="class"><name>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae1ea6eba474f2fea85ffb4b230ec1b37" kind="function"><name>iniciarBBDD</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1af1788c4fb7df851dfd3d577398ad26f8" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad0825cec1f5bb1ad49bb0dc142fec385" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ada6b88cf7a6b18e31b1c87345f5d470a" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad58212c0987c361f1e34520ec310bd7b" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1aed8d3dd665b07d369e9fdec3661b563b" kind="function"><name>visualizarProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a751ab7431972526cc14894ca9c32a25e" kind="function"><name>visualizarProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae80e3266cd822401fd787afcf9d43e82" kind="function"><name>visualizarCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a819999383b03337c95bc4d13e51fd8ab" kind="function"><name>visualizarClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a3bb6676462307c674aa2fdda5c3e9bd7" kind="function"><name>visualizarEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a953d0485a36282119f0304c492541032" kind="function"><name>visualizarCompras</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e" kind="class"><name>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXE</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a214ada40a93384f0de3ed4bfddf70876" kind="variable"><name>PROD_ID</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a9c2b7def48d37de0fc5c5f15ed28f07f" kind="variable"><name>PROD_NOMB</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8cea353c33fe0916f54676512f9a4d0c" kind="variable"><name>PROD_MARC</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1aaa55dfc6f06092b9456340de9ba8081a" kind="variable"><name>PROD_DESC</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a865fe300a77fdcde22744337a716d24c" kind="variable"><name>PROD_CATE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1acc0e213e0359b80980de8a63db7a90ad" kind="variable"><name>PROD_PREC</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1aa1e230da166270834f06cd4864c27f24" kind="variable"><name>PROD_ALTU</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a233d6a450c0d58e7ea8967dcb035bcd4" kind="variable"><name>PROD_ANCH</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a0929b073d3b7d86d4fa439ef1ade4fe3" kind="variable"><name>PROD_PESO</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6212ab500b4d9082b13dad780deb41fb" kind="variable"><name>PROD_ELEM</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1acf38f3a3f6d234301bba58dd8984806d" kind="variable"><name>PROD_STOK</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a51e53aa0a8f7b4cdca1e3a4fc40cb5e5" kind="variable"><name>EMPLE_ID</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7f9bc3e829982e9e692995a15a1af1b0" kind="variable"><name>EMPLE_NOMB</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1c7fff6f718fa9a7e08bf6b9d5d72d0a" kind="variable"><name>EMPLE_APEL</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a601f4ff6c7805478e7b8aac44b685377" kind="variable"><name>EMPLE_CATE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad25c64829a89a2a71fbde576bc612e1f" kind="variable"><name>EMPLE_FECH</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab712567e48103812a0be08f5a8d81783" kind="variable"><name>CLIEN_ID</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1af4de0c1175496176ce0d1f57ac15ab23" kind="variable"><name>CLIEN_POST</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a808c4771d26018a00c2ee4fb83857045" kind="variable"><name>CLIEN_CORR</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afd180850db8e3995bcf192699788746c" kind="variable"><name>CLIEN_NOMB</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad8d20f3c3473edda5e9bea47b27761aa" kind="variable"><name>COMP_ID</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1af1ad21122ebd0737dd75b7b239ec61d6" kind="variable"><name>COMP_FECH</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6ea0bf423c7565e99d11e67a6794d2e7" kind="variable"><name>URL</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a0d34463063f404b63bf09d1b6f305262" kind="variable"><name>DATABASE_USER</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae5bb269f30866dce3e121b8b5696a5ed" kind="variable"><name>DATABASE_PASS</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a6f849443555f117b6fb16efce4c547c9" kind="function"><name>MercaDAOImpOracleXE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a82facac8c08c31f89d97db63f20f5800" kind="function"><name>iniciarBBDD</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a4b8165b155eb4152462ec25b23987029" kind="function"><name>crearEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d13fb934477572f38a7344465e40405" kind="function"><name>crearClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7922c37b03a3143838c2396c07f04d38" kind="function"><name>crearProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a154b32fb64ff7706b4b7c8301112277e" kind="function"><name>crearCompras</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab930d2e3054cb5ff546a03b1ad805cb1" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae305a3e8acb60df380b0cd08eb5e7630" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a3abbfc09b90b4ca0957d2c2343970ba3" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afbb1ded2f25b6ddcc1eb346d82988c76" kind="function"><name>insertar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d728bc3bf86e7ddc2437184d4d88f4e" kind="function"><name>visualizarProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1ea86bc48f89a448fd0f1869e4536c03" kind="function"><name>visualizarProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8ace547ab4c0e4550d29ae185ee7793f" kind="function"><name>visualizarCliente</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a04bd4cf5acce67f7f5bf21ab8cba9f59" kind="function"><name>visualizarClientes</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad4a1435b3336206abaf4228c9a2d4b52" kind="function"><name>visualizarEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a38fa79c3ba9444406181dfce95ff68d6" kind="function"><name>visualizarCompras</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a6fa61b60980c3741fcf3f9330311dcb1" kind="function"><name>iniciarBBDDTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1abd7ad4f627196c269bdd22759f2b180d" kind="function"><name>insertarEmpleadoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a612b61d03e0403de7e11545d93977538" kind="function"><name>insertarProductoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a42b7264495f06b8f5e9698161567f71e" kind="function"><name>insertarClienteTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae7175d4d2694414ebf3b6d98f4231c23" kind="function"><name>insertarCompraTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a809b5ccef0df75a992c021eb9a6f3a8d" kind="function"><name>visualizarClienteTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae266f82a55dd09c43a160530214b48cf" kind="function"><name>visualizarClientesTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a1ca510871e0985c4d5f4f457e75801f9" kind="function"><name>visualizarEmpleadosTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae8875be623c8bb390c048821630d6257" kind="function"><name>visualizarProductoTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a552eeb0bbca28985c8e829fbc3555ce9" kind="function"><name>visualizarProductosTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a20542fee84c4c31cd2b84506941797c3" kind="function"><name>visualizarComprasTest</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a3672d6a8c9f92fd4050beafee629b1f1" kind="function"><name>borrarTablas</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kind="class"><name>es::etg::daw::prog::mercadaw::controller::MercaDAWController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a57961ed5a9e8b36ea8b4c6da7cc1ed98" kind="variable"><name>MSG_ERROR</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a1d24b49e8acaf538f72cead8afca9f5a" kind="variable"><name>currentStage</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a270a62bcd5cadffc6cb67484f778f04e" kind="function"><name>start</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a4023dfc98e84aa4bb52c23339e9ccd0c" kind="function"><name>cargarProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8dc483cda985bf8229435c9cac84a55d" kind="function"><name>cargarEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a9d43c0a1db8422a0e60ca689a06d00af" kind="function"><name>cargarCompras</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1aef48de27b4a40a3d6009e24f1515958a" kind="function"><name>cargarImportar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a530c574b636b81ee1a387faa42e03f69" kind="function"><name>cargarExportar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a38348101e5e2ac6ee7f1143083d347e9" kind="function"><name>cargarApp</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a3f9fb006880316a4c30806ec66c47c04" kind="function"><name>importar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a0ccbf35edc7a43efbb959c89e7490992" kind="function"><name>getEmpleados</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a77b8d5cfb669e552468f75f755d83dbc" kind="function"><name>cargarVista</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8a2cd042ba3d428d59b5e82494284dea" kind="function"><name>mostrarAviso</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kind="class"><name>es::etg::daw::prog::mercadaw::model::exception::MercaDAWException</name>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes" kind="enum"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1aec33ca510b6be158b7c4f010772959b0" kind="variable"><name>PORCENTAJE_5</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a10bd452b93dbb5780dba9d1ded2c0544" kind="variable"><name>PORCENTAJE_10</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4a43abb6e013ad5b664aa654eb964ae0" kind="variable"><name>PORCENTAJE_15</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a3ce5ec7761447e7bd13e4bf95b9c57ea" kind="variable"><name>porcentaje</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4e6d4757c93ecdfcb3abf1745b1bda63" kind="function"><name>Porcentajes</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a0855f74fda9c7d76aae6c3f6bfbdfea3" kind="function"><name>getPorcentaje</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a7e80d9988282af63c7a46c5cb67255c5" kind="function"><name>setPorcentaje</name></member>
+  </compound>
+  <compound refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible" kind="interface"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</name>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a2e008822799a898b3f2db015ff70722b" kind="variable"><name>PESO_MIN</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1aae8a87db9926df6f0f9d035a715b8fea" kind="variable"><name>PESO_MAX</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1ade960064df002b12d09e39d09b8dc63a" kind="variable"><name>ALTURA_MIN</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1acd80a8db2c7ac1514f6e4a49bc138a36" kind="variable"><name>ANCHURA_MIN</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a23f248c67de967b92ccb36f99eb9bdc1" kind="variable"><name>IVA_ALIM</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1abf6c087d5a7d70640b0d64bc9b76adff" kind="variable"><name>IVA_COSM</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a45ec1418a62c7dd04052a2ecaa4f346f" kind="variable"><name>IVA_DROG</name></member>
+    <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5" kind="function"><name>getPrecioVenta</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Producto</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a02286395556b7af7c9c6048347acb43e" kind="variable"><name>ATT_ID</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988b4cf2f0ad5036082e8191591ac4e3" kind="variable"><name>ATT_NOMBRE</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a81b3668e95553cd9e67678b5f4b0ef3d" kind="variable"><name>ATT_MARCA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1435191382b61ac8fd4fd4344c427884" kind="variable"><name>ATT_CATEGORIA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a9f9927456b89969f9c6e2b65763d09cb" kind="variable"><name>ATT_ALTURA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aca7afeef6113c9a6d2ebd0ff5f549a34" kind="variable"><name>ATT_ANCHURA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0467b386f8cb92205493178d839ed942" kind="variable"><name>ATT_PESO</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a33d0e1d930c3786d2c2335ab418243b9" kind="variable"><name>ATT_ELEMENTOS</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988c58a18c7d70253c4b2fdbea8af136" kind="variable"><name>ATT_DESCRIPCION</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab31fc7445b3563beb52b4bb41e39c1ff" kind="variable"><name>ATT_STOCK</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a2dac56f436f78e6428ceddaafb29d2f4" kind="variable"><name>ATT_PRECIO</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab8bbda631b95311a7a39ef2caf8d649d" kind="variable"><name>ATT_IVA</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a732ceb306a11276b03ec664a1feb5ecd" kind="variable"><name>numProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ad57fbe58145a32d577922de3e4292a65" kind="variable"><name>id</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac5da81f175c3271c7e4a5ee1343a7cb8" kind="variable"><name>nombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a638b5b2b6888ed21591ab69a26ebd685" kind="variable"><name>marca</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6d4fcc84702a4168bec600b9a317ce32" kind="variable"><name>altura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0b0317dec65db096bf2e01035e576f03" kind="variable"><name>anchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a7dacd76c00877da77bf268d1d8b29bfb" kind="variable"><name>peso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acbae015408484186b4bee434a2928f5c" kind="variable"><name>numElementos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6a48bcbca9e05aae459c1ff77b5eb5c1" kind="variable"><name>descripcion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a392277151629d3493fc7eb055e5d5b5e" kind="variable"><name>stock</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acc99b92bb41264239a975879dd18484a" kind="variable"><name>precio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a85fbb3236fef0fa5cb945d1658d0f585" kind="variable"><name>iva</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae346965b004e04bd1fe300d0856ed7ed" kind="function"><name>Producto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abc77639a7de6f02986d15e9936e0fef3" kind="function"><name>getIva</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a83d0365d356d7ec805830d0754c21bef" kind="function"><name>setIva</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aeb765bb408ea349fd9c5be948c73cd97" kind="function"><name>getNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acd816783d04f4b696770594984551e75" kind="function"><name>setNombre</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab90680ce130fa3fe64821c0d493e8967" kind="function"><name>getMarca</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1adf39279e6fd87557039479f639dc67d5" kind="function"><name>setMarca</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a18517c316e1b69b1340bfdd3be6b969e" kind="function"><name>getAltura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a14abb17fcc838f9cddb96b9a36aa3c8c" kind="function"><name>setAltura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac012bf84017995cfc06c2c6887a45c6e" kind="function"><name>getAnchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae07b9ae9810f0a45bcb8d4cd2de5bc44" kind="function"><name>setAnchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac72bc47e66fdf5f3049e74e4bd86c3b1" kind="function"><name>getPeso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abca61e59f235ec4d7f892fa11900de52" kind="function"><name>setPeso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a06a17c696684f509c8e7d00a05fea7e0" kind="function"><name>getNumElementos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a05c6170b93346950a0b228d050d2b7b0" kind="function"><name>setNumElementos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aac7337fc87c155a7deb22e567aa06e57" kind="function"><name>getDescripcion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a3965e52d82cf34fff35d1400e60c38ab" kind="function"><name>setDescripcion</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a4c38dff964bc463e229dccc945ebb13a" kind="function"><name>getId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aec28104820c716c2e50f10fb61539dc4" kind="function"><name>setId</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a17c0bbae7fc3df07c5f55bc702287b51" kind="function"><name>getStock</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a43ae1b5f74d27747d8e578b3e818e1e8" kind="function"><name>setStock</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae31588ea5ae305b7799996a586602635" kind="function"><name>getPrecio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a549ab23d0034389a9c5d74bb10b1064b" kind="function"><name>setPrecio</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667" kind="function"><name>getPrecioVenta</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a623a13553a0cc653842431c80d7c07e5" kind="function"><name>getRecargoPeso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6392244e78ca3a5e22f3099790653bae" kind="function"><name>getPorcentajePeso</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1af4a4204e044e1720189f2a37c5f7a455" kind="function"><name>getRecargoAltura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a32ae34d4ed0e1a7e3cc661e86444335f" kind="function"><name>getPorcentajeAltura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a5fbad8e893a02d779537e88596006dbc" kind="function"><name>getRecargoAnchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a149368ce0eb4896a0cb32ea01395d396" kind="function"><name>getPorcentajeAnchura</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae41c79e047ee17da75fc92c8b9bc73ef" kind="function"><name>getRecargoNumElementos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a652e6159626f1fdc445c67b1aa07ea3d" kind="function"><name>getPrecioFinalEuros</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aa8611742cb7aee7307a5c9d07049b4ed" kind="function"><name>getPrecioFinalDolares</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1e3d513dea7c3f1ef656495085f49469" kind="function"><name>getIvaCalculado</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a12885410489aec3eb10466ee4239b8a8" kind="function"><name>equals</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6b036aeef94d9361b59bbccd3f877609" kind="function"><name>getNumProductos</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a710454d78d3fa56caa464649d04eb231" kind="function"><name>setNumProductos</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_factory" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::productos::ProductoFactory</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_factory_1ab4204e24f694300bb28f98e53edfca12" kind="function"><name>obtener</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::ProductoTest</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a5ad0acc1a415c01c8a3a0605d8d3c3e7" kind="variable"><name>producto1</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a4d959b3714d5c974a73842feb7e77053" kind="variable"><name>producto2</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a99f6c9acf341a6986858e50314819a4a" kind="function"><name>testCrearProducto</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a6d9da760fb7db6a38fa433a48b9c32cb" kind="function"><name>testCalcularIva</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a7644c9fa8b0a2c395661645d0f3298c5" kind="function"><name>testPesoMinimo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1abf47a8eb6350cfe192ceb34728c565d0" kind="function"><name>testAlturaMaxima</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1ab130bd40900422e360f0dce3fc7fd198" kind="function"><name>testAnchuraMinima</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a130527d13676bd89566333db08c0dafd" kind="function"><name>testNumElementosMax</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1ad523978702728c3f497779cf13961e87" kind="function"><name>testPrecioFinal</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos" kind="enum"><name>es::etg::daw::prog::mercadaw::model::entities::productos::Recargos</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1afdd068940a131bb9da74b4a0da9fa0c5" kind="variable"><name>RECARGO_15</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1adeb8e1e7f93f1755abb01ed176d265f9" kind="variable"><name>RECARGO_10</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1aa7b83b4884dd5d668831ab1c5221d0ea" kind="variable"><name>RECARGO_5</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1a89685340c98bf717e11b135665639414" kind="variable"><name>recargo</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1a1bcb2116fbee596fd393ee57c28f91db" kind="function"><name>Recargos</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1a44d31eb6d27e9130208ddf48d97df7b1" kind="function"><name>getRecargo</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos_1a0cff7480fdbc2477491bd633b04c7c2e" kind="function"><name>setRecargo</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor" kind="class"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::Reponedor</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor_1af7ba0850811015eac952641d4edd0213" kind="variable"><name>sueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor_1aafa5b3b270b9d4a52c4d383281117a6a" kind="function"><name>Reponedor</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor_1a70f217d2b4e5e034aac92fc9e0953dae" kind="function"><name>getSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor_1a8528f0fb0d52ebdb1465e7579e8dea73" kind="function"><name>setSueldo</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor_1aa8020e0d953a7356adcc8beaa5b517a0" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_despido" kind="enum"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::TipoDespido</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_despido_1a416042e7357c6b878b4e75a7d5399f2d" kind="variable"><name>PRODECENTE</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_despido_1a7d1b5b74e06a653ad8b2ed7041109408" kind="variable"><name>IMPROCEDENTE</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado" kind="enum"><name>es::etg::daw::prog::mercadaw::model::entities::empleados::TipoEmpleado</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1a1c02fab0236f78ea0ca5f1d1a7aa4e90" kind="variable"><name>EMPLEADO</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1ad8755d897a816c8152ef1ba7c340148f" kind="variable"><name>REPONEDOR</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1a835ba5c66eaa8cba172c0a8f9c4af134" kind="variable"><name>CAJERO</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1a1f998b51cf83fc05405c1a8d5952273c" kind="variable"><name>ENCARGADO</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" kind="enum"><name>es::etg::daw::prog::mercadaw::model::entities::productos::TipoProducto</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1aef22578cf0c6ef8dc2593a6b70a575c9" kind="variable"><name>ALIMENTACION</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a0a40b8ddb97811da78faec82d9bd0cfd" kind="variable"><name>DROGUERIA</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a941a736969426ba6a260bdd891ac41bb" kind="variable"><name>COSMETICA</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util" kind="class"><name>es::etg::daw::prog::mercadaw::model::util::export::Util</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a35c1f7d70c77b5d3429a1cafedc1f62c" kind="function"><name>exportar</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a5107ba5900277d1b4298753d64e2f311" kind="function"><name>getUser</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a9c7a71a7e5b22f9c2d22549350b8d91f" kind="function"><name>getGrupo</name></member>
+  </compound>
+  <compound refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" kind="class"><name>es::etg::daw::prog::mercadaw::view::ViewController</name>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2" kind="variable"><name>mercaDAWController</name></member>
+    <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57" kind="function"><name>setMercaDAWController</name></member>
+  </compound>
+  <compound refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kind="enum"><name>es::etg::daw::prog::mercadaw::view::Vista</name>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ae422c4dc7af5b3828d476bfa068ecf02" kind="variable"><name>MAIN</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ad5a3f0aa41a4d6dadde287a0ed443422" kind="variable"><name>CARGA_DATOS</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a82576cdb42ad2e7001e0f5b5100290d1" kind="variable"><name>EXPORTAR_DATOS</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3f9976127f48d93395a59da305cedbce" kind="variable"><name>DAR_ALTA_PROD</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3d8d1c721f2efdd235c8c1453ceb3ca2" kind="variable"><name>DAR_ALTA_EMPLE</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1aba4a0f357808ecf7d3aef724b276e581" kind="variable"><name>DAR_ALTA_COMP</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a30beab5394295aeee80679cd95fabea6" kind="variable"><name>ruta</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a93415599a0cd678fc9822e84cd8979f7" kind="function"><name>Vista</name></member>
+    <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a13befa7edeb559ac15887877db1f0cfa" kind="function"><name>getRuta</name></member>
+  </compound>
+  <compound refid="namespacees" kind="namespace"><name>es</name>
+  </compound>
+  <compound refid="namespacees_1_1etg" kind="namespace"><name>es::etg</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw" kind="namespace"><name>es::etg::daw</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog" kind="namespace"><name>es::etg::daw::prog</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw" kind="namespace"><name>es::etg::daw::prog::mercadaw</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller" kind="namespace"><name>es::etg::daw::prog::mercadaw::controller</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model" kind="namespace"><name>es::etg::daw::prog::mercadaw::model</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::bbdd</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::entities</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::entities::compras</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::entities::empleados</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::entities::productos</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::exception</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::util</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::util::export</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::util::input</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader" kind="namespace"><name>es::etg::daw::prog::mercadaw::model::util::reader</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view" kind="namespace"><name>es::etg::daw::prog::mercadaw::view</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra" kind="namespace"><name>es::etg::daw::prog::mercadaw::view::compra</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado" kind="namespace"><name>es::etg::daw::prog::mercadaw::view::empleado</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto" kind="namespace"><name>es::etg::daw::prog::mercadaw::view::producto</name>
+  </compound>
+  <compound refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema" kind="namespace"><name>es::etg::daw::prog::mercadaw::view::sistema</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="_analisis_8md" kind="file"><name>Analisis.md</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_app_8java" kind="file"><name>App.java</name>
+  </compound>
+  <compound refid="_merca_d_a_w_controller_8java" kind="file"><name>MercaDAWController.java</name>
+  </compound>
+  <compound refid="_database_8java" kind="file"><name>Database.java</name>
+  </compound>
+  <compound refid="_marca_d_a_o_imp_8java" kind="file"><name>MarcaDAOImp.java</name>
+  </compound>
+  <compound refid="_merca_d_a_o_8java" kind="file"><name>MercaDAO.java</name>
+  </compound>
+  <compound refid="_merca_d_a_o_factory_8java" kind="file"><name>MercaDAOFactory.java</name>
+  </compound>
+  <compound refid="_merca_d_a_o_imp_mock_8java" kind="file"><name>MercaDAOImpMock.java</name>
+  </compound>
+  <compound refid="_merca_d_a_o_imp_oracle_x_e_8java" kind="file"><name>MercaDAOImpOracleXE.java</name>
+  </compound>
+  <compound refid="_cliente_8java" kind="file"><name>Cliente.java</name>
+  </compound>
+  <compound refid="_compra_8java" kind="file"><name>Compra.java</name>
+  </compound>
+  <compound refid="_cajero_8java" kind="file"><name>Cajero.java</name>
+  </compound>
+  <compound refid="_contratable_8java" kind="file"><name>Contratable.java</name>
+  </compound>
+  <compound refid="_empleado_8java" kind="file"><name>Empleado.java</name>
+  </compound>
+  <compound refid="_empleado_factory_8java" kind="file"><name>EmpleadoFactory.java</name>
+  </compound>
+  <compound refid="_encargado_8java" kind="file"><name>Encargado.java</name>
+  </compound>
+  <compound refid="_reponedor_8java" kind="file"><name>Reponedor.java</name>
+  </compound>
+  <compound refid="_tipo_despido_8java" kind="file"><name>TipoDespido.java</name>
+  </compound>
+  <compound refid="_tipo_empleado_8java" kind="file"><name>TipoEmpleado.java</name>
+  </compound>
+  <compound refid="_alimentacion_8java" kind="file"><name>Alimentacion.java</name>
+  </compound>
+  <compound refid="_cosmetica_8java" kind="file"><name>Cosmetica.java</name>
+  </compound>
+  <compound refid="_drogueria_8java" kind="file"><name>Drogueria.java</name>
+  </compound>
+  <compound refid="_porcentajes_8java" kind="file"><name>Porcentajes.java</name>
+  </compound>
+  <compound refid="_producible_8java" kind="file"><name>Producible.java</name>
+  </compound>
+  <compound refid="_producto_8java" kind="file"><name>Producto.java</name>
+  </compound>
+  <compound refid="_producto_factory_8java" kind="file"><name>ProductoFactory.java</name>
+  </compound>
+  <compound refid="_recargos_8java" kind="file"><name>Recargos.java</name>
+  </compound>
+  <compound refid="_tipo_producto_8java" kind="file"><name>TipoProducto.java</name>
+  </compound>
+  <compound refid="_export_exception_8java" kind="file"><name>ExportException.java</name>
+  </compound>
+  <compound refid="_fichero_exception_8java" kind="file"><name>FicheroException.java</name>
+  </compound>
+  <compound refid="_formato_exception_8java" kind="file"><name>FormatoException.java</name>
+  </compound>
+  <compound refid="_lector_exception_8java" kind="file"><name>LectorException.java</name>
+  </compound>
+  <compound refid="_merca_d_a_w_exception_8java" kind="file"><name>MercaDAWException.java</name>
+  </compound>
+  <compound refid="_exportable_util_8java" kind="file"><name>ExportableUtil.java</name>
+  </compound>
+  <compound refid="_util_8java" kind="file"><name>Util.java</name>
+  </compound>
+  <compound refid="_fichero_8java" kind="file"><name>Fichero.java</name>
+  </compound>
+  <compound refid="_fichero_binario_8java" kind="file"><name>FicheroBinario.java</name>
+  </compound>
+  <compound refid="_fichero_factory_8java" kind="file"><name>FicheroFactory.java</name>
+  </compound>
+  <compound refid="_fichero_imp_8java" kind="file"><name>FicheroImp.java</name>
+  </compound>
+  <compound refid="_fichero_mock_8java" kind="file"><name>FicheroMock.java</name>
+  </compound>
+  <compound refid="input_2_formato_8java" kind="file"><name>Formato.java</name>
+  </compound>
+  <compound refid="reader_2_formato_8java" kind="file"><name>Formato.java</name>
+  </compound>
+  <compound refid="_lector_8java" kind="file"><name>Lector.java</name>
+  </compound>
+  <compound refid="_lector_c_s_v_8java" kind="file"><name>LectorCSV.java</name>
+  </compound>
+  <compound refid="_lector_factory_8java" kind="file"><name>LectorFactory.java</name>
+  </compound>
+  <compound refid="_lector_imp_8java" kind="file"><name>LectorImp.java</name>
+  </compound>
+  <compound refid="_lector_j_s_o_n_8java" kind="file"><name>LectorJSON.java</name>
+  </compound>
+  <compound refid="_lector_mock_8java" kind="file"><name>LectorMock.java</name>
+  </compound>
+  <compound refid="_dar_alta_compra_view_controller_8java" kind="file"><name>DarAltaCompraViewController.java</name>
+  </compound>
+  <compound refid="_dar_alta_empleado_view_controller_8java" kind="file"><name>DarAltaEmpleadoViewController.java</name>
+  </compound>
+  <compound refid="_main_view_controller_8java" kind="file"><name>MainViewController.java</name>
+  </compound>
+  <compound refid="_dar_alta_producto_view_controller_8java" kind="file"><name>DarAltaProductoViewController.java</name>
+  </compound>
+  <compound refid="_carga_datos_view_controller_8java" kind="file"><name>CargaDatosViewController.java</name>
+  </compound>
+  <compound refid="_exportar_datos_view_controller_8java" kind="file"><name>ExportarDatosViewController.java</name>
+  </compound>
+  <compound refid="_view_controller_8java" kind="file"><name>ViewController.java</name>
+  </compound>
+  <compound refid="_vista_8java" kind="file"><name>Vista.java</name>
+  </compound>
+  <compound refid="module-info_8java" kind="file"><name>module-info.java</name>
+    <member refid="module-info_8java_1ab6fd2bba44e787fffd27d831c4c60b80" kind="variable"><name>mercadaw</name></member>
+    <member refid="module-info_8java_1a657632533224c29bbf0f917d033eff3e" kind="variable"><name>fxml</name></member>
+    <member refid="module-info_8java_1a30db5564bad23d0b978e78ad2caf062c" kind="variable"><name>sql</name></member>
+    <member refid="module-info_8java_1add2bd450dcb8a1fb8314e7028854a439" kind="variable"><name>ooxml</name></member>
+    <member refid="module-info_8java_1af29f0af7c6f2913fb5732a9dcd98ac9c" kind="variable"><name>graphics</name></member>
+    <member refid="module-info_8java_1ad9da26a4f7664e3a25cbb81891213e2b" kind="variable"><name>base</name></member>
+    <member refid="module-info_8java_1a6cc19db010dfb7872be6e1d025464386" kind="variable"><name>controller</name></member>
+    <member refid="module-info_8java_1ad6372d2e9c0767321008e31bba0e17d1" kind="variable"><name>view</name></member>
+  </compound>
+  <compound refid="_merca_d_a_o_imp_oracle_x_e_test_8java" kind="file"><name>MercaDAOImpOracleXETest.java</name>
+  </compound>
+  <compound refid="_cliente_test_8java" kind="file"><name>ClienteTest.java</name>
+  </compound>
+  <compound refid="_compra_test_8java" kind="file"><name>CompraTest.java</name>
+  </compound>
+  <compound refid="_empleado_test_8java" kind="file"><name>EmpleadoTest.java</name>
+  </compound>
+  <compound refid="_producto_test_8java" kind="file"><name>ProductoTest.java</name>
+  </compound>
+  <compound refid="_c_s_v_test_8java" kind="file"><name>CSVTest.java</name>
+  </compound>
+  <compound refid="_export_office_test_8java" kind="file"><name>ExportOfficeTest.java</name>
+  </compound>
+  <compound refid="_fichero_binario_test_8java" kind="file"><name>FicheroBinarioTest.java</name>
+  </compound>
+  <compound refid="_j_s_o_n_test_8java" kind="file"><name>JSONTest.java</name>
+  </compound>
+  <compound refid="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis" kind="page"><name>md__home_usuario_Documentos_mercadaw_trabajo_ev3_analisis_Analisis</name>
+  </compound>
+  <compound refid="md__home_usuario__documentos_mercadaw_trabajo_ev3__r_e_a_d_m_e" kind="page"><name>md__home_usuario_Documentos_mercadaw_trabajo_ev3_README</name>
+  </compound>
+  <compound refid="dir_c1f97b4e6acd77093435dc51e0cf8433" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/analisis</name>
+  </compound>
+  <compound refid="dir_6d74d010ca6312a8217eafea4831921e" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd</name>
+  </compound>
+  <compound refid="dir_0a503f33ebe99d962e66ef280903196a" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd</name>
+  </compound>
+  <compound refid="dir_746c70e226075e379cee056b61da418c" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra</name>
+  </compound>
+  <compound refid="dir_cc7adab0a6c3237e3d9c2790ce5907a2" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras</name>
+  </compound>
+  <compound refid="dir_52a004b03b4c2095f3f1f95c21ee13d9" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller</name>
+  </compound>
+  <compound refid="dir_c8f065d08cb4394cd09f97b8f96092dd" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw</name>
+  </compound>
+  <compound refid="dir_ba41e49e78c7dc01a431c944c37245c6" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw</name>
+  </compound>
+  <compound refid="dir_4bd8b713c41805524a524d316ebd0aa4" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/empleado</name>
+  </compound>
+  <compound refid="dir_66ea42f55cec09ed1e55621edfb249b0" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados</name>
+  </compound>
+  <compound refid="dir_21656c9e37e1f54a45fba30c44e0a07e" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities</name>
+  </compound>
+  <compound refid="dir_a5084784e507608cc4a5c401c25bb5c1" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities</name>
+  </compound>
+  <compound refid="dir_f9b1e2a59d62d001356ff527358589e3" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es</name>
+  </compound>
+  <compound refid="dir_4b96a8b33d1f8ef41fbe8cb4eb39245a" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es</name>
+  </compound>
+  <compound refid="dir_d248434774a77a9543d2dcc0b40a6a0b" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg</name>
+  </compound>
+  <compound refid="dir_fcb170e56d12873e0b92ac6c0f324dc3" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg</name>
+  </compound>
+  <compound refid="dir_bd78baa90af8d0c781f7a6691ed62542" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception</name>
+  </compound>
+  <compound refid="dir_2750ee1788ff8dedba266097905e3fd9" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export</name>
+  </compound>
+  <compound refid="dir_79ce1a0331d5e08feef71bf908f71012" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input</name>
+  </compound>
+  <compound refid="dir_fd3f6763802dee1ad875f6c80eac0bda" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java</name>
+  </compound>
+  <compound refid="dir_97debbc39e3b917fca663601bb2b0709" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java</name>
+  </compound>
+  <compound refid="dir_5eb159725f84c66aafd839904a4acdd0" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main</name>
+  </compound>
+  <compound refid="dir_47ee38757eeb2c39d25552ae13cb1783" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw</name>
+  </compound>
+  <compound refid="dir_50506c0714d63f2174fe9c705b4428e1" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw</name>
+  </compound>
+  <compound refid="dir_f5a76b6b395293e1409153c570d0dd5d" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model</name>
+  </compound>
+  <compound refid="dir_a438c24eb4708e0ea5dd97b056bcf7ae" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model</name>
+  </compound>
+  <compound refid="dir_b2703af12041d28cd4d81d053b633ea7" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto</name>
+  </compound>
+  <compound refid="dir_bbd0f00250842f0331aba4fdf1cd3a15" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos</name>
+  </compound>
+  <compound refid="dir_7916097f164931d8ddda40a3f7f44a66" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog</name>
+  </compound>
+  <compound refid="dir_226768fefcd6cb6c9e0b600d835bc828" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog</name>
+  </compound>
+  <compound refid="dir_287f9b45fe9cc18b0e046249d77734c0" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader</name>
+  </compound>
+  <compound refid="dir_ba54dfc9020b50441b432959a1c7d500" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/sistema</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src</name>
+  </compound>
+  <compound refid="dir_120ed4da3e3217b1e7fc0b4f48568e79" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test</name>
+  </compound>
+  <compound refid="dir_f3d5f2a22b3c0634e3355357a53c36fc" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util</name>
+  </compound>
+  <compound refid="dir_6743d9102e5ff543d7a27b89bdb4062c" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util</name>
+  </compound>
+  <compound refid="dir_3cdcbf1c70320d6bf14c42784ae25721" kind="dir"><name>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view</name>
+  </compound>
+</doxygenindex>

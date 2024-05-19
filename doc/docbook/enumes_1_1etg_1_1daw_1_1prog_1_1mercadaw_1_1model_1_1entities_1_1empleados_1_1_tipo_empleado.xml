@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado</primary></indexterm>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1a1c02fab0236f78ea0ca5f1d1a7aa4e90"/><emphasis role="strong">EMPLEADO</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1ad8755d897a816c8152ef1ba7c340148f"/><emphasis role="strong">REPONEDOR</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1a835ba5c66eaa8cba172c0a8f9c4af134"/><emphasis role="strong">CAJERO</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado_1a1f998b51cf83fc05405c1a8d5952273c"/><emphasis role="strong">ENCARGADO</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La enumeracion <link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado">TipoEmpleado</link> representa los tipos de empleados de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/TipoEmpleado.java</section>
+</section>

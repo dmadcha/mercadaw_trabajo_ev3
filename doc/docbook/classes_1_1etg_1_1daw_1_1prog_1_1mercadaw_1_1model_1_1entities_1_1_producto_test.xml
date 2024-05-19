@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.ProductoTest</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.ProductoTest</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a99f6c9acf341a6986858e50314819a4a"/>void <emphasis role="strong">testCrearProducto</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a6d9da760fb7db6a38fa433a48b9c32cb"/>void <emphasis role="strong">testCalcularIva</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a7644c9fa8b0a2c395661645d0f3298c5"/>void <emphasis role="strong">testPesoMinimo</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1abf47a8eb6350cfe192ceb34728c565d0"/>void <emphasis role="strong">testAlturaMaxima</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1ab130bd40900422e360f0dce3fc7fd198"/>void <emphasis role="strong">testAnchuraMinima</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1a130527d13676bd89566333db08c0dafd"/>void <emphasis role="strong">testNumElementosMax</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_producto_test_1ad523978702728c3f497779cf13961e87"/>void <emphasis role="strong">testPrecioFinal</emphasis> ()  throws MercaDAWException</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/ProductoTest.java</section>

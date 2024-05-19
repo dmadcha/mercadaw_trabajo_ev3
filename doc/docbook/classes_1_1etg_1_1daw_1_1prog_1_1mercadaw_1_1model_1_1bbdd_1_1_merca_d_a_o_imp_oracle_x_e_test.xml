@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a6fa61b60980c3741fcf3f9330311dcb1"/>void <emphasis role="strong">iniciarBBDDTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1abd7ad4f627196c269bdd22759f2b180d"/>void <emphasis role="strong">insertarEmpleadoTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a612b61d03e0403de7e11545d93977538"/>void <emphasis role="strong">insertarProductoTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a42b7264495f06b8f5e9698161567f71e"/>void <emphasis role="strong">insertarClienteTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae7175d4d2694414ebf3b6d98f4231c23"/>void <emphasis role="strong">insertarCompraTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a809b5ccef0df75a992c021eb9a6f3a8d"/>void <emphasis role="strong">visualizarClienteTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae266f82a55dd09c43a160530214b48cf"/>void <emphasis role="strong">visualizarClientesTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a1ca510871e0985c4d5f4f457e75801f9"/>void <emphasis role="strong">visualizarEmpleadosTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae8875be623c8bb390c048821630d6257"/>void <emphasis role="strong">visualizarProductoTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a552eeb0bbca28985c8e829fbc3555ce9"/>void <emphasis role="strong">visualizarProductosTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a20542fee84c4c31cd2b84506941797c3"/>void <emphasis role="strong">visualizarComprasTest</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a3672d6a8c9f92fd4050beafee629b1f1"/>void <emphasis role="strong">borrarTablas</emphasis> ()  throws Exception</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java</section>

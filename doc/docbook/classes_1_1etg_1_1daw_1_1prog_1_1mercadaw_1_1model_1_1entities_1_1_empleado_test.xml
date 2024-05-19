@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aec68f8eba978acda6d2daa3e99c4535f"/>void <emphasis role="strong">creacionEmpleados</emphasis> ()  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a87dc83894db168ba3f63da9735a12fc5"/>void <emphasis role="strong">crearEmpleadoTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1adccc4749d12e832324f136767b341a3f"/>void <emphasis role="strong">getSueldoTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aedac8fe319811c714494c8bf373e2f19"/>void <emphasis role="strong">getPPETest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a9cac09a88dae9cfcfbc32496ff86a29c"/>void <emphasis role="strong">getSalarioBrutoTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1af841ae669973490e9cfcc414684fbcb5"/>void <emphasis role="strong">getDeduccionesTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a027ef4f5b5f06be8cd8fd612ee81afa8"/>void <emphasis role="strong">getSalarioNetoTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a52b3f021c7fa7d8014eefa03e45199b0"/>void <emphasis role="strong">getAportacionesTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8bb77aa7d36377632c0a4d2d569419ad"/>void <emphasis role="strong">getIndemnizacion</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae2f30af873f30b478f8a01d2dd142715"/>void <emphasis role="strong">getSalarioDiarioTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae660494d816094d3a6ae33eb582f9d32"/>void <emphasis role="strong">getIndemnizacionLegalTest</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8754260cb488503c37d7faa02e31b9e9"/>void <emphasis role="strong">getAntiguedadTest</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java</section>

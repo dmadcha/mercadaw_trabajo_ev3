@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_f5a76b6b395293e1409153c570d0dd5d" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model</compoundname>
+    <innerdir refid="dir_6d74d010ca6312a8217eafea4831921e">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd</innerdir>
+    <innerdir refid="dir_21656c9e37e1f54a45fba30c44e0a07e">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities</innerdir>
+    <innerdir refid="dir_bd78baa90af8d0c781f7a6691ed62542">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception</innerdir>
+    <innerdir refid="dir_f3d5f2a22b3c0634e3355357a53c36fc">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/"/>
+  </compounddef>
+</doxygen>

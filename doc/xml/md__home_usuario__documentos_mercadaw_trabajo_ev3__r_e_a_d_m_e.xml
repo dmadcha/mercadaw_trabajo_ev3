@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="md__home_usuario__documentos_mercadaw_trabajo_ev3__r_e_a_d_m_e" kind="page">
+    <compoundname>md__home_usuario_Documentos_mercadaw_trabajo_ev3_README</compoundname>
+    <title>Mercadaw Trabajo Programación 3Ev</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Trabajo de programación de la tercera evaluación de Erik Herrera, Iván Rafael, Jesús Pérez y Diego Madroñero</para>
+<sect1 id="md__home_usuario__documentos_mercadaw_trabajo_ev3__r_e_a_d_m_e_1autotoc_md11">
+<title>Información Diseño</title>
+<para>En el Diagrama de Despliegue, el device Docker está fuera de la máquina usuario porque es un servidor al que se pueden conectar más usuarios a la misma BBDD. </para>
+</sect1>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/README.md"/>
+  </compounddef>
+</doxygen>

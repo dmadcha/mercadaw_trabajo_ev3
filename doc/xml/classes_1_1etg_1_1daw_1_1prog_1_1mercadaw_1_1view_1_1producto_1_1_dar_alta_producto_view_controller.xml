@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.ViewController</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Initializable</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a259c49db0e18644695f18a0684eff67b" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.MSG_ERROR</definition>
+        <argsstring></argsstring>
+        <name>MSG_ERROR</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.MSG_ERROR</qualifiedname>
+        <initializer>= &quot;ERROR&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="32" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a51c26683a649b7317d5deb820c3cf3ed" prot="private" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref></type>
+        <definition>MercaDAWController es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.controller</qualifiedname>
+        <initializer>= new <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="33" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a8661ef9aa1e705a0ddd25e5a38e3571a" prot="private" static="no" mutable="no">
+        <type>ObservableList&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>ObservableList&lt;Producto&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.productos</definition>
+        <argsstring></argsstring>
+        <name>productos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.productos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="34" column="28" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ab7c32acdd7b1abd30e58bf77cefbf80c" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnAñadirProd</definition>
+        <argsstring></argsstring>
+        <name>btnAñadirProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnAñadirProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="37" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a46c58d1910dbac08a2bbe43f4a75d026" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnDarAltaProd</definition>
+        <argsstring></argsstring>
+        <name>btnDarAltaProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnDarAltaProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="40" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1abab02835b40303fb40de3f2baf5b6d62" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnObtenerPrecio</definition>
+        <argsstring></argsstring>
+        <name>btnObtenerPrecio</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnObtenerPrecio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="43" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a43c6a0648670ada41a30cc77ac155b86" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnSalir</definition>
+        <argsstring></argsstring>
+        <name>btnSalir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.btnSalir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="46" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ae2c8fb57228b70ccd84a50ea642152be" prot="private" static="no" mutable="no">
+        <type>ChoiceBox&lt; <ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" kindref="compound">TipoProducto</ref> &gt;</type>
+        <definition>ChoiceBox&lt;TipoProducto&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.choiceCategoria</definition>
+        <argsstring></argsstring>
+        <name>choiceCategoria</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.choiceCategoria</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="49" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a1f512eb247787a2ea5586653656d21e4" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Double &gt;</type>
+        <definition>TableColumn&lt;Producto, Double&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colAltura</definition>
+        <argsstring></argsstring>
+        <name>colAltura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colAltura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="52" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a33ce4ff38f33006e30d48623783e424d" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Double &gt;</type>
+        <definition>TableColumn&lt;Producto, Double&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colAnchura</definition>
+        <argsstring></argsstring>
+        <name>colAnchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colAnchura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="55" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a586f2782451d932371ef6bff186b0903" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, String &gt;</type>
+        <definition>TableColumn&lt;Producto, String&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colCategoria</definition>
+        <argsstring></argsstring>
+        <name>colCategoria</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colCategoria</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="58" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a6b0dd0e6ec4ec0b129033a54d891c248" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, String &gt;</type>
+        <definition>TableColumn&lt;Producto, String&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colMarca</definition>
+        <argsstring></argsstring>
+        <name>colMarca</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colMarca</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="61" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a9804eb6d4c9fb0f4d313358a759afa59" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Integer &gt;</type>
+        <definition>TableColumn&lt;Producto, Integer&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colCodigo</definition>
+        <argsstring></argsstring>
+        <name>colCodigo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colCodigo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="64" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ad36cb809ad9ce48a744f52490482c6f8" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, String &gt;</type>
+        <definition>TableColumn&lt;Producto, String&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colDesc</definition>
+        <argsstring></argsstring>
+        <name>colDesc</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colDesc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="67" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aa4c5a6a13c0e674b23e9875a2ef6da8d" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Integer &gt;</type>
+        <definition>TableColumn&lt;Producto, Integer&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colElementos</definition>
+        <argsstring></argsstring>
+        <name>colElementos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colElementos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="70" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1abba691a3a5c2f6a42c5463ea2188d8f1" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Double &gt;</type>
+        <definition>TableColumn&lt;Producto, Double&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colIVA</definition>
+        <argsstring></argsstring>
+        <name>colIVA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colIVA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="73" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a0ee3aeb7162b9996b0eff98fe2787bd1" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, String &gt;</type>
+        <definition>TableColumn&lt;Producto, String&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colNombre</definition>
+        <argsstring></argsstring>
+        <name>colNombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colNombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="76" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a412a0e51adcc1489dc951d5226182cb6" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Double &gt;</type>
+        <definition>TableColumn&lt;Producto, Double&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colPeso</definition>
+        <argsstring></argsstring>
+        <name>colPeso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colPeso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="79" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a1c124f9df215be7152c20edf07b176d2" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Double &gt;</type>
+        <definition>TableColumn&lt;Producto, Double&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colPrecio</definition>
+        <argsstring></argsstring>
+        <name>colPrecio</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colPrecio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="82" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1acdf6fe5ee30f33fe7f30d3b76ee301d7" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref>, Integer &gt;</type>
+        <definition>TableColumn&lt;Producto, Integer&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colStock</definition>
+        <argsstring></argsstring>
+        <name>colStock</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.colStock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="85" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a81ca8100f74e3b8ca0d7bd51893f421f" prot="private" static="no" mutable="no">
+        <type>TableView&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>TableView&lt;Producto&gt; es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.tabProductos</definition>
+        <argsstring></argsstring>
+        <name>tabProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.tabProductos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="88" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a2e6f1568dafad969e8168da0dd085ac4" prot="private" static="no" mutable="no">
+        <type>TextArea</type>
+        <definition>TextArea es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txaDescripcion</definition>
+        <argsstring></argsstring>
+        <name>txaDescripcion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txaDescripcion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="91" column="22" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aea80705e4325384f9aba0a0a99915aad" prot="private" static="no" mutable="no">
+        <type>TextArea</type>
+        <definition>TextArea es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txaPrecioVenta</definition>
+        <argsstring></argsstring>
+        <name>txaPrecioVenta</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txaPrecioVenta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="94" column="22" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aa5df1da8f84f429752e4515d575df607" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfAltura</definition>
+        <argsstring></argsstring>
+        <name>txfAltura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfAltura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="97" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a60a7da44fca6941e01f5eccda6536547" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfAnchura</definition>
+        <argsstring></argsstring>
+        <name>txfAnchura</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfAnchura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="100" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a51c71d72064855ec5b20a592ffd6b80e" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfElementos</definition>
+        <argsstring></argsstring>
+        <name>txfElementos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfElementos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="103" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1af34f87959b2cdaeb1c378ba04698e581" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfIva</definition>
+        <argsstring></argsstring>
+        <name>txfIva</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfIva</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="106" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a19ced45d86d18e02e62fdac77c98f7e8" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfMarca</definition>
+        <argsstring></argsstring>
+        <name>txfMarca</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfMarca</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="109" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a81e5c109a7e9863fc2adeb35cb9d5be3" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfNombre</definition>
+        <argsstring></argsstring>
+        <name>txfNombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfNombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="112" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ab5cdbcf354b4c6160b4a0e94d984debc" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfPeso</definition>
+        <argsstring></argsstring>
+        <name>txfPeso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfPeso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="115" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ac05dce11e602bfabb13a39f7ccf7e1c5" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfPrecio</definition>
+        <argsstring></argsstring>
+        <name>txfPrecio</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.txfPrecio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="118" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1adf7f1bced97753c4cfd65151a86d202c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.accesoDarAltaProd</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>accesoDarAltaProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.accesoDarAltaProd</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="121" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aaf95dc192a4352d253c5c7612db0c0a4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.addProducto</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>addProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.addProducto</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="146" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="146" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a7069465b2c8183e3081d1d93027e91d1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.salir</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>salir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.salir</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="173" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="173" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a6f7b2025b4c7c7561de4bc13e5b0ae1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.iniciarTabla</definition>
+        <argsstring>()</argsstring>
+        <name>iniciarTabla</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.iniciarTabla</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="126" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="126" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ad00778a8b22c9887f286659545e20f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.initialize</definition>
+        <argsstring>(URL location, ResourceBundle resources)</argsstring>
+        <name>initialize</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.initialize</qualifiedname>
+        <param>
+          <type>URL</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>ResourceBundle</type>
+          <declname>resources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="178" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="178" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ae96c2efe32905f4b1482eb1c24f5d1d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.mostrarAviso</definition>
+        <argsstring>(String msg, AlertType tipo)</argsstring>
+        <name>mostrarAviso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController.mostrarAviso</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>AlertType</type>
+          <declname>tipo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="183" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="183" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kindref="compound">Vista</ref> de dar alta producto. <simplesect kind="author"><para>Erik Herrera Llamas </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+      </node>
+      <node id="3">
+        <label>Initializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.controller.MercaDAWController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>currentStage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mercaDAWController</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Application</label>
+      </node>
+      <node id="6">
+        <label>Initializable</label>
+      </node>
+      <node id="5">
+        <label>Stage</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" line="31" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/producto/DarAltaProductoViewController.java" bodystart="31" bodyend="190"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1adf7f1bced97753c4cfd65151a86d202c" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>accesoDarAltaProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aaf95dc192a4352d253c5c7612db0c0a4" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>addProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ab7c32acdd7b1abd30e58bf77cefbf80c" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>btnAñadirProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a46c58d1910dbac08a2bbe43f4a75d026" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>btnDarAltaProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1abab02835b40303fb40de3f2baf5b6d62" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>btnObtenerPrecio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a43c6a0648670ada41a30cc77ac155b86" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>btnSalir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ae2c8fb57228b70ccd84a50ea642152be" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>choiceCategoria</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a1f512eb247787a2ea5586653656d21e4" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a33ce4ff38f33006e30d48623783e424d" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a586f2782451d932371ef6bff186b0903" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colCategoria</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a9804eb6d4c9fb0f4d313358a759afa59" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colCodigo</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ad36cb809ad9ce48a744f52490482c6f8" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colDesc</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aa4c5a6a13c0e674b23e9875a2ef6da8d" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1abba691a3a5c2f6a42c5463ea2188d8f1" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colIVA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a6b0dd0e6ec4ec0b129033a54d891c248" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colMarca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a0ee3aeb7162b9996b0eff98fe2787bd1" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a412a0e51adcc1489dc951d5226182cb6" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a1c124f9df215be7152c20edf07b176d2" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colPrecio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1acdf6fe5ee30f33fe7f30d3b76ee301d7" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>colStock</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a51c26683a649b7317d5deb820c3cf3ed" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>controller</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a6f7b2025b4c7c7561de4bc13e5b0ae1c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>iniciarTabla</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ad00778a8b22c9887f286659545e20f2f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>initialize</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>mercaDAWController</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ae96c2efe32905f4b1482eb1c24f5d1d6" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>mostrarAviso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a259c49db0e18644695f18a0684eff67b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>MSG_ERROR</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a8661ef9aa1e705a0ddd25e5a38e3571a" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>productos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a7069465b2c8183e3081d1d93027e91d1" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>salir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>setMercaDAWController</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a81ca8100f74e3b8ca0d7bd51893f421f" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>tabProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a2e6f1568dafad969e8168da0dd085ac4" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txaDescripcion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aea80705e4325384f9aba0a0a99915aad" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txaPrecioVenta</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1aa5df1da8f84f429752e4515d575df607" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a60a7da44fca6941e01f5eccda6536547" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a51c71d72064855ec5b20a592ffd6b80e" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1af34f87959b2cdaeb1c378ba04698e581" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfIva</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a19ced45d86d18e02e62fdac77c98f7e8" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfMarca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1a81e5c109a7e9863fc2adeb35cb9d5be3" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ab5cdbcf354b4c6160b4a0e94d984debc" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller_1ac05dce11e602bfabb13a39f7ccf7e1c5" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::producto::DarAltaProductoViewController</scope><name>txfPrecio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

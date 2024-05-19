@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1_app" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::App</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1_app_1ade8d52a01413dcd07b4591e3d731d10b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.etg.daw.prog.mercadaw.App.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.App.main</qualifiedname>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/App.java" line="7" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/App.java" bodystart="7" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/App.java" line="6" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/App.java" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1_app_1ade8d52a01413dcd07b4591e3d731d10b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::App</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

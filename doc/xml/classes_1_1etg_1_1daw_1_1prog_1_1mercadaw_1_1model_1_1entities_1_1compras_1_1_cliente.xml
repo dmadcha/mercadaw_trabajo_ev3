@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aa1fbb9f27069a7d5d53d0f263191eaaf" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.numClientes</definition>
+        <argsstring></argsstring>
+        <name>numClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.numClientes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="8" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1af8e42f8a36073fd8048a87fad0976b9f" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="10" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9324d9d4c156dff5cd90c0a15533d49a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.nombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="11" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bec0dc7111530e4f778e51dfd561bf1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.correo</definition>
+        <argsstring></argsstring>
+        <name>correo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.correo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="12" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abe9608e2738a5a830888b3639acac260" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.codPostal</definition>
+        <argsstring></argsstring>
+        <name>codPostal</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.codPostal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="13" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1adb180a225f1865a19eede0bb683db961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.Cliente</definition>
+        <argsstring>(Integer id, String nombre, String correo, int codPostal)</argsstring>
+        <name>Cliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.Cliente</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>correo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>codPostal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que inicializa clientes, generando el ID de estos automaticamente. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nombre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>correo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>codPostal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="22" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="22" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1afb47f6bd2a6b809d9fc3a500babea13b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="34" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a35bfe92591a3f60d22bccb46eb260f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setId</definition>
+        <argsstring>(Integer id)</argsstring>
+        <name>setId</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setId</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="38" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bd6c5d84d3460d1eed2f4c098dcf2b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getNombre</definition>
+        <argsstring>()</argsstring>
+        <name>getNombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getNombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="50" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aad99e606a0f7fa2ce7947f4fb2a20947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setNombre</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>setNombre</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setNombre</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="54" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a213314d4e36ec28a2ec087542fa839a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getCorreo</definition>
+        <argsstring>()</argsstring>
+        <name>getCorreo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getCorreo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="58" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a4fb7698fd6d6c5a87b882a410d9efc6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setCorreo</definition>
+        <argsstring>(String correo)</argsstring>
+        <name>setCorreo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setCorreo</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>correo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="62" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abedb4655bf7d71ffdfd30400298a92b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getCodPostal</definition>
+        <argsstring>()</argsstring>
+        <name>getCodPostal</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getCodPostal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="66" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1ac74b36d0a3c2d58ebaaf3539788e0e27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setCodPostal</definition>
+        <argsstring>(int codPostal)</argsstring>
+        <name>setCodPostal</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setCodPostal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>codPostal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="70" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9e9514641ff2d55977175eb2fdd66fdf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getNumClientes</definition>
+        <argsstring>()</argsstring>
+        <name>getNumClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.getNumClientes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="42" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a0564df2abfb1c252a12a30f83d9b4a5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setNumClientes</definition>
+        <argsstring>(int numClientes)</argsstring>
+        <name>setNumClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.setNumClientes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numClientes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="46" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref> representa un cliente de MercaDAW. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" line="7" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java" bodystart="7" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1adb180a225f1865a19eede0bb683db961" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>Cliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abe9608e2738a5a830888b3639acac260" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>codPostal</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bec0dc7111530e4f778e51dfd561bf1" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>correo</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abedb4655bf7d71ffdfd30400298a92b5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>getCodPostal</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a213314d4e36ec28a2ec087542fa839a6" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>getCorreo</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1afb47f6bd2a6b809d9fc3a500babea13b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>getId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bd6c5d84d3460d1eed2f4c098dcf2b7" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>getNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9e9514641ff2d55977175eb2fdd66fdf" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>getNumClientes</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1af8e42f8a36073fd8048a87fad0976b9f" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>id</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9324d9d4c156dff5cd90c0a15533d49a" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>nombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aa1fbb9f27069a7d5d53d0f263191eaaf" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>numClientes</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1ac74b36d0a3c2d58ebaaf3539788e0e27" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>setCodPostal</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a4fb7698fd6d6c5a87b882a410d9efc6a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>setCorreo</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a35bfe92591a3f60d22bccb46eb260f8f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>setId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aad99e606a0f7fa2ce7947f4fb2a20947" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>setNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a0564df2abfb1c252a12a30f83d9b4a5b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Cliente</scope><name>setNumClientes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

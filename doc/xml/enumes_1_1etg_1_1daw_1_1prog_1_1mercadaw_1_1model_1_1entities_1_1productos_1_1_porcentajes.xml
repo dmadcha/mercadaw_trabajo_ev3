@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes" kind="enum" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1aec33ca510b6be158b7c4f010772959b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.PORCENTAJE_5</definition>
+        <argsstring></argsstring>
+        <name>PORCENTAJE_5</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.PORCENTAJE_5</qualifiedname>
+        <initializer>=(5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="8" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a10bd452b93dbb5780dba9d1ded2c0544" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.PORCENTAJE_10</definition>
+        <argsstring></argsstring>
+        <name>PORCENTAJE_10</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.PORCENTAJE_10</qualifiedname>
+        <initializer>=(10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="9" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4a43abb6e013ad5b664aa654eb964ae0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.PORCENTAJE_15</definition>
+        <argsstring></argsstring>
+        <name>PORCENTAJE_15</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.PORCENTAJE_15</qualifiedname>
+        <initializer>=(15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="10" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a3ce5ec7761447e7bd13e4bf95b9c57ea" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.porcentaje</definition>
+        <argsstring></argsstring>
+        <name>porcentaje</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.porcentaje</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="12" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4e6d4757c93ecdfcb3abf1745b1bda63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.Porcentajes</definition>
+        <argsstring>(double porcentaje)</argsstring>
+        <name>Porcentajes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.Porcentajes</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>porcentaje</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="14" column="13" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a0855f74fda9c7d76aae6c3f6bfbdfea3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.getPorcentaje</definition>
+        <argsstring>()</argsstring>
+        <name>getPorcentaje</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.getPorcentaje</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="18" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a7e80d9988282af63c7a46c5cb67255c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.setPorcentaje</definition>
+        <argsstring>(double porcentaje)</argsstring>
+        <name>setPorcentaje</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Porcentajes.setPorcentaje</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>porcentaje</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="22" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La enumeracion <ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_recargos" kindref="compound">Recargos</ref> representa los porcentajes posibles y su valor correspondiente. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" line="7" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Porcentajes.java" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a0855f74fda9c7d76aae6c3f6bfbdfea3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>getPorcentaje</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a3ce5ec7761447e7bd13e4bf95b9c57ea" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>porcentaje</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a10bd452b93dbb5780dba9d1ded2c0544" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>PORCENTAJE_10</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4a43abb6e013ad5b664aa654eb964ae0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>PORCENTAJE_15</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1aec33ca510b6be158b7c4f010772959b0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>PORCENTAJE_5</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a4e6d4757c93ecdfcb3abf1745b1bda63" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>Porcentajes</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_porcentajes_1a7e80d9988282af63c7a46c5cb67255c5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Porcentajes</scope><name>setPorcentaje</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

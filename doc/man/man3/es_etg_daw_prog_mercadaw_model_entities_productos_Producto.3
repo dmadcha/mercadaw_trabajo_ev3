@@ -1,0 +1,324 @@
+.TH "es.etg.daw.prog.mercadaw.model.entities.productos.Producto" 3 "Domingo, 19 de Mayo de 2024" "MercaDAW" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.etg.daw.prog.mercadaw.model.entities.productos.Producto
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producible\fP\&.
+.PP
+Heredado por \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Alimentacion\fP, \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Cosmetica\fP y \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Drogueria\fP\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBProducto\fP (Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)"
+.br
+.ti -1c
+.RI "double \fBgetIva\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetIva\fP (double iva)"
+.br
+.ti -1c
+.RI "String \fBgetNombre\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNombre\fP (String nombre)"
+.br
+.ti -1c
+.RI "String \fBgetMarca\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMarca\fP (String marca)"
+.br
+.ti -1c
+.RI "double \fBgetAltura\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAltura\fP (double altura)"
+.br
+.ti -1c
+.RI "double \fBgetAnchura\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAnchura\fP (double anchura)"
+.br
+.ti -1c
+.RI "double \fBgetPeso\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPeso\fP (double peso)"
+.br
+.ti -1c
+.RI "int \fBgetNumElementos\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNumElementos\fP (int numElementos)"
+.br
+.ti -1c
+.RI "String \fBgetDescripcion\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDescripcion\fP (String descripcion)"
+.br
+.ti -1c
+.RI "Integer \fBgetId\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetId\fP (Integer id)"
+.br
+.ti -1c
+.RI "int \fBgetStock\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetStock\fP (int stock)"
+.br
+.ti -1c
+.RI "double \fBgetPrecio\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPrecio\fP (double precio)"
+.br
+.ti -1c
+.RI "double \fBgetPrecioVenta\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetRecargoPeso\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPorcentajePeso\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetRecargoAltura\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPorcentajeAltura\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetRecargoAnchura\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPorcentajeAnchura\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetRecargoNumElementos\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPrecioFinalEuros\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPrecioFinalDolares\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetIvaCalculado\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBequals\fP (Object obj)"
+.br
+.in -1c
+.SS "Métodos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static int \fBgetNumProductos\fP ()"
+.br
+.ti -1c
+.RI "static void \fBsetNumProductos\fP (int numProductos)"
+.br
+.in -1c
+.SS "Atributos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBATT_ID\fP = 'id'"
+.br
+.ti -1c
+.RI "static final String \fBATT_NOMBRE\fP = 'nombre'"
+.br
+.ti -1c
+.RI "static final String \fBATT_MARCA\fP = 'marca'"
+.br
+.ti -1c
+.RI "static final String \fBATT_CATEGORIA\fP = 'categoria'"
+.br
+.ti -1c
+.RI "static final String \fBATT_ALTURA\fP = 'altura'"
+.br
+.ti -1c
+.RI "static final String \fBATT_ANCHURA\fP = 'anchura'"
+.br
+.ti -1c
+.RI "static final String \fBATT_PESO\fP = 'peso'"
+.br
+.ti -1c
+.RI "static final String \fBATT_ELEMENTOS\fP = 'elementos'"
+.br
+.ti -1c
+.RI "static final String \fBATT_DESCRIPCION\fP = 'descripcion'"
+.br
+.ti -1c
+.RI "static final String \fBATT_STOCK\fP = 'stock'"
+.br
+.ti -1c
+.RI "static final String \fBATT_PRECIO\fP = 'precio'"
+.br
+.ti -1c
+.RI "static final String \fBATT_IVA\fP = 'iva'"
+.br
+.in -1c
+.SS "Atributos protegidos"
+
+.in +1c
+.ti -1c
+.RI "double \fBiva\fP"
+.br
+.in -1c
+.SH "Descripción detallada"
+.PP 
+La clase \fBProducto\fP representa un producto de MercaDAW\&. 
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro\&. 
+.RE
+.PP
+
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.Producto (Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)"
+Constructor que inicializa productos, generando el ID de estos automaticamente\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIID\fP del producto 
+.br
+\fINombre\fP del producto 
+.br
+\fIMarca\fP del producto 
+.br
+\fIAltura\fP del producto 
+.br
+\fIAnchura\fP del producto 
+.br
+\fIPeso\fP del producto 
+.br
+\fINumero\fP de elementos del producto 
+.br
+\fIStock\fP del producto 
+.br
+\fIPrecio\fP del producto 
+.br
+\fIDescripcion\fP del producto 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getIvaCalculado ()"
+Calcula y devuelve el iva calculado de un producto\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el iva calculado\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getPorcentajeAltura ()"
+Calcula y devuelve el porcentaje que se usa para calcular el recargo de la altura\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el porcentaje del recargo de la altura\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getPorcentajeAnchura ()"
+Calcula y devuelve el porcentaje que se usa para calcular el recargo de la anchura\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el porcentaje del recargo de la anchura\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getPorcentajePeso ()"
+Calcula y devuelve el porcentaje que se usa para calcular el recargo del peso\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el porcentaje del recargo del peso\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getPrecioFinalDolares ()"
+Calcula y devuelve el precio final de venta de un producto convertido a dolares\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el precio final en dolares\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getPrecioFinalEuros ()"
+Calcula el precio final de venta de un producto con todos los recargos aplicados\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el precio final en euros\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getPrecioVenta ()"
+Calcula em precio de venta de un producto\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el precio final de venta del 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producible\fP\&.
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getRecargoAltura ()"
+Calcula y devuelve el recargo dependiendo de la altura del producto\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el recargo de la altura\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getRecargoAnchura ()"
+Calcula y devuelve el recargo dependiendo de la anchura del producto\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el recargo de la anchura\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getRecargoNumElementos ()"
+Calcula y devuelve el recargo dependiendo del numero de elementos del producto\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el recargo del numero de elementos\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.productos\&.Producto\&.getRecargoPeso ()"
+Calcula y devuelve el recargo dependiendo del peso del producto\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el recargo del peso\&. 
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para MercaDAW del código fuente\&.

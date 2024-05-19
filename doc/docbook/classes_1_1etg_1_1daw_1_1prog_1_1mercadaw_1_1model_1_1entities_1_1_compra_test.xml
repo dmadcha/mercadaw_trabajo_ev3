@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.CompraTest</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.CompraTest</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a5f6790648390e57c38b72a2e6a1aeacd"/>void <emphasis role="strong">creacionCompra</emphasis> ()  throws MercaDAWException </para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a15c1a9565bbd1f3ae87b75aa86ed89f1"/>void <emphasis role="strong">crearCompraTest</emphasis> ()  throws MercaDAWException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java</section>

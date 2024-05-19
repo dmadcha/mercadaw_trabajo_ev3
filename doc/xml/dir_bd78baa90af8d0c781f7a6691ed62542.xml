@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_bd78baa90af8d0c781f7a6691ed62542" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception</compoundname>
+    <innerfile refid="_export_exception_8java">ExportException.java</innerfile>
+    <innerfile refid="_fichero_exception_8java">FicheroException.java</innerfile>
+    <innerfile refid="_formato_exception_8java">FormatoException.java</innerfile>
+    <innerfile refid="_lector_exception_8java">LectorException.java</innerfile>
+    <innerfile refid="_merca_d_a_w_exception_8java">MercaDAWException.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception/"/>
+  </compounddef>
+</doxygen>

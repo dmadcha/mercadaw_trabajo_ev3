@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::exception::MercaDAWException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_export_exception" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.exception.ExportException</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_fichero_exception" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.exception.FicheroException</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_lector_exception" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.exception.LectorException</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.exception.MercaDAWException</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.exception.ExportException</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_export_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.model.exception.FicheroException</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_fichero_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>es.etg.daw.prog.mercadaw.model.exception.FormatoException</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_formato_exception"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.etg.daw.prog.mercadaw.model.exception.LectorException</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_lector_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.exception.MercaDAWException</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception/MercaDAWException.java" line="3" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception/MercaDAWException.java" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

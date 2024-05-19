@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a6fa61b60980c3741fcf3f9330311dcb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.iniciarBBDDTest</definition>
+        <argsstring>()</argsstring>
+        <name>iniciarBBDDTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.iniciarBBDDTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="21" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1abd7ad4f627196c269bdd22759f2b180d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarEmpleadoTest</definition>
+        <argsstring>()</argsstring>
+        <name>insertarEmpleadoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarEmpleadoTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="29" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="29" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a612b61d03e0403de7e11545d93977538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarProductoTest</definition>
+        <argsstring>()</argsstring>
+        <name>insertarProductoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarProductoTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="52" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="52" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a42b7264495f06b8f5e9698161567f71e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarClienteTest</definition>
+        <argsstring>()</argsstring>
+        <name>insertarClienteTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarClienteTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="75" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="75" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae7175d4d2694414ebf3b6d98f4231c23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarCompraTest</definition>
+        <argsstring>()</argsstring>
+        <name>insertarCompraTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.insertarCompraTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="93" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="93" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a809b5ccef0df75a992c021eb9a6f3a8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarClienteTest</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarClienteTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarClienteTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="124" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="124" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae266f82a55dd09c43a160530214b48cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarClientesTest</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarClientesTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarClientesTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="138" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="138" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a1ca510871e0985c4d5f4f457e75801f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarEmpleadosTest</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarEmpleadosTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarEmpleadosTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="161" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="161" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae8875be623c8bb390c048821630d6257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarProductoTest</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarProductoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarProductoTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="188" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="188" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a552eeb0bbca28985c8e829fbc3555ce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarProductosTest</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarProductosTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarProductosTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="202" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="202" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a20542fee84c4c31cd2b84506941797c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarComprasTest</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarComprasTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.visualizarComprasTest</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="231" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="231" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a3672d6a8c9f92fd4050beafee629b1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.borrarTablas</definition>
+        <argsstring>()</argsstring>
+        <name>borrarTablas</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXETest.borrarTablas</qualifiedname>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="264" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="264" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" line="19" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpOracleXETest.java" bodystart="19" bodyend="281"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a3672d6a8c9f92fd4050beafee629b1f1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>borrarTablas</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a6fa61b60980c3741fcf3f9330311dcb1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>iniciarBBDDTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a42b7264495f06b8f5e9698161567f71e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>insertarClienteTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae7175d4d2694414ebf3b6d98f4231c23" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>insertarCompraTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1abd7ad4f627196c269bdd22759f2b180d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>insertarEmpleadoTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a612b61d03e0403de7e11545d93977538" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>insertarProductoTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae266f82a55dd09c43a160530214b48cf" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>visualizarClientesTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a809b5ccef0df75a992c021eb9a6f3a8d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>visualizarClienteTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a20542fee84c4c31cd2b84506941797c3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>visualizarComprasTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a1ca510871e0985c4d5f4f457e75801f9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>visualizarEmpleadosTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1a552eeb0bbca28985c8e829fbc3555ce9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>visualizarProductosTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_test_1ae8875be623c8bb390c048821630d6257" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpOracleXETest</scope><name>visualizarProductoTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

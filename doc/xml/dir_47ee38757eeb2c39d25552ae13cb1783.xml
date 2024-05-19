@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_47ee38757eeb2c39d25552ae13cb1783" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw</compoundname>
+    <innerdir refid="dir_52a004b03b4c2095f3f1f95c21ee13d9">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller</innerdir>
+    <innerdir refid="dir_f5a76b6b395293e1409153c570d0dd5d">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model</innerdir>
+    <innerdir refid="dir_3cdcbf1c70320d6bf14c42784ae25721">/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view</innerdir>
+    <innerfile refid="_app_8java">App.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/"/>
+  </compounddef>
+</doxygen>

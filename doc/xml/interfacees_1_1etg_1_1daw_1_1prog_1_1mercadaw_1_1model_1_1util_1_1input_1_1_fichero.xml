@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero" kind="interface" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::input::Fichero</compoundname>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1ab29deb742bfd1b59e186779fd980d68e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.input.Fichero.escribir</definition>
+        <argsstring>(String fichero, String texto)</argsstring>
+        <name>escribir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.Fichero.escribir</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1ae003a7722d715802fff0da60213e3c61">escribir</reimplementedby>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a422e75fba8e9c3a272c15c73a42a0ca3">escribir</reimplementedby>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1aa0fcc2e740756d012741bbaa39f69ce7">escribir</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>fichero</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>texto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Fichero.java" line="10" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1a2f70459a627c3e92a61eca77a4247c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] es.etg.daw.prog.mercadaw.model.util.input.Fichero.leer</definition>
+        <argsstring>(String fichero)</argsstring>
+        <name>leer</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.Fichero.leer</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario_1a91ce1f511749e3088b38badc34ac8eff">leer</reimplementedby>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a521255c472847d66eb0af9300fb54d7c">leer</reimplementedby>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1a7e7a4fa20dec090b67cf5524d317674d">leer</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>fichero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Fichero.java" line="11" column="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Esta interface nos permite escribir y leer un fichero de forma binaria. <simplesect kind="author"><para>: Iván Rafael Redondo </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.Fichero</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero"/>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Fichero.java" line="8" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/Fichero.java" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1ab29deb742bfd1b59e186779fd980d68e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::Fichero</scope><name>escribir</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1a2f70459a627c3e92a61eca77a4247c7d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::Fichero</scope><name>leer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

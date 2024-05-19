@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a104a94f16531cb5241222eb4c3f92dd9"/>void <emphasis role="strong">iniciarTabla</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1a980611b5011baec41ee9878cbd3aa28a"/>void <emphasis role="strong">initialize</emphasis> (URL location, ResourceBundle resources)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller_1acbe3a2d02406835415fac3a54b4664d9"/>static final String <emphasis role="strong">MSG_ERROR</emphasis> = &quot;ERROR&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Otros miembros heredados    </title>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para><link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista">Vista</link> de dar alta empleado. <formalpara><title>Autor</title>
+
+<para>Erik Herrera Llamas </para>
+</formalpara>
+</para>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/empleado/DarAltaEmpleadoViewController.java</section>
+</section>

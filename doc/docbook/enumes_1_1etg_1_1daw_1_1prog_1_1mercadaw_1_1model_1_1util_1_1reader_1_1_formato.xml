@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.model.util.reader.Formato</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.reader.Formato</primary></indexterm>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato_1af537dde4f6df181b73a434d1a06d0fa6"/><emphasis role="strong">CSV</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader_1_1_formato_1a42057e32f212542d8ec56913513f502d"/><emphasis role="strong">JSON</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/Formato.java</section>

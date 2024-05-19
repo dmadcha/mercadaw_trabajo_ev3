@@ -1,0 +1,261 @@
+.TH "es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado" 3 "Domingo, 19 de Mayo de 2024" "MercaDAW" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Contratable\fP\&.
+.PP
+Heredado por \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Cajero\fP, \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Encargado\fP y \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Reponedor\fP\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBEmpleado\fP (Integer id, String nombre, String apellidos, Date fechaInicio)"
+.br
+.ti -1c
+.RI "Date \fBgetFechaInicio\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetFechaInicio\fP (Date fechaInicio)"
+.br
+.ti -1c
+.RI "int \fBgetId\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetId\fP (int id)"
+.br
+.ti -1c
+.RI "String \fBgetNombre\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNombre\fP (String nombre)"
+.br
+.ti -1c
+.RI "String \fBgetApellidos\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetApellidos\fP (String apellidos)"
+.br
+.ti -1c
+.RI "double \fBgetSueldo\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSueldo\fP (double sueldo)"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetSalarioNeto\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetSalarioBruto\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPPE\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetDeducciones\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetAportaciones\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetIndemnizacion\fP (\fBTipoDespido\fP tipo)"
+.br
+.ti -1c
+.RI "double \fBgetIndemnizacionLegal\fP (\fBTipoDespido\fP tipo)"
+.br
+.ti -1c
+.RI "double \fBgetSalarioDiario\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetAntiguedad\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBequals\fP (Object obj)"
+.br
+.in -1c
+.SS "Métodos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static int \fBgetNumEmpleados\fP ()"
+.br
+.ti -1c
+.RI "static void \fBsetNumEmpleados\fP (int numEmpleados)"
+.br
+.in -1c
+.SS "Atributos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBATT_ID_EMPLE\fP = 'id'"
+.br
+.ti -1c
+.RI "static final String \fBATT_NOM_EMPLE\fP = 'nombre'"
+.br
+.ti -1c
+.RI "static final String \fBATT_APELLIDO\fP = 'apellidos'"
+.br
+.ti -1c
+.RI "static final String \fBATT_CATEGORIA\fP = 'categoria'"
+.br
+.ti -1c
+.RI "static final String \fBATT_SUELDO\fP = 'sueldo'"
+.br
+.ti -1c
+.RI "static final String \fBATT_FECHA\fP = 'fechaInicio'"
+.br
+.in -1c
+.SH "Descripción detallada"
+.PP 
+La clase \fBEmpleado\fP representa un empleado de MercaDAW\&. 
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro\&. 
+.RE
+.PP
+
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.Empleado (Integer id, String nombre, String apellidos, Date fechaInicio)"
+Constructor que inicializa empleados, generando el ID de estas automaticamente\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIId\fP del empleado 
+.br
+\fINombre\fP del empleado 
+.br
+\fIApellidos\fP del empleado 
+.br
+\fIFecha\fP de contratación del empleado 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "int es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getAntiguedad ()"
+Calcula y devuelve la antigüedad de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un int con la antigüedad del empleado\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getAportaciones ()"
+Calcula y devuelve las aportaciones salariales del empresario en la nomina de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con las aportaciones 
+.RE
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Contratable\fP\&.
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getDeducciones ()"
+Calcula y devuelve las deducciones de la nomina de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con las deducciones\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getIndemnizacion (\fBTipoDespido\fP tipo)"
+Calcula y devuelve el salario neto de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con la indemnizacion 
+.RE
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Contratable\fP\&.
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getIndemnizacionLegal (\fBTipoDespido\fP tipo)"
+Devuelve los dias de indemnizacion legal que corresponden segun el tipo de despido\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fItipo\fP Tipo del despido, ya sea procedente o improcedente\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con los dias dias de indemnizacion legal\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getPPE ()"
+Calcula y devuelve las pagas extra de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con la prorrata de pagas extra\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getSalarioBruto ()"
+Calcula y devuelve el salario bruto de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el salarioBruto 
+.RE
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Contratable\fP\&.
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getSalarioDiario ()"
+Calcula y devuelve el salario diario de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el salario deiario\&. 
+.RE
+.PP
+
+.SS "double es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Empleado\&.getSalarioNeto ()"
+Calcula y devuelve el salario neto de un empleado\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+Un double con el salarioNeto 
+.RE
+.PP
+\fBAutor\fP
+.RS 4
+Diego Madroñero Chamorro 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.entities\&.empleados\&.Contratable\fP\&.
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para MercaDAW del código fuente\&.

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.input.FicheroMock    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1aa0fcc2e740756d012741bbaa39f69ce7">escribir</link> (String ruta, String texto)</para>
+</listitem>
+            <listitem><para>byte[] <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1a7e7a4fa20dec090b67cf5524d317674d">leer</link> (String fichero)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1aa0fcc2e740756d012741bbaa39f69ce7"/><section>
+    <title>escribir()</title>
+<indexterm><primary>escribir</primary><secondary>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</primary><secondary>escribir</secondary></indexterm>
+<para><computeroutput>void es.etg.daw.prog.mercadaw.model.util.input.FicheroMock.escribir (String ruta, String texto)</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero">es.etg.daw.prog.mercadaw.model.util.input.Fichero</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1a7e7a4fa20dec090b67cf5524d317674d"/><section>
+    <title>leer()</title>
+<indexterm><primary>leer</primary><secondary>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</primary><secondary>leer</secondary></indexterm>
+<para><computeroutput>byte[] es.etg.daw.prog.mercadaw.model.util.input.FicheroMock.leer (String fichero)</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero">es.etg.daw.prog.mercadaw.model.util.input.Fichero</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java</section>
+</section>

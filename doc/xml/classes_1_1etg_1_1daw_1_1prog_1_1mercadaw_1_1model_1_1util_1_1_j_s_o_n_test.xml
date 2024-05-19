@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::JSONTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ab851f4c71aa0ebfcc1ad96e7f51aa693" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarProducto</definition>
+        <argsstring>()</argsstring>
+        <name>cargarProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarProducto</qualifiedname>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="13" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="13" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1a651dae6444f2c7e96da5784525a48818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarEmpleado</definition>
+        <argsstring>()</argsstring>
+        <name>cargarEmpleado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarEmpleado</qualifiedname>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="37" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="37" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ae98be92687076d3791cdc3f8fdac993f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarCliente</definition>
+        <argsstring>()</argsstring>
+        <name>cargarCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarCliente</qualifiedname>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="55" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="55" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1a49d24c6febda87f03dae31093fc0675f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarVacioTestProducto</definition>
+        <argsstring>()</argsstring>
+        <name>cargarVacioTestProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarVacioTestProducto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="72" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="72" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1aa3248b19539a2dc11d4880537f56eab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarVacioTestEmpleado</definition>
+        <argsstring>()</argsstring>
+        <name>cargarVacioTestEmpleado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarVacioTestEmpleado</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="83" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="83" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ab3fad5c4d66ba923a483d461bbc5d087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarVacioTestCliente</definition>
+        <argsstring>()</argsstring>
+        <name>cargarVacioTestCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.JSONTest.cargarVacioTestCliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="94" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="94" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" line="10" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/JSONTest.java" bodystart="10" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ae98be92687076d3791cdc3f8fdac993f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::JSONTest</scope><name>cargarCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1a651dae6444f2c7e96da5784525a48818" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::JSONTest</scope><name>cargarEmpleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ab851f4c71aa0ebfcc1ad96e7f51aa693" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::JSONTest</scope><name>cargarProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1ab3fad5c4d66ba923a483d461bbc5d087" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::JSONTest</scope><name>cargarVacioTestCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1aa3248b19539a2dc11d4880537f56eab6" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::JSONTest</scope><name>cargarVacioTestEmpleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test_1a49d24c6febda87f03dae31093fc0675f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::JSONTest</scope><name>cargarVacioTestProducto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

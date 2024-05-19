@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.compras.Cliente</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1adb180a225f1865a19eede0bb683db961">Cliente</link> (Integer id, String nombre, String correo, int codPostal)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1afb47f6bd2a6b809d9fc3a500babea13b"/>Integer <emphasis role="strong">getId</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a35bfe92591a3f60d22bccb46eb260f8f"/>void <emphasis role="strong">setId</emphasis> (Integer id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a5bd6c5d84d3460d1eed2f4c098dcf2b7"/>String <emphasis role="strong">getNombre</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1aad99e606a0f7fa2ce7947f4fb2a20947"/>void <emphasis role="strong">setNombre</emphasis> (String nombre)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a213314d4e36ec28a2ec087542fa839a6"/>String <emphasis role="strong">getCorreo</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a4fb7698fd6d6c5a87b882a410d9efc6a"/>void <emphasis role="strong">setCorreo</emphasis> (String correo)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1abedb4655bf7d71ffdfd30400298a92b5"/>int <emphasis role="strong">getCodPostal</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1ac74b36d0a3c2d58ebaaf3539788e0e27"/>void <emphasis role="strong">setCodPostal</emphasis> (int codPostal)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Métodos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a9e9514641ff2d55977175eb2fdd66fdf"/>static int <emphasis role="strong">getNumClientes</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1a0564df2abfb1c252a12a30f83d9b4a5b"/>static void <emphasis role="strong">setNumClientes</emphasis> (int numClientes)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> representa un cliente de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente_1adb180a225f1865a19eede0bb683db961"/><section>
+    <title>Cliente()</title>
+<indexterm><primary>Cliente</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente</primary><secondary>Cliente</secondary></indexterm>
+<para><computeroutput>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente.Cliente (Integer id, String nombre, String correo, int codPostal)</computeroutput></para>
+<para>Constructor que inicializa clientes, generando el ID de estos automaticamente. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>nombre</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>correo</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>codPostal</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Cliente.java</section>
+</section>

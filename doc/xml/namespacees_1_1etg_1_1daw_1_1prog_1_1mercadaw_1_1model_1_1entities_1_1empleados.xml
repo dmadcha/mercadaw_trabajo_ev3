@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados" kind="namespace" language="Java">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::empleados</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::Cajero</innerclass>
+    <innerclass refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::Empleado</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::EmpleadoFactory</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::Reponedor</innerclass>
+    <innerclass refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_despido" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::TipoDespido</innerclass>
+    <innerclass refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_empleado" prot="public">es::etg::daw::prog::mercadaw::model::entities::empleados::TipoEmpleado</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Cajero.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

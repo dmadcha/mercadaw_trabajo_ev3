@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</compoundname>
+    <basecompoundref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae1ea6eba474f2fea85ffb4b230ec1b37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.iniciarBBDD</definition>
+        <argsstring>()</argsstring>
+        <name>iniciarBBDD</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.iniciarBBDD</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece58ae52a4f78677f7a4d1fe20d7016">iniciarBBDD</reimplements>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepara la base de datos. (Crea las tablas y vistas). <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="23" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1af1788c4fb7df851dfd3d577398ad26f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</definition>
+        <argsstring>(Empleado emp)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece2705dfa539a6c55e5d5115d756385">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+          <declname>emp</declname>
+        </param>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta el Empleado en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>empleado</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Empleado a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="27" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad0825cec1f5bb1ad49bb0dc142fec385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</definition>
+        <argsstring>(Producto prod)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a328ce97bad346babfb590e4082f1b1d3">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+          <declname>prod</declname>
+        </param>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta el Producto en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>producto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Producto a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="32" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ada6b88cf7a6b18e31b1c87345f5d470a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</definition>
+        <argsstring>(Compra compra)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a74aaa84024ef8dd191cc50779cf0b126">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref></type>
+          <declname>compra</declname>
+        </param>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta la Compra en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>compra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Compra a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="37" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad58212c0987c361f1e34520ec310bd7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</definition>
+        <argsstring>(Cliente client)</argsstring>
+        <name>insertar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.insertar</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1abe232202d06c3caa909eabb8402ee08c">insertar</reimplements>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+          <declname>client</declname>
+        </param>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserta el Cliente en la Base de datos. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cliente a insertar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int Numero de insercciones completadas. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="42" column="16" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1aed8d3dd665b07d369e9fdec3661b563b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+        <definition>Producto es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarProducto</definition>
+        <argsstring>(int id)</argsstring>
+        <name>visualizarProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarProducto</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a8f41a3d6f26bbfb230b26b73689e6f0d">visualizarProducto</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hace un select a la BD con la id pasada. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id del producto que quieres. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Producto con la id pasada por. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="47" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a751ab7431972526cc14894ca9c32a25e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt; Producto &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarProductos</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarProductos</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a130b081dd4b062f308bd2162eb8615a9">visualizarProductos</reimplements>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Productos de la BD completa. <simplesect kind="return"><para>List&lt;Producto&gt; Los productos de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="52" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="52" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae80e3266cd822401fd787afcf9d43e82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+        <definition>Cliente es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarCliente</definition>
+        <argsstring>(int id)</argsstring>
+        <name>visualizarCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarCliente</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a50068156380f7bb07c1eaa8eb5acd8ee">visualizarCliente</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Visualiza el Cliente con la id del parametro. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id del Cliente que quieres. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Cliente El cliente con la id del parametro. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="68" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a819999383b03337c95bc4d13e51fd8ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref> &gt;</type>
+        <definition>List&lt; Cliente &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarClientes</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarClientes</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a3a5a77c8b6cdff55b5fed49c051f5a39">visualizarClientes</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Clientes de la BD completa. <simplesect kind="return"><para>List&lt;Cliente&gt; Los clientes de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="73" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="73" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a3bb6676462307c674aa2fdda5c3e9bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref> &gt;</type>
+        <definition>List&lt; Empleado &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarEmpleados</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarEmpleados</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a9136e507bfd4893f237166934fe96a9c">visualizarEmpleados</reimplements>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Empleados de la BD completa. <simplesect kind="return"><para>List&lt;Empleado&gt; Los empleados de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="89" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="89" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a953d0485a36282119f0304c492541032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+        <definition>List&lt; Compra &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarCompras</definition>
+        <argsstring>()</argsstring>
+        <name>visualizarCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock.visualizarCompras</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1ababdc68ea53900d12b69e13e6da2fe8f">visualizarCompras</reimplements>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Devuelve la lista de Compras de la BD completa. <simplesect kind="return"><para>List&lt;Compra&gt; Las compas de la BD. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SQLException</parametername>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="104" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="104" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock" kindref="compound">MercaDAOImpMock</ref> provee de datos de prueba para el desarrollo del software. <simplesect kind="author"><para>Jesús Pérez Enríquez. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" line="20" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOImpMock.java" bodystart="20" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae1ea6eba474f2fea85ffb4b230ec1b37" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>iniciarBBDD</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1af1788c4fb7df851dfd3d577398ad26f8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad0825cec1f5bb1ad49bb0dc142fec385" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ada6b88cf7a6b18e31b1c87345f5d470a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad58212c0987c361f1e34520ec310bd7b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae80e3266cd822401fd787afcf9d43e82" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>visualizarCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a819999383b03337c95bc4d13e51fd8ab" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>visualizarClientes</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a953d0485a36282119f0304c492541032" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>visualizarCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a3bb6676462307c674aa2fdda5c3e9bd7" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>visualizarEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1aed8d3dd665b07d369e9fdec3661b563b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>visualizarProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a751ab7431972526cc14894ca9c32a25e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOImpMock</scope><name>visualizarProductos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

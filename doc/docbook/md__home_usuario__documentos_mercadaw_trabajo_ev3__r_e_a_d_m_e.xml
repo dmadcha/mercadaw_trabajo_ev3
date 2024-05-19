@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__home_usuario__documentos_mercadaw_trabajo_ev3__r_e_a_d_m_e" xml:lang="es">
+
+<para>Trabajo de programación de la tercera evaluación de Erik Herrera, Iván Rafael, Jesús Pérez y Diego Madroñero</para>
+<section xml:id="_md__home_usuario__documentos_mercadaw_trabajo_ev3__r_e_a_d_m_e_1autotoc_md11">
+<title>Información Diseño</title>
+
+<para>En el Diagrama de Despliegue, el device Docker está fuera de la máquina usuario porque es un servidor al que se pueden conectar más usuarios a la misma BBDD. </para>
+</section>
+</section>

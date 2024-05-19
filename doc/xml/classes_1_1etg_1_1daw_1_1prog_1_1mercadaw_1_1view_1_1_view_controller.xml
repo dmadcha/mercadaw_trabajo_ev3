@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>es::etg::daw::prog::mercadaw::view::ViewController</compoundname>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.MainViewController</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2" prot="protected" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref></type>
+        <definition>MercaDAWController es.etg.daw.prog.mercadaw.view.ViewController.mercaDAWController</definition>
+        <argsstring></argsstring>
+        <name>mercaDAWController</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.ViewController.mercaDAWController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java" line="12" column="34" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.ViewController.setMercaDAWController</definition>
+        <argsstring>(MercaDAWController mercaDAWController)</argsstring>
+        <name>setMercaDAWController</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.ViewController.setMercaDAWController</qualifiedname>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref></type>
+          <declname>mercaDAWController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java" line="14" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Esta clase es la que nos permite la comunicación entre las vistas y el controlador de la aplicación. <simplesect kind="author"><para>Erik Herrera Llamas. </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.MainViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1empleado_1_1_dar_alta_empleado_view_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1producto_1_1_dar_alta_producto_view_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>es.etg.daw.prog.mercadaw.view.sistema.ExportarDatosViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_exportar_datos_view_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mercaDAWController</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.controller.MercaDAWController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>currentStage</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Application</label>
+      </node>
+      <node id="4">
+        <label>Stage</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java" line="11" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/ViewController.java" bodystart="11" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::ViewController</scope><name>mercaDAWController</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::ViewController</scope><name>setMercaDAWController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

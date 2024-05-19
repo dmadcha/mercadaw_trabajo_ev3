@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::input::FicheroMock</compoundname>
+    <basecompoundref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.util.input.Fichero</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1aa0fcc2e740756d012741bbaa39f69ce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.input.FicheroMock.escribir</definition>
+        <argsstring>(String ruta, String texto)</argsstring>
+        <name>escribir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock.escribir</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1ab29deb742bfd1b59e186779fd980d68e">escribir</reimplements>
+        <param>
+          <type>String</type>
+          <declname>ruta</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>texto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java" line="8" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1a7e7a4fa20dec090b67cf5524d317674d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] es.etg.daw.prog.mercadaw.model.util.input.FicheroMock.leer</definition>
+        <argsstring>(String fichero)</argsstring>
+        <name>leer</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock.leer</qualifiedname>
+        <reimplements refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_1a2f70459a627c3e92a61eca77a4247c7d">leer</reimplements>
+        <param>
+          <type>String</type>
+          <declname>fichero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java" line="14" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.Fichero</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroMock</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.Fichero</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java" line="4" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroMock.java" bodystart="4" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1aa0fcc2e740756d012741bbaa39f69ce7" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::FicheroMock</scope><name>escribir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_mock_1a7e7a4fa20dec090b67cf5524d317674d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::FicheroMock</scope><name>leer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

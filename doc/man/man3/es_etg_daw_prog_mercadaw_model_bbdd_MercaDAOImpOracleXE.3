@@ -1,0 +1,391 @@
+.TH "es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE" 3 "Domingo, 19 de Mayo de 2024" "MercaDAW" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MarcaDAOImp\fP\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "void \fBiniciarBBDD\fP ()  throws SQLException"
+.br
+.ti -1c
+.RI "void \fBcrearEmpleados\fP (Statement st)  throws SQLException"
+.br
+.ti -1c
+.RI "void \fBcrearClientes\fP (Statement st)  throws SQLException"
+.br
+.ti -1c
+.RI "void \fBcrearProductos\fP (Statement st)  throws SQLException"
+.br
+.ti -1c
+.RI "void \fBcrearCompras\fP (Statement st)  throws SQLException"
+.br
+.ti -1c
+.RI "int \fBinsertar\fP (\fBEmpleado\fP emp)  throws SQLException"
+.br
+.ti -1c
+.RI "int \fBinsertar\fP (\fBProducto\fP prod)  throws SQLException"
+.br
+.ti -1c
+.RI "int \fBinsertar\fP (\fBCompra\fP compra)  throws SQLException"
+.br
+.ti -1c
+.RI "int \fBinsertar\fP (\fBCliente\fP client)  throws SQLException"
+.br
+.ti -1c
+.RI "\fBProducto\fP \fBvisualizarProducto\fP (int id)  throws SQLException, MercaDAWException "
+.br
+.ti -1c
+.RI "List< \fBProducto\fP > \fBvisualizarProductos\fP ()  throws SQLException, MercaDAWException"
+.br
+.ti -1c
+.RI "\fBCliente\fP \fBvisualizarCliente\fP (int id)  throws SQLException"
+.br
+.ti -1c
+.RI "List< \fBCliente\fP > \fBvisualizarClientes\fP ()  throws SQLException"
+.br
+.ti -1c
+.RI "List< \fBEmpleado\fP > \fBvisualizarEmpleados\fP ()  throws SQLException, MercaDAWException"
+.br
+.ti -1c
+.RI "List< \fBCompra\fP > \fBvisualizarCompras\fP ()  throws SQLException, MercaDAWException"
+.br
+.in -1c
+.SS "Atributos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBPROD_ID\fP = 'cod_product'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_NOMB\fP = 'nombre'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_MARC\fP = 'marca'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_DESC\fP = 'descr'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_CATE\fP = 'categoria'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_PREC\fP = 'precio'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_ALTU\fP = 'altura'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_ANCH\fP = 'anchura'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_PESO\fP = 'peso'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_ELEM\fP = 'num_elementos'"
+.br
+.ti -1c
+.RI "static final String \fBPROD_STOK\fP = 'stock'"
+.br
+.ti -1c
+.RI "static final String \fBEMPLE_ID\fP = 'cod_emple'"
+.br
+.ti -1c
+.RI "static final String \fBEMPLE_NOMB\fP = 'nombre'"
+.br
+.ti -1c
+.RI "static final String \fBEMPLE_APEL\fP = 'apellidos'"
+.br
+.ti -1c
+.RI "static final String \fBEMPLE_CATE\fP = 'categoria'"
+.br
+.ti -1c
+.RI "static final String \fBEMPLE_FECH\fP = 'fecha_inic'"
+.br
+.ti -1c
+.RI "static final String \fBCLIEN_ID\fP = 'cod_client'"
+.br
+.ti -1c
+.RI "static final String \fBCLIEN_POST\fP = 'cod_postal'"
+.br
+.ti -1c
+.RI "static final String \fBCLIEN_CORR\fP = 'correo'"
+.br
+.ti -1c
+.RI "static final String \fBCLIEN_NOMB\fP = 'nombre'"
+.br
+.ti -1c
+.RI "static final String \fBCOMP_ID\fP = 'cod_compra'"
+.br
+.ti -1c
+.RI "static final String \fBCOMP_FECH\fP = 'fecha'"
+.br
+.in -1c
+.SS "Otros miembros heredados"
+.SH "Descripción detallada"
+.PP 
+La clase \fBMercaDAOImpOracleXE\fP implementa el comportamiento con la base de datos\&. 
+.PP
+\fBAutor\fP
+.RS 4
+Jesús Pérez Enríquez\&. 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "void es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.crearClientes (Statement st) throws SQLException"
+Este metodo crea la tabla y vista de Clientes en la base de datos 
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Reimplementado de \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MarcaDAOImp\fP\&.
+.SS "void es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.crearCompras (Statement st) throws SQLException"
+Este metodo crea la tabla y vista de Compras en la base de datos 
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Reimplementado de \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MarcaDAOImp\fP\&.
+.SS "void es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.crearEmpleados (Statement st) throws SQLException"
+Este metodo crea la tabla y vista de Empleados en la base de datos 
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Reimplementado de \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MarcaDAOImp\fP\&.
+.SS "void es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.crearProductos (Statement st) throws SQLException"
+Este metodo crea la tabla y vista de Productos en la base de datos 
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Reimplementado de \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MarcaDAOImp\fP\&.
+.SS "void es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.iniciarBBDD () throws SQLException"
+Prepara la base de datos\&. (Crea las tablas y vistas)\&. 
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "int es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.insertar (\fBCliente\fP client) throws SQLException"
+Inserta el Cliente en la Base de datos\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIclient\fP Cliente a insertar\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+int Numero de insercciones completadas\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "int es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.insertar (\fBCompra\fP compra) throws SQLException"
+Inserta la Compra en la Base de datos\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIcompra\fP Compra a insertar\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+int Numero de insercciones completadas\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+Esta variable se usa para poner la id de los productos de dentro de la lista
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "int es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.insertar (\fBEmpleado\fP emp) throws SQLException"
+Inserta el Empleado en la Base de datos\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIempleado\fP Empleado a insertar\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+int Numero de insercciones completadas\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "int es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.insertar (\fBProducto\fP prod) throws SQLException"
+Inserta el Producto en la Base de datos\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIproducto\fP Producto a insertar\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+int Numero de insercciones completadas\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "\fBCliente\fP es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.visualizarCliente (int id) throws SQLException"
+Visualiza el Cliente con la id del parametro\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Id del Cliente que quieres\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Cliente El cliente con la id del parametro\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "List< \fBCliente\fP > es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.visualizarClientes () throws SQLException"
+Devuelve la lista de Clientes de la BD completa\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+List<Cliente> Los clientes de la BD\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "List< \fBCompra\fP > es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.visualizarCompras () throws SQLException, \fBMercaDAWException\fP"
+Devuelve la lista de Compras de la BD completa\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+List<Compra> Las compas de la BD\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException,MercaDAWException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "List< \fBEmpleado\fP > es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.visualizarEmpleados () throws SQLException, \fBMercaDAWException\fP"
+Devuelve la lista de Empleados de la BD completa\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+List<Empleado> Los empleados de la BD\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException,MercaDAWException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "\fBProducto\fP es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.visualizarProducto (int id) throws SQLException, \fBMercaDAWException\fP"
+Hace un select a la BD con la id pasada\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Id del producto que quieres\&. 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Producto con la id pasada por\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException,MercaDAWException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+.SS "List< \fBProducto\fP > es\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAOImpOracleXE\&.visualizarProductos () throws SQLException, \fBMercaDAWException\fP"
+Devuelve la lista de Productos de la BD completa\&. 
+.PP
+\fBDevuelve\fP
+.RS 4
+List<Producto> Los productos de la BD\&. 
+.RE
+.PP
+\fBExcepciones\fP
+.RS 4
+\fISQLException,MercaDAWException\fP 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.etg\&.daw\&.prog\&.mercadaw\&.model\&.bbdd\&.MercaDAO\fP\&.
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para MercaDAW del código fuente\&.

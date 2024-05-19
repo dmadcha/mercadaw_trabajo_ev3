@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable" kind="interface" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</compoundname>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a81c5f61ad96ba7037df6ea7e23ec443f" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_EMPLE</definition>
+        <argsstring></argsstring>
+        <name>SUELDO_EMPLE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_EMPLE</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="8" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ad4db794540ded04f1d81ebd8cf6da41a" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_REPON</definition>
+        <argsstring></argsstring>
+        <name>SUELDO_REPON</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_REPON</qualifiedname>
+        <initializer>= 1200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="9" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a61a62ab951d764a0a555d0724bd1df06" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_CAJER</definition>
+        <argsstring></argsstring>
+        <name>SUELDO_CAJER</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_CAJER</qualifiedname>
+        <initializer>= 1300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="10" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a38274bcebd08b1b3170feb6ba10750b8" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_ENCAR</definition>
+        <argsstring></argsstring>
+        <name>SUELDO_ENCAR</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.SUELDO_ENCAR</qualifiedname>
+        <initializer>= 1500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="11" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a80e155e59116e86f5ea47fe8dec7cdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getSalarioNeto</definition>
+        <argsstring>()</argsstring>
+        <name>getSalarioNeto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getSalarioNeto</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a24ff7469afcf85b0b47591716edf62ca">getSalarioNeto</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el salario neto de un empleado. <simplesect kind="return"><para>Un double con el salarioNeto </para>
+</simplesect>
+<simplesect kind="author"><para>Diego Madroñero Chamorro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="18" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ab741c07bdcfd5ca9fdf735bc59dd0116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getSalarioBruto</definition>
+        <argsstring>()</argsstring>
+        <name>getSalarioBruto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getSalarioBruto</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1abea1026abf81bdaa13f6e4dc48422a29">getSalarioBruto</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el salario bruto de un empleado. <simplesect kind="return"><para>Un double con el salarioBruto </para>
+</simplesect>
+<simplesect kind="author"><para>Diego Madroñero Chamorro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="25" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a6223326cca9d8b4b1b773f2390ac7638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getAportaciones</definition>
+        <argsstring>()</argsstring>
+        <name>getAportaciones</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getAportaciones</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a79009bd654bcdb3f1bc562d18ee31736">getAportaciones</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve las aportaciones salariales del empresario en la nomina de un empleado. <simplesect kind="return"><para>Un double con las aportaciones </para>
+</simplesect>
+<simplesect kind="author"><para>Diego Madroñero Chamorro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="32" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ae60ca84d96eb7c1947967cb22b5cf3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getIndemnizacion</definition>
+        <argsstring>(TipoDespido tipo)</argsstring>
+        <name>getIndemnizacion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable.getIndemnizacion</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a46218a6430becc3659974a670143ab08">getIndemnizacion</reimplementedby>
+        <param>
+          <type><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_tipo_despido" kindref="compound">TipoDespido</ref></type>
+          <declname>tipo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula y devuelve el salario neto de un empleado. <simplesect kind="return"><para>Un double con la indemnizacion </para>
+</simplesect>
+<simplesect kind="author"><para>Diego Madroñero Chamorro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="39" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La interfaz <ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable" kindref="compound">Contratable</ref> expone los principales metodos del calculo de la nómina. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable"/>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Cajero</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Reponedor</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" line="7" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Contratable.java" bodystart="7" bodyend="40"/>
+    <listofallmembers>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a6223326cca9d8b4b1b773f2390ac7638" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>getAportaciones</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ae60ca84d96eb7c1947967cb22b5cf3bf" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>getIndemnizacion</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ab741c07bdcfd5ca9fdf735bc59dd0116" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>getSalarioBruto</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a80e155e59116e86f5ea47fe8dec7cdf8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>getSalarioNeto</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a61a62ab951d764a0a555d0724bd1df06" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>SUELDO_CAJER</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a81c5f61ad96ba7037df6ea7e23ec443f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>SUELDO_EMPLE</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a38274bcebd08b1b3170feb6ba10750b8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>SUELDO_ENCAR</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ad4db794540ded04f1d81ebd8cf6da41a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Contratable</scope><name>SUELDO_REPON</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util" xml:lang="es">
+<title>Referencia de la Interfaz es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a81d036d2b61f0dd519d15c6ddb642ac1"/>void <emphasis role="strong">exportar</emphasis> (String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt)  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a243f6eef8ed2f9777e4357a42f5e5e4a"/>String <emphasis role="strong">getUser</emphasis> ()  throws Exception</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1ad3aeef161d1140c067279720b02cc0e3"/>String <emphasis role="strong">getGrupo</emphasis> ()  throws Exception</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La interfaz <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util">ExportableUtil</link> nos permitira que la clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util">Util</link> pueda exportar con cualquier tipo de extensión. <formalpara><title>Autor</title>
+
+<para>Iván Rafael Redondo. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este interfaz fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/ExportableUtil.java</section>
+</section>

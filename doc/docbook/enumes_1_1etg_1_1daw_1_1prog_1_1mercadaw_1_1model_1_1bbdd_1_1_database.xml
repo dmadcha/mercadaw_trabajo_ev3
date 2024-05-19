@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database" xml:lang="es">
+<title>Referencia del enum es.etg.daw.prog.mercadaw.model.bbdd.Database</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.Database</primary></indexterm>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1a692a3bb706f467bd9ea5e9963fcd87ee"/><emphasis role="strong">ORACLE</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database_1ab496273bf39e1967c25b437aad200d5b"/><emphasis role="strong">MOCK</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La enumeración <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory">MercaDAOFactory</link> posee las posibles BD disponibles. <formalpara><title>Autor</title>
+
+<para>Jesús Pérez Enríquez. </para>
+</formalpara>
+</para>
+<para>
+La documentación para este enum ha sido generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/Database.java</section>
+</section>

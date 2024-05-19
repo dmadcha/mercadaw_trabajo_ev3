@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a1295aa192e3f10fdedc3db06cf36cc19" prot="private" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+        <definition>Empleado es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.empleado1</definition>
+        <argsstring></argsstring>
+        <name>empleado1</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.empleado1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="20" column="22" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a282f82d3592ce3785c8b050e0cef3b34" prot="private" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+        <definition>Empleado es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.empleado2</definition>
+        <argsstring></argsstring>
+        <name>empleado2</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.empleado2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="21" column="22" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aec68f8eba978acda6d2daa3e99c4535f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.creacionEmpleados</definition>
+        <argsstring>()</argsstring>
+        <name>creacionEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.creacionEmpleados</qualifiedname>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="24" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a87dc83894db168ba3f63da9735a12fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.crearEmpleadoTest</definition>
+        <argsstring>()</argsstring>
+        <name>crearEmpleadoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.crearEmpleadoTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="31" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1adccc4749d12e832324f136767b341a3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSueldoTest</definition>
+        <argsstring>()</argsstring>
+        <name>getSueldoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSueldoTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="38" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aedac8fe319811c714494c8bf373e2f19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getPPETest</definition>
+        <argsstring>()</argsstring>
+        <name>getPPETest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getPPETest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="51" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a9cac09a88dae9cfcfbc32496ff86a29c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSalarioBrutoTest</definition>
+        <argsstring>()</argsstring>
+        <name>getSalarioBrutoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSalarioBrutoTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="62" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1af841ae669973490e9cfcc414684fbcb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getDeduccionesTest</definition>
+        <argsstring>()</argsstring>
+        <name>getDeduccionesTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getDeduccionesTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="73" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="73" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a027ef4f5b5f06be8cd8fd612ee81afa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSalarioNetoTest</definition>
+        <argsstring>()</argsstring>
+        <name>getSalarioNetoTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSalarioNetoTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="84" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a52b3f021c7fa7d8014eefa03e45199b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getAportacionesTest</definition>
+        <argsstring>()</argsstring>
+        <name>getAportacionesTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getAportacionesTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="95" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="95" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8bb77aa7d36377632c0a4d2d569419ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getIndemnizacion</definition>
+        <argsstring>()</argsstring>
+        <name>getIndemnizacion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getIndemnizacion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="106" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="106" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae2f30af873f30b478f8a01d2dd142715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSalarioDiarioTest</definition>
+        <argsstring>()</argsstring>
+        <name>getSalarioDiarioTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getSalarioDiarioTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="120" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae660494d816094d3a6ae33eb582f9d32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getIndemnizacionLegalTest</definition>
+        <argsstring>()</argsstring>
+        <name>getIndemnizacionLegalTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getIndemnizacionLegalTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="131" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="131" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8754260cb488503c37d7faa02e31b9e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getAntiguedadTest</definition>
+        <argsstring>()</argsstring>
+        <name>getAntiguedadTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.EmpleadoTest.getAntiguedadTest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="146" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="146" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" line="19" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/EmpleadoTest.java" bodystart="19" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aec68f8eba978acda6d2daa3e99c4535f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>creacionEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a87dc83894db168ba3f63da9735a12fc5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>crearEmpleadoTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a1295aa192e3f10fdedc3db06cf36cc19" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>empleado1</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a282f82d3592ce3785c8b050e0cef3b34" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>empleado2</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8754260cb488503c37d7faa02e31b9e9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getAntiguedadTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a52b3f021c7fa7d8014eefa03e45199b0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getAportacionesTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1af841ae669973490e9cfcc414684fbcb5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getDeduccionesTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a8bb77aa7d36377632c0a4d2d569419ad" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getIndemnizacion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae660494d816094d3a6ae33eb582f9d32" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getIndemnizacionLegalTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1aedac8fe319811c714494c8bf373e2f19" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getPPETest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a9cac09a88dae9cfcfbc32496ff86a29c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getSalarioBrutoTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1ae2f30af873f30b478f8a01d2dd142715" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getSalarioDiarioTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1a027ef4f5b5f06be8cd8fd612ee81afa8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getSalarioNetoTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_empleado_test_1adccc4749d12e832324f136767b341a3f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::EmpleadoTest</scope><name>getSueldoTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

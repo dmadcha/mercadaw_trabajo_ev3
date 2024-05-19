@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception" kind="namespace" language="Java">
+    <compoundname>es::etg::daw::prog::mercadaw::model::exception</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_export_exception" prot="public">es::etg::daw::prog::mercadaw::model::exception::ExportException</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_fichero_exception" prot="public">es::etg::daw::prog::mercadaw::model::exception::FicheroException</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_formato_exception" prot="public">es::etg::daw::prog::mercadaw::model::exception::FormatoException</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_lector_exception" prot="public">es::etg::daw::prog::mercadaw::model::exception::LectorException</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" prot="public">es::etg::daw::prog::mercadaw::model::exception::MercaDAWException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/exception/ExportException.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

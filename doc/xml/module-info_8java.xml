@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="module-info_8java" kind="file" language="Java">
+    <compoundname>module-info.java</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="module-info_8java_1ab6fd2bba44e787fffd27d831c4c60b80" prot="package" static="no" mutable="no">
+        <type>module es.etg.daw.prog.</type>
+        <definition>exports es etg daw prog mercadaw</definition>
+        <argsstring></argsstring>
+        <name>mercadaw</name>
+        <initializer>{
+    requires javafx.controls</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="1" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a657632533224c29bbf0f917d033eff3e" prot="package" static="no" mutable="no">
+        <type>requires javafx.</type>
+        <definition>opens es etg daw prog mercadaw view sistema to javafx fxml</definition>
+        <argsstring></argsstring>
+        <name>fxml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="3" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a30db5564bad23d0b978e78ad2caf062c" prot="package" static="no" mutable="no">
+        <type>requires java.</type>
+        <definition>requires java. sql</definition>
+        <argsstring></argsstring>
+        <name>sql</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="4" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1add2bd450dcb8a1fb8314e7028854a439" prot="package" static="no" mutable="no">
+        <type>requires org.apache.poi.</type>
+        <definition>requires org.apache.poi. ooxml</definition>
+        <argsstring></argsstring>
+        <name>ooxml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="5" column="26" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1af29f0af7c6f2913fb5732a9dcd98ac9c" prot="package" static="no" mutable="no">
+        <type>requires javafx.</type>
+        <definition>opens es etg daw prog mercadaw controller to javafx javafx graphics</definition>
+        <argsstring></argsstring>
+        <name>graphics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="6" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1ad9da26a4f7664e3a25cbb81891213e2b" prot="package" static="no" mutable="no">
+        <type>requires javafx.</type>
+        <definition>opens es etg daw prog mercadaw model entities compras to javafx base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="7" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a6cc19db010dfb7872be6e1d025464386" prot="package" static="no" mutable="no">
+        <type>exports es.etg.daw.prog.mercadaw.</type>
+        <definition>exports es.etg.daw.prog.mercadaw. controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="10" column="33" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1ad6372d2e9c0767321008e31bba0e17d1" prot="package" static="no" mutable="no">
+        <type>exports es.etg.daw.prog.mercadaw.</type>
+        <definition>exports es.etg.daw.prog.mercadaw. view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" line="11" column="33" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">module<sp/>es.etg.daw.prog.mercadaw<sp/>{</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>javafx.controls;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>java.sql;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>org.apache.poi.ooxml;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>javafx.graphics;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>javafx.base;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>exports<sp/>es.etg.daw.prog.mercadaw;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>exports<sp/>es.etg.daw.prog.mercadaw.controller;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>exports<sp/>es.etg.daw.prog.mercadaw.view;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.controller<sp/>to<sp/>javafx.fxml,<sp/>javafx.graphics;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.view<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.model.entities.empleados<sp/>to<sp/>javafx.base;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.model.entities.productos<sp/>to<sp/>javafx.base;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.model.entities.compras<sp/>to<sp/>javafx.base;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.view.producto<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.view.empleado<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.view.compra<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>es.etg.daw.prog.mercadaw.view.sistema<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/module-info.java"/>
+  </compounddef>
+</doxygen>

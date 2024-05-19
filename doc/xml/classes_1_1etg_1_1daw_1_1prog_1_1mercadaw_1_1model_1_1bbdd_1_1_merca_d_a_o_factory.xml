@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory_1ac34e9e3e4b38063b7b5995b2ab3097c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o" kindref="compound">MercaDAO</ref></type>
+        <definition>static MercaDAO es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory.obtener</definition>
+        <argsstring>(Database tipo)</argsstring>
+        <name>obtener</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory.obtener</qualifiedname>
+        <param>
+          <type><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_database" kindref="compound">Database</ref></type>
+          <declname>tipo</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOFactory.java" line="9" column="28" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOFactory.java" bodystart="9" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory" kindref="compound">MercaDAOFactory</ref> crea las posibles BD disponibles. <simplesect kind="author"><para>Jesús Pérez Enríquez. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOFactory.java" line="8" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAOFactory.java" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_factory_1ac34e9e3e4b38063b7b5995b2ab3097c0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MercaDAOFactory</scope><name>obtener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

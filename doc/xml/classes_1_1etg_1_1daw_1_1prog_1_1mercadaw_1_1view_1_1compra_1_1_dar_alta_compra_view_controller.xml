@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.ViewController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a31c90f43be2e8d522f93381e6e1b51f1" prot="private" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref></type>
+        <definition>MercaDAWController es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.controller</qualifiedname>
+        <initializer>= new <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="16" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ab3fc3a29a666dc6b827af5ccc775a0d8" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnAñadir</definition>
+        <argsstring></argsstring>
+        <name>btnAñadir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnAñadir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="19" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2972f4dff794b10f4bafa95e6fa0d45b" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnConsultarDatos</definition>
+        <argsstring></argsstring>
+        <name>btnConsultarDatos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnConsultarDatos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="22" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a54842bb2b19624cdf5c54977f0aec7ba" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnDarAltaComp</definition>
+        <argsstring></argsstring>
+        <name>btnDarAltaComp</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnDarAltaComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="25" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a360e1e9aae44b7aa66453dde5c877e72" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnSalir</definition>
+        <argsstring></argsstring>
+        <name>btnSalir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.btnSalir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="28" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a4aa318729c5438ddf19aa118d55f4994" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colCodigoCli</definition>
+        <argsstring></argsstring>
+        <name>colCodigoCli</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colCodigoCli</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="31" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a0d2ceaa4f3f7f7bb87e65c8e3e74c8fb" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colCodigoProd</definition>
+        <argsstring></argsstring>
+        <name>colCodigoProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colCodigoProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="34" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2a88fe6aa6693e14d7602629fb550ef1" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colCorreoCli</definition>
+        <argsstring></argsstring>
+        <name>colCorreoCli</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colCorreoCli</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="37" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ace3905e97eec25724992dfc7c83f8011" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colNombreCli</definition>
+        <argsstring></argsstring>
+        <name>colNombreCli</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colNombreCli</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="40" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a220182708c11e818b460452654231a87" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colNombreProd</definition>
+        <argsstring></argsstring>
+        <name>colNombreProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colNombreProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="43" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a3b0a0b612c4d2a6fe41e3bb5d3202b79" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colPostCli</definition>
+        <argsstring></argsstring>
+        <name>colPostCli</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colPostCli</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="46" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ad5cd5c76fb9e1326edadad44964e6fb2" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colPrecioProd</definition>
+        <argsstring></argsstring>
+        <name>colPrecioProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colPrecioProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="49" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2312d35f2415e0ac264adfc73ffbd648" prot="private" static="no" mutable="no">
+        <type>TableColumn&lt;?, ?&gt;</type>
+        <definition>TableColumn&lt;?, ?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colStockProd</definition>
+        <argsstring></argsstring>
+        <name>colStockProd</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.colStockProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="52" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a975e69d505c5e74f8dae1a1e3a86262b" prot="private" static="no" mutable="no">
+        <type>TableView&lt;?&gt;</type>
+        <definition>TableView&lt;?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.tabCliente</definition>
+        <argsstring></argsstring>
+        <name>tabCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.tabCliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="55" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a1b033de54be313c9b70924045f83a8be" prot="private" static="no" mutable="no">
+        <type>TableView&lt;?&gt;</type>
+        <definition>TableView&lt;?&gt; es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.tabProducto</definition>
+        <argsstring></argsstring>
+        <name>tabProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.tabProducto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="58" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a4712332c698b006abb60406ced2c25cf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.accesoDarAltaComp</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>accesoDarAltaComp</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.accesoDarAltaComp</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="61" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1afdd571262c3736b607b177a1932c514b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.addCompra</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>addCompra</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.addCompra</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="66" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ac1f446489286c1d9549d3a5265ff3e3a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.salir</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>salir</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController.salir</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="71" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kindref="compound">Vista</ref> de dar alta compra. <simplesect kind="author"><para>Erik Herrera Llamas </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.controller.MercaDAWController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>currentStage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mercaDAWController</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Application</label>
+      </node>
+      <node id="5">
+        <label>Stage</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" line="15" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/compra/DarAltaCompraViewController.java" bodystart="15" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a4712332c698b006abb60406ced2c25cf" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>accesoDarAltaComp</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1afdd571262c3736b607b177a1932c514b" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>addCompra</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ab3fc3a29a666dc6b827af5ccc775a0d8" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>btnAñadir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2972f4dff794b10f4bafa95e6fa0d45b" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>btnConsultarDatos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a54842bb2b19624cdf5c54977f0aec7ba" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>btnDarAltaComp</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a360e1e9aae44b7aa66453dde5c877e72" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>btnSalir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a4aa318729c5438ddf19aa118d55f4994" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colCodigoCli</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a0d2ceaa4f3f7f7bb87e65c8e3e74c8fb" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colCodigoProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2a88fe6aa6693e14d7602629fb550ef1" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colCorreoCli</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ace3905e97eec25724992dfc7c83f8011" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colNombreCli</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a220182708c11e818b460452654231a87" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colNombreProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a3b0a0b612c4d2a6fe41e3bb5d3202b79" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colPostCli</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ad5cd5c76fb9e1326edadad44964e6fb2" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colPrecioProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a2312d35f2415e0ac264adfc73ffbd648" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>colStockProd</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a31c90f43be2e8d522f93381e6e1b51f1" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>controller</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>mercaDAWController</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1ac1f446489286c1d9549d3a5265ff3e3a" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>salir</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>setMercaDAWController</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a975e69d505c5e74f8dae1a1e3a86262b" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>tabCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1compra_1_1_dar_alta_compra_view_controller_1a1b033de54be313c9b70924045f83a8be" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::compra::DarAltaCompraViewController</scope><name>tabProducto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.view.sistema.CargaDatosViewController    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Atributos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ad3951075b3ee49588378181721c0d98f"/>static final String <emphasis role="strong">NOMBRE_VENTANA</emphasis> = &quot;Seleccionar Archivo&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ad1153ae70f803012264ca53422e9e2ef"/>static final String <emphasis role="strong">EXTENSION_CSV</emphasis> = &quot;*.csv&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1ab69d2a7aaa4ddef41bbef311b48814f2"/>static final String <emphasis role="strong">EXTENSION_SQL</emphasis> = &quot;*.sql&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a956555cca54af3996f67eb748881e5f8"/>static final String <emphasis role="strong">EXTENSION_JSON</emphasis> = &quot;*.json&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1acd871e6fe0e328ec1cef2be894191491"/>static final String <emphasis role="strong">DESC_CSV</emphasis> = &quot;CSV&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a4c51b8ed35cd04e2de2d0d83b996ad3f"/>static final String <emphasis role="strong">DESC_SQL</emphasis> = &quot;SQL&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1sistema_1_1_carga_datos_view_controller_1a5109d6352498e0390e730489b69bada0"/>static final String <emphasis role="strong">DESC_JSON</emphasis> = &quot;JSON&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Otros miembros heredados    </title>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para><link linkend="_enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista">Vista</link> de la carga de datos del sistema. <formalpara><title>Autor</title>
+
+<para>Erik Herrera Llamas </para>
+</formalpara>
+</para>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/sistema/CargaDatosViewController.java</section>
+</section>

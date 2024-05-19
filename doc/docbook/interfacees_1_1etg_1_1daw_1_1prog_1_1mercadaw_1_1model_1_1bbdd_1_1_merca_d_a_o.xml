@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o" xml:lang="es">
+<title>Referencia de la Interfaz es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece58ae52a4f78677f7a4d1fe20d7016">iniciarBBDD</link> ()  throws SQLException</para>
+</listitem>
+            <listitem><para>int <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece2705dfa539a6c55e5d5115d756385">insertar</link> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> emp)  throws SQLException</para>
+</listitem>
+            <listitem><para>int <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a328ce97bad346babfb590e4082f1b1d3">insertar</link> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> prod)  throws SQLException</para>
+</listitem>
+            <listitem><para>int <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a74aaa84024ef8dd191cc50779cf0b126">insertar</link> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> compra)  throws SQLException</para>
+</listitem>
+            <listitem><para>int <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1abe232202d06c3caa909eabb8402ee08c">insertar</link> (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> client)  throws SQLException</para>
+</listitem>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a8f41a3d6f26bbfb230b26b73689e6f0d">visualizarProducto</link> (int id)  throws SQLException, MercaDAWException</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a130b081dd4b062f308bd2162eb8615a9">visualizarProductos</link> ()  throws SQLException, MercaDAWException</para>
+</listitem>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a50068156380f7bb07c1eaa8eb5acd8ee">visualizarCliente</link> (int id)  throws SQLException</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a3a5a77c8b6cdff55b5fed49c051f5a39">visualizarClientes</link> ()  throws SQLException</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a9136e507bfd4893f237166934fe96a9c">visualizarEmpleados</link> ()  throws SQLException, MercaDAWException</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1ababdc68ea53900d12b69e13e6da2fe8f">visualizarCompras</link> ()  throws SQLException, MercaDAWException</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La interfaz <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o">MercaDAO</link> expone los metodos de acceso a la base de datos. <formalpara><title>Autor</title>
+
+<para>Jesús Pérez Enríquez. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece58ae52a4f78677f7a4d1fe20d7016"/><section>
+    <title>iniciarBBDD()</title>
+<indexterm><primary>iniciarBBDD</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>iniciarBBDD</secondary></indexterm>
+<para><computeroutput>void es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.iniciarBBDD ( ) throws SQLException</computeroutput></para>
+<para>Prepara la base de datos. (Crea las tablas y vistas). 
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae1ea6eba474f2fea85ffb4b230ec1b37">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a82facac8c08c31f89d97db63f20f5800">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1abe232202d06c3caa909eabb8402ee08c"/><section>
+    <title>insertar()<computeroutput>[1/4]</computeroutput></title>
+<indexterm><primary>insertar</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>insertar</secondary></indexterm>
+<para><computeroutput>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.insertar (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> client) throws SQLException</computeroutput></para>
+<para>Inserta el Cliente en la Base de datos. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>client</entry><entry>
+<para>Cliente a insertar. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>int Numero de insercciones completadas. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad58212c0987c361f1e34520ec310bd7b">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1afbb1ded2f25b6ddcc1eb346d82988c76">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a74aaa84024ef8dd191cc50779cf0b126"/><section>
+    <title>insertar()<computeroutput>[2/4]</computeroutput></title>
+<indexterm><primary>insertar</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>insertar</secondary></indexterm>
+<para><computeroutput>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.insertar (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> compra) throws SQLException</computeroutput></para>
+<para>Inserta la Compra en la Base de datos. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>compra</entry><entry>
+<para>Compra a insertar. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>int Numero de insercciones completadas. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ada6b88cf7a6b18e31b1c87345f5d470a">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a3abbfc09b90b4ca0957d2c2343970ba3">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece2705dfa539a6c55e5d5115d756385"/><section>
+    <title>insertar()<computeroutput>[3/4]</computeroutput></title>
+<indexterm><primary>insertar</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>insertar</secondary></indexterm>
+<para><computeroutput>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.insertar (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> emp) throws SQLException</computeroutput></para>
+<para>Inserta el Empleado en la Base de datos. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>empleado</entry><entry>
+<para>Empleado a insertar. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>int Numero de insercciones completadas. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1af1788c4fb7df851dfd3d577398ad26f8">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ab930d2e3054cb5ff546a03b1ad805cb1">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a328ce97bad346babfb590e4082f1b1d3"/><section>
+    <title>insertar()<computeroutput>[4/4]</computeroutput></title>
+<indexterm><primary>insertar</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>insertar</secondary></indexterm>
+<para><computeroutput>int es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.insertar (<link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> prod) throws SQLException</computeroutput></para>
+<para>Inserta el Producto en la Base de datos. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>producto</entry><entry>
+<para>Producto a insertar. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>int Numero de insercciones completadas. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ad0825cec1f5bb1ad49bb0dc142fec385">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ae305a3e8acb60df380b0cd08eb5e7630">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a50068156380f7bb07c1eaa8eb5acd8ee"/><section>
+    <title>visualizarCliente()</title>
+<indexterm><primary>visualizarCliente</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>visualizarCliente</secondary></indexterm>
+<para><computeroutput><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.visualizarCliente (int id) throws SQLException</computeroutput></para>
+<para>Visualiza el Cliente con la id del parametro. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>Id del Cliente que quieres. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>Cliente El cliente con la id del parametro. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1ae80e3266cd822401fd787afcf9d43e82">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a8ace547ab4c0e4550d29ae185ee7793f">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a3a5a77c8b6cdff55b5fed49c051f5a39"/><section>
+    <title>visualizarClientes()</title>
+<indexterm><primary>visualizarClientes</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>visualizarClientes</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente">Cliente</link> &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.visualizarClientes ( ) throws SQLException</computeroutput></para>
+<para>Devuelve la lista de Clientes de la BD completa. <formalpara><title>Devuelve</title>
+
+<para>List&lt;Cliente&gt; Los clientes de la BD. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a819999383b03337c95bc4d13e51fd8ab">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a04bd4cf5acce67f7f5bf21ab8cba9f59">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1ababdc68ea53900d12b69e13e6da2fe8f"/><section>
+    <title>visualizarCompras()</title>
+<indexterm><primary>visualizarCompras</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>visualizarCompras</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra">Compra</link> &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.visualizarCompras ( ) throws SQLException, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para>
+<para>Devuelve la lista de Compras de la BD completa. <formalpara><title>Devuelve</title>
+
+<para>List&lt;Compra&gt; Las compas de la BD. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException, MercaDAWException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a953d0485a36282119f0304c492541032">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a38fa79c3ba9444406181dfce95ff68d6">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a9136e507bfd4893f237166934fe96a9c"/><section>
+    <title>visualizarEmpleados()</title>
+<indexterm><primary>visualizarEmpleados</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>visualizarEmpleados</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado">Empleado</link> &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.visualizarEmpleados ( ) throws SQLException, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para>
+<para>Devuelve la lista de Empleados de la BD completa. <formalpara><title>Devuelve</title>
+
+<para>List&lt;Empleado&gt; Los empleados de la BD. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException, MercaDAWException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a3bb6676462307c674aa2fdda5c3e9bd7">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1ad4a1435b3336206abaf4228c9a2d4b52">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a8f41a3d6f26bbfb230b26b73689e6f0d"/><section>
+    <title>visualizarProducto()</title>
+<indexterm><primary>visualizarProducto</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>visualizarProducto</secondary></indexterm>
+<para><computeroutput><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.visualizarProducto (int id) throws SQLException, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para>
+<para>Hace un select a la BD con la id pasada. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>Id del producto que quieres. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Devuelve</title>
+
+<para>Producto con la id pasada por. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException, MercaDAWException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1aed8d3dd665b07d369e9fdec3661b563b">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d728bc3bf86e7ddc2437184d4d88f4e">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<anchor xml:id="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a130b081dd4b062f308bd2162eb8615a9"/><section>
+    <title>visualizarProductos()</title>
+<indexterm><primary>visualizarProductos</primary><secondary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</primary><secondary>visualizarProductos</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> &gt; es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO.visualizarProductos ( ) throws SQLException, <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception">MercaDAWException</link></computeroutput></para>
+<para>Devuelve la lista de Productos de la BD completa. <formalpara><title>Devuelve</title>
+
+<para>List&lt;Producto&gt; Los productos de la BD. </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Excepciones</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>SQLException, MercaDAWException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implementado en <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_mock_1a751ab7431972526cc14894ca9c32a25e">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpMock</link> y <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1ea86bc48f89a448fd0f1869e4536c03">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</link>.</para>
+</section>
+<para>
+La documentación para este interfaz fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MercaDAO.java</section>
+</section>

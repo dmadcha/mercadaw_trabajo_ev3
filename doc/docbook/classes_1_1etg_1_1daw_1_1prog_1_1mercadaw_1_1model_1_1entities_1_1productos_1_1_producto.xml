@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.productos.Producto</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.entities.productos.Producto    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae346965b004e04bd1fe300d0856ed7ed">Producto</link> (Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abc77639a7de6f02986d15e9936e0fef3"/>double <emphasis role="strong">getIva</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a83d0365d356d7ec805830d0754c21bef"/>void <emphasis role="strong">setIva</emphasis> (double iva)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aeb765bb408ea349fd9c5be948c73cd97"/>String <emphasis role="strong">getNombre</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acd816783d04f4b696770594984551e75"/>void <emphasis role="strong">setNombre</emphasis> (String nombre)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab90680ce130fa3fe64821c0d493e8967"/>String <emphasis role="strong">getMarca</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1adf39279e6fd87557039479f639dc67d5"/>void <emphasis role="strong">setMarca</emphasis> (String marca)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a18517c316e1b69b1340bfdd3be6b969e"/>double <emphasis role="strong">getAltura</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a14abb17fcc838f9cddb96b9a36aa3c8c"/>void <emphasis role="strong">setAltura</emphasis> (double altura)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac012bf84017995cfc06c2c6887a45c6e"/>double <emphasis role="strong">getAnchura</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae07b9ae9810f0a45bcb8d4cd2de5bc44"/>void <emphasis role="strong">setAnchura</emphasis> (double anchura)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac72bc47e66fdf5f3049e74e4bd86c3b1"/>double <emphasis role="strong">getPeso</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abca61e59f235ec4d7f892fa11900de52"/>void <emphasis role="strong">setPeso</emphasis> (double peso)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a06a17c696684f509c8e7d00a05fea7e0"/>int <emphasis role="strong">getNumElementos</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a05c6170b93346950a0b228d050d2b7b0"/>void <emphasis role="strong">setNumElementos</emphasis> (int numElementos)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aac7337fc87c155a7deb22e567aa06e57"/>String <emphasis role="strong">getDescripcion</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a3965e52d82cf34fff35d1400e60c38ab"/>void <emphasis role="strong">setDescripcion</emphasis> (String descripcion)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a4c38dff964bc463e229dccc945ebb13a"/>Integer <emphasis role="strong">getId</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aec28104820c716c2e50f10fb61539dc4"/>void <emphasis role="strong">setId</emphasis> (Integer id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a17c0bbae7fc3df07c5f55bc702287b51"/>int <emphasis role="strong">getStock</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a43ae1b5f74d27747d8e578b3e818e1e8"/>void <emphasis role="strong">setStock</emphasis> (int stock)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae31588ea5ae305b7799996a586602635"/>double <emphasis role="strong">getPrecio</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a549ab23d0034389a9c5d74bb10b1064b"/>void <emphasis role="strong">setPrecio</emphasis> (double precio)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667">getPrecioVenta</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a623a13553a0cc653842431c80d7c07e5">getRecargoPeso</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6392244e78ca3a5e22f3099790653bae">getPorcentajePeso</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1af4a4204e044e1720189f2a37c5f7a455">getRecargoAltura</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a32ae34d4ed0e1a7e3cc661e86444335f">getPorcentajeAltura</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a5fbad8e893a02d779537e88596006dbc">getRecargoAnchura</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a149368ce0eb4896a0cb32ea01395d396">getPorcentajeAnchura</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae41c79e047ee17da75fc92c8b9bc73ef">getRecargoNumElementos</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a652e6159626f1fdc445c67b1aa07ea3d">getPrecioFinalEuros</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aa8611742cb7aee7307a5c9d07049b4ed">getPrecioFinalDolares</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1e3d513dea7c3f1ef656495085f49469">getIvaCalculado</link> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a12885410489aec3eb10466ee4239b8a8"/>boolean <emphasis role="strong">equals</emphasis> (Object obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Métodos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6b036aeef94d9361b59bbccd3f877609"/>static int <emphasis role="strong">getNumProductos</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a710454d78d3fa56caa464649d04eb231"/>static void <emphasis role="strong">setNumProductos</emphasis> (int numProductos)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos estáticos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a02286395556b7af7c9c6048347acb43e"/>static final String <emphasis role="strong">ATT_ID</emphasis> = &quot;id&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988b4cf2f0ad5036082e8191591ac4e3"/>static final String <emphasis role="strong">ATT_NOMBRE</emphasis> = &quot;nombre&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a81b3668e95553cd9e67678b5f4b0ef3d"/>static final String <emphasis role="strong">ATT_MARCA</emphasis> = &quot;marca&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1435191382b61ac8fd4fd4344c427884"/>static final String <emphasis role="strong">ATT_CATEGORIA</emphasis> = &quot;categoria&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a9f9927456b89969f9c6e2b65763d09cb"/>static final String <emphasis role="strong">ATT_ALTURA</emphasis> = &quot;altura&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aca7afeef6113c9a6d2ebd0ff5f549a34"/>static final String <emphasis role="strong">ATT_ANCHURA</emphasis> = &quot;anchura&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0467b386f8cb92205493178d839ed942"/>static final String <emphasis role="strong">ATT_PESO</emphasis> = &quot;peso&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a33d0e1d930c3786d2c2335ab418243b9"/>static final String <emphasis role="strong">ATT_ELEMENTOS</emphasis> = &quot;elementos&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988c58a18c7d70253c4b2fdbea8af136"/>static final String <emphasis role="strong">ATT_DESCRIPCION</emphasis> = &quot;descripcion&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab31fc7445b3563beb52b4bb41e39c1ff"/>static final String <emphasis role="strong">ATT_STOCK</emphasis> = &quot;stock&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a2dac56f436f78e6428ceddaafb29d2f4"/>static final String <emphasis role="strong">ATT_PRECIO</emphasis> = &quot;precio&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab8bbda631b95311a7a39ef2caf8d649d"/>static final String <emphasis role="strong">ATT_IVA</emphasis> = &quot;iva&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos protegidos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a85fbb3236fef0fa5cb945d1658d0f585"/>double <emphasis role="strong">iva</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto">Producto</link> representa un producto de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae346965b004e04bd1fe300d0856ed7ed"/><section>
+    <title>Producto()</title>
+<indexterm><primary>Producto</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>Producto</secondary></indexterm>
+<para><computeroutput>es.etg.daw.prog.mercadaw.model.entities.productos.Producto.Producto (Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)</computeroutput></para>
+<para>Constructor que inicializa productos, generando el ID de estos automaticamente. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>ID</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Nombre</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Marca</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Altura</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Anchura</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Peso</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Numero</entry><entry>
+<para>de elementos del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Stock</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Precio</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Descripcion</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1e3d513dea7c3f1ef656495085f49469"/><section>
+    <title>getIvaCalculado()</title>
+<indexterm><primary>getIvaCalculado</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getIvaCalculado</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getIvaCalculado ( )</computeroutput></para>
+<para>Calcula y devuelve el iva calculado de un producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el iva calculado. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a32ae34d4ed0e1a7e3cc661e86444335f"/><section>
+    <title>getPorcentajeAltura()</title>
+<indexterm><primary>getPorcentajeAltura</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getPorcentajeAltura</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajeAltura ( )</computeroutput></para>
+<para>Calcula y devuelve el porcentaje que se usa para calcular el recargo de la altura. <formalpara><title>Devuelve</title>
+
+<para>Un double con el porcentaje del recargo de la altura. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a149368ce0eb4896a0cb32ea01395d396"/><section>
+    <title>getPorcentajeAnchura()</title>
+<indexterm><primary>getPorcentajeAnchura</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getPorcentajeAnchura</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajeAnchura ( )</computeroutput></para>
+<para>Calcula y devuelve el porcentaje que se usa para calcular el recargo de la anchura. <formalpara><title>Devuelve</title>
+
+<para>Un double con el porcentaje del recargo de la anchura. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6392244e78ca3a5e22f3099790653bae"/><section>
+    <title>getPorcentajePeso()</title>
+<indexterm><primary>getPorcentajePeso</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getPorcentajePeso</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPorcentajePeso ( )</computeroutput></para>
+<para>Calcula y devuelve el porcentaje que se usa para calcular el recargo del peso. <formalpara><title>Devuelve</title>
+
+<para>Un double con el porcentaje del recargo del peso. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aa8611742cb7aee7307a5c9d07049b4ed"/><section>
+    <title>getPrecioFinalDolares()</title>
+<indexterm><primary>getPrecioFinalDolares</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getPrecioFinalDolares</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioFinalDolares ( )</computeroutput></para>
+<para>Calcula y devuelve el precio final de venta de un producto convertido a dolares. <formalpara><title>Devuelve</title>
+
+<para>Un double con el precio final en dolares. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a652e6159626f1fdc445c67b1aa07ea3d"/><section>
+    <title>getPrecioFinalEuros()</title>
+<indexterm><primary>getPrecioFinalEuros</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getPrecioFinalEuros</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioFinalEuros ( )</computeroutput></para>
+<para>Calcula el precio final de venta de un producto con todos los recargos aplicados. <formalpara><title>Devuelve</title>
+
+<para>Un double con el precio final en euros. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667"/><section>
+    <title>getPrecioVenta()</title>
+<indexterm><primary>getPrecioVenta</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getPrecioVenta</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getPrecioVenta ( )</computeroutput></para>
+<para>Calcula em precio de venta de un producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el precio final de venta del </para>
+</formalpara>
+</para>
+<para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5">es.etg.daw.prog.mercadaw.model.entities.productos.Producible</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1af4a4204e044e1720189f2a37c5f7a455"/><section>
+    <title>getRecargoAltura()</title>
+<indexterm><primary>getRecargoAltura</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getRecargoAltura</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoAltura ( )</computeroutput></para>
+<para>Calcula y devuelve el recargo dependiendo de la altura del producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el recargo de la altura. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a5fbad8e893a02d779537e88596006dbc"/><section>
+    <title>getRecargoAnchura()</title>
+<indexterm><primary>getRecargoAnchura</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getRecargoAnchura</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoAnchura ( )</computeroutput></para>
+<para>Calcula y devuelve el recargo dependiendo de la anchura del producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el recargo de la anchura. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae41c79e047ee17da75fc92c8b9bc73ef"/><section>
+    <title>getRecargoNumElementos()</title>
+<indexterm><primary>getRecargoNumElementos</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getRecargoNumElementos</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoNumElementos ( )</computeroutput></para>
+<para>Calcula y devuelve el recargo dependiendo del numero de elementos del producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el recargo del numero de elementos. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a623a13553a0cc653842431c80d7c07e5"/><section>
+    <title>getRecargoPeso()</title>
+<indexterm><primary>getRecargoPeso</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</primary><secondary>getRecargoPeso</secondary></indexterm>
+<para><computeroutput>double es.etg.daw.prog.mercadaw.model.entities.productos.Producto.getRecargoPeso ( )</computeroutput></para>
+<para>Calcula y devuelve el recargo dependiendo del peso del producto. <formalpara><title>Devuelve</title>
+
+<para>Un double con el recargo del peso. </para>
+</formalpara>
+</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producto.java</section>
+</section>

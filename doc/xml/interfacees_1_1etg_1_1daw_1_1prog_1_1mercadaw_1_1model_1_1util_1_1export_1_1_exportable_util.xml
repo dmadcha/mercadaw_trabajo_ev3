@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util" kind="interface" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::export::ExportableUtil</compoundname>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.util.export.Util</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a81d036d2b61f0dd519d15c6ddb642ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil.exportar</definition>
+        <argsstring>(String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt)</argsstring>
+        <name>exportar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil.exportar</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a35c1f7d70c77b5d3429a1cafedc1f62c">exportar</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>nombreArcSal</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombreArcEnt</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>rutaArcEnt</declname>
+        </param>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/ExportableUtil.java" line="11" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a243f6eef8ed2f9777e4357a42f5e5e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil.getUser</definition>
+        <argsstring>()</argsstring>
+        <name>getUser</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil.getUser</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a5107ba5900277d1b4298753d64e2f311">getUser</reimplementedby>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/ExportableUtil.java" line="12" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1ad3aeef161d1140c067279720b02cc0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil.getGrupo</definition>
+        <argsstring>()</argsstring>
+        <name>getGrupo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil.getGrupo</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a9c7a71a7e5b22f9c2d22549350b8d91f">getGrupo</reimplementedby>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/ExportableUtil.java" line="13" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La interfaz <ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util" kindref="compound">ExportableUtil</ref> nos permitira que la clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util" kindref="compound">Util</ref> pueda exportar con cualquier tipo de extensión. <simplesect kind="author"><para>Iván Rafael Redondo. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.export.Util</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/ExportableUtil.java" line="9" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/ExportableUtil.java" bodystart="9" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a81d036d2b61f0dd519d15c6ddb642ac1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::export::ExportableUtil</scope><name>exportar</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1ad3aeef161d1140c067279720b02cc0e3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::export::ExportableUtil</scope><name>getGrupo</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util_1a243f6eef8ed2f9777e4357a42f5e5e4a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::export::ExportableUtil</scope><name>getUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

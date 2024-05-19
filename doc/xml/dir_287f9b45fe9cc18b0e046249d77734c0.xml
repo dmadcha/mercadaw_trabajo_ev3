@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_287f9b45fe9cc18b0e046249d77734c0" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader</compoundname>
+    <innerfile refid="reader_2_formato_8java">Formato.java</innerfile>
+    <innerfile refid="_lector_8java">Lector.java</innerfile>
+    <innerfile refid="_lector_c_s_v_8java">LectorCSV.java</innerfile>
+    <innerfile refid="_lector_factory_8java">LectorFactory.java</innerfile>
+    <innerfile refid="_lector_imp_8java">LectorImp.java</innerfile>
+    <innerfile refid="_lector_j_s_o_n_8java">LectorJSON.java</innerfile>
+    <innerfile refid="_lector_mock_8java">LectorMock.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/reader/"/>
+  </compounddef>
+</doxygen>

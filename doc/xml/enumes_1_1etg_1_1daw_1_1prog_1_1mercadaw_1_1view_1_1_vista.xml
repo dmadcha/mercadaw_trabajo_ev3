@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kind="enum" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::view::Vista</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ae422c4dc7af5b3828d476bfa068ecf02" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.MAIN</definition>
+        <argsstring></argsstring>
+        <name>MAIN</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.MAIN</qualifiedname>
+        <initializer>=(&quot;view/MainView.fxml&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="9" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ad5a3f0aa41a4d6dadde287a0ed443422" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.CARGA_DATOS</definition>
+        <argsstring></argsstring>
+        <name>CARGA_DATOS</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.CARGA_DATOS</qualifiedname>
+        <initializer>=(&quot;view/sistema/CargaDatosView.fxml&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="10" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a82576cdb42ad2e7001e0f5b5100290d1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.EXPORTAR_DATOS</definition>
+        <argsstring></argsstring>
+        <name>EXPORTAR_DATOS</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.EXPORTAR_DATOS</qualifiedname>
+        <initializer>=(&quot;view/sistema/ExportarDatosView.fxml&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="11" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3f9976127f48d93395a59da305cedbce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.DAR_ALTA_PROD</definition>
+        <argsstring></argsstring>
+        <name>DAR_ALTA_PROD</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.DAR_ALTA_PROD</qualifiedname>
+        <initializer>=(&quot;view/producto/DarAltaProductoView.fxml&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="12" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3d8d1c721f2efdd235c8c1453ceb3ca2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.DAR_ALTA_EMPLE</definition>
+        <argsstring></argsstring>
+        <name>DAR_ALTA_EMPLE</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.DAR_ALTA_EMPLE</qualifiedname>
+        <initializer>=(&quot;view/empleado/DarAltaEmpleadoView.fxml&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="13" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1aba4a0f357808ecf7d3aef724b276e581" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.DAR_ALTA_COMP</definition>
+        <argsstring></argsstring>
+        <name>DAR_ALTA_COMP</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.DAR_ALTA_COMP</qualifiedname>
+        <initializer>=(&quot;view/compra/DarAltaCompraView.fxml&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="14" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a30beab5394295aeee80679cd95fabea6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.view.Vista.ruta</definition>
+        <argsstring></argsstring>
+        <name>ruta</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.ruta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="16" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a93415599a0cd678fc9822e84cd8979f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.view.Vista.Vista</definition>
+        <argsstring>(String ruta)</argsstring>
+        <name>Vista</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.Vista</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>ruta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="18" column="13" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a13befa7edeb559ac15887877db1f0cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.view.Vista.getRuta</definition>
+        <argsstring>()</argsstring>
+        <name>getRuta</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.Vista.getRuta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="21" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Esta clase contiene las rutas hacia las diferentes vistas de nuestra aplicación. <simplesect kind="author"><para>Erik Herrera Llamas </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" line="8" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ad5a3f0aa41a4d6dadde287a0ed443422" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>CARGA_DATOS</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1aba4a0f357808ecf7d3aef724b276e581" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>DAR_ALTA_COMP</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3d8d1c721f2efdd235c8c1453ceb3ca2" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>DAR_ALTA_EMPLE</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a3f9976127f48d93395a59da305cedbce" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>DAR_ALTA_PROD</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a82576cdb42ad2e7001e0f5b5100290d1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>EXPORTAR_DATOS</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a13befa7edeb559ac15887877db1f0cfa" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>getRuta</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1ae422c4dc7af5b3828d476bfa068ecf02" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>MAIN</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a30beab5394295aeee80679cd95fabea6" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>ruta</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista_1a93415599a0cd678fc9822e84cd8979f7" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::Vista</scope><name>Vista</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

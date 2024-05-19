@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a3da80c7dbd66f7c44223a11a669573d3"/>void <emphasis role="strong">leerEscribirTest</emphasis> ()  throws Exception </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java</section>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::empleados::EmpleadoFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory_1a28fa64029f67b318d00844530c8bf0ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+        <definition>static Empleado es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory.obtener</definition>
+        <argsstring>(String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio)</argsstring>
+        <name>obtener</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory.obtener</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>tipoString</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>apellidos</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>fechaInicio</declname>
+        </param>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>El metodo obtener es el utilizado para inicializar los empleados, pasandole los datos y el tipo de empleado que se quiera crear. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>El</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo de empleado, ya sea <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_reponedor" kindref="compound">Reponedor</ref>, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_cajero" kindref="compound">Cajero</ref>, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado" kindref="compound">Encargado</ref> o <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>El</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID del empleado (nulo para generarlo automaticamente) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>El</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nombre del empleado </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Los</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>apellidos del empleado </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>La</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fecha de contratación del empleado </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un empleado </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>MercaDAWException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/EmpleadoFactory.java" line="23" column="28" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/EmpleadoFactory.java" bodystart="23" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La factoría <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory" kindref="compound">EmpleadoFactory</ref> crea empleados según el tipo de estos. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/EmpleadoFactory.java" line="11" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/EmpleadoFactory.java" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_factory_1a28fa64029f67b318d00844530c8bf0ed" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::EmpleadoFactory</scope><name>obtener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

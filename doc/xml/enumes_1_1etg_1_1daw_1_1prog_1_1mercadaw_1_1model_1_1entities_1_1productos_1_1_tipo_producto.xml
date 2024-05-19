@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" kind="enum" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::productos::TipoProducto</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1aef22578cf0c6ef8dc2593a6b70a575c9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto.ALIMENTACION</definition>
+        <argsstring></argsstring>
+        <name>ALIMENTACION</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto.ALIMENTACION</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" line="8" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a0a40b8ddb97811da78faec82d9bd0cfd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto.DROGUERIA</definition>
+        <argsstring></argsstring>
+        <name>DROGUERIA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto.DROGUERIA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" line="8" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a941a736969426ba6a260bdd891ac41bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto.COSMETICA</definition>
+        <argsstring></argsstring>
+        <name>COSMETICA</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto.COSMETICA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" line="9" column="1" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La enumeracion <ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto" kindref="compound">TipoProducto</ref> representa las categoría en las que están clasificadas los productos de MercaDAW. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" line="7" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/TipoProducto.java" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1aef22578cf0c6ef8dc2593a6b70a575c9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::TipoProducto</scope><name>ALIMENTACION</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a941a736969426ba6a260bdd891ac41bb" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::TipoProducto</scope><name>COSMETICA</name></member>
+      <member refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_tipo_producto_1a0a40b8ddb97811da78faec82d9bd0cfd" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::TipoProducto</scope><name>DROGUERIA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

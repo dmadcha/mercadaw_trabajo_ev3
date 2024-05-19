@@ -1,0 +1,4 @@
+var interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible =
+[
+    [ "getPrecioVenta", "interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible.html#a848193bccda82df0dee4583bc9f076a5", null ]
+];

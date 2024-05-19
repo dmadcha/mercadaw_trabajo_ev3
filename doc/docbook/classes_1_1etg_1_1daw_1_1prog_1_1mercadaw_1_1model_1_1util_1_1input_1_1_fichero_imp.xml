@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.input.FicheroImp    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a422e75fba8e9c3a272c15c73a42a0ca3">escribir</link> (String ruta, String texto)</para>
+</listitem>
+            <listitem><para>byte[] <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a521255c472847d66eb0af9300fb54d7c">leer</link> (String fichero)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase abstracta <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp">FicheroImp</link> utiliza <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero">Fichero</link>, pero no las implementa, si no que permite la herencia para que cada clase los pueda implementar como deba. <formalpara><title>Autor</title>
+
+<para>Iván Rafael Redondo. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a422e75fba8e9c3a272c15c73a42a0ca3"/><section>
+    <title>escribir()</title>
+<indexterm><primary>escribir</primary><secondary>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</primary><secondary>escribir</secondary></indexterm>
+<para><computeroutput>void es.etg.daw.prog.mercadaw.model.util.input.FicheroImp.escribir (String ruta, String texto)</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero">es.etg.daw.prog.mercadaw.model.util.input.Fichero</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp_1a521255c472847d66eb0af9300fb54d7c"/><section>
+    <title>leer()</title>
+<indexterm><primary>leer</primary><secondary>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</primary><secondary>leer</secondary></indexterm>
+<para><computeroutput>byte[] es.etg.daw.prog.mercadaw.model.util.input.FicheroImp.leer (String fichero)</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero">es.etg.daw.prog.mercadaw.model.util.input.Fichero</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroImp.java</section>
+</section>

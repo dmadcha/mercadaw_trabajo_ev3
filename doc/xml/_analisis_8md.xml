@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="_analisis_8md" kind="file" language="Markdown">
+    <compoundname>Analisis.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Práctica<sp/>3ª<sp/>Evaluación</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Análisis</highlight></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Requisitos<sp/>Funcionales<sp/>y<sp/>No<sp/>Funcionales</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Requisitos<sp/>Funcionales</highlight></codeline>
+<codeline><highlight class="normal">1.<sp/>Cargar<sp/>datos<sp/>del<sp/>sistema</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Dar<sp/>de<sp/>alta<sp/>un<sp/>producto</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Dar<sp/>de<sp/>alta<sp/>un<sp/>empleado</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Consultar<sp/>datos<sp/>del<sp/>producto</highlight></codeline>
+<codeline><highlight class="normal">5.<sp/>Visualizar<sp/>los<sp/>empleados</highlight></codeline>
+<codeline><highlight class="normal">6.<sp/>Dar<sp/>de<sp/>alta<sp/>una<sp/>compra</highlight></codeline>
+<codeline><highlight class="normal">7.<sp/>Listado<sp/>de<sp/>compras</highlight></codeline>
+<codeline><highlight class="normal">8.<sp/>Listado<sp/>de<sp/>stock</highlight></codeline>
+<codeline><highlight class="normal">9.<sp/>Obtener<sp/>precio<sp/>venta</highlight></codeline>
+<codeline><highlight class="normal">10.<sp/>Imprimir<sp/>ticket</highlight></codeline>
+<codeline><highlight class="normal">11.<sp/>Calcular<sp/>nóminas</highlight></codeline>
+<codeline><highlight class="normal">12.<sp/>Crear<sp/>copias<sp/>de<sp/>seguridad</highlight></codeline>
+<codeline><highlight class="normal">13.<sp/>Exportar<sp/>de<sp/>datos</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Requisitos<sp/>No<sp/>Funcionales</highlight></codeline>
+<codeline><highlight class="normal">1.<sp/>Tipo<sp/>moneda</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Tipos<sp/>formato<sp/>archivos<sp/>para<sp/>la<sp/>carga<sp/>de<sp/>datos</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Tipos<sp/>formato<sp/>archivos<sp/>para<sp/>la<sp/>exportación<sp/>de<sp/>datos</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Idioma</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>DESARROLLO<sp/>CASO<sp/>DE<sp/>USO</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Gestionar<sp/>Sistema</highlight></codeline>
+<codeline><highlight class="normal">1.<sp/>Cargar<sp/>datos<sp/>del<sp/>sistema</highlight></codeline>
+<codeline><highlight class="normal">12.<sp/>Crear<sp/>copias<sp/>de<sp/>seguridad</highlight></codeline>
+<codeline><highlight class="normal">13.<sp/>Exportar<sp/>de<sp/>datos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Gestionar<sp/>Empleados</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Dar<sp/>de<sp/>alta<sp/>un<sp/>empleado</highlight></codeline>
+<codeline><highlight class="normal">5.<sp/>Visualizar<sp/>los<sp/>empleados</highlight></codeline>
+<codeline><highlight class="normal">11.<sp/>Calcular<sp/>nóminas</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Gestionar<sp/>Productos</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Dar<sp/>de<sp/>alta<sp/>un<sp/>producto</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Consultar<sp/>datos<sp/>del<sp/>producto</highlight></codeline>
+<codeline><highlight class="normal">8.<sp/>Listado<sp/>de<sp/>stock</highlight></codeline>
+<codeline><highlight class="normal">9.<sp/>Obtener<sp/>precio<sp/>venta</highlight></codeline>
+<codeline><highlight class="normal">10.<sp/>Imprimir<sp/>ticket</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Gestionar<sp/>Compras</highlight></codeline>
+<codeline><highlight class="normal">6.<sp/>Dar<sp/>de<sp/>alta<sp/>una<sp/>compra</highlight></codeline>
+<codeline><highlight class="normal">7.<sp/>Listado<sp/>de<sp/>compras</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/analisis/Analisis.md"/>
+  </compounddef>
+</doxygen>

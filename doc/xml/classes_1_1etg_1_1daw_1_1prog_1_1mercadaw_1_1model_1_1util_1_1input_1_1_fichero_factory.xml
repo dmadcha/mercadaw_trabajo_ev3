@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_factory" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::input::FicheroFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_factory_1a9830b7815e4d43302e6b21be4c71e530" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero" kindref="compound">Fichero</ref></type>
+        <definition>static Fichero es.etg.daw.prog.mercadaw.model.util.input.FicheroFactory.obtener</definition>
+        <argsstring>(Formato formato)</argsstring>
+        <name>obtener</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.input.FicheroFactory.obtener</qualifiedname>
+        <param>
+          <type><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_formato" kindref="compound">Formato</ref></type>
+          <declname>formato</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroFactory.java" line="4" column="27" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroFactory.java" bodystart="4" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroFactory.java" line="3" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/FicheroFactory.java" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_factory_1a9830b7815e4d43302e6b21be4c71e530" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::input::FicheroFactory</scope><name>obtener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::CompraTest</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a86ccdea0ca782f9991858915b80242e4" prot="package" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+        <definition>Producto es.etg.daw.prog.mercadaw.model.entities.CompraTest.producto1</definition>
+        <argsstring></argsstring>
+        <name>producto1</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.producto1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="19" column="14" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a60dff1a2ee866b55d819550cec9242ec" prot="package" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref></type>
+        <definition>Producto es.etg.daw.prog.mercadaw.model.entities.CompraTest.producto2</definition>
+        <argsstring></argsstring>
+        <name>producto2</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.producto2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="20" column="14" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a273226fc9c11e31aae69c187f06038c4" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt;Producto&gt; es.etg.daw.prog.mercadaw.model.entities.CompraTest.productos</definition>
+        <argsstring></argsstring>
+        <name>productos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.productos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="21" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a6caa6d3ca312ffcb1b7b3bc0dd99e544" prot="package" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+        <definition>Cliente es.etg.daw.prog.mercadaw.model.entities.CompraTest.cliente</definition>
+        <argsstring></argsstring>
+        <name>cliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.cliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="22" column="13" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1ad0287d1e3eb63bea41d6dd210a47ad1a" prot="package" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref></type>
+        <definition>Compra es.etg.daw.prog.mercadaw.model.entities.CompraTest.compra1</definition>
+        <argsstring></argsstring>
+        <name>compra1</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.compra1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="23" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a53fbfdf0cfd392419e4157619dbc3864" prot="package" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref></type>
+        <definition>Compra es.etg.daw.prog.mercadaw.model.entities.CompraTest.compra2</definition>
+        <argsstring></argsstring>
+        <name>compra2</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.compra2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="24" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a5f6790648390e57c38b72a2e6a1aeacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.CompraTest.creacionCompra</definition>
+        <argsstring>()</argsstring>
+        <name>creacionCompra</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.creacionCompra</qualifiedname>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="27" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="27" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a15c1a9565bbd1f3ae87b75aa86ed89f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.CompraTest.crearCompraTest</definition>
+        <argsstring>()</argsstring>
+        <name>crearCompraTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.CompraTest.crearCompraTest</qualifiedname>
+        <exceptions> throws <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="39" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>List&lt; es.etg.daw.prog.mercadaw.model.entities.productos.Producto &gt;</label>
+      </node>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.CompraTest</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>producto1</edgelabel>
+          <edgelabel>producto2</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>productos</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>cliente</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>compra1</edgelabel>
+          <edgelabel>compra2</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.etg.daw.prog.mercadaw.model.entities.compras.Cliente</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente"/>
+      </node>
+      <node id="6">
+        <label>es.etg.daw.prog.mercadaw.model.entities.compras.Compra</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra"/>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" line="18" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/entities/CompraTest.java" bodystart="18" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a6caa6d3ca312ffcb1b7b3bc0dd99e544" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>cliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1ad0287d1e3eb63bea41d6dd210a47ad1a" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>compra1</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a53fbfdf0cfd392419e4157619dbc3864" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>compra2</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a5f6790648390e57c38b72a2e6a1aeacd" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>creacionCompra</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a15c1a9565bbd1f3ae87b75aa86ed89f1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>crearCompraTest</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a86ccdea0ca782f9991858915b80242e4" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>producto1</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a60dff1a2ee866b55d819550cec9242ec" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>producto2</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1_compra_test_1a273226fc9c11e31aae69c187f06038c4" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::CompraTest</scope><name>productos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

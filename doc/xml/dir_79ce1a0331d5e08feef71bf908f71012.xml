@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_79ce1a0331d5e08feef71bf908f71012" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input</compoundname>
+    <innerfile refid="_fichero_8java">Fichero.java</innerfile>
+    <innerfile refid="_fichero_binario_8java">FicheroBinario.java</innerfile>
+    <innerfile refid="_fichero_factory_8java">FicheroFactory.java</innerfile>
+    <innerfile refid="_fichero_imp_8java">FicheroImp.java</innerfile>
+    <innerfile refid="_fichero_mock_8java">FicheroMock.java</innerfile>
+    <innerfile refid="input_2_formato_8java">Formato.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/input/"/>
+  </compounddef>
+</doxygen>

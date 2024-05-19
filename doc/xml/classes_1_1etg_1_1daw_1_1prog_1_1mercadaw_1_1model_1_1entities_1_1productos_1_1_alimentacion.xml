@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.productos.Producto</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion_1ad070b913372763f20b7f8a1dcc9cfb2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion.Alimentacion</definition>
+        <argsstring>(Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)</argsstring>
+        <name>Alimentacion</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion.Alimentacion</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>marca</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>altura</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anchura</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>peso</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numElementos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stock</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>precio</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>descripcion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que inicializa productos de alimentación, generando el ID de estos automaticamente. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Nombre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Marca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Altura</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Anchura</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Peso</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Numero</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de elementos del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Stock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Precio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Descripcion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del producto </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Alimentacion.java" line="22" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Alimentacion.java" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion_1af7df7d6e8c6080a9d751006f7f62f5ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Alimentacion.java" line="29" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Alimentacion.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion" kindref="compound">Alimentacion</ref> representa un producto de alimentación de MercaDAW. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Alimentacion.java" line="7" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Alimentacion.java" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion_1ad070b913372763f20b7f8a1dcc9cfb2a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>Alimentacion</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1ade960064df002b12d09e39d09b8dc63a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ALTURA_MIN</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1acd80a8db2c7ac1514f6e4a49bc138a36" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ANCHURA_MIN</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a9f9927456b89969f9c6e2b65763d09cb" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_ALTURA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aca7afeef6113c9a6d2ebd0ff5f549a34" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_ANCHURA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1435191382b61ac8fd4fd4344c427884" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_CATEGORIA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988c58a18c7d70253c4b2fdbea8af136" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_DESCRIPCION</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a33d0e1d930c3786d2c2335ab418243b9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_ELEMENTOS</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a02286395556b7af7c9c6048347acb43e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_ID</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab8bbda631b95311a7a39ef2caf8d649d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_IVA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a81b3668e95553cd9e67678b5f4b0ef3d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_MARCA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a988b4cf2f0ad5036082e8191591ac4e3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_NOMBRE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a0467b386f8cb92205493178d839ed942" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_PESO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a2dac56f436f78e6428ceddaafb29d2f4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_PRECIO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab31fc7445b3563beb52b4bb41e39c1ff" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>ATT_STOCK</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a12885410489aec3eb10466ee4239b8a8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>equals</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a18517c316e1b69b1340bfdd3be6b969e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac012bf84017995cfc06c2c6887a45c6e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aac7337fc87c155a7deb22e567aa06e57" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getDescripcion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a4c38dff964bc463e229dccc945ebb13a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abc77639a7de6f02986d15e9936e0fef3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getIva</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a1e3d513dea7c3f1ef656495085f49469" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getIvaCalculado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ab90680ce130fa3fe64821c0d493e8967" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getMarca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aeb765bb408ea349fd9c5be948c73cd97" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a06a17c696684f509c8e7d00a05fea7e0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getNumElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6b036aeef94d9361b59bbccd3f877609" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getNumProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ac72bc47e66fdf5f3049e74e4bd86c3b1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a32ae34d4ed0e1a7e3cc661e86444335f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPorcentajeAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a149368ce0eb4896a0cb32ea01395d396" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPorcentajeAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a6392244e78ca3a5e22f3099790653bae" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPorcentajePeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae31588ea5ae305b7799996a586602635" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPrecio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aa8611742cb7aee7307a5c9d07049b4ed" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPrecioFinalDolares</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a652e6159626f1fdc445c67b1aa07ea3d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPrecioFinalEuros</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getPrecioVenta</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1af4a4204e044e1720189f2a37c5f7a455" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getRecargoAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a5fbad8e893a02d779537e88596006dbc" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getRecargoAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae41c79e047ee17da75fc92c8b9bc73ef" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getRecargoNumElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a623a13553a0cc653842431c80d7c07e5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getRecargoPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a17c0bbae7fc3df07c5f55bc702287b51" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>getStock</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a85fbb3236fef0fa5cb945d1658d0f585" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>iva</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a23f248c67de967b92ccb36f99eb9bdc1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>IVA_ALIM</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1abf6c087d5a7d70640b0d64bc9b76adff" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>IVA_COSM</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a45ec1418a62c7dd04052a2ecaa4f346f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>IVA_DROG</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1aae8a87db9926df6f0f9d035a715b8fea" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>PESO_MAX</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a2e008822799a898b3f2db015ff70722b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>PESO_MIN</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae346965b004e04bd1fe300d0856ed7ed" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>Producto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a14abb17fcc838f9cddb96b9a36aa3c8c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setAltura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1ae07b9ae9810f0a45bcb8d4cd2de5bc44" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setAnchura</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a3965e52d82cf34fff35d1400e60c38ab" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setDescripcion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1aec28104820c716c2e50f10fb61539dc4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a83d0365d356d7ec805830d0754c21bef" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setIva</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1adf39279e6fd87557039479f639dc67d5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setMarca</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1acd816783d04f4b696770594984551e75" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a05c6170b93346950a0b228d050d2b7b0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setNumElementos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a710454d78d3fa56caa464649d04eb231" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setNumProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1abca61e59f235ec4d7f892fa11900de52" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setPeso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a549ab23d0034389a9c5d74bb10b1064b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setPrecio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a43ae1b5f74d27747d8e578b3e818e1e8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>setStock</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion_1af7df7d6e8c6080a9d751006f7f62f5ec" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Alimentacion</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

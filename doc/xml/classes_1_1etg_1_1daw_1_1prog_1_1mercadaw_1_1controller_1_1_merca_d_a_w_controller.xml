@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::controller::MercaDAWController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a57961ed5a9e8b36ea8b4c6da7cc1ed98" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String es.etg.daw.prog.mercadaw.controller.MercaDAWController.MSG_ERROR</definition>
+        <argsstring></argsstring>
+        <name>MSG_ERROR</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.MSG_ERROR</qualifiedname>
+        <initializer>= &quot;ERROR&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="37" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a1d24b49e8acaf538f72cead8afca9f5a" prot="public" static="yes" mutable="no">
+        <type>Stage</type>
+        <definition>Stage es.etg.daw.prog.mercadaw.controller.MercaDAWController.currentStage</definition>
+        <argsstring></argsstring>
+        <name>currentStage</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.currentStage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="39" column="25" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a270a62bcd5cadffc6cb67484f778f04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.start</definition>
+        <argsstring>(Stage stage)</argsstring>
+        <name>start</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.start</qualifiedname>
+        <param>
+          <type>Stage</type>
+          <declname>stage</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="42" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a4023dfc98e84aa4bb52c23339e9ccd0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarProductos</definition>
+        <argsstring>()</argsstring>
+        <name>cargarProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarProductos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="82" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8dc483cda985bf8229435c9cac84a55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarEmpleados</definition>
+        <argsstring>()</argsstring>
+        <name>cargarEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarEmpleados</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="91" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a9d43c0a1db8422a0e60ca689a06d00af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarCompras</definition>
+        <argsstring>()</argsstring>
+        <name>cargarCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarCompras</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="100" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1aef48de27b4a40a3d6009e24f1515958a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarImportar</definition>
+        <argsstring>()</argsstring>
+        <name>cargarImportar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarImportar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="109" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="109" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a530c574b636b81ee1a387faa42e03f69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarExportar</definition>
+        <argsstring>()</argsstring>
+        <name>cargarExportar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarExportar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="116" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a38348101e5e2ac6ee7f1143083d347e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarApp</definition>
+        <argsstring>()</argsstring>
+        <name>cargarApp</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarApp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="125" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a3f9fb006880316a4c30806ec66c47c04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.importar</definition>
+        <argsstring>(String ruta)</argsstring>
+        <name>importar</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.importar</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>ruta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="133" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a0ccbf35edc7a43efbb959c89e7490992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.getEmpleados</definition>
+        <argsstring>(Empleado empleado)</argsstring>
+        <name>getEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.getEmpleados</qualifiedname>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" kindref="compound">Empleado</ref></type>
+          <declname>empleado</declname>
+        </param>
+        <exceptions> throws SQLException, <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1exception_1_1_merca_d_a_w_exception" kindref="compound">MercaDAWException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="138" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="138" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a77b8d5cfb669e552468f75f755d83dbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" kindref="compound">ViewController</ref></type>
+        <definition>ViewController es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarVista</definition>
+        <argsstring>(Vista vista)</argsstring>
+        <name>cargarVista</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.cargarVista</qualifiedname>
+        <param>
+          <type><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kindref="compound">Vista</ref></type>
+          <declname>vista</declname>
+        </param>
+        <exceptions> throws IOException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="51" column="28" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="51" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8a2cd042ba3d428d59b5e82494284dea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.controller.MercaDAWController.mostrarAviso</definition>
+        <argsstring>(String msg, AlertType tipo)</argsstring>
+        <name>mostrarAviso</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.controller.MercaDAWController.mostrarAviso</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>AlertType</type>
+          <declname>tipo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="144" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="144" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.controller.MercaDAWController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.controller.MercaDAWController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>currentStage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="3">
+        <label>Stage</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" line="36" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/controller/MercaDAWController.java" bodystart="36" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a38348101e5e2ac6ee7f1143083d347e9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarApp</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a9d43c0a1db8422a0e60ca689a06d00af" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8dc483cda985bf8229435c9cac84a55d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a530c574b636b81ee1a387faa42e03f69" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarExportar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1aef48de27b4a40a3d6009e24f1515958a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarImportar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a4023dfc98e84aa4bb52c23339e9ccd0c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a77b8d5cfb669e552468f75f755d83dbc" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>cargarVista</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a1d24b49e8acaf538f72cead8afca9f5a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>currentStage</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a0ccbf35edc7a43efbb959c89e7490992" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>getEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a3f9fb006880316a4c30806ec66c47c04" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>importar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a8a2cd042ba3d428d59b5e82494284dea" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>mostrarAviso</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a57961ed5a9e8b36ea8b4c6da7cc1ed98" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>MSG_ERROR</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller_1a270a62bcd5cadffc6cb67484f778f04e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::controller::MercaDAWController</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

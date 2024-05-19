@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis" kind="page">
+    <compoundname>md__home_usuario_Documentos_mercadaw_trabajo_ev3_analisis_Analisis</compoundname>
+    <title>Práctica 3ª Evaluación</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md1">
+<title># Análisis</title>
+</sect1>
+<sect1 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md2">
+<title>Requisitos Funcionales y No Funcionales</title>
+<sect2 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md3">
+<title>Requisitos Funcionales</title>
+<para><orderedlist>
+<listitem><para>Cargar datos del sistema</para>
+</listitem><listitem><para>Dar de alta un producto</para>
+</listitem><listitem><para>Dar de alta un empleado</para>
+</listitem><listitem><para>Consultar datos del producto</para>
+</listitem><listitem><para>Visualizar los empleados</para>
+</listitem><listitem><para>Dar de alta una compra</para>
+</listitem><listitem><para>Listado de compras</para>
+</listitem><listitem><para>Listado de stock</para>
+</listitem><listitem><para>Obtener precio venta</para>
+</listitem><listitem><para>Imprimir ticket</para>
+</listitem><listitem><para>Calcular nóminas</para>
+</listitem><listitem><para>Crear copias de seguridad</para>
+</listitem><listitem><para>Exportar de datos</para>
+</listitem></orderedlist>
+</para>
+</sect2>
+<sect2 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md4">
+<title>Requisitos No Funcionales</title>
+<para><orderedlist>
+<listitem><para>Tipo moneda</para>
+</listitem><listitem><para>Tipos formato archivos para la carga de datos</para>
+</listitem><listitem><para>Tipos formato archivos para la exportación de datos</para>
+</listitem><listitem><para>Idioma</para>
+</listitem></orderedlist>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md5">
+<title>DESARROLLO CASO DE USO</title>
+<sect2 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md6">
+<title>Gestionar Sistema</title>
+<para><orderedlist>
+<listitem><para>Cargar datos del sistema</para>
+</listitem><listitem><para>Crear copias de seguridad</para>
+</listitem><listitem><para>Exportar de datos</para>
+</listitem></orderedlist>
+</para>
+</sect2>
+<sect2 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md7">
+<title>Gestionar Empleados</title>
+<para><orderedlist>
+<listitem><para>Dar de alta un empleado</para>
+</listitem><listitem><para>Visualizar los empleados</para>
+</listitem><listitem><para>Calcular nóminas</para>
+</listitem></orderedlist>
+</para>
+</sect2>
+<sect2 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md8">
+<title>Gestionar Productos</title>
+<para><orderedlist>
+<listitem><para>Dar de alta un producto</para>
+</listitem><listitem><para>Consultar datos del producto</para>
+</listitem><listitem><para>Listado de stock</para>
+</listitem><listitem><para>Obtener precio venta</para>
+</listitem><listitem><para>Imprimir ticket</para>
+</listitem></orderedlist>
+</para>
+</sect2>
+<sect2 id="md__home_usuario__documentos_mercadaw_trabajo_ev3_analisis__analisis_1autotoc_md9">
+<title>Gestionar Compras</title>
+<para><orderedlist>
+<listitem><para>Dar de alta una compra</para>
+</listitem><listitem><para>Listado de compras </para>
+</listitem></orderedlist>
+</para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/analisis/Analisis.md"/>
+  </compounddef>
+</doxygen>

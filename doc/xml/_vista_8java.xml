@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="_vista_8java" kind="file" language="Java">
+    <compoundname>Vista.java</compoundname>
+    <innerclass refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" prot="public">es::etg::daw::prog::mercadaw::view::Vista</innerclass>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view">es::etg::daw::prog::mercadaw::view</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">es.etg.daw.prog.mercadaw.view;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kindref="compound">Vista</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>MAIN(</highlight><highlight class="stringliteral">&quot;view/MainView.fxml&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>CARGA_DATOS(</highlight><highlight class="stringliteral">&quot;view/sistema/CargaDatosView.fxml&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPORTAR_DATOS(</highlight><highlight class="stringliteral">&quot;view/sistema/ExportarDatosView.fxml&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>DAR_ALTA_PROD(</highlight><highlight class="stringliteral">&quot;view/producto/DarAltaProductoView.fxml&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>DAR_ALTA_EMPLE(</highlight><highlight class="stringliteral">&quot;view/empleado/DarAltaEmpleadoView.fxml&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>DAR_ALTA_COMP(</highlight><highlight class="stringliteral">&quot;view/compra/DarAltaCompraView.fxml&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>String<sp/>ruta;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="enumes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_vista" kindref="compound">Vista</ref>(String<sp/>ruta)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.ruta<sp/>=<sp/>ruta;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/>getRuta()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ruta;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/Vista.java"/>
+  </compounddef>
+</doxygen>

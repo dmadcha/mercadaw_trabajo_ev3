@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util::FicheroBinarioTest</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1af8df5b1f2138f02276ee492cf52e255c" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest.fichero</definition>
+        <argsstring></argsstring>
+        <name>fichero</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest.fichero</qualifiedname>
+        <initializer>= &quot;test.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" line="12" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a1e6f028d3f97c2e57cf5b1e8d81126b4" prot="package" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario" kindref="compound">FicheroBinario</ref></type>
+        <definition>FicheroBinario es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest.ficheroBinario</definition>
+        <argsstring></argsstring>
+        <name>ficheroBinario</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest.ficheroBinario</qualifiedname>
+        <initializer>= new <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario" kindref="compound">FicheroBinario</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" line="14" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a3da80c7dbd66f7c44223a11a669573d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest.leerEscribirTest</definition>
+        <argsstring>()</argsstring>
+        <name>leerEscribirTest</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest.leerEscribirTest</qualifiedname>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" line="16" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" bodystart="16" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.util.FicheroBinarioTest</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ficheroBinario</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.Fichero</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_binario"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.util.input.FicheroImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input_1_1_fichero_imp"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" line="10" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/FicheroBinarioTest.java" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1af8df5b1f2138f02276ee492cf52e255c" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::FicheroBinarioTest</scope><name>fichero</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a1e6f028d3f97c2e57cf5b1e8d81126b4" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::FicheroBinarioTest</scope><name>ficheroBinario</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test_1a3da80c7dbd66f7c44223a11a669573d3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::util::FicheroBinarioTest</scope><name>leerEscribirTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

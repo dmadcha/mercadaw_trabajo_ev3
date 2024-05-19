@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible" kind="interface" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</compoundname>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.productos.Producto</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a2e008822799a898b3f2db015ff70722b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int es.etg.daw.prog.mercadaw.model.entities.productos.Producible.PESO_MIN</definition>
+        <argsstring></argsstring>
+        <name>PESO_MIN</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.PESO_MIN</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="8" column="29" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1aae8a87db9926df6f0f9d035a715b8fea" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int es.etg.daw.prog.mercadaw.model.entities.productos.Producible.PESO_MAX</definition>
+        <argsstring></argsstring>
+        <name>PESO_MAX</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.PESO_MAX</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="9" column="29" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1ade960064df002b12d09e39d09b8dc63a" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.ALTURA_MIN</definition>
+        <argsstring></argsstring>
+        <name>ALTURA_MIN</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.ALTURA_MIN</qualifiedname>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="10" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1acd80a8db2c7ac1514f6e4a49bc138a36" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.ANCHURA_MIN</definition>
+        <argsstring></argsstring>
+        <name>ANCHURA_MIN</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.ANCHURA_MIN</qualifiedname>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="11" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a23f248c67de967b92ccb36f99eb9bdc1" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.IVA_ALIM</definition>
+        <argsstring></argsstring>
+        <name>IVA_ALIM</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.IVA_ALIM</qualifiedname>
+        <initializer>= 0.04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="12" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1abf6c087d5a7d70640b0d64bc9b76adff" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.IVA_COSM</definition>
+        <argsstring></argsstring>
+        <name>IVA_COSM</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.IVA_COSM</qualifiedname>
+        <initializer>= 0.10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="13" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a45ec1418a62c7dd04052a2ecaa4f346f" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.IVA_DROG</definition>
+        <argsstring></argsstring>
+        <name>IVA_DROG</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.IVA_DROG</qualifiedname>
+        <initializer>= 0.21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="14" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.productos.Producible.getPrecioVenta</definition>
+        <argsstring>()</argsstring>
+        <name>getPrecioVenta</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.productos.Producible.getPrecioVenta</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto_1a721f65b298c93ff9e975dec53d731667">getPrecioVenta</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula em precio de venta de un producto. <simplesect kind="return"><para>Un double con el precio final de venta del </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="20" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La interfaz <ref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible" kindref="compound">Producible</ref> expone los principales metodos de calculo del precio de venta de los productos. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producible</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible"/>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Alimentacion</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_alimentacion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Drogueria</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_drogueria"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.productos.Producto</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" line="7" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Producible.java" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1ade960064df002b12d09e39d09b8dc63a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>ALTURA_MIN</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1acd80a8db2c7ac1514f6e4a49bc138a36" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>ANCHURA_MIN</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a848193bccda82df0dee4583bc9f076a5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>getPrecioVenta</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a23f248c67de967b92ccb36f99eb9bdc1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>IVA_ALIM</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1abf6c087d5a7d70640b0d64bc9b76adff" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>IVA_COSM</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a45ec1418a62c7dd04052a2ecaa4f346f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>IVA_DROG</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1aae8a87db9926df6f0f9d035a715b8fea" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>PESO_MAX</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producible_1a2e008822799a898b3f2db015ff70722b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::productos::Producible</scope><name>PESO_MIN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

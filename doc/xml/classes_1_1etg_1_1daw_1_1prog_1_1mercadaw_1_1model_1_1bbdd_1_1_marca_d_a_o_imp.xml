@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</compoundname>
+    <basecompoundref refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</basecompoundref>
+    <derivedcompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a0aaa9860c4cedccaacd94fb737574710" prot="protected" static="no" mutable="no">
+        <type>Connection</type>
+        <definition>Connection es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.connection</definition>
+        <argsstring></argsstring>
+        <name>connection</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.connection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="14" column="26" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a430b4faf0b3e009c5d6335374b21b2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearEmpleados</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearEmpleados</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearEmpleados</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a4b8165b155eb4152462ec25b23987029">crearEmpleados</reimplementedby>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="17" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ac416170209b40f401502246a878cfdaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearClientes</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearClientes</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearClientes</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a1d13fb934477572f38a7344465e40405">crearClientes</reimplementedby>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="18" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a951f056fdbfc17f5c43b7f4e80e4393c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearCompras</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearCompras</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a154b32fb64ff7706b4b7c8301112277e">crearCompras</reimplementedby>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="19" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a6924a09ab15565911fa7b16f102a579b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearProductos</definition>
+        <argsstring>(Statement st)</argsstring>
+        <name>crearProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.crearProductos</qualifiedname>
+        <reimplementedby refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e_1a7922c37b03a3143838c2396c07f04d38">crearProductos</reimplementedby>
+        <param>
+          <type>Statement</type>
+          <declname>st</declname>
+        </param>
+        <exceptions> throws SQLException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="20" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ad73a0da59b0ca308913229df9c5599f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Connection</type>
+        <definition>Connection es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.getConnection</definition>
+        <argsstring>()</argsstring>
+        <name>getConnection</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.getConnection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="23" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a675ae461c86b3e3b3f99b9f21f37b467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.setConnection</definition>
+        <argsstring>(Connection connection)</argsstring>
+        <name>setConnection</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp.setConnection</qualifiedname>
+        <param>
+          <type>Connection</type>
+          <declname>connection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="26" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" bodystart="26" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase MercaDAOImp servirá para futuras actualizaciones. <simplesect kind="author"><para>Jesús Pérez Enríquez. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o"/>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_imp_oracle_x_e"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MarcaDAOImp</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>connection</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o"/>
+      </node>
+      <node id="3">
+        <label>Connection</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" line="12" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/bbdd/MarcaDAOImp.java" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a0aaa9860c4cedccaacd94fb737574710" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>connection</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ac416170209b40f401502246a878cfdaf" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>crearClientes</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a951f056fdbfc17f5c43b7f4e80e4393c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>crearCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a430b4faf0b3e009c5d6335374b21b2f4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>crearEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a6924a09ab15565911fa7b16f102a579b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>crearProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1ad73a0da59b0ca308913229df9c5599f4" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>getConnection</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece58ae52a4f78677f7a4d1fe20d7016" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>iniciarBBDD</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1aece2705dfa539a6c55e5d5115d756385" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>insertar</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a328ce97bad346babfb590e4082f1b1d3" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>insertar</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a74aaa84024ef8dd191cc50779cf0b126" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>insertar</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1abe232202d06c3caa909eabb8402ee08c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>insertar</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_marca_d_a_o_imp_1a675ae461c86b3e3b3f99b9f21f37b467" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>setConnection</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a50068156380f7bb07c1eaa8eb5acd8ee" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>visualizarCliente</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a3a5a77c8b6cdff55b5fed49c051f5a39" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>visualizarClientes</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1ababdc68ea53900d12b69e13e6da2fe8f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>visualizarCompras</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a9136e507bfd4893f237166934fe96a9c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>visualizarEmpleados</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a8f41a3d6f26bbfb230b26b73689e6f0d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>visualizarProducto</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1bbdd_1_1_merca_d_a_o_1a130b081dd4b062f308bd2162eb8615a9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::bbdd::MarcaDAOImp</scope><name>visualizarProductos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

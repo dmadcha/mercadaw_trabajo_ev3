@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a58a2dd0e1cb642f85ae26d5863b36d7f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.sueldo</definition>
+        <argsstring></argsstring>
+        <name>sueldo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.sueldo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" line="10" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a3aded7b5a51d0fcc6a851b57db8a3e75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.Encargado</definition>
+        <argsstring>(Integer id, String nombre, String apellidos, Date fechaInicio)</argsstring>
+        <name>Encargado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.Encargado</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>apellidos</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>fechaInicio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que inicializa encargados, generando el ID de estas automaticamente. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del empleado </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Nombre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del empleado </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Apellidos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>del empleado </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Fecha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de contratación del empleado </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" line="19" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a8a1d04d8ae86a68cd76b377a378678e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.getSueldo</definition>
+        <argsstring>()</argsstring>
+        <name>getSueldo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.getSueldo</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a32eed8e48d524b5f1093d0f1cca8ba9c">getSueldo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" line="24" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1aa6271a3da9826514d791782690570736" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.setSueldo</definition>
+        <argsstring>(double sueldo)</argsstring>
+        <name>setSueldo</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.setSueldo</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ac1169f360f6229b6e2318740216e5040">setSueldo</reimplements>
+        <param>
+          <type>double</type>
+          <declname>sueldo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" line="28" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a856dc81ed4ad0282383591a3fbbeb42c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado.toString</qualifiedname>
+        <reimplements refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a9a77d2c84354695e4843e9f89c7e578a">toString</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" line="33" column="19" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado" kindref="compound">Encargado</ref> representa un encargado de MercaDAW. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Encargado</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Contratable</label>
+        <link refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable"/>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" line="9" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/empleados/Encargado.java" bodystart="9" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1afcb2d9d0c957f820b0703d2b6b1d46ac" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>ATT_APELLIDO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ab25552f331f8bc2d3f8aa798da6e7ac5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>ATT_CATEGORIA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a56ea8d4e8edf8382d32dbf1c631b14a1" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>ATT_FECHA</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aafd753ef67687bd8069c1a8de8b2181f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>ATT_ID_EMPLE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a2a7bd7d22a48d432ca3fbd49a35df0b0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>ATT_NOM_EMPLE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ac7a2c00a0c821fb5761926a7faeddc80" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>ATT_SUELDO</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a6456de88e106f3cbd7f7da0097b59030" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>Empleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a3aded7b5a51d0fcc6a851b57db8a3e75" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>Encargado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aad7597856db14a7111551fc0c21cafac" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>equals</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a1e06a200891dbfe633910f6025e64f05" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getAntiguedad</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1af347350468b5297e844ab7a53bc3a40a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getApellidos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a79009bd654bcdb3f1bc562d18ee31736" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getAportaciones</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a0a76525548062663018ab8389b5a61c0" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getDeducciones</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1af6f67bd058a4f633b5830ce419a0672f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getFechaInicio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ad69c5fb6a280f727759eac51f9bf2a82" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a46218a6430becc3659974a670143ab08" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getIndemnizacion</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aa25ee49b50d3ab9162c2d82c1c265e33" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getIndemnizacionLegal</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ae79c77bf0600e33e79c66a5ddab1b10a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ae882f7d39dbac5b4ebc2fb3826827400" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getNumEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ab7a33e4fe555cb2425b23bf96458966b" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getPPE</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1abea1026abf81bdaa13f6e4dc48422a29" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getSalarioBruto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a2422019d7f109299eecb2fab3a5b4aa7" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getSalarioDiario</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a24ff7469afcf85b0b47591716edf62ca" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getSalarioNeto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a8a1d04d8ae86a68cd76b377a378678e5" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>getSueldo</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1abaed76aa00a35990c821009070270cc2" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>setApellidos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a8ed8a3603932f5ec446d8e5ace199c2e" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>setFechaInicio</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1aed9cd2f7b1d72294b467f1c4ad286793" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>setId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1a928f6fc0168249b17d8175b7941c2d24" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>setNombre</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_empleado_1ae9c763d8098f2520965c97b82addf877" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>setNumEmpleados</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1aa6271a3da9826514d791782690570736" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>setSueldo</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a58a2dd0e1cb642f85ae26d5863b36d7f" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>sueldo</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a61a62ab951d764a0a555d0724bd1df06" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>SUELDO_CAJER</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a81c5f61ad96ba7037df6ea7e23ec443f" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>SUELDO_EMPLE</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1a38274bcebd08b1b3170feb6ba10750b8" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>SUELDO_ENCAR</name></member>
+      <member refid="interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_contratable_1ad4db794540ded04f1d81ebd8cf6da41a" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>SUELDO_REPON</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1empleados_1_1_encargado_1a856dc81ed4ad0282383591a3fbbeb42c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::empleados::Encargado</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

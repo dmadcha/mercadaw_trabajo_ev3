@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica_1a62c98845270a4b9e4b4a39c4f93c7bd2">Cosmetica</link> (Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica_1acdaa8ec1d1c8d605ff58f976f592fec3"/>String <emphasis role="strong">toString</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Otros miembros heredados    </title>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica">Cosmetica</link> representa un producto de cosmética de MercaDAW. <formalpara><title>Autor</title>
+
+<para>Diego Madroñero Chamorro. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_cosmetica_1a62c98845270a4b9e4b4a39c4f93c7bd2"/><section>
+    <title>Cosmetica()</title>
+<indexterm><primary>Cosmetica</primary><secondary>es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica</primary><secondary>Cosmetica</secondary></indexterm>
+<para><computeroutput>es.etg.daw.prog.mercadaw.model.entities.productos.Cosmetica.Cosmetica (Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion)</computeroutput></para>
+<para>Constructor que inicializa productos de cosmética, generando el ID de estos automaticamente. 
+                <formalpara>
+                    <title>
+Parámetros</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>ID</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Nombre</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Marca</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Altura</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Anchura</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Peso</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Numero</entry><entry>
+<para>de elementos del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Stock</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Precio</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                            <row>
+<entry>Descripcion</entry><entry>
+<para>del producto </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/Cosmetica.java</section>
+</section>

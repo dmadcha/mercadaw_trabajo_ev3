@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util" kind="namespace" language="Java">
+    <compoundname>es::etg::daw::prog::mercadaw::model::util</compoundname>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_c_s_v_test" prot="public">es::etg::daw::prog::mercadaw::model::util::CSVTest</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_export_office_test" prot="public">es::etg::daw::prog::mercadaw::model::util::ExportOfficeTest</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_fichero_binario_test" prot="public">es::etg::daw::prog::mercadaw::model::util::FicheroBinarioTest</innerclass>
+    <innerclass refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1_j_s_o_n_test" prot="public">es::etg::daw::prog::mercadaw::model::util::JSONTest</innerclass>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export">es::etg::daw::prog::mercadaw::model::util::export</innernamespace>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1input">es::etg::daw::prog::mercadaw::model::util::input</innernamespace>
+    <innernamespace refid="namespacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1reader">es::etg::daw::prog::mercadaw::model::util::reader</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/test/java/es/etg/daw/prog/mercadaw/model/util/CSVTest.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

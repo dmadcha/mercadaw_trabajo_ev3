@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::view::MainViewController</compoundname>
+    <basecompoundref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller" prot="public" virt="non-virtual">es.etg.daw.prog.mercadaw.view.ViewController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1a009aa25e6d89fc61f414d5d98aaa25ea" prot="private" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref></type>
+        <definition>MercaDAWController es.etg.daw.prog.mercadaw.view.MainViewController.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.controller</qualifiedname>
+        <initializer>= new <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller" kindref="compound">MercaDAWController</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="16" column="32" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ad0c3164531b35b0f329183b539f9e445" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.MainViewController.btnCompra</definition>
+        <argsstring></argsstring>
+        <name>btnCompra</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.btnCompra</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="19" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ab5295138561dae61369aa07506f3010b" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.MainViewController.btnEmpleado</definition>
+        <argsstring></argsstring>
+        <name>btnEmpleado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.btnEmpleado</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="22" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1aa801d427cf42bfd2184c65d41808d97e" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.MainViewController.btnProducto</definition>
+        <argsstring></argsstring>
+        <name>btnProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.btnProducto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="25" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ae1856173e740fcd329a8d166333ed004" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button es.etg.daw.prog.mercadaw.view.MainViewController.btnSistema</definition>
+        <argsstring></argsstring>
+        <name>btnSistema</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.btnSistema</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="28" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ad028e0a08f1510437cdc7929627e8747" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionCompra</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>accesoGestionCompra</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionCompra</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="31" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ab9a8840283ad753d524b1a3fd47d4283" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionEmpleado</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>accesoGestionEmpleado</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionEmpleado</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="36" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1a5f5ecf04cf2046fc7c021ad2d7ab29ed" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionProducto</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>accesoGestionProducto</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionProducto</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="41" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1afa5249fe98bc32b52b00b9bd00ed80ab" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionSistema</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>accesoGestionSistema</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.view.MainViewController.accesoGestionSistema</qualifiedname>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="46" column="10" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>El controlador de la vista principal de nuestra aplicación. <simplesect kind="author"><para>Erik Herrera Llamas </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.MainViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.etg.daw.prog.mercadaw.view.MainViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.etg.daw.prog.mercadaw.controller.MercaDAWController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1controller_1_1_merca_d_a_w_controller"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>currentStage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.etg.daw.prog.mercadaw.view.ViewController</label>
+        <link refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mercaDAWController</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Application</label>
+      </node>
+      <node id="5">
+        <label>Stage</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" line="15" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/view/MainViewController.java" bodystart="15" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ad028e0a08f1510437cdc7929627e8747" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>accesoGestionCompra</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ab9a8840283ad753d524b1a3fd47d4283" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>accesoGestionEmpleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1a5f5ecf04cf2046fc7c021ad2d7ab29ed" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>accesoGestionProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1afa5249fe98bc32b52b00b9bd00ed80ab" prot="package" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>accesoGestionSistema</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ad0c3164531b35b0f329183b539f9e445" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>btnCompra</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ab5295138561dae61369aa07506f3010b" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>btnEmpleado</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1aa801d427cf42bfd2184c65d41808d97e" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>btnProducto</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1ae1856173e740fcd329a8d166333ed004" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>btnSistema</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_main_view_controller_1a009aa25e6d89fc61f414d5d98aaa25ea" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>controller</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1affe69cce3be4a188498aa0dacec2a0e2" prot="protected" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>mercaDAWController</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1view_1_1_view_controller_1acc719297627df85bc16849c124ddcc57" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::view::MainViewController</scope><name>setMercaDAWController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

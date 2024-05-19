@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="dir_bbd0f00250842f0331aba4fdf1cd3a15" kind="dir">
+    <compoundname>/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos</compoundname>
+    <innerfile refid="_alimentacion_8java">Alimentacion.java</innerfile>
+    <innerfile refid="_cosmetica_8java">Cosmetica.java</innerfile>
+    <innerfile refid="_drogueria_8java">Drogueria.java</innerfile>
+    <innerfile refid="_porcentajes_8java">Porcentajes.java</innerfile>
+    <innerfile refid="_producible_8java">Producible.java</innerfile>
+    <innerfile refid="_producto_8java">Producto.java</innerfile>
+    <innerfile refid="_producto_factory_8java">ProductoFactory.java</innerfile>
+    <innerfile refid="_recargos_8java">Recargos.java</innerfile>
+    <innerfile refid="_tipo_producto_8java">TipoProducto.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/productos/"/>
+  </compounddef>
+</doxygen>

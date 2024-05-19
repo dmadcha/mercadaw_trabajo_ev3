@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util" xml:lang="es">
+<title>Referencia de la Clase es.etg.daw.prog.mercadaw.model.util.export.Util</title>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.export.Util</primary></indexterm>
+<para>Diagrama de herencias de es.etg.daw.prog.mercadaw.model.util.export.Util    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a35c1f7d70c77b5d3429a1cafedc1f62c">exportar</link> (String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt)  throws Exception</para>
+</listitem>
+            <listitem><para>String <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a5107ba5900277d1b4298753d64e2f311">getUser</link> ()  throws Exception</para>
+</listitem>
+            <listitem><para>String <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a9c7a71a7e5b22f9c2d22549350b8d91f">getGrupo</link> ()  throws Exception</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Descripción detallada</title>
+
+<para>La clase <link linkend="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util">Util</link> sirve para exportar un documento usando pandoc y getUser() y getGrupo(). <formalpara><title>Autor</title>
+
+<para>Iván Rafael Redondo. </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Documentación de las funciones miembro</title>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a35c1f7d70c77b5d3429a1cafedc1f62c"/><section>
+    <title>exportar()</title>
+<indexterm><primary>exportar</primary><secondary>es.etg.daw.prog.mercadaw.model.util.export.Util</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.export.Util</primary><secondary>exportar</secondary></indexterm>
+<para><computeroutput>void es.etg.daw.prog.mercadaw.model.util.export.Util.exportar (String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt) throws Exception</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util">es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a9c7a71a7e5b22f9c2d22549350b8d91f"/><section>
+    <title>getGrupo()</title>
+<indexterm><primary>getGrupo</primary><secondary>es.etg.daw.prog.mercadaw.model.util.export.Util</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.export.Util</primary><secondary>getGrupo</secondary></indexterm>
+<para><computeroutput>String es.etg.daw.prog.mercadaw.model.util.export.Util.getGrupo ( ) throws Exception</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util">es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil</link>.</para>
+</section>
+<anchor xml:id="_classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_util_1a5107ba5900277d1b4298753d64e2f311"/><section>
+    <title>getUser()</title>
+<indexterm><primary>getUser</primary><secondary>es.etg.daw.prog.mercadaw.model.util.export.Util</secondary></indexterm>
+<indexterm><primary>es.etg.daw.prog.mercadaw.model.util.export.Util</primary><secondary>getUser</secondary></indexterm>
+<para><computeroutput>String es.etg.daw.prog.mercadaw.model.util.export.Util.getUser ( ) throws Exception</computeroutput></para><para>
+Implementa <link linkend="_interfacees_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1util_1_1export_1_1_exportable_util">es.etg.daw.prog.mercadaw.model.util.export.ExportableUtil</link>.</para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir del siguiente fichero:</para>
+/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/util/export/Util.java</section>
+</section>

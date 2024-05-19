@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kind="class" language="Java" prot="public">
+    <compoundname>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a8bdfffaeeb15ad2849af95b9ca7b1b66" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int es.etg.daw.prog.mercadaw.model.entities.compras.Compra.numCompras</definition>
+        <argsstring></argsstring>
+        <name>numCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.numCompras</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="13" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac0fdb84664b6d39d816d90c3e125ef1a" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer es.etg.daw.prog.mercadaw.model.entities.compras.Compra.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="15" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1aa25f66cf39e2fd7cf880f5d85af99205" prot="private" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date es.etg.daw.prog.mercadaw.model.entities.compras.Compra.fecha</definition>
+        <argsstring></argsstring>
+        <name>fecha</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.fecha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="16" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a54678f280e6aff1df52aba3dbb552e6e" prot="private" static="no" mutable="no">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+        <definition>Cliente es.etg.daw.prog.mercadaw.model.entities.compras.Compra.cliente</definition>
+        <argsstring></argsstring>
+        <name>cliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.cliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="17" column="21" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4a653048396e05235b2d4b5224caf6d3" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt;Producto&gt; es.etg.daw.prog.mercadaw.model.entities.compras.Compra.productos</definition>
+        <argsstring></argsstring>
+        <name>productos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.productos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="18" column="18" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1afa7b6fcdb0f733237f4446cd22fbb46d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.Compra</definition>
+        <argsstring>(Integer id, Date fecha, Cliente cliente, List&lt; Producto &gt; productos)</argsstring>
+        <name>Compra</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.Compra</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>fecha</declname>
+        </param>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+          <declname>cliente</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+          <declname>productos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que inicializa compras, generando el ID de estas automaticamente. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fecha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cliente</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>productos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="27" column="12" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="27" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a37c67d325bf2619ccd7206d12dbed0cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getFecha</definition>
+        <argsstring>()</argsstring>
+        <name>getFecha</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getFecha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="49" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4069b76afd90625fb5faeeb85723265c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setFecha</definition>
+        <argsstring>(Date fecha)</argsstring>
+        <name>setFecha</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setFecha</qualifiedname>
+        <param>
+          <type>Date</type>
+          <declname>fecha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="53" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a75bb593383527c238fee3bd05f610792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+        <definition>Cliente es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getCliente</definition>
+        <argsstring>()</argsstring>
+        <name>getCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getCliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="57" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a2c77cfad2207d83655f79fa4b9c855c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setCliente</definition>
+        <argsstring>(Cliente cliente)</argsstring>
+        <name>setCliente</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setCliente</qualifiedname>
+        <param>
+          <type><ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_cliente" kindref="compound">Cliente</ref></type>
+          <declname>cliente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="61" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ad2cd44c24058ba85f28646d0e643c918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt; Producto &gt; es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getProductos</definition>
+        <argsstring>()</argsstring>
+        <name>getProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getProductos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="65" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a35d836e37df2f671ec255bdc2af4d0df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setProductos</definition>
+        <argsstring>(List&lt; Producto &gt; productos)</argsstring>
+        <name>setProductos</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setProductos</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1productos_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+          <declname>productos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="69" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac4de595a766294183ea38b21a70a54fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="73" column="20" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a83e55390c6e12314c595fbce39fa3915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setId</definition>
+        <argsstring>(Integer id)</argsstring>
+        <name>setId</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setId</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="77" column="17" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="77" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a6b1cd29ff37bf1c9de1d0859a0d4942d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getNumCompras</definition>
+        <argsstring>()</argsstring>
+        <name>getNumCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.getNumCompras</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="41" column="23" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a1bbec7141df9a92400bb071fb876db54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setNumCompras</definition>
+        <argsstring>(int numCompras)</argsstring>
+        <name>setNumCompras</name>
+        <qualifiedname>es.etg.daw.prog.mercadaw.model.entities.compras.Compra.setNumCompras</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numCompras</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="45" column="24" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>La clase <ref refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra" kindref="compound">Compra</ref> representa las compras realizadas por los clientes de MercaDAW. <simplesect kind="author"><para>Diego Madroñero Chamorro. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" line="12" column="7" bodyfile="/home/usuario/Documentos/mercadaw_trabajo_ev3/src/main/java/es/etg/daw/prog/mercadaw/model/entities/compras/Compra.java" bodystart="12" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a54678f280e6aff1df52aba3dbb552e6e" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>cliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1afa7b6fcdb0f733237f4446cd22fbb46d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>Compra</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1aa25f66cf39e2fd7cf880f5d85af99205" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>fecha</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a75bb593383527c238fee3bd05f610792" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>getCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a37c67d325bf2619ccd7206d12dbed0cc" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>getFecha</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac4de595a766294183ea38b21a70a54fc" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>getId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a6b1cd29ff37bf1c9de1d0859a0d4942d" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>getNumCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ad2cd44c24058ba85f28646d0e643c918" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>getProductos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1ac0fdb84664b6d39d816d90c3e125ef1a" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>id</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a8bdfffaeeb15ad2849af95b9ca7b1b66" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>numCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4a653048396e05235b2d4b5224caf6d3" prot="private" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>productos</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a2c77cfad2207d83655f79fa4b9c855c9" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>setCliente</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a4069b76afd90625fb5faeeb85723265c" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>setFecha</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a83e55390c6e12314c595fbce39fa3915" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>setId</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a1bbec7141df9a92400bb071fb876db54" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>setNumCompras</name></member>
+      <member refid="classes_1_1etg_1_1daw_1_1prog_1_1mercadaw_1_1model_1_1entities_1_1compras_1_1_compra_1a35d836e37df2f671ec255bdc2af4d0df" prot="public" virt="non-virtual"><scope>es::etg::daw::prog::mercadaw::model::entities::compras::Compra</scope><name>setProductos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

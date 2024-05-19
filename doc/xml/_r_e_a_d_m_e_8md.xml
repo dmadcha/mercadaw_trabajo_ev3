@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="es">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Mercadaw<sp/>Trabajo<sp/>Programación<sp/>3Ev</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Trabajo<sp/>de<sp/>programación<sp/>de<sp/>la<sp/>tercera<sp/>evaluación<sp/>de<sp/>Erik<sp/>Herrera,<sp/>Iván<sp/>Rafael,<sp/>Jesús<sp/>Pérez<sp/>y<sp/>Diego<sp/>Madroñero<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Información<sp/>Diseño</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">En<sp/>el<sp/>Diagrama<sp/>de<sp/>Despliegue,<sp/>el<sp/>device<sp/>Docker<sp/>está<sp/>fuera<sp/>de<sp/>la<sp/>máquina<sp/>usuario<sp/>porque<sp/>es<sp/>un<sp/>servidor<sp/>al<sp/>que<sp/>se<sp/>pueden<sp/>conectar<sp/>más<sp/>usuarios<sp/>a<sp/>la<sp/>misma<sp/>BBDD.</highlight></codeline>
+    </programlisting>
+    <location file="/home/usuario/Documentos/mercadaw_trabajo_ev3/README.md"/>
+  </compounddef>
+</doxygen>
