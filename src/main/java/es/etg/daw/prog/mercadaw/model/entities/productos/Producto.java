@@ -282,8 +282,11 @@ public abstract class Producto implements Producible {
 
         return recargoNumElementos;
     }
-
-    @Override
+    
+    /**
+     * Calcula el precio final de venta de un producto con todos los recargos aplicados.
+     * \return Un double con el precio final en euros.
+     */
     public double getPrecioFinalEuros(){
         double precioEuros = 0;
 

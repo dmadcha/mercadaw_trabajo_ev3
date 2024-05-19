@@ -14,10 +14,4 @@ public interface Producible {
      * \return Un double con el precio final de venta del
      */
     public double getPrecioVenta();
-
-    /**
-     * Calcula el precio final de venta de un producto con todos los recargos aplicados.
-     * \return Un double con el precio final en euros.
-     */
-    public double getPrecioFinalEuros();
 }
