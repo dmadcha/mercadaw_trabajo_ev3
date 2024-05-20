@@ -15,3 +15,7 @@ Iniciar la base de datos usando
 
 luego llamar al metodo iniciarBbdd (está en los test)
 y luego si quieres puedes insertar del script
+
+# Copia Scrip Sistemas
+
+Es importante comentar que no funciona correctamente las copias, debido a que nosotros estamos usando rutas relativas de nuestro propio equipo, para que funcionen correctamente se debe cambiar las rutas a la que se estime oportuno.
