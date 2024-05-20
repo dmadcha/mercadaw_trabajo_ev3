@@ -11,5 +11,7 @@ En el Diagrama de Despliegue, el device Docker está fuera de la máquina usuari
 # IMPORTANTE
 
 Iniciar la base de datos usando 
-
 `docker compose up`
+
+luego llamar al metodo iniciarBbdd (está en los test)
+y luego si quieres puedes insertar del script
