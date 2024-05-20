@@ -135,11 +135,11 @@ public class MercaDAWController extends Application{
         fichero.leer(ruta);
     }
 
-    public void getEmpleados(Empleado empleado) throws SQLException, MercaDAWException {
+    /*public void getEmpleados(Empleado empleado) throws SQLException, MercaDAWException {
         MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
         Empleado empleado2 = EmpleadoFactory.obtener("EMPLEADO", null, "Erik", "Herrera", null);
         database.insertar(empleado2);
-    }
+    }*/
 
     private void mostrarAviso(String msg, AlertType tipo){
         Alert alerta = new Alert(tipo);

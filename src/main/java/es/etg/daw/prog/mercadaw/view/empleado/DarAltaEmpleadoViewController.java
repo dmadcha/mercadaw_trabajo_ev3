@@ -120,7 +120,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
             } else {
                 this.empleados.add(empleado);
                 this.tabEmpleados.refresh();
-                controller.getEmpleados(empleado);
+                //controller.getEmpleados(empleado);
             }
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
