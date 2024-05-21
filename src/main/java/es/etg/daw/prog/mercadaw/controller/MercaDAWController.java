@@ -4,16 +4,13 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-import org.apache.poi.EmptyFileException;
-
 import es.etg.daw.prog.mercadaw.App;
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
+import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
-import es.etg.daw.prog.mercadaw.model.util.export.Util;
 import es.etg.daw.prog.mercadaw.model.util.input.Fichero;
 import es.etg.daw.prog.mercadaw.model.util.input.FicheroFactory;
 import es.etg.daw.prog.mercadaw.model.util.input.Formato;
@@ -44,8 +41,13 @@ public class MercaDAWController extends Application{
         //database.iniciarBBDD();
 
         currentStage = stage;
+
+        stage.setMinWidth(600);
+        stage.setMinHeight(500);
+
         stage.setTitle("MercaDAW");
         cargarVista(Vista.MAIN);
+
     }
 
     private ViewController cargarVista(Vista vista) throws IOException{
@@ -135,11 +137,32 @@ public class MercaDAWController extends Application{
         fichero.leer(ruta);
     }
 
-    /*public void getEmpleados(Empleado empleado) throws SQLException, MercaDAWException {
+    public List<Empleado> darAlta(Empleado empleado) throws SQLException, MercaDAWException {
         MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
-        Empleado empleado2 = EmpleadoFactory.obtener("EMPLEADO", null, "Erik", "Herrera", null);
-        database.insertar(empleado2);
-    }*/
+        database.insertar(empleado);
+
+        return database.visualizarEmpleados();
+    }
+
+    public List<Producto> darAlta(Producto producto) throws SQLException, MercaDAWException {
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        database.insertar(producto);
+
+        return database.visualizarProductos();
+    }
+
+    public String calcularPrecioVenta(Producto producto){
+        String msg ="Producto("+producto.getId()+"): "+producto.getNombre()+"\n\t"+
+                            "Precio de venta: "+producto.getPrecioVenta()+" \n\t"+
+                            "Recargo por Peso("+producto.getPorcentajePeso()+"%): "+producto.getRecargoPeso()+" \n\t"+
+                            "Recargo por Altura("+producto.getPorcentajeAltura()+"%): "+producto.getRecargoAltura()+" \n\t"+
+                            "Recargo por Anchura("+producto.getPorcentajeAnchura()+"%): "+producto.getRecargoAnchura()+" \n\t"+
+                            "Recargo por Número de Piezas("+producto.getNumElementos()+"): "+producto.getRecargoNumElementos()+" \n\n\t"+
+                            "PRECIO TOTAL: "+producto.getPrecioFinalEuros()+"€ /"+producto.getPrecioFinalDolares()+"\n\t"+
+                            "IVA("+producto.getIva()*100+"%): "+producto.getIvaCalculado();
+        
+        return msg;
+    }
 
     private void mostrarAviso(String msg, AlertType tipo){
         Alert alerta = new Alert(tipo);

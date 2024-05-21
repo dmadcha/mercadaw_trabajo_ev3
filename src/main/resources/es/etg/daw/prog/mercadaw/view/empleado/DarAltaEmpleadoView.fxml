@@ -41,7 +41,7 @@
                <children>
                   <ImageView fitHeight="28.0" fitWidth="200.0">
                      <image>
-                        <Image url="@../../Downloads/LogoMercaDAW.png" />
+                        <Image url="@../images/LogoMercaDAW.png" />
                      </image>
                   </ImageView>
                   <Button id="button" fx:id="btnDarAltaEmple" mnemonicParsing="false" onMouseClicked="#accesoDarAltaEmple" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Dar de Alta" GridPane.rowIndex="3">
@@ -158,10 +158,10 @@
          <children>
             <TableView id="table-view" fx:id="tabEmpleados" prefHeight="117.0" prefWidth="505.0" stylesheets="@../css/table.css">
               <columns>
-                <TableColumn id="table-cell" fx:id="colCodigo" prefWidth="75.0" text="Codigo" />
-                <TableColumn id="table-cell" fx:id="colNombre" prefWidth="75.0" text="Nombre" />
-                  <TableColumn id="table-cell" fx:id="colApellidos" prefWidth="92.0" text="Apellidos" />
-                  <TableColumn id="table-cell" fx:id="colCategoria" prefWidth="106.0" text="Categoria" />
+                <TableColumn id="table-cell" fx:id="colCodigoEmple" prefWidth="75.0" text="Codigo" />
+                <TableColumn id="table-cell" fx:id="colNombre" prefWidth="238.0" text="Nombre" />
+                  <TableColumn id="table-cell" fx:id="colApellidos" prefWidth="393.0" text="Apellidos" />
+                  <TableColumn id="table-cell" fx:id="colCategoria" prefWidth="201.0" text="Categoria" />
               </columns>
                <GridPane.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
@@ -174,8 +174,8 @@
                   <TableColumn id="table-cell" fx:id="colSalNeto" prefWidth="102.0" text="Salario Neto" />
                   <TableColumn id="table-cell" fx:id="colTotalNomina" prefWidth="114.0" text="Total Nomina" />
                   <TableColumn id="table-cell" fx:id="colAportacionSal" prefWidth="155.0" text="Aportacion Salarial" />
-                  <TableColumn id="table-cell" fx:id="colIndemnizacion" prefWidth="119.0" text="Indemnizacion" />
-                  <TableColumn id="table-cell" fx:id="colTotalCosteLab" prefWidth="231.0" text="Total Coste Laboral" />
+                  <TableColumn id="table-cell" fx:id="colIndemnizacion" prefWidth="154.0" text="Indemnizacion" />
+                  <TableColumn id="table-cell" fx:id="colTotalCosteLab" prefWidth="196.0" text="Total Coste Laboral" />
                </columns>
                <GridPane.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
