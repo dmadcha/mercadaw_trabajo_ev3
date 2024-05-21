@@ -1,8 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.util.export;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  * La clase Util sirve para exportar un documento usando pandoc y getUser() y getGrupo().
