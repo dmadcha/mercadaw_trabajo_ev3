@@ -1,11 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.productos;
 
-import java.sql.SQLException;
-
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 public class ProductoFactory {
-    public static Producto obtener(String tipoString, Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion) throws MercaDAWException, SQLException{
+    public static Producto obtener(String tipoString, Integer id, String nombre, String marca, double altura, double anchura, double peso, int numElementos, int stock, double precio, String descripcion) throws MercaDAWException{
         
         TipoProducto tipoProducto;
         try {

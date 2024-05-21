@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.ResourceBundle;
 
-
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;
@@ -128,6 +127,15 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     public void initialize(URL location, ResourceBundle resources) {
         choiceCategoria.getItems().setAll(TipoProducto.values());
         iniciarTabla();
+        try {
+            insertar(controller.cargarTablaProducto());
+        } catch (Exception e) {
+            //TODO: MENSAJE ERROR (CARGA INICAL DE LA TABLA FALLIDA)
+        }
+    }
+    public void insertar(List<Producto> produts){
+        this.productos.setAll(produts);
+        this.tabProductos.setItems(productos);
     }
 
     @FXML
@@ -152,7 +160,7 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     }
 
     @FXML
-    void addProducto(MouseEvent event) throws SQLException, MercaDAWException{
+    void addProducto(MouseEvent event) throws MercaDAWException{
         try {
 
             String nombre = txfNombre.getText();
@@ -174,8 +182,7 @@ public class DarAltaProductoViewController extends ViewController implements Ini
             if (productos.contains(producto)) {
                 mostrarAviso(MSG_ERROR, AlertType.ERROR);
             } else {
-                this.productos.setAll(productosDb);
-                this.tabProductos.setItems(productos);
+                insertar(productosDb);
             }
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);

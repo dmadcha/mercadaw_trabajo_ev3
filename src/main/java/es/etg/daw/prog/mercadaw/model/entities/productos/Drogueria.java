@@ -1,7 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.entities.productos;
 
-import java.sql.SQLException;
-
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
@@ -22,11 +20,10 @@ public class Drogueria extends Producto{
      * \param Stock del producto
      * \param Precio del producto
      * \param Descripcion del producto
-     * @throws MercaDAWException 
-     * @throws SQLException 
+     * \throws MercaDAWException 
      */
     public Drogueria(Integer id, String nombre, String marca, double altura, double anchura, double peso,
-            int numElementos, int stock, double precio, String descripcion) throws SQLException, MercaDAWException {
+            int numElementos, int stock, double precio, String descripcion) throws MercaDAWException {
         super(id, nombre, marca, altura, anchura, peso, numElementos, stock, precio, descripcion);
         this.iva = IVA_DROG;
     }

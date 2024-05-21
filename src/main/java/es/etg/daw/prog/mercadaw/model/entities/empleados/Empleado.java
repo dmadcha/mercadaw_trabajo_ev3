@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
-import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -37,10 +36,9 @@ public class Empleado implements Contratable {
      * \param Nombre del empleado
      * \param Apellidos del empleado
      * \param Fecha de contratación del empleado
-     * @throws MercaDAWException 
-     * @throws SQLException 
+     * \throws MercaDAWException 
      */
-    public Empleado(Integer id, String nombre, String apellidos, Date fechaInicio) throws SQLException, MercaDAWException {
+    public Empleado(Integer id, String nombre, String apellidos, Date fechaInicio) throws MercaDAWException {
         
         if (id == null) {
             db = MercaDAOFactory.obtener(Database.ORACLE);

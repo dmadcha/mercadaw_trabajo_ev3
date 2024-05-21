@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
-import java.sql.SQLException;
 
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
@@ -19,10 +18,9 @@ public class EmpleadoFactory {
      * \param Los apellidos del empleado 
      * \param La fecha de contratación del empleado
      * \return Un empleado
-     * \throws MercaDAWException
-     * @throws SQLException 
+     * \throws MercaDAWException 
      */
-    public static Empleado obtener(String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio) throws MercaDAWException, SQLException{
+    public static Empleado obtener(String tipoString, Integer id, String nombre, String apellidos, Date fechaInicio) throws MercaDAWException{
         
         TipoEmpleado tipoEmpleado;
         try {

@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
-import java.sql.SQLException;
 
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
@@ -18,9 +17,9 @@ public class Encargado extends Empleado{
      * \param Nombre del empleado
      * \param Apellidos del empleado
      * \param Fecha de contratación del empleado
-     * @throws MercaDAWException 
+     * \throws MercaDAWException  
      */
-    public Encargado(Integer id, String nombre, String apellidos, Date fechaInicio) throws SQLException, MercaDAWException {
+    public Encargado(Integer id, String nombre, String apellidos, Date fechaInicio) throws MercaDAWException {
         super(id, nombre, apellidos, fechaInicio);
         this.sueldo = SUELDO_ENCAR;
     }
