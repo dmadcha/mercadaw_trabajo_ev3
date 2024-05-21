@@ -37,7 +37,7 @@
                <children>
                   <ImageView fitHeight="28.0" fitWidth="200.0">
                      <image>
-                        <Image url="@../../Downloads/LogoMercaDAW.png" />
+                        <Image url="@../images/LogoMercaDAW.png" />
                      </image>
                   </ImageView>
                   <Button id="button" fx:id="btnExportarDatos" mnemonicParsing="false" onMouseClicked="#accesoExportarDatos" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Exportar Datos" GridPane.rowIndex="3">

@@ -44,11 +44,6 @@
                         <Image url="@../images/LogoMercaDAW.png" />
                      </image>
                   </ImageView>
-                  <Button id="button" fx:id="btnDarAltaEmple" mnemonicParsing="false" onMouseClicked="#accesoDarAltaEmple" prefHeight="25.0" prefWidth="180.0" stylesheets="@../css/buttons-sidebar.css" text="Dar de Alta" GridPane.rowIndex="3">
-                     <GridPane.margin>
-                        <Insets left="10.0" />
-                     </GridPane.margin>
-                  </Button>
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="209.0" text="Gestión de Empleados" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2">
                      <font>
                         <Font name="System Bold" size="14.0" />
