@@ -15,7 +15,11 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
  * \author Diego Madroñero Chamorro.
  */
 public class Compra {
-    private static int numCompras;
+
+    public static final String ATT_ID_COMP = "id";
+    public static final String ATT_FECH_COMP = "fecha";
+
+    public static int numCompras;
 
     private MercaDAO db;
     private Integer id;
