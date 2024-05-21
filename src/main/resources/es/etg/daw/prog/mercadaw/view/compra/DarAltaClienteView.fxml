@@ -43,7 +43,7 @@
                         <Image url="@../images/LogoMercaDAW.png" />
                      </image>
                   </ImageView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="209.0" text="Gestión de Compras" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2">
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="209.0" text="Gestión de Clientes" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.rowIndex="2">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
@@ -59,7 +59,7 @@
                   </Button>
                   <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                      <center>
-                        <Button id="button" fx:id="btnGestionClientes" mnemonicParsing="false" onMouseClicked="#accesoDarAltaClientes" prefHeight="28.0" prefWidth="157.0" stylesheets="@../css/buttons-sidebar.css" text="Gestión Clientes" BorderPane.alignment="CENTER" />
+                        <Button id="button" fx:id="btnGestionCompras" mnemonicParsing="false" onMouseClicked="#accesoDarAltaCompras" prefHeight="28.0" prefWidth="157.0" stylesheets="@../css/buttons-sidebar.css" text="Gestión Compras" BorderPane.alignment="CENTER" />
                      </center>
                   </BorderPane>
                </children>
@@ -81,9 +81,9 @@
                <children>
                   <GridPane prefHeight="120.0" prefWidth="782.0">
                     <columnConstraints>
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="336.0" minWidth="10.0" prefWidth="74.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="336.0" minWidth="10.0" prefWidth="168.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="552.0" minWidth="10.0" prefWidth="547.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="336.0" minWidth="0.0" prefWidth="0.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="427.0" minWidth="10.0" prefWidth="140.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="577.0" minWidth="10.0" prefWidth="577.0" />
                     </columnConstraints>
                     <rowConstraints>
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -92,30 +92,34 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <TextField id="txf" fx:id="txfCodCliente" prefHeight="28.0" prefWidth="444.0" stylesheets="@../css/textfield.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                        <Label prefHeight="16.0" prefWidth="195.0" text="Codigo Cliente" textFill="#007c4f" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                        <TextField id="txf" fx:id="txfNombCliente" prefHeight="28.0" prefWidth="444.0" stylesheets="@../css/textfield.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Label prefHeight="16.0" prefWidth="195.0" text="Nombre" textFill="#007c4f" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Label>
-                        <TextField id="txf" fx:id="txfCodProducto" prefHeight="26.0" prefWidth="450.0" stylesheets="@../css/textfield.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                        <Label prefHeight="16.0" prefWidth="195.0" text="Codigo Producto" textFill="#007c4f" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <Label prefHeight="18.0" prefWidth="153.0" text="Correo Electrónico" textFill="#007c4f" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Label>
+                        <Label prefHeight="16.0" prefWidth="195.0" text="Código Postal" textFill="#007c4f" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField id="txf" fx:id="txfCorreoCliente" layoutX="128.0" layoutY="42.0" prefHeight="26.0" prefWidth="259.0" stylesheets="@../css/textfield.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <TextField id="txf" fx:id="txfCodPostalCliente" layoutX="128.0" layoutY="71.0" prefHeight="28.0" prefWidth="444.0" stylesheets="@../css/textfield.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
                </children>
             </FlowPane>
             <TableView id="table-view" fx:id="tabCompras" prefHeight="269.0" prefWidth="721.0" stylesheets="@../css/table.css" GridPane.rowIndex="1">
               <columns>
-                <TableColumn id="table-cell" fx:id="colCodigoComp" prefWidth="78.0" text="Compra" />
-                <TableColumn id="table-cell" fx:id="colCodigoCli" minWidth="4.0" prefWidth="75.0" text="Cliente" />
-                  <TableColumn id="table-cell" fx:id="colNombCli" prefWidth="224.0" text="Nombre Cliente" />
-                  <TableColumn id="table-cell" fx:id="colCodigoProd" minWidth="4.0" prefWidth="91.0" text="Producto" />
-                  <TableColumn id="table-cell" fx:id="colNombProd" prefWidth="156.0" text="Nombre Producto" />
-                  <TableColumn id="table-cell" fx:id="colFecha" minWidth="0.0" prefWidth="196.0" text="Fecha de Compra" />
+                <TableColumn id="table-cell" fx:id="colCodigoComp" prefWidth="78.0" text="Codigo" />
+                <TableColumn id="table-cell" fx:id="colCodigoCli" minWidth="4.0" prefWidth="225.0" text="Nombre" />
+                  <TableColumn id="table-cell" fx:id="colNombCli" prefWidth="338.0" text="Correo" />
+                  <TableColumn id="table-cell" fx:id="colCodigoProd" minWidth="4.0" prefWidth="170.0" text="Código Postal" />
               </columns>
                <GridPane.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -123,7 +127,7 @@
             </TableView>
             <BorderPane prefHeight="118.0" prefWidth="567.0" GridPane.rowIndex="2">
                <center>
-                  <Button id="button" fx:id="btnAnadirCompra" mnemonicParsing="false" onMouseClicked="#addCompra" prefHeight="28.0" prefWidth="120.0" stylesheets="@../css/buttons-sidebar.css" text="Añadir" BorderPane.alignment="CENTER" />
+                  <Button id="button" fx:id="btnAnadirCliente" mnemonicParsing="false" onMouseClicked="#addCliente" prefHeight="28.0" prefWidth="120.0" stylesheets="@../css/buttons-sidebar.css" text="Añadir" BorderPane.alignment="CENTER" />
                </center>
             </BorderPane>
          </children>
