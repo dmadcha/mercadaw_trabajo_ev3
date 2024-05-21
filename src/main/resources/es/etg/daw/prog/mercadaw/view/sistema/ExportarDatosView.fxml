@@ -98,7 +98,7 @@
                   </TextField>
                   <BorderPane GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <center>
-                        <Label text="Extensión / TIpo Archivo" textFill="#007c4f">
+                        <Label text="Extensión / Tipo Archivo" textFill="#007c4f">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font>

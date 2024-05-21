@@ -121,11 +121,9 @@ public class DarAltaCompraViewController extends ViewController implements Initi
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        iniciarTablaCompras();
         iniciarTablaProductos();
         try {
             insertarProductos(controller.cargarTablaProducto());
-            insertarCompras(controller.cargarTablaCompra());
 
         } catch (Exception e) {
             //TODO: MENSAJE ERROR (CARGA INICAL DE LA TABLA FALLIDA)
@@ -138,16 +136,6 @@ public class DarAltaCompraViewController extends ViewController implements Initi
     public void insertarCompras(List<Compra> comprs){
         this.compras.setAll(comprs);
         this.tabCompras.setItems(compras);
-    }
-
-    public void iniciarTablaCompras(){
-        compras = FXCollections.observableArrayList();
-
-        this.colCodigoComp.setCellValueFactory(new PropertyValueFactory<>(Compra.ATT_ID_COMP));
-        this.colCodigoCli.setCellValueFactory(new PropertyValueFactory<>(Cliente.ATT_ID_CLI));
-        this.colCodigoProdCompra.setCellValueFactory(new PropertyValueFactory<>(Producto.ATT_ID));
-        this.colFecha.setCellValueFactory(new PropertyValueFactory<>(Compra.ATT_FECH_COMP));
-
     }
 
     public void iniciarTablaProductos(){
