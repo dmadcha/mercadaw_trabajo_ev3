@@ -1,5 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.util.export;
 
+import java.io.IOException;
 
 /**
  * La interfaz ExportableUtil nos permitira que la clase Util pueda 
@@ -9,6 +10,6 @@ package es.etg.daw.prog.mercadaw.model.util.export;
 public interface ExportableUtil {
 
   public void exportar(String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt) throws Exception;
-  public String getUser() throws Exception;
-  public String getGrupo() throws Exception;
+
+  public String ejecutarComando(String[] comando) throws IOException, InterruptedException;
 } 

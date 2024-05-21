@@ -13,42 +13,33 @@ public class Util implements ExportableUtil {
     @Override
     public void exportar(String nombreArcSal, String nombreArcEnt, String extension, String rutaArcEnt) throws Exception{
         
-        String[] command = {
-            "sudo", "docker", "run", "--rm",
-            "--volume", rutaArcEnt + ":/data",
-            "--user", getUser() + ":" + getGrupo(),
-            "pandoc/extra", nombreArcEnt, "-o", nombreArcSal.format(nombreArcSal, extension)
-        };
-
+        String[] user = {"id", "-u"};
+        String[] grupo = {"id", "-g"};
         try {
-            Runtime.getRuntime().exec(command);
-                
-        } catch (IOException e) {
-            e.printStackTrace();   
+            String userId = this.ejecutarComando(user).trim();
+            String groupId = this.ejecutarComando(grupo).trim();
+    
+            String[] commando = {
+                "docker", "run", "--rm",
+                "--volume", rutaArcEnt + ":/data",
+                "--user", userId + ":" + groupId,
+                "pandoc/extra", nombreArcEnt, "-o", nombreArcSal + "." + extension
+            };
+    
+            ProcessBuilder processBuilder = new ProcessBuilder(commando);
+            Process proceso = processBuilder.start();
+    
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
-    // Método para obtener el ID del usuario actual
     @Override
-    public String getUser() throws Exception{
-
-        String[] command = {"id", "-u"};
-        Process process = Runtime.getRuntime().exec(command);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-
-        return reader.readLine();
-        
+    public String ejecutarComando(String[] ejec) throws IOException, InterruptedException {
+        Process proceso = Runtime.getRuntime().exec(ejec);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
+        StringBuilder salida = new StringBuilder();
+    
+        return salida.toString();
     }
-
-    // Método para obtener el ID del grupo actual
-    @Override
-    public String getGrupo() throws Exception{
-        
-        String[] command = {"id", "-g"};
-        Process process = Runtime.getRuntime().exec(command);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-
-        return reader.readLine();
-    }
-
 }
