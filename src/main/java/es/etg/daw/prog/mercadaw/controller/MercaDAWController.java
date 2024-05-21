@@ -11,6 +11,7 @@ import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoDespido;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
@@ -198,6 +199,15 @@ public class MercaDAWController extends Application{
                             "PRECIO TOTAL: "+producto.getPrecioFinalEuros()+"€ /"+producto.getPrecioFinalDolares()+"\n\t"+
                             "IVA("+producto.getIva()*100+"%): "+producto.getIvaCalculado();
         
+        return msg;
+    }
+
+    public String calcularNomina(Empleado empleado, TipoDespido despido){
+        String msg ="Empleado("+empleado.getId()+"): "+empleado.getNombre()+"\n\t"+
+                        "Salario Bruto: "+empleado.getSalarioBruto()+"\n\t"+
+                        "Salario Neto: "+empleado.getSalarioNeto()+"\n\t"+
+                        "Aportaciones SS del empresario: "+empleado.getAportaciones()+"\n\t"+
+                        "Indemniazción: "+empleado.getIndemnizacion(despido);
         return msg;
     }
 

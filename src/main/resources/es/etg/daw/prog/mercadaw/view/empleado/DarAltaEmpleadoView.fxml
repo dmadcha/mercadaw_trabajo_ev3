@@ -9,9 +9,11 @@
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.GridPane?>
@@ -140,18 +142,19 @@
             </Button>
          </children>
       </GridPane>
-      <GridPane prefHeight="380.0" prefWidth="965.0">
+      <GridPane prefHeight="360.0" prefWidth="965.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="917.0" minWidth="10.0" prefWidth="917.0" />
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="0.0" prefWidth="0.0" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="151.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="131.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="209.0" minHeight="10.0" prefHeight="154.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="162.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TableView id="table-view" fx:id="tabEmpleados" prefHeight="117.0" prefWidth="505.0" stylesheets="@../css/table.css">
+            <TableView id="table-view" fx:id="tabEmpleados" onMouseClicked="#seleccionarEmpleado" prefHeight="152.0" prefWidth="921.0" stylesheets="@../css/table.css">
               <columns>
                 <TableColumn id="table-cell" fx:id="colCodigoEmple" prefWidth="75.0" text="Codigo" />
                 <TableColumn id="table-cell" fx:id="colNombre" prefWidth="238.0" text="Nombre" />
@@ -162,20 +165,32 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </GridPane.margin>
             </TableView>
-            <TableView id="table-view" fx:id="tabNomina" prefHeight="117.0" prefWidth="682.0" stylesheets="@../css/table.css" GridPane.rowIndex="1">
-               <columns>
-                  <TableColumn id="table-cell" fx:id="colCodigo" prefWidth="75.0" styleClass="table.css" text="Codigo" />
-                  <TableColumn id="table-cell" fx:id="colSalBruto" prefWidth="110.0" text="Salario Bruto" />
-                  <TableColumn id="table-cell" fx:id="colSalNeto" prefWidth="102.0" text="Salario Neto" />
-                  <TableColumn id="table-cell" fx:id="colTotalNomina" prefWidth="114.0" text="Total Nomina" />
-                  <TableColumn id="table-cell" fx:id="colAportacionSal" prefWidth="155.0" text="Aportacion Salarial" />
-                  <TableColumn id="table-cell" fx:id="colIndemnizacion" prefWidth="154.0" text="Indemnizacion" />
-                  <TableColumn id="table-cell" fx:id="colTotalCosteLab" prefWidth="196.0" text="Total Coste Laboral" />
-               </columns>
-               <GridPane.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </GridPane.margin>
-            </TableView>
+            <TextArea fx:id="txaNominaEmpleado" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+            <GridPane GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="306.0" minWidth="10.0" prefWidth="164.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="306.0" minWidth="10.0" prefWidth="135.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="603.0" minWidth="10.0" prefWidth="235.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="278.0" minWidth="10.0" prefWidth="254.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="278.0" minWidth="10.0" prefWidth="181.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <BorderPane GridPane.columnIndex="3">
+                     <center>
+                        <Button id="button" fx:id="btnCalcularNomina" mnemonicParsing="false" onMouseClicked="#calcularNomina" prefHeight="28.0" prefWidth="190.0" stylesheets="@../css/buttons-sidebar.css" text="Calcular Nómina" />
+                     </center>
+                  </BorderPane>
+                  <Label prefHeight="18.0" prefWidth="148.0" text="Tipo Despido:" textFill="#007c4f" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox id="box" fx:id="choiceDespido" prefHeight="28.0" prefWidth="202.0" stylesheets="@../css/choice-box.css" GridPane.columnIndex="2" />
+               </children>
+            </GridPane>
          </children>
       </GridPane>
    </children>
