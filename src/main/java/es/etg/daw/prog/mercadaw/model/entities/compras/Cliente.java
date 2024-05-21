@@ -14,7 +14,11 @@ public class Cliente {
 
     public static final String ATT_ID_CLI = "id";
     public static final String ATT_NOMB_CLI = "nombre";
+    public static final String ATT_CORR_CLI = "correo";
+    public static final String ATT_CODP_CLI = "codPostal";
     
+
+
     private static int numClientes;
     private MercaDAO db;
 

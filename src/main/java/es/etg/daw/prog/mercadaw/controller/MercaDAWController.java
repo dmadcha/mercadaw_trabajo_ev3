@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.controller;
 
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 
 import es.etg.daw.prog.mercadaw.App;
@@ -19,6 +18,7 @@ import es.etg.daw.prog.mercadaw.model.util.input.Formato;
 import es.etg.daw.prog.mercadaw.view.MainViewController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import es.etg.daw.prog.mercadaw.view.Vista;
+import es.etg.daw.prog.mercadaw.view.compra.DarAltaClienteViewController;
 import es.etg.daw.prog.mercadaw.view.compra.DarAltaCompraViewController;
 import es.etg.daw.prog.mercadaw.view.empleado.DarAltaEmpleadoViewController;
 import es.etg.daw.prog.mercadaw.view.producto.DarAltaProductoViewController;
@@ -63,13 +63,15 @@ public class MercaDAWController extends Application{
         } else if (Vista.DAR_ALTA_PROD == vista) {
             controller = fxmlLoader.<DarAltaProductoViewController>getController();         
         } else if (Vista.DAR_ALTA_EMPLE == vista) {
-            controller = fxmlLoader.<DarAltaEmpleadoViewController>getController();        
-        } else if (Vista.CARGA_DATOS == vista) {
-            controller = fxmlLoader.<CargaDatosViewController>getController();               
+            controller = fxmlLoader.<DarAltaEmpleadoViewController>getController();                     
         } else if (Vista.DAR_ALTA_COMP == vista) {
-            controller = fxmlLoader.<DarAltaCompraViewController>getController();     
+            controller = fxmlLoader.<DarAltaCompraViewController>getController();  
+        } else if (Vista.DAR_ALTA_CLIENT == vista) {
+            controller = fxmlLoader.<DarAltaClienteViewController>getController();     
         } else if (Vista.EXPORTAR_DATOS == vista) {
             controller = fxmlLoader.<ExportarDatosViewController>getController();   
+        } else if (Vista.CARGA_DATOS == vista) {
+            controller = fxmlLoader.<CargaDatosViewController>getController();   
         }
 
         controller.setMercaDAWController(this);
@@ -104,6 +106,13 @@ public class MercaDAWController extends Application{
     public void cargarCompras() {
         try {
             cargarVista(Vista.DAR_ALTA_COMP);
+        } catch (Exception e) {
+            mostrarAviso(MSG_ERROR, AlertType.ERROR);
+        }
+    }
+    public void cargarClientes() {
+        try {
+            cargarVista(Vista.DAR_ALTA_CLIENT);
         } catch (Exception e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
         }
