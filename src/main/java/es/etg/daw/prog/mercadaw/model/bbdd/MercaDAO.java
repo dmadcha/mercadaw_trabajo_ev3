@@ -1,6 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
