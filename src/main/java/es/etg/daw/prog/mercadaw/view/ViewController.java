@@ -37,4 +37,6 @@ public abstract class ViewController {
     void salir(MouseEvent event) {
         controller.cargarApp();
     }
+
+    
 }

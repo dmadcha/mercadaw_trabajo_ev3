@@ -7,8 +7,6 @@ import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_15;
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_5;
 
-import java.sql.SQLException;
-
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
@@ -59,11 +57,10 @@ public abstract class Producto implements Producible {
      * \param Stock del producto
      * \param Precio del producto
      * \param Descripcion del producto
-     * @throws MercaDAWException 
-     * @throws SQLException 
+     * \throws MercaDAWException 
      */
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
-            double peso, int numElementos, int stock, double precio, String descripcion) throws SQLException, MercaDAWException {
+            double peso, int numElementos, int stock, double precio, String descripcion) throws MercaDAWException {
 
         if (id == null) {
             db = MercaDAOFactory.obtener(Database.ORACLE);

@@ -144,7 +144,7 @@ public class MercaDAWController extends Application{
         return database.visualizarEmpleados();
     }
 
-    public List<Producto> darAlta(Producto producto) throws SQLException, MercaDAWException {
+    public List<Producto> darAlta(Producto producto) throws MercaDAWException {
         MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
         database.insertar(producto);
 
@@ -162,6 +162,16 @@ public class MercaDAWController extends Application{
                             "IVA("+producto.getIva()*100+"%): "+producto.getIvaCalculado();
         
         return msg;
+    }
+
+    public List<Empleado> cargarTablaEmpleado() throws MercaDAWException{
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        return database.visualizarEmpleados();
+    }
+
+    public List<Producto> cargarTablaProducto() throws MercaDAWException{
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        return database.visualizarProductos();
     }
 
     private void mostrarAviso(String msg, AlertType tipo){

@@ -27,7 +27,7 @@ public class Util implements ExportableUtil {
             };
     
             ProcessBuilder processBuilder = new ProcessBuilder(commando);
-            Process proceso = processBuilder.start();
+            processBuilder.start();
     
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
@@ -36,8 +36,7 @@ public class Util implements ExportableUtil {
 
     @Override
     public String ejecutarComando(String[] ejec) throws IOException, InterruptedException {
-        Process proceso = Runtime.getRuntime().exec(ejec);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
+        Runtime.getRuntime().exec(ejec);
         StringBuilder salida = new StringBuilder();
     
         return salida.toString();

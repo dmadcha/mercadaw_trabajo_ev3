@@ -31,7 +31,6 @@ import javafx.scene.input.MouseEvent;
  * \author Erik Herrera Llamas, Diego Madroñero, Jesús Pérez 
  */
 public class DarAltaEmpleadoViewController extends ViewController implements Initializable{
-    
     private ObservableList<Empleado> empleados;
 
     @FXML
@@ -93,6 +92,23 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         controller.cargarEmpleados();
     }
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources){
+        choiceCategoria.getItems().setAll(TipoEmpleado.values());
+        iniciarTabla();
+        try {
+            insertar(controller.cargarTablaEmpleado());
+        } catch (Exception e) {
+            //TODO: MENSAJE ERROR (CARGA INICAL DE LA TABLA FALLIDA)
+        }        
+    }
+
+    public void insertar(List<Empleado> empls){
+        this.empleados.setAll(empls);
+        this.tabEmpleados.setItems(empleados);
+    }
+    
+
     @FXML
     public void iniciarTabla() {
 
@@ -118,18 +134,11 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
             if (empleados.contains(empleado)) {
                 mostrarAviso(MSG_ERROR, AlertType.ERROR);
             } else {
-                this.empleados.setAll(empleadosBd);
-                this.tabEmpleados.setItems(empleados);
+                insertar(empleadosBd);
             }
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
         }
-    }
-    
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        choiceCategoria.getItems().setAll(TipoEmpleado.values());
-        iniciarTabla();
     }
 }
 

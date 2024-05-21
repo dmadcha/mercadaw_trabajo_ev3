@@ -15,7 +15,7 @@ import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
-import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 
 /**
@@ -61,16 +61,21 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
     }
 
     @Override
-    public void iniciarBBDD() throws SQLException{
-        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
-        Statement st = connection.createStatement();
+    public void iniciarBBDD() throws BBDDException{
+        try {
+            MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+            Statement st = connection.createStatement();
 
-        bbdd.crearEmpleados(st);
-        bbdd.crearClientes(st);
-        bbdd.crearProductos(st);
-        bbdd.crearCompras(st);
+            bbdd.crearEmpleados(st);
+            bbdd.crearClientes(st);
+            bbdd.crearProductos(st);
+            bbdd.crearCompras(st);
+            
+            st.close();
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
         
-        st.close();
     }
        
     /**
@@ -171,101 +176,117 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
 
     @Override
-    public int insertar(Empleado emp) throws SQLException{
+    public int insertar(Empleado emp) throws BBDDException{
         int numRegistrosActualizados = 0;
         final String SQL = "INSERT INTO Empleados VALUES (?, ?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(SQL);
+        try {
+            PreparedStatement ps = connection.prepareStatement(SQL);
 
-        ps.setInt(1, emp.getId());
-        ps.setString(2, emp.getNombre());
-        ps.setString(3, emp.getApellidos());
-        ps.setString(4, emp.toString());
-        ps.setDate(5, emp.getFechaInicio());
-    
+            ps.setInt(1, emp.getId());
+            ps.setString(2, emp.getNombre());
+            ps.setString(3, emp.getApellidos());
+            ps.setString(4, emp.toString());
+            ps.setDate(5, emp.getFechaInicio());
+        
 
-        numRegistrosActualizados = ps.executeUpdate();
-        ps.close();
+            numRegistrosActualizados = ps.executeUpdate();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
 
         return numRegistrosActualizados;
     }
 
     @Override
-    public int insertar(Producto prod) throws SQLException{
+    public int insertar(Producto prod) throws BBDDException{
         int numRegistrosActualizados = 0;
         final String SQL = "INSERT INTO Productos VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(SQL);
+        
+        try {
+            PreparedStatement ps = connection.prepareStatement(SQL);
 
-        ps.setInt(1, prod.getId());
-        ps.setString(2, prod.getNombre());
-        ps.setString(3, prod.getMarca());
-        ps.setDouble(4, prod.getAltura());
-        ps.setDouble(5, prod.getAnchura());
-        ps.setDouble(6, prod.getPeso());
-        ps.setInt(7, prod.getNumElementos());
-        ps.setInt(8, prod.getStock());
-        ps.setDouble(9, prod.getPrecio());
-        ps.setString(10, prod.getDescripcion());
-        ps.setString(11, prod.toString());
+            ps.setInt(1, prod.getId());
+            ps.setString(2, prod.getNombre());
+            ps.setString(3, prod.getMarca());
+            ps.setDouble(4, prod.getAltura());
+            ps.setDouble(5, prod.getAnchura());
+            ps.setDouble(6, prod.getPeso());
+            ps.setInt(7, prod.getNumElementos());
+            ps.setInt(8, prod.getStock());
+            ps.setDouble(9, prod.getPrecio());
+            ps.setString(10, prod.getDescripcion());
+            ps.setString(11, prod.toString());
 
-        numRegistrosActualizados = ps.executeUpdate();
-        ps.close();
+            numRegistrosActualizados = ps.executeUpdate();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
 
         return numRegistrosActualizados;
     }
 
     @Override
-    public int insertar(Compra compra) throws SQLException{
+    public int insertar(Compra compra) throws BBDDException{
         
         final String SQL = "INSERT INTO Compras VALUES (?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(SQL);
 
         int numRegistrosActualizados = 0;
 
-        /**
-         * Esta variable se usa para poner la id de los productos de dentro de la lista
-         */
         int id = compra.getId();
 
-        ps.setDate(2, compra.getFecha());
-        ps.setInt(3, compra.getCliente().getId());
+        try {
+            PreparedStatement ps = connection.prepareStatement(SQL);
 
-        for (int i = 0; i < compra.getProductos().size(); i ++) {
+            ps.setDate(2, compra.getFecha());
+            ps.setInt(3, compra.getCliente().getId());
 
-            ps.setInt(1, id+1);
-            ps.setInt(4, compra.getProductos().get(i).getId());
+            for (int i = 0; i < compra.getProductos().size(); i ++) {
+
+                ps.setInt(1, id+1);
+                ps.setInt(4, compra.getProductos().get(i).getId());
+                
+                numRegistrosActualizados += ps.executeUpdate();
+
+                id++;
+            }
             
-            numRegistrosActualizados += ps.executeUpdate();
-
-            id++;
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
         }
-        
-        ps.close();
 
         return numRegistrosActualizados;
     }
 
     @Override
-    public int insertar(Cliente client) throws SQLException{
+    public int insertar(Cliente client) throws BBDDException{
         
         final String SQL = "INSERT INTO Clientes VALUES (?, ?, ?, ?)";
-        PreparedStatement ps = connection.prepareStatement(SQL);
         int numRegistrosActualizados = -1;
-
-        ps.setInt(1, client.getId());
-        ps.setString(2, client.getNombre());
-        ps.setString(3, client.getCorreo());
-        ps.setInt(4, client.getCodPostal());
-        
+        try {
+            PreparedStatement ps = connection.prepareStatement(SQL);
         
 
-        numRegistrosActualizados = ps.executeUpdate();
-        ps.close();
+            ps.setInt(1, client.getId());
+            ps.setString(2, client.getNombre());
+            ps.setString(3, client.getCorreo());
+            ps.setInt(4, client.getCodPostal());
+            
+            
+
+            numRegistrosActualizados = ps.executeUpdate();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
 
         return numRegistrosActualizados;
     }
 
     @Override
-    public Producto visualizarProducto(int id)throws SQLException, MercaDAWException {
+    public Producto visualizarProducto(int id)throws BBDDException {
 
         final String QUERY = "SELECT "+PROD_ID+", "+PROD_NOMB+", "+PROD_MARC+", "+PROD_DESC+", "+PROD_CATE+", "
                                 +PROD_ALTU+", "+PROD_PREC+", "+PROD_ANCH+", "+PROD_PESO+", "+PROD_ELEM+", "+PROD_STOK+
@@ -273,183 +294,212 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
         Producto producto = null;
 
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ps.setInt(1, id);
-        ResultSet rs = ps.executeQuery();
-        while(rs.next()){
+        try {
+            PreparedStatement ps = connection.prepareStatement(QUERY);
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()){
 
-            String nombre = rs.getString(PROD_NOMB);
-            String marca = rs.getString(PROD_MARC);
-            String descr = rs.getString(PROD_DESC);
-            String cate = rs.getString(PROD_CATE);
-            double altu = rs.getDouble(PROD_ALTU);
-            double anchu = rs.getDouble(PROD_ANCH);
-            double peso = rs.getDouble(PROD_PESO);
-            double precio = rs.getDouble(PROD_PREC);
-            int num_elementos = rs.getInt(PROD_ELEM);
-            int stock = rs.getInt(PROD_STOK);
+                String nombre = rs.getString(PROD_NOMB);
+                String marca = rs.getString(PROD_MARC);
+                String descr = rs.getString(PROD_DESC);
+                String cate = rs.getString(PROD_CATE);
+                double altu = rs.getDouble(PROD_ALTU);
+                double anchu = rs.getDouble(PROD_ANCH);
+                double peso = rs.getDouble(PROD_PESO);
+                double precio = rs.getDouble(PROD_PREC);
+                int num_elementos = rs.getInt(PROD_ELEM);
+                int stock = rs.getInt(PROD_STOK);
 
-            
-            producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
+                
+                producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
+            }
+
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
         }
-
-        rs.close();
-        ps.close();
 
         return producto;
     }
 
     @Override
-    public List<Producto> visualizarProductos() throws SQLException, MercaDAWException{
+    public List<Producto> visualizarProductos() throws BBDDException{
 
         final String QUERY = "SELECT "+PROD_ID+", "+PROD_NOMB+", "+PROD_MARC+", "+PROD_DESC+", "+PROD_CATE+", "
                             +PROD_ALTU+", "+PROD_PREC+", "+PROD_ANCH+", "+PROD_PESO+", "+PROD_ELEM+", "+PROD_STOK+" FROM Vista_Productos";
         
         List<Producto> productos = new ArrayList<>();
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ResultSet rs = ps.executeQuery();
+        try {
+            PreparedStatement ps = connection.prepareStatement(QUERY);
+            ResultSet rs = ps.executeQuery();
 
 
-        while(rs.next()){
+            while(rs.next()){
 
-            int id = rs.getInt(PROD_ID);
-            String nombre = rs.getString(PROD_NOMB);
-            String marca = rs.getString(PROD_MARC);
-            String descr = rs.getString(PROD_DESC);
-            String cate = rs.getString(PROD_CATE);
-            double altu = rs.getDouble(PROD_ALTU);
-            double anchu = rs.getDouble(PROD_ANCH);
-            double peso = rs.getDouble(PROD_PESO);
-            double precio = rs.getDouble(PROD_PREC);
-            int num_elementos = rs.getInt(PROD_ELEM);
-            int stock = rs.getInt(PROD_STOK);
+                int id = rs.getInt(PROD_ID);
+                String nombre = rs.getString(PROD_NOMB);
+                String marca = rs.getString(PROD_MARC);
+                String descr = rs.getString(PROD_DESC);
+                String cate = rs.getString(PROD_CATE);
+                double altu = rs.getDouble(PROD_ALTU);
+                double anchu = rs.getDouble(PROD_ANCH);
+                double peso = rs.getDouble(PROD_PESO);
+                double precio = rs.getDouble(PROD_PREC);
+                int num_elementos = rs.getInt(PROD_ELEM);
+                int stock = rs.getInt(PROD_STOK);
 
-            
-            Producto producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
-            productos.add(producto);
+                
+                Producto producto = ProductoFactory.obtener(cate, id, nombre, marca, altu, anchu, peso, num_elementos, stock, precio, descr);
+                productos.add(producto);
+            }
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
         }
-        rs.close();
-        ps.close();
 
         return productos;
     }
 
     @Override
-    public Cliente visualizarCliente(int id) throws SQLException{
+    public Cliente visualizarCliente(int id) throws BBDDException{
 
         final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Vista_Clientes WHERE "+CLIEN_ID+" = ?";
-
-
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ps.setInt(1, id);
-        ResultSet rs = ps.executeQuery();
-
         Cliente cliente = null;
 
-        while(rs.next()){
 
-            int codPostal = rs.getInt(CLIEN_POST);
-            String nombre = rs.getString(CLIEN_NOMB);
-            String correo = rs.getString(CLIEN_CORR);
+        try {
+            PreparedStatement ps = connection.prepareStatement(QUERY);
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
 
-            cliente = new Cliente(id, nombre, correo, codPostal); 
+
+            while(rs.next()){
+
+                int codPostal = rs.getInt(CLIEN_POST);
+                String nombre = rs.getString(CLIEN_NOMB);
+                String correo = rs.getString(CLIEN_CORR);
+
+                cliente = new Cliente(id, nombre, correo, codPostal); 
+            }
+
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
         }
-
-        rs.close();
-        ps.close();
-
         return cliente;
     }
 
     @Override
-    public List<Cliente> visualizarClientes() throws SQLException{
+    public List<Cliente> visualizarClientes() throws BBDDException{
         final String QUERY = "SELECT "+CLIEN_ID+", "+CLIEN_POST+", "+CLIEN_NOMB+", "+CLIEN_CORR+" FROM Vista_Clientes";
 
         List<Cliente> clientes = new ArrayList<>();
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ResultSet rs = ps.executeQuery();
+        
+        try {
+            PreparedStatement ps = connection.prepareStatement(QUERY);
+            ResultSet rs = ps.executeQuery();
 
-        while(rs.next()){
+            while(rs.next()){
 
-            int id = rs.getInt(CLIEN_ID);
-            int codPostal = rs.getInt(CLIEN_POST);
-            String nombre = rs.getString(CLIEN_NOMB);
-            String correo = rs.getString(CLIEN_CORR);
+                int id = rs.getInt(CLIEN_ID);
+                int codPostal = rs.getInt(CLIEN_POST);
+                String nombre = rs.getString(CLIEN_NOMB);
+                String correo = rs.getString(CLIEN_CORR);
 
-            Cliente cliente = new Cliente(id, nombre, correo, codPostal); 
-            clientes.add(cliente);
+                Cliente cliente = new Cliente(id, nombre, correo, codPostal); 
+                clientes.add(cliente);
+            }
+
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
         }
-
-        rs.close();
-        ps.close();
 
         return clientes;
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws SQLException, MercaDAWException{
+    public List<Empleado> visualizarEmpleados() throws BBDDException{
         final String QUERY = "SELECT "+EMPLE_ID+", "+EMPLE_NOMB+", "+EMPLE_APEL+", "+EMPLE_CATE+", "+EMPLE_FECH+" FROM Vista_Empleados";
-
         List<Empleado> empleados = new ArrayList<>();
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ResultSet rs = ps.executeQuery();
+        
+        try {
+            PreparedStatement ps = connection.prepareStatement(QUERY);
+            ResultSet rs = ps.executeQuery();
 
-        while(rs.next()){
+            while(rs.next()){
 
-            int id = rs.getInt(EMPLE_ID);
-            String nombre = rs.getString(EMPLE_NOMB);
-            String apellido = rs.getString(EMPLE_APEL);
-            String categoria = rs.getString(EMPLE_CATE);
-            Date fecha = rs.getDate(EMPLE_FECH);
-            
+                int id = rs.getInt(EMPLE_ID);
+                String nombre = rs.getString(EMPLE_NOMB);
+                String apellido = rs.getString(EMPLE_APEL);
+                String categoria = rs.getString(EMPLE_CATE);
+                Date fecha = rs.getDate(EMPLE_FECH);
+                
 
-            Empleado empleado = EmpleadoFactory.obtener(categoria, id, nombre, apellido, fecha); 
-            empleados.add(empleado);
+                Empleado empleado = EmpleadoFactory.obtener(categoria, id, nombre, apellido, fecha); 
+                empleados.add(empleado);
+
+            }
+
+            rs.close();
+            ps.close();
+
+        } catch (Exception e) {
+            throw new BBDDException();
         }
+        
 
-        rs.close();
-        ps.close();
+        
 
         return empleados;
     }
 
     @Override
-    public List<Compra> visualizarCompras() throws SQLException, MercaDAWException{
+    public List<Compra> visualizarCompras() throws BBDDException{
         final String QUERY = "SELECT "+COMP_ID+", "+PROD_ID+", "+CLIEN_ID+", "+COMP_FECH+" FROM Vista_Compras";
-
-        MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+        
         List<Producto> productos = new ArrayList<>();
         List<Compra> compras = new ArrayList<>();
-        PreparedStatement ps = connection.prepareStatement(QUERY);
-        ResultSet rs = ps.executeQuery();
-        Cliente cli = null;
         
-        Compra compra;
-        int id = -1;
-        Date fecha = null;
-
-        while(rs.next()){
-
-            id = rs.getInt(COMP_ID);
-            fecha = rs.getDate(COMP_FECH);
-            int prod = rs.getInt(PROD_ID);
-            int cliente = rs.getInt(CLIEN_ID);
+        try {
+            MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
+            PreparedStatement ps = connection.prepareStatement(QUERY);
+            ResultSet rs = ps.executeQuery();
+            Cliente cli = null;
             
-            
-            cli = bbdd.visualizarCliente(cliente);
-            Producto pr = bbdd.visualizarProducto(prod);
+            Compra compra;
+            int id = -1;
+            Date fecha = null;
+
+            while(rs.next()){
+
+                id = rs.getInt(COMP_ID);
+                fecha = rs.getDate(COMP_FECH);
+                int prod = rs.getInt(PROD_ID);
+                int cliente = rs.getInt(CLIEN_ID);
+                
+                
+                cli = bbdd.visualizarCliente(cliente);
+                Producto pr = bbdd.visualizarProducto(prod);
 
 
-            productos.add(pr);
+                productos.add(pr);
 
+            }
+
+            compra = new Compra(id, fecha, cli, productos); 
+            compras.add(compra);
+
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            throw new BBDDException();
         }
-
-        compra = new Compra(id, fecha, cli, productos); 
-        compras.add(compra);
-
-        rs.close();
-        ps.close();
-
         return compras;
     } 
 }
