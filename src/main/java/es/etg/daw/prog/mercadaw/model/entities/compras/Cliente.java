@@ -1,7 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.entities.compras;
 
-import java.sql.SQLException;
-
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
@@ -28,6 +26,7 @@ public class Cliente {
      * \param nombre
      * \param correo
      * \param codPostal
+     * \throws MercaDAWException
      */
     public Cliente(Integer id, String nombre, String correo, int codPostal) throws MercaDAWException{
         

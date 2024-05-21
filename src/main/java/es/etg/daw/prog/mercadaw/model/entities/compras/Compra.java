@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.entities.compras;
 
 import java.sql.Date;
-import java.sql.SQLException;
 import java.util.List;
 
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
@@ -29,7 +28,7 @@ public class Compra {
      * \param fecha
      * \param cliente
      * \param productos
-     * @throws MercaDAWException 
+     * \throws MercaDAWException 
      */
     public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) throws MercaDAWException {
         
@@ -43,9 +42,7 @@ public class Compra {
         }
         this.fecha = fecha;
         this.cliente = cliente;
-        this.productos = productos;
-
-        
+        this.productos = productos;        
     }
 
     public static int getNumCompras() {
