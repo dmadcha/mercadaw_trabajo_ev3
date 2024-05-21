@@ -244,7 +244,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
             for (int i = 0; i < compra.getProductos().size(); i ++) {
 
-                ps.setInt(1, id+1);
+                ps.setInt(1, id);
                 ps.setInt(4, compra.getProductos().get(i).getId());
                 
                 numRegistrosActualizados += ps.executeUpdate();
@@ -466,15 +466,19 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         List<Producto> productos = new ArrayList<>();
         List<Compra> compras = new ArrayList<>();
         
+        
+
         try {
             MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
             PreparedStatement ps = connection.prepareStatement(QUERY);
             ResultSet rs = ps.executeQuery();
             Cliente cli = null;
             
-            Compra compra;
             int id = -1;
             Date fecha = null;
+            Compra compra;
+            
+            
 
             while(rs.next()){
 
@@ -492,7 +496,12 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
 
             }
 
-            compra = new Compra(id, fecha, cli, productos); 
+            if (id < 0) {
+                compra = new Compra(null, fecha, cli, productos); 
+            } else{
+                compra = new Compra(id, fecha, cli, productos); 
+            }
+            
             compras.add(compra);
 
             rs.close();
@@ -500,6 +509,7 @@ public class MercaDAOImpOracleXE extends MarcaDAOImp {
         } catch (Exception e) {
             throw new BBDDException();
         }
+        
         return compras;
     } 
 }

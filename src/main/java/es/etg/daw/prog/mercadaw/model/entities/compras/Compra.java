@@ -39,7 +39,7 @@ public class Compra {
         if (id == null) {
             db = MercaDAOFactory.obtener(Database.ORACLE);
             numCompras = db.visualizarCompras().size();
-            numCompras+= productos.size();
+            numCompras++;
             this.id = numCompras;
         } else {
             this.id = id;

@@ -12,6 +12,7 @@ import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.model.util.input.Fichero;
 import es.etg.daw.prog.mercadaw.model.util.input.FicheroFactory;
@@ -43,7 +44,7 @@ public class MercaDAWController extends Application{
         
 
         try {
-            MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+            MercaDAO database = getBBDD();
             database.iniciarBBDD();
         } catch (Exception e) {
         }
@@ -155,31 +156,36 @@ public class MercaDAWController extends Application{
     }
 
     public List<Empleado> darAlta(Empleado empleado) throws MercaDAWException {
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         database.insertar(empleado);
 
         return database.visualizarEmpleados();
     }
 
     public List<Producto> darAlta(Producto producto) throws MercaDAWException {
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         database.insertar(producto);
 
         return database.visualizarProductos();
     }
 
     public List<Cliente> darAlta(Cliente cliente) throws MercaDAWException {
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         database.insertar(cliente);
 
         return database.visualizarClientes();
     }
 
     public List<Compra> darAlta(Compra compra) throws MercaDAWException {
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         database.insertar(compra);
         
         return database.visualizarCompras();
+    }
+
+    public Cliente visualizarCliente(int client) throws MercaDAWException {
+        MercaDAO database = getBBDD();
+        return database.visualizarCliente(client);
     }
 
     public String calcularPrecioVenta(Producto producto){
@@ -196,22 +202,22 @@ public class MercaDAWController extends Application{
     }
 
     public List<Empleado> cargarTablaEmpleado() throws MercaDAWException{
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         return database.visualizarEmpleados();
     }
 
     public List<Producto> cargarTablaProducto() throws MercaDAWException{
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         return database.visualizarProductos();
     }
 
     public List<Cliente> cargarTablaCliente() throws MercaDAWException{
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         return database.visualizarClientes();
     }
 
     public List<Compra> cargarTablaCompra() throws MercaDAWException{
-        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        MercaDAO database = getBBDD();
         return database.visualizarCompras();
     }
 
@@ -221,5 +227,9 @@ public class MercaDAWController extends Application{
         alerta.setTitle(MSG_ERROR);
         alerta.setContentText(msg);
         alerta.showAndWait();
+    }
+
+    public MercaDAO getBBDD() throws BBDDException{
+        return MercaDAOFactory.obtener(Database.ORACLE);
     }
 }

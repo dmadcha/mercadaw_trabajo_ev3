@@ -112,12 +112,10 @@
             </FlowPane>
             <TableView id="table-view" fx:id="tabCompras" prefHeight="269.0" prefWidth="721.0" stylesheets="@../css/table.css" GridPane.rowIndex="1">
               <columns>
-                <TableColumn id="table-cell" fx:id="colCodigoComp" prefWidth="78.0" text="Compra" />
-                <TableColumn id="table-cell" fx:id="colCodigoCli" minWidth="4.0" prefWidth="75.0" text="Cliente" />
-                  <TableColumn id="table-cell" fx:id="colNombCli" prefWidth="224.0" text="Nombre Cliente" />
-                  <TableColumn id="table-cell" fx:id="colCodigoProdCompra" minWidth="4.0" prefWidth="91.0" text="Producto" />
-                  <TableColumn id="table-cell" fx:id="colNombProdCompra" prefWidth="156.0" text="Nombre Producto" />
-                  <TableColumn id="table-cell" fx:id="colFecha" minWidth="0.0" prefWidth="196.0" text="Fecha de Compra" />
+                <TableColumn id="table-cell" fx:id="colCodigoComp" prefWidth="176.0" text="Compra" />
+                <TableColumn id="table-cell" fx:id="colCodigoCli" minWidth="4.0" prefWidth="180.0" text="Cliente" />
+                  <TableColumn id="table-cell" fx:id="colCodigoProdCompra" minWidth="4.0" prefWidth="299.0" text="Producto" />
+                  <TableColumn id="table-cell" fx:id="colFecha" minWidth="0.0" prefWidth="156.0" text="Fecha de Compra" />
               </columns>
                <GridPane.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
