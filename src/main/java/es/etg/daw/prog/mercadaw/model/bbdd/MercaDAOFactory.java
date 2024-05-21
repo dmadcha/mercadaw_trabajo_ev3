@@ -1,15 +1,21 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
-import java.sql.SQLException;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
+
 /**
  * La clase MercaDAOFactory crea las posibles BD disponibles.
  * \author Jesús Pérez Enríquez.
  */
 public class MercaDAOFactory {
-    public static MercaDAO obtener(Database tipo)throws SQLException{
+    public static MercaDAO obtener(Database tipo) throws BBDDException{
         
         if (tipo == Database.ORACLE) {
-            return new MercaDAOImpOracleXE();
+            try {
+                return new MercaDAOImpOracleXE();
+            } catch (Exception e) {
+                throw new BBDDException();
+            }
+            
         }
         
         return new MercaDAOImpMock();

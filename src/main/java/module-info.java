@@ -7,6 +7,9 @@ module es.etg.daw.prog.mercadaw {
     requires javafx.base;
 
     exports es.etg.daw.prog.mercadaw;
+    exports es.etg.daw.prog.mercadaw.model.entities.productos;
+    exports es.etg.daw.prog.mercadaw.model.entities.compras;
+    exports es.etg.daw.prog.mercadaw.model.entities.empleados;
     exports es.etg.daw.prog.mercadaw.controller;
     exports es.etg.daw.prog.mercadaw.view;
 

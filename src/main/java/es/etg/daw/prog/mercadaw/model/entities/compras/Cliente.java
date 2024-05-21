@@ -5,6 +5,8 @@ import java.sql.SQLException;
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La clase Cliente representa un cliente de MercaDAW.
@@ -28,11 +30,16 @@ public class Cliente {
      * \param codPostal
      * @throws SQLException 
      */
-    public Cliente(Integer id, String nombre, String correo, int codPostal) throws SQLException {
+    public Cliente(Integer id, String nombre, String correo, int codPostal) throws MercaDAWException{
         
         if (id == null) {
-            db = MercaDAOFactory.obtener(Database.ORACLE);
-            numClientes = db.visualizarClientes().size();
+            try {
+                db = MercaDAOFactory.obtener(Database.ORACLE);
+                numClientes = db.visualizarClientes().size();
+            } catch (BBDDException e) {
+                throw new MercaDAWException();
+            }
+            
             numClientes++;
             this.id = numClientes;
         } else {

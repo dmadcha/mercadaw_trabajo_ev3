@@ -164,6 +164,16 @@ public class MercaDAWController extends Application{
         return msg;
     }
 
+    public List<Empleado> cargarTablaEmpleado() throws MercaDAWException{
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        return database.visualizarEmpleados();
+    }
+
+    public List<Producto> cargarTablaProducto() throws SQLException, MercaDAWException{
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        return database.visualizarProductos();
+    }
+
     private void mostrarAviso(String msg, AlertType tipo){
         Alert alerta = new Alert(tipo);
         alerta.setHeaderText(null);

@@ -1,15 +1,11 @@
 package es.etg.daw.prog.mercadaw.view.producto;
 
 import java.net.URL;
-import java.sql.Date;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
-import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
+
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.TipoProducto;

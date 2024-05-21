@@ -1,6 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,8 +8,7 @@ import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.entities.productos.ProductoFactory;
-import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
-
+import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 
 
 /**
@@ -20,110 +18,135 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 public class MercaDAOImpMock implements MercaDAO{
 
     @Override
-    public void iniciarBBDD() throws SQLException {
+    public void iniciarBBDD() throws BBDDException {
     }
 
     @Override
-    public int insertar(Empleado emp) throws SQLException {
+    public int insertar(Empleado emp) throws BBDDException {
         return 1;
     }
 
     @Override
-    public int insertar(Producto prod) throws SQLException {
+    public int insertar(Producto prod) throws BBDDException {
         return 1;
     }
 
     @Override
-    public int insertar(Compra compra) throws SQLException {
+    public int insertar(Compra compra) throws BBDDException {
         return 1;
     }
 
     @Override
-    public int insertar(Cliente client) throws SQLException {
+    public int insertar(Cliente client) throws BBDDException {
         return 1;
     }
 
     @Override
-    public Producto visualizarProducto(int id) throws MercaDAWException, SQLException{
-        return ProductoFactory.obtener(null, id, null, null, 0, 0, 0, 0, 0, 0, null);
+    public Producto visualizarProducto(int id) throws BBDDException{
+        try {
+            return ProductoFactory.obtener(null, id, null, null, 0, 0, 0, 0, 0, 0, null);
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
     }
 
     @Override
-    public List<Producto> visualizarProductos() throws MercaDAWException, SQLException{
+    public List<Producto> visualizarProductos() throws BBDDException{
         
-        Producto pr1 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
-        Producto pr2 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
-        Producto pr3 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
+        try {
+            Producto pr1 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
+            Producto pr2 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
+            Producto pr3 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
         
-        List<Producto> productos = new ArrayList<>();
+            List<Producto> productos = new ArrayList<>();
         
-        productos.add(pr1);
-        productos.add(pr2);
-        productos.add(pr3);
+            productos.add(pr1);
+            productos.add(pr2);
+            productos.add(pr3);
 
-        return productos;
+            return productos;
+
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
     }
 
     @Override
-    public Cliente visualizarCliente(int id) throws SQLException{
-        return new Cliente(null, "PRUEBA", "CORREO", 00000);
+    public Cliente visualizarCliente(int id) throws BBDDException{
+        try {
+            return new Cliente(null, "PRUEBA", "CORREO", 00000);
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
     }
 
     @Override
-    public List<Cliente> visualizarClientes() throws SQLException{
+    public List<Cliente> visualizarClientes() throws BBDDException{
         
-        Cliente cl1 = new Cliente(null, "PRUEBA", "CORREO", 00000);
-        Cliente cl2 = new Cliente(null, "PRUEBA", "CORREO", 00000);
-        Cliente cl3 = new Cliente(null, "PRUEBA", "CORREO", 00000);
+        try {
+            Cliente cl1 = new Cliente(null, "PRUEBA", "CORREO", 00000);
+            Cliente cl2 = new Cliente(null, "PRUEBA", "CORREO", 00000);
+            Cliente cl3 = new Cliente(null, "PRUEBA", "CORREO", 00000);
 
-        List<Cliente> clientes = new ArrayList<>();
-        
-        clientes.add(cl1);
-        clientes.add(cl2);
-        clientes.add(cl3);
+            List<Cliente> clientes = new ArrayList<>();
+            
+            clientes.add(cl1);
+            clientes.add(cl2);
+            clientes.add(cl3);
 
-        return clientes;
+            return clientes;
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws MercaDAWException, SQLException {
-        Empleado emp1 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
-        Empleado emp2 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
-        Empleado emp3 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
-        
-        List<Empleado> empleados = new ArrayList<>();
-        
-        empleados.add(emp1);
-        empleados.add(emp2);
-        empleados.add(emp3);
+    public List<Empleado> visualizarEmpleados() throws BBDDException {
+        try {
+            Empleado emp1 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
+            Empleado emp2 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
+            Empleado emp3 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
+            
+            List<Empleado> empleados = new ArrayList<>();
+            
+            empleados.add(emp1);
+            empleados.add(emp2);
+            empleados.add(emp3);
 
-        return empleados;
+            return empleados;
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
     }
 
     @Override
-    public List<Compra> visualizarCompras() throws MercaDAWException, SQLException {
+    public List<Compra> visualizarCompras() throws BBDDException {
         
-        List<Producto> productos = new ArrayList<>();
-        List<Compra> compras = new ArrayList<>();
-        Cliente clie = new Cliente(null, "PRUEBA", "CORREO", 00000);
+        try {
+            List<Producto> productos = new ArrayList<>();
+            List<Compra> compras = new ArrayList<>();
+            Cliente clie = new Cliente(null, "PRUEBA", "CORREO", 00000);
 
-        Producto pr1 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
-        Producto pr2 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
-        Producto pr3 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
-          
-        productos.add(pr1);
-        productos.add(pr2);
-        productos.add(pr3);
-        
+            Producto pr1 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
+            Producto pr2 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
+            Producto pr3 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
+            
+            productos.add(pr1);
+            productos.add(pr2);
+            productos.add(pr3);
+            
 
-        Compra compra = new Compra(null, null, clie, productos);
-        Compra compra2 = new Compra(null, null, clie, productos);
-        Compra compra3 = new Compra(null, null, clie, productos);
+            Compra compra = new Compra(null, null, clie, productos);
+            Compra compra2 = new Compra(null, null, clie, productos);
+            Compra compra3 = new Compra(null, null, clie, productos);
 
-        compras.add(compra);
-        compras.add(compra2);
-        compras.add(compra3);
-        
-        return compras;
+            compras.add(compra);
+            compras.add(compra2);
+            compras.add(compra3);
+            
+            return compras;
+        } catch (Exception e) {
+            throw new BBDDException();
+        }
     }
 }

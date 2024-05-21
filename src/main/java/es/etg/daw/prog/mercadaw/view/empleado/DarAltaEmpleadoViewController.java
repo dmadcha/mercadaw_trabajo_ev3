@@ -118,18 +118,27 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
             if (empleados.contains(empleado)) {
                 mostrarAviso(MSG_ERROR, AlertType.ERROR);
             } else {
-                this.empleados.setAll(empleadosBd);
-                this.tabEmpleados.setItems(empleados);
+                insertar(empleadosBd);
             }
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
         }
     }
+
+    public void insertar(List<Empleado> empls){
+        this.empleados.setAll(empls);
+        this.tabEmpleados.setItems(empleados);
+    }
     
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize(URL location, ResourceBundle resources){
         choiceCategoria.getItems().setAll(TipoEmpleado.values());
         iniciarTabla();
+        try {
+            insertar(controller.cargarTablaEmpleado());
+        } catch (Exception e) {
+            // TODO: handle exception
+        }        
     }
 }
 

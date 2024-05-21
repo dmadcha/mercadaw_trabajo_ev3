@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.bbdd;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -66,9 +65,6 @@ public class MercaDAOImpOracleXETest {
 
         assertEquals(inserccionesEsperadas, insercciones);
 
-
-        
-
     }
 
     @Test
@@ -125,13 +121,8 @@ public class MercaDAOImpOracleXETest {
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         Cliente cl = new Cliente(1, "María López", "maria@example.com", 28001);
         Cliente cliente = bbdd.visualizarCliente(1);
-        boolean funciona = false;
 
-        if (cliente.getId() == cl.getId()) {
-            funciona = true;
-        }
-
-        assertTrue(funciona);
+        assertEquals(cl.getId(), cliente.getId());
     }
 
     @Test
@@ -143,17 +134,11 @@ public class MercaDAOImpOracleXETest {
         Cliente cl = new Cliente(1, "María López", "maria@example.com", 28001);
         Cliente c2 = new Cliente(2, "Juan Martínez", "juan@example.com", 25842);
         
-        boolean funciona = false;
-
         clientesEsperados.add(cl);
         clientesEsperados.add(c2);
 
 
-        if (clientes.get(0).getId() == clientesEsperados.get(0).getId()) {
-            funciona = true;
-        }
-
-        assertTrue(funciona);
+        assertEquals(clientesEsperados.size(), clientes.size());
     }
 
 
@@ -168,19 +153,13 @@ public class MercaDAOImpOracleXETest {
         Empleado emp3 = EmpleadoFactory.obtener("EMPLEADO", 3, "Tony", "Stark", null);
         Empleado emp4 = EmpleadoFactory.obtener("ENCARGADO", 4, "Bruce", "Wane", null);
         
-        boolean funciona = false;
-
         empleadosEsperados.add(emp1);
         empleadosEsperados.add(emp2);
         empleadosEsperados.add(emp3);
         empleadosEsperados.add(emp4);
 
 
-        if (empleados.get(0).getId() == emp1.getId()) {
-            funciona = true;
-        }
-
-        assertTrue(funciona);        
+        assertEquals(empleadosEsperados.size(), empleados.size());        
     }
 
 
@@ -189,13 +168,9 @@ public class MercaDAOImpOracleXETest {
         MercaDAOImpOracleXE bbdd = new MercaDAOImpOracleXE();
         Producto pr1 = ProductoFactory.obtener("Alimentacion", 1, "Aceite de Oliva Virgen Extra", "OlivaDorada", 25, 8, 1, 1, 150, 10.99, "Aceite de oliva virgen extra de la mejor calidad, prensado en frío y sin aditivos. Perfecto para ensaladas, cocinar y dar sabor a tus platos favoritos.");
         Producto pr2 = bbdd.visualizarProducto(1);
-        boolean funciona = false;
+    
 
-        if (pr2.getId() == pr1.getId()) {
-            funciona = true;
-        }
-
-        assertTrue(funciona);
+        assertEquals(pr1.getId(), pr2.getId());
     }
     
     @Test
@@ -209,21 +184,12 @@ public class MercaDAOImpOracleXETest {
         Producto pr2 = ProductoFactory.obtener("Cosmetica", 2, "Crema Hidratante Facial", "BellaPiel", 10, 5, 200, 1, 75, 15.50, "Crema hidratante facial con ácido hialurónico y vitamina E. Ideal para todo tipo de pieles, proporciona hidratación profunda y protección contra los radicales libres."); 
         Producto pr3 = ProductoFactory.obtener("Drogueria", 3, "Detergente Líquido", "CleanWave", 30, 12, 1500, 1, 200, 8.75, "Detergente líquido para ropa, apto para todo tipo de tejidos y colores. Fórmula concentrada que elimina las manchas más difíciles y deja la ropa con un aroma fresco y duradero.");
         
-
-        boolean funciona = false;
-
         productosEsperado.add(pr1);
         productosEsperado.add(pr2);
         productosEsperado.add(pr3);
 
-        
 
-
-        if (productosEsperado.get(0).getId() == productos.get(0).getId()) {
-            funciona = true;
-        }
-
-        assertTrue(funciona);
+        assertEquals(productosEsperado.size(), productos.size());
     }
 
 
@@ -250,14 +216,7 @@ public class MercaDAOImpOracleXETest {
 
         comprasEsperadas.add(compra);
 
-        boolean funciona = false;
-
-
-        if (comprasEsperadas.get(0).getId() == comprasResultado.get(0).getId()) {
-            funciona = true;
-        }
-
-        assertTrue(funciona);
+        assertEquals(comprasEsperadas.size(), comprasResultado.size());
     }
 
     @Test
