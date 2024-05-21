@@ -157,6 +157,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         final String RUTA_NOMINA = "./src/main/resources/nominas/nominaEmpleado%d.md";
         Empleado empleado = this.tabEmpleados.getSelectionModel().getSelectedItem();
         controller.exportarNomina(String.format(RUTA_NOMINA, empleado.getId()), txaNominaEmpleado.getText());
+        txfRuta.setText(String.format(RUTA_NOMINA, empleado.getId()));
     }
 }
 
