@@ -284,7 +284,7 @@
                   <Insets left="600.0" />
                </GridPane.margin>
             </Button>
-            <TextArea fx:id="txaPrecioVenta" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+            <TextArea fx:id="txaPrecioVenta" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </GridPane.margin>

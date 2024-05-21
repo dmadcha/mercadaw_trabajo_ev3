@@ -9,6 +9,7 @@ import java.util.ResourceBundle;
 
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
+import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoDespido;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.view.ViewController;
@@ -22,6 +23,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
@@ -33,24 +35,27 @@ import javafx.scene.input.MouseEvent;
 public class DarAltaEmpleadoViewController extends ViewController implements Initializable{
     private ObservableList<Empleado> empleados;
 
-    @FXML
+     @FXML
     private Button btnAnadir;
 
     @FXML
-    private Button btnDarAltaEmple;
+    private Button btnCalcularNomina;
+
+    @FXML
+    private Button btnExportar;
 
     @FXML
     private Button btnSalir;
+
+    @FXML
+    private ChoiceBox<TipoDespido> choiceDespido;
 
     @FXML
     private ChoiceBox<TipoEmpleado> choiceCategoria;
 
     @FXML
     private TableColumn<Empleado, String> colApellidos;
-
-    @FXML
-    private TableColumn<Empleado, Double> colAportacionSal;
-
+    
     @FXML
     private TableColumn<Empleado, String> colCategoria;
 
@@ -58,34 +63,22 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private TableColumn<Empleado, Integer> colCodigoEmple;
 
     @FXML
-    private TableColumn<Empleado, Double> colIndemnizacion;
-
-    @FXML
     private TableColumn<Empleado, String> colNombre;
-
-    @FXML
-    private TableColumn<Empleado, Double> colSalBruto;
-
-    @FXML
-    private TableColumn<Empleado, Double>colSalNeto;
-
-    @FXML
-    private TableColumn<Empleado, Double> colTotalCosteLab;
-
-    @FXML
-    private TableColumn<Empleado, Double> colTotalNomina;
 
     @FXML
     private TableView<Empleado> tabEmpleados;
 
     @FXML
-    private TableView<Empleado> tabNomina;
+    private TextArea txaNominaEmpleado;
 
     @FXML
     private TextField txfApellido;
 
     @FXML
     private TextField txfNombre;
+
+    @FXML
+    private TextField txfRuta;
 
     @FXML
     void accesoDarAltaEmple(MouseEvent event) {
@@ -95,6 +88,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     @Override
     public void initialize(URL location, ResourceBundle resources){
         choiceCategoria.getItems().setAll(TipoEmpleado.values());
+        choiceDespido.getItems().setAll(TipoDespido.values());
         iniciarTabla();
         try {
             insertar(controller.cargarTablaEmpleado());
@@ -139,6 +133,30 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
         }
+    }
+
+    @FXML
+    void seleccionarEmpleado(MouseEvent event) {
+        Empleado empleado = this.tabEmpleados.getSelectionModel().getSelectedItem();
+
+        if(empleado == null){
+            //TODO MENSAJE ERROR
+        }
+    }
+
+    @FXML
+    void calcularNomina(MouseEvent event) {
+        Empleado empleado = this.tabEmpleados.getSelectionModel().getSelectedItem();
+        TipoDespido despido = this.choiceDespido.getValue();
+        String msg = controller.calcularNomina(empleado, despido);
+        txaNominaEmpleado.setText(msg);
+    }
+
+    @FXML
+    void exportarNomina(MouseEvent event) {
+        final String RUTA_NOMINA = "./src/main/resources/nominas/nominaEmpleado%d.md";
+        Empleado empleado = this.tabEmpleados.getSelectionModel().getSelectedItem();
+        controller.exportarNomina(String.format(RUTA_NOMINA, empleado.getId()), txaNominaEmpleado.getText());
     }
 }
 
