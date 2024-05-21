@@ -11,7 +11,9 @@ public enum Vista {
     EXPORTAR_DATOS("view/sistema/ExportarDatosView.fxml"),
     DAR_ALTA_PROD("view/producto/DarAltaProductoView.fxml"),
     DAR_ALTA_EMPLE("view/empleado/DarAltaEmpleadoView.fxml"),
-    DAR_ALTA_COMP("view/compra/DarAltaCompraView.fxml");
+    DAR_ALTA_COMP("view/compra/DarAltaCompraView.fxml"),
+    DAR_ALTA_CLIENT("view/compra/DarAltaClienteView.fxml");
+
 
     private String ruta;
 
