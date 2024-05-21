@@ -1,5 +1,5 @@
 package es.etg.daw.prog.mercadaw.model.util.input;
 
-public enum Formato {
+public enum FormatoBinarios {
     BINARIO, MOCK
 }
