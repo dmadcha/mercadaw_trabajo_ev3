@@ -7,6 +7,7 @@ import es.etg.daw.prog.mercadaw.App;
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
@@ -38,9 +39,14 @@ public class MercaDAWController extends Application{
     public static Stage currentStage;
     
     @Override
-    public void start(Stage stage) throws Exception {
-        //MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
-        //database.iniciarBBDD();
+    public void start(Stage stage) throws Exception{
+        
+
+        try {
+            MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+            database.iniciarBBDD();
+        } catch (Exception e) {
+        }
 
         currentStage = stage;
 

@@ -1,16 +1,10 @@
 package es.etg.daw.prog.mercadaw.view.compra;
 
 import java.net.URL;
-import java.sql.Date;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.ResourceBundle;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
-import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
-import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
-import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
-import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.collections.FXCollections;
