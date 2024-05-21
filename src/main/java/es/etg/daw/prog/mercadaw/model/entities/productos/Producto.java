@@ -7,6 +7,13 @@ import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_15;
 import static es.etg.daw.prog.mercadaw.model.entities.productos.Recargos.RECARGO_5;
 
+import java.sql.SQLException;
+
+import es.etg.daw.prog.mercadaw.model.bbdd.Database;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
+
 /**
  * La clase Producto representa un producto de MercaDAW.
  * \author Diego Madroñero Chamorro.
@@ -19,7 +26,7 @@ public abstract class Producto implements Producible {
     public static final String ATT_ALTURA = "altura";
     public static final String ATT_ANCHURA = "anchura";
     public static final String ATT_PESO = "peso";
-    public static final String ATT_ELEMENTOS = "elementos";
+    public static final String ATT_ELEMENTOS = "numElementos";
     public static final String ATT_DESCRIPCION = "descripcion";
     public static final String ATT_STOCK = "stock";
     public static final String ATT_PRECIO = "precio";
@@ -27,6 +34,7 @@ public abstract class Producto implements Producible {
 
     private static int numProductos = 0;
 
+    private MercaDAO db;
     private Integer id;
     private String nombre;
     private String marca;
@@ -51,10 +59,15 @@ public abstract class Producto implements Producible {
      * \param Stock del producto
      * \param Precio del producto
      * \param Descripcion del producto
+     * @throws MercaDAWException 
+     * @throws SQLException 
      */
     public Producto(Integer id, String nombre, String marca, double altura, double anchura,
-            double peso, int numElementos, int stock, double precio, String descripcion) {
+            double peso, int numElementos, int stock, double precio, String descripcion) throws SQLException, MercaDAWException {
+
         if (id == null) {
+            db = MercaDAOFactory.obtener(Database.ORACLE);
+            numProductos = db.visualizarProductos().size();
             numProductos++;
             this.id = numProductos;
         } else {

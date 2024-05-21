@@ -5,6 +5,7 @@ import static es.etg.daw.prog.mercadaw.model.entities.empleados.TipoDespido.PROD
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.sql.Date;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -21,7 +22,7 @@ public class EmpleadoTest {
     private Empleado empleado2;
 
     @BeforeEach
-    public void creacionEmpleados() throws MercaDAWException {
+    public void creacionEmpleados() throws MercaDAWException, SQLException {
         empleado1 = EmpleadoFactory.obtener("Empleado", null, "Jesús", "Herrera", Date.valueOf("2005-08-14"));
         empleado2 = EmpleadoFactory.obtener("Cajero", null, "Iván", "Madroñero", Date.valueOf("2001-09-11"));
     }

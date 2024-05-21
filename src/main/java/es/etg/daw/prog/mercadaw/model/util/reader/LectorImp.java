@@ -1,5 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.util.reader;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
@@ -16,13 +17,13 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 public abstract class LectorImp implements Lector{
 
     @Override
-    public abstract List<Producto> leerProducto(String codigo) throws MercaDAWException;
+    public abstract List<Producto> leerProducto(String codigo) throws MercaDAWException, SQLException;
 
     @Override
-    public abstract List<Empleado> leerEmpleado(String codigo) throws MercaDAWException;
+    public abstract List<Empleado> leerEmpleado(String codigo) throws MercaDAWException, SQLException;
 
     @Override
-    public abstract List<Cliente> leerCliente(String codigo) throws MercaDAWException;
+    public abstract List<Cliente> leerCliente(String codigo) throws MercaDAWException, SQLException;
 
     @Override
     public abstract List<Compra> leerCompra(String codigo) throws MercaDAWException;

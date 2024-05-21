@@ -1,5 +1,6 @@
 package es.etg.daw.prog.mercadaw.model.util.reader;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
@@ -13,11 +14,11 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
  * \author Iván Rafael Redondo.
  */
 public interface Lector {
-    public List<Producto> leerProducto(String codigo) throws MercaDAWException;
+    public List<Producto> leerProducto(String codigo) throws MercaDAWException, SQLException;
 
-    public List<Empleado> leerEmpleado(String codigo) throws MercaDAWException;
+    public List<Empleado> leerEmpleado(String codigo) throws MercaDAWException, SQLException;
 
-    public List<Cliente> leerCliente(String codigo) throws MercaDAWException;
+    public List<Cliente> leerCliente(String codigo) throws MercaDAWException, SQLException;
 
     public List<Compra> leerCompra(String codigo) throws MercaDAWException;
 }

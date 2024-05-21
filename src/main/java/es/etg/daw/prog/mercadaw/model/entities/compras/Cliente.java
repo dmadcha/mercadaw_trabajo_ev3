@@ -1,11 +1,19 @@
 package es.etg.daw.prog.mercadaw.model.entities.compras;
 
+import java.sql.SQLException;
+
+import es.etg.daw.prog.mercadaw.model.bbdd.Database;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+
 /**
  * La clase Cliente representa un cliente de MercaDAW.
  * \author Diego Madroñero Chamorro.
  */
 public class Cliente {
+    
     private static int numClientes;
+    private MercaDAO db;
 
     private Integer id;
     private String nombre;
@@ -18,9 +26,13 @@ public class Cliente {
      * \param nombre
      * \param correo
      * \param codPostal
+     * @throws SQLException 
      */
-    public Cliente(Integer id, String nombre, String correo, int codPostal) {
+    public Cliente(Integer id, String nombre, String correo, int codPostal) throws SQLException {
+        
         if (id == null) {
+            db = MercaDAOFactory.obtener(Database.ORACLE);
+            numClientes = db.visualizarClientes().size();
             numClientes++;
             this.id = numClientes;
         } else {

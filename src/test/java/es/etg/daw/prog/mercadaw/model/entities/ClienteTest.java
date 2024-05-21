@@ -2,6 +2,8 @@ package es.etg.daw.prog.mercadaw.model.entities;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.sql.SQLException;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +15,7 @@ public class ClienteTest {
     Cliente cliente2;
 
     @BeforeEach
-    public void creacionClientes() throws MercaDAWException {
+    public void creacionClientes() throws MercaDAWException, SQLException {
         cliente1 = new Cliente(null, "Juan Pérez", "juan@example.com", 28001);
         cliente2 = new Cliente(null, "María García", "maria@example.com", 28982);
     }

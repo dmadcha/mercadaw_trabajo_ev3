@@ -1,6 +1,7 @@
 package es.etg.daw.prog.mercadaw.model.util.reader;
 
 import java.sql.Date;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -20,7 +21,7 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 public class LectorCSV extends LectorImp {
 
     @Override
-    public List<Producto> leerProducto(String codigo) throws MercaDAWException {
+    public List<Producto> leerProducto(String codigo) throws MercaDAWException, SQLException {
         boolean primeraFila = true;
         List<Producto> productos = new ArrayList<>();
 
@@ -40,7 +41,7 @@ public class LectorCSV extends LectorImp {
     }
 
     @Override
-    public List<Empleado> leerEmpleado(String codigo) throws MercaDAWException {
+    public List<Empleado> leerEmpleado(String codigo) throws MercaDAWException, SQLException {
         boolean primeraFila = true;
         List<Empleado> empleados = new ArrayList<>();
 
@@ -60,7 +61,7 @@ public class LectorCSV extends LectorImp {
     }
 
     @Override
-    public List<Cliente> leerCliente(String codigo) throws MercaDAWException {
+    public List<Cliente> leerCliente(String codigo) throws MercaDAWException, SQLException {
         boolean primeraFila = true;
         List<Cliente> clientes = new ArrayList<>();
 
@@ -106,7 +107,7 @@ public class LectorCSV extends LectorImp {
 
     }
 
-    public Producto procesarProducto(String fila) throws MercaDAWException {
+    public Producto procesarProducto(String fila) throws MercaDAWException, SQLException {
 
         String tipo;
         int id;
@@ -139,7 +140,7 @@ public class LectorCSV extends LectorImp {
 
     }
 
-    private Empleado procesarEmpleado(String fila) throws MercaDAWException {
+    private Empleado procesarEmpleado(String fila) throws MercaDAWException, SQLException {
         String tipo;
         Integer id;
         String nombre;
@@ -158,7 +159,7 @@ public class LectorCSV extends LectorImp {
 
     }
 
-    private Cliente procesarCliente(String fila) throws MercaDAWException {
+    private Cliente procesarCliente(String fila) throws MercaDAWException, SQLException {
 
         int id;
         String nombre;

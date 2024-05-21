@@ -44,12 +44,12 @@ public class MercaDAOImpMock implements MercaDAO{
     }
 
     @Override
-    public Producto visualizarProducto(int id) throws MercaDAWException{
+    public Producto visualizarProducto(int id) throws MercaDAWException, SQLException{
         return ProductoFactory.obtener(null, id, null, null, 0, 0, 0, 0, 0, 0, null);
     }
 
     @Override
-    public List<Producto> visualizarProductos() throws MercaDAWException{
+    public List<Producto> visualizarProductos() throws MercaDAWException, SQLException{
         
         Producto pr1 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
         Producto pr2 = ProductoFactory.obtener(null, null, null, null, 0, 0, 0, 0, 0, 0, null);
@@ -65,12 +65,12 @@ public class MercaDAOImpMock implements MercaDAO{
     }
 
     @Override
-    public Cliente visualizarCliente(int id){
+    public Cliente visualizarCliente(int id) throws SQLException{
         return new Cliente(null, "PRUEBA", "CORREO", 00000);
     }
 
     @Override
-    public List<Cliente> visualizarClientes(){
+    public List<Cliente> visualizarClientes() throws SQLException{
         
         Cliente cl1 = new Cliente(null, "PRUEBA", "CORREO", 00000);
         Cliente cl2 = new Cliente(null, "PRUEBA", "CORREO", 00000);
@@ -86,7 +86,7 @@ public class MercaDAOImpMock implements MercaDAO{
     }
 
     @Override
-    public List<Empleado> visualizarEmpleados() throws MercaDAWException {
+    public List<Empleado> visualizarEmpleados() throws MercaDAWException, SQLException {
         Empleado emp1 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
         Empleado emp2 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
         Empleado emp3 = new Empleado(null, "PRUEBA", "APELLIDOS", null);
@@ -101,7 +101,7 @@ public class MercaDAOImpMock implements MercaDAO{
     }
 
     @Override
-    public List<Compra> visualizarCompras() throws MercaDAWException {
+    public List<Compra> visualizarCompras() throws MercaDAWException, SQLException {
         
         List<Producto> productos = new ArrayList<>();
         List<Compra> compras = new ArrayList<>();
