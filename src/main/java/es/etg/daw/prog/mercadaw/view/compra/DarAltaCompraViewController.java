@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 /**
@@ -14,12 +15,6 @@ import javafx.scene.input.MouseEvent;
  */
 public class DarAltaCompraViewController extends ViewController {
     private MercaDAWController controller = new MercaDAWController();
-
-    @FXML
-    private Button btnAñadir;
-
-    @FXML
-    private Button btnConsultarDatos;
 
     @FXML
     private Button btnDarAltaComp;
@@ -34,28 +29,16 @@ public class DarAltaCompraViewController extends ViewController {
     private TableColumn<?, ?> colCodigoProd;
 
     @FXML
-    private TableColumn<?, ?> colCorreoCli;
+    private TableColumn<?, ?> colFecha;
 
     @FXML
-    private TableColumn<?, ?> colNombreCli;
+    private TableView<?> tabCompras;
 
     @FXML
-    private TableColumn<?, ?> colNombreProd;
+    private TextField txfCodCliente;
 
     @FXML
-    private TableColumn<?, ?> colPostCli;
-
-    @FXML
-    private TableColumn<?, ?> colPrecioProd;
-
-    @FXML
-    private TableColumn<?, ?> colStockProd;
-
-    @FXML
-    private TableView<?> tabCliente;
-
-    @FXML
-    private TableView<?> tabProducto;
+    private TextField txfCodProducto;
 
     @FXML
     void accesoDarAltaComp(MouseEvent event) {
@@ -65,11 +48,6 @@ public class DarAltaCompraViewController extends ViewController {
     @FXML
     void addCompra(MouseEvent event) {
         
-    }
-
-    @FXML
-    void salir(MouseEvent event) {
-        controller.cargarApp();
     }
 
 }

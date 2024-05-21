@@ -34,7 +34,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private ObservableList<Empleado> empleados;
 
     @FXML
-    private Button btnAñadir;
+    private Button btnAnadir;
 
     @FXML
     private Button btnDarAltaEmple;

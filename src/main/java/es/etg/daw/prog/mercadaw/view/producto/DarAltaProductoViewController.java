@@ -35,7 +35,7 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     private ObservableList<Producto> productos;
 
     @FXML
-    private Button btnAñadirProd;
+    private Button btnAnadirProd;
 
     @FXML
     private Button btnDarAltaProd;

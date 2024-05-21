@@ -138,7 +138,7 @@
                   </ChoiceBox>
                </children>
             </FlowPane>
-            <Button id="button" fx:id="btnAñadir" mnemonicParsing="false" onMouseClicked="#addEmpleado" prefHeight="28.0" prefWidth="120.0" stylesheets="@../css/buttons-sidebar.css" text="Añadir" GridPane.rowIndex="3">
+            <Button id="button" fx:id="btnAnadir" mnemonicParsing="false" onMouseClicked="#addEmpleado" prefHeight="28.0" prefWidth="120.0" stylesheets="@../css/buttons-sidebar.css" text="Añadir" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets left="291.0" />
                </GridPane.margin>
