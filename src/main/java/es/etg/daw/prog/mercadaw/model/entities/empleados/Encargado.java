@@ -1,6 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
+import java.sql.SQLException;
+
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La clase Encargado representa un encargado de MercaDAW.
@@ -15,8 +18,9 @@ public class Encargado extends Empleado{
      * \param Nombre del empleado
      * \param Apellidos del empleado
      * \param Fecha de contratación del empleado
+     * @throws MercaDAWException 
      */
-    public Encargado(Integer id, String nombre, String apellidos, Date fechaInicio) {
+    public Encargado(Integer id, String nombre, String apellidos, Date fechaInicio) throws SQLException, MercaDAWException {
         super(id, nombre, apellidos, fechaInicio);
         this.sueldo = SUELDO_ENCAR;
     }

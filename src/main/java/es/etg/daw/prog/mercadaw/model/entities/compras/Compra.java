@@ -1,9 +1,14 @@
 package es.etg.daw.prog.mercadaw.model.entities.compras;
 
 import java.sql.Date;
+import java.sql.SQLException;
 import java.util.List;
 
+import es.etg.daw.prog.mercadaw.model.bbdd.Database;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La clase Compra representa las compras realizadas por los clientes de MercaDAW.
@@ -12,6 +17,7 @@ import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 public class Compra {
     private static int numCompras;
 
+    private MercaDAO db;
     private Integer id;
     private Date fecha;
     private Cliente cliente;
@@ -23,9 +29,14 @@ public class Compra {
      * \param fecha
      * \param cliente
      * \param productos
+     * @throws MercaDAWException 
+     * @throws SQLException 
      */
-    public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) {
+    public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) throws SQLException, MercaDAWException {
+        
         if (id == null) {
+            db = MercaDAOFactory.obtener(Database.ORACLE);
+            numCompras = db.visualizarCompras().size();
             numCompras+= productos.size();
             this.id = numCompras;
         } else {

@@ -1,6 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
+import java.sql.SQLException;
+
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La clase Reponedor representa un reponedor de MercaDAW.
@@ -15,8 +18,10 @@ public class Reponedor extends Empleado{
      * \param Nombre del empleado
      * \param Apellidos del empleado
      * \param Fecha de contratación del empleado
+     * @throws MercaDAWException 
+     * @throws SQLException 
      */
-    public Reponedor(Integer id, String nombre, String apellidos, Date fechaInicio) {
+    public Reponedor(Integer id, String nombre, String apellidos, Date fechaInicio) throws SQLException, MercaDAWException {
         super(id, nombre, apellidos, fechaInicio);
         this.sueldo = SUELDO_REPON;
     }

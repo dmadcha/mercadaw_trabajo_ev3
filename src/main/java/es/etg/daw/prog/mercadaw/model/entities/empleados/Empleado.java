@@ -1,8 +1,14 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Period;
+
+import es.etg.daw.prog.mercadaw.model.bbdd.Database;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
+import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La clase Empleado representa un empleado de MercaDAW.
@@ -18,6 +24,7 @@ public class Empleado implements Contratable {
 
     private static int numEmpleados;
 
+    private MercaDAO db;
     private Integer id;
     private String nombre;
     private String apellidos;
@@ -30,10 +37,14 @@ public class Empleado implements Contratable {
      * \param Nombre del empleado
      * \param Apellidos del empleado
      * \param Fecha de contratación del empleado
+     * @throws MercaDAWException 
+     * @throws SQLException 
      */
-    public Empleado(Integer id, String nombre, String apellidos, Date fechaInicio) {
-
+    public Empleado(Integer id, String nombre, String apellidos, Date fechaInicio) throws SQLException, MercaDAWException {
+        
         if (id == null) {
+            db = MercaDAOFactory.obtener(Database.ORACLE);
+            numEmpleados = db.visualizarEmpleados().size();
             numEmpleados++;
             this.id = numEmpleados;
         } else {

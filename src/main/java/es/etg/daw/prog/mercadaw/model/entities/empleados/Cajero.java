@@ -1,6 +1,9 @@
 package es.etg.daw.prog.mercadaw.model.entities.empleados;
 
 import java.sql.Date;
+import java.sql.SQLException;
+
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 
 /**
  * La clase Cajero representa un cajero de MercaDAW.
@@ -16,7 +19,7 @@ public class Cajero extends Empleado{
      * \param Apellidos del empleado
      * \param Fecha de contratación del empleado
      */
-    public Cajero(Integer id, String nombre, String apellidos, Date fechaInicio) {
+    public Cajero(Integer id, String nombre, String apellidos, Date fechaInicio) throws SQLException, MercaDAWException {
         super(id, nombre, apellidos, fechaInicio);
         this.sueldo = SUELDO_CAJER;
     }
