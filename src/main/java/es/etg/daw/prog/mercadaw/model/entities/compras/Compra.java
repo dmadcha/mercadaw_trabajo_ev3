@@ -30,9 +30,8 @@ public class Compra {
      * \param cliente
      * \param productos
      * @throws MercaDAWException 
-     * @throws SQLException 
      */
-    public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) throws SQLException, MercaDAWException {
+    public Compra(Integer id, Date fecha, Cliente cliente, List<Producto> productos) throws MercaDAWException {
         
         if (id == null) {
             db = MercaDAOFactory.obtener(Database.ORACLE);

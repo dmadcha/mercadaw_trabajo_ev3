@@ -28,7 +28,6 @@ public class Cliente {
      * \param nombre
      * \param correo
      * \param codPostal
-     * @throws SQLException 
      */
     public Cliente(Integer id, String nombre, String correo, int codPostal) throws MercaDAWException{
         
