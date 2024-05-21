@@ -64,11 +64,6 @@ public class ExportarDatosViewController extends ViewController {
     }*/
 
     @FXML
-    void salir(MouseEvent event) {
-        controller.cargarApp();
-    }
-
-    @FXML
     void seleccionarDestino(MouseEvent event) {
         DirectoryChooser carpeta = new DirectoryChooser();
         carpeta.setTitle(NOMBRE_VENTANA);

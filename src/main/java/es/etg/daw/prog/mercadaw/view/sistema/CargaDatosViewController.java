@@ -57,11 +57,6 @@ public class CargaDatosViewController extends ViewController {
     }
 
     @FXML
-    void salir(MouseEvent event) {
-        controller.cargarApp();
-    }
-
-    @FXML
     void enviar(MouseEvent event) {
         String ruta = txfRuta.getText();
         MercaDAWController controller = new MercaDAWController();

@@ -4,19 +4,19 @@ import java.net.URL;
 import java.sql.Date;
 import java.sql.SQLException;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.ResourceBundle;
 
-import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.EmpleadoFactory;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.TipoEmpleado;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.view.ViewController;
+import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -28,12 +28,10 @@ import javafx.scene.input.MouseEvent;
 
 /**
  * Vista de dar alta empleado.
- * \author Erik Herrera Llamas
+ * \author Erik Herrera Llamas, Diego Madroñero, Jesús Pérez 
  */
 public class DarAltaEmpleadoViewController extends ViewController implements Initializable{
-    public static final String MSG_ERROR = "ERROR";
     
-    private MercaDAWController controller = new MercaDAWController();
     private ObservableList<Empleado> empleados;
 
     @FXML
@@ -58,7 +56,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private TableColumn<Empleado, String> colCategoria;
 
     @FXML
-    private TableColumn<Empleado, Integer> colCodigo;
+    private TableColumn<Empleado, Integer> colCodigoEmple;
 
     @FXML
     private TableColumn<Empleado, Double> colIndemnizacion;
@@ -97,13 +95,14 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
 
     @FXML
     public void iniciarTabla() {
-        this.empleados = FXCollections.observableArrayList();
 
-        this.colCodigo.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_ID_EMPLE));
+        empleados = FXCollections.observableArrayList();
+
+        this.colCodigoEmple.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_ID_EMPLE));
         this.colNombre.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_NOM_EMPLE));
         this.colApellidos.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_APELLIDO));
-        this.colCategoria.setCellValueFactory(new PropertyValueFactory<>(Empleado.ATT_CATEGORIA));
-        this.tabEmpleados.setItems(empleados);
+        this.colCategoria.setCellValueFactory(celda -> new SimpleStringProperty(celda.getValue().toString()));
+
     }
 
     @FXML
@@ -115,21 +114,16 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
             Date fecha = Date.valueOf(LocalDate.now());
 
             Empleado empleado = EmpleadoFactory.obtener(tipo, null, nombre, apellidos, fecha);
-            if (this.empleados.contains(empleado)) {
+            List<Empleado> empleadosBd = controller.darAlta(empleado);
+            if (empleados.contains(empleado)) {
                 mostrarAviso(MSG_ERROR, AlertType.ERROR);
             } else {
-                this.empleados.add(empleado);
-                this.tabEmpleados.refresh();
-                //controller.getEmpleados(empleado);
+                this.empleados.setAll(empleadosBd);
+                this.tabEmpleados.setItems(empleados);
             }
         } catch (NumberFormatException e) {
             mostrarAviso(MSG_ERROR, AlertType.ERROR);
         }
-    }
-
-    @FXML
-    void salir(MouseEvent event) {
-        controller.cargarApp();
     }
     
     @Override
@@ -137,12 +131,6 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         choiceCategoria.getItems().setAll(TipoEmpleado.values());
         iniciarTabla();
     }
-
-    private void mostrarAviso(String msg, AlertType tipo){
-        Alert alerta = new Alert(tipo);
-        alerta.setHeaderText(null);
-        alerta.setTitle(MSG_ERROR);
-        alerta.setContentText(msg);
-        alerta.showAndWait();
-    }
 }
+
+
