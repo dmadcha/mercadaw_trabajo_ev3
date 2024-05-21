@@ -1,5 +1,7 @@
 package es.etg.daw.prog.mercadaw.model.util;
 
+import java.sql.SQLException;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +12,7 @@ import es.etg.daw.prog.mercadaw.model.util.reader.LectorJSON;
 public class JSONTest {
 
     @Test
-    public void cargarProducto() throws MercaDAWException {
+    public void cargarProducto() throws MercaDAWException, SQLException {
         final String cadena = "[\n" +
                 "    {\n" +
                 "      \"Tipo\": \"Cosmetica\",\n" +
@@ -34,7 +36,7 @@ public class JSONTest {
     }
 
     @Test
-    public void cargarEmpleado() throws MercaDAWException {
+    public void cargarEmpleado() throws MercaDAWException, SQLException {
 
         final String cadena = "[\n" + 
                 "    {\n" + 
@@ -52,7 +54,7 @@ public class JSONTest {
     }
 
     @Test
-    public void cargarCliente() throws MercaDAWException {
+    public void cargarCliente() throws MercaDAWException, SQLException {
         final String cadena = "[\n" +
                 "    {\n" +
                 "      \"Id\": \"1\",\n" +
