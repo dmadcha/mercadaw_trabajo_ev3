@@ -7,7 +7,6 @@ import es.etg.daw.prog.mercadaw.App;
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
-import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOImpOracleXE;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
 import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
@@ -36,6 +35,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.stage.Stage;
 
 public class MercaDAWController extends Application{
+    public static final String REDONDEO = "%.2f";
     public static final String MSG_ERROR = "ERROR";
 
     public static Stage currentStage;
@@ -191,24 +191,29 @@ public class MercaDAWController extends Application{
 
     public String calcularPrecioVenta(Producto producto){
         String msg ="Producto("+producto.getId()+"): "+producto.getNombre()+"\n\t"+
-                            "Precio de venta: "+producto.getPrecioVenta()+" \n\t"+
-                            "Recargo por Peso("+producto.getPorcentajePeso()+"%): "+producto.getRecargoPeso()+" \n\t"+
-                            "Recargo por Altura("+producto.getPorcentajeAltura()+"%): "+producto.getRecargoAltura()+" \n\t"+
-                            "Recargo por Anchura("+producto.getPorcentajeAnchura()+"%): "+producto.getRecargoAnchura()+" \n\t"+
-                            "Recargo por Número de Piezas("+producto.getNumElementos()+"): "+producto.getRecargoNumElementos()+" \n\n\t"+
-                            "PRECIO TOTAL: "+producto.getPrecioFinalEuros()+"€ /"+producto.getPrecioFinalDolares()+"\n\t"+
-                            "IVA("+producto.getIva()*100+"%): "+producto.getIvaCalculado();
+                            "Precio de venta: "+String.format(REDONDEO, producto.getPrecioVenta())+" \n\t"+
+                            "Recargo por Peso("+producto.getPorcentajePeso()+"%): "+String.format(REDONDEO, producto.getRecargoPeso())+" \n\t"+
+                            "Recargo por Altura("+producto.getPorcentajeAltura()+"%): "+String.format(REDONDEO, producto.getRecargoAltura())+" \n\t"+
+                            "Recargo por Anchura("+producto.getPorcentajeAnchura()+"%): "+String.format(REDONDEO, producto.getRecargoAnchura())+" \n\t"+
+                            "Recargo por Número de Piezas("+producto.getNumElementos()+"): "+String.format(REDONDEO, producto.getRecargoNumElementos())+" \n\n\t"+
+                            "PRECIO TOTAL: "+String.format(REDONDEO, producto.getPrecioFinalEuros())+"€ /"+String.format(REDONDEO, producto.getPrecioFinalDolares())+"$\n\t"+
+                            "IVA("+producto.getIva()*100+"%): "+String.format(REDONDEO, producto.getIvaCalculado());
         
         return msg;
     }
 
     public String calcularNomina(Empleado empleado, TipoDespido despido){
         String msg ="Empleado("+empleado.getId()+"): "+empleado.getNombre()+"\n\t"+
-                        "Salario Bruto: "+empleado.getSalarioBruto()+"\n\t"+
-                        "Salario Neto: "+empleado.getSalarioNeto()+"\n\t"+
-                        "Aportaciones SS del empresario: "+empleado.getAportaciones()+"\n\t"+
-                        "Indemniazción: "+empleado.getIndemnizacion(despido);
+                        "Salario Bruto: "+String.format(REDONDEO, empleado.getSalarioBruto())+"\n\t"+
+                        "Salario Neto: "+String.format(REDONDEO, empleado.getSalarioNeto())+"\n\t"+
+                        "Aportaciones SS del empresario: "+String.format(REDONDEO, empleado.getAportaciones())+"\n\t"+
+                        "Indemniazción: "+String.format(REDONDEO, empleado.getIndemnizacion(despido));
         return msg;
+    }
+
+    public void exportarNomina(String ruta, String nomina){
+        Fichero fichero = FicheroFactory.obtener(Formato.BINARIO);
+        fichero.escribir(ruta, nomina);
     }
 
     public List<Empleado> cargarTablaEmpleado() throws MercaDAWException{

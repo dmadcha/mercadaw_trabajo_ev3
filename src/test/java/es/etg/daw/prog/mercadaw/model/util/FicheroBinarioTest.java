@@ -9,7 +9,7 @@ import es.etg.daw.prog.mercadaw.model.util.input.FicheroBinario;
 
 public class FicheroBinarioTest {
 
-    String fichero = "test.txt";
+    String fichero = "test.md";
 
     FicheroBinario ficheroBinario = new FicheroBinario();
     @Test

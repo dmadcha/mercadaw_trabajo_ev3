@@ -42,6 +42,9 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private Button btnCalcularNomina;
 
     @FXML
+    private Button btnExportar;
+
+    @FXML
     private Button btnSalir;
 
     @FXML
@@ -75,6 +78,9 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     private TextField txfNombre;
 
     @FXML
+    private TextField txfRuta;
+
+    @FXML
     void accesoDarAltaEmple(MouseEvent event) {
         controller.cargarEmpleados();
     }
@@ -82,6 +88,7 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
     @Override
     public void initialize(URL location, ResourceBundle resources){
         choiceCategoria.getItems().setAll(TipoEmpleado.values());
+        choiceDespido.getItems().setAll(TipoDespido.values());
         iniciarTabla();
         try {
             insertar(controller.cargarTablaEmpleado());
@@ -143,6 +150,13 @@ public class DarAltaEmpleadoViewController extends ViewController implements Ini
         TipoDespido despido = this.choiceDespido.getValue();
         String msg = controller.calcularNomina(empleado, despido);
         txaNominaEmpleado.setText(msg);
+    }
+
+    @FXML
+    void exportarNomina(MouseEvent event) {
+        final String RUTA_NOMINA = "./src/main/resources/nominas/nominaEmpleado%d.md";
+        Empleado empleado = this.tabEmpleados.getSelectionModel().getSelectedItem();
+        controller.exportarNomina(String.format(RUTA_NOMINA, empleado.getId()), txaNominaEmpleado.getText());
     }
 }
 

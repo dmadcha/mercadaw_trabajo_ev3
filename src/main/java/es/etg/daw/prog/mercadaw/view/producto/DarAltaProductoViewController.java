@@ -1,7 +1,6 @@
 package es.etg.daw.prog.mercadaw.view.producto;
 
 import java.net.URL;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.ResourceBundle;
 
