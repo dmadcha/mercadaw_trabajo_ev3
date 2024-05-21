@@ -1,6 +1,7 @@
 package es.etg.daw.prog.mercadaw.controller;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 import es.etg.daw.prog.mercadaw.App;
@@ -16,7 +17,10 @@ import es.etg.daw.prog.mercadaw.model.exception.BBDDException;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.model.util.input.Fichero;
 import es.etg.daw.prog.mercadaw.model.util.input.FicheroFactory;
-import es.etg.daw.prog.mercadaw.model.util.input.Formato;
+import es.etg.daw.prog.mercadaw.model.util.input.FormatoBinarios;
+import es.etg.daw.prog.mercadaw.model.util.reader.Formato;
+import es.etg.daw.prog.mercadaw.model.util.reader.Lector;
+import es.etg.daw.prog.mercadaw.model.util.reader.LectorFactory;
 import es.etg.daw.prog.mercadaw.view.MainViewController;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import es.etg.daw.prog.mercadaw.view.Vista;
@@ -151,9 +155,45 @@ public class MercaDAWController extends Application{
         }
     }
 
-    public void importar(String ruta) {
-        Fichero fichero = FicheroFactory.obtener(Formato.BINARIO);
-        fichero.leer(ruta);
+    public void importar(String ruta) throws MercaDAWException, SQLException {        
+        final String EMPLEADO = "EMPLEADO";
+        final String CLIENTE = "CLIENTE";
+        final String PRODUCTO = "PRODUCTO";
+        final String COMPRA = "COMPRA";
+
+
+        MercaDAO database = getBBDD();
+        Fichero fichero = FicheroFactory.obtener(FormatoBinarios.BINARIO);
+        byte[] bytesContenido = fichero.leer(ruta);
+
+        String contenidoStr = new String(bytesContenido);
+        Lector lector = LectorFactory.obtener(Formato.JSON);
+
+        if (ruta.indexOf(".csv")>= 0) {
+            lector = LectorFactory.obtener(Formato.CSV);
+        }
+
+        if (ruta.indexOf(EMPLEADO)>=0) {
+            List<Empleado> empleados = lector.leerEmpleado(contenidoStr);
+            for (int i = 0; i < empleados.size(); i++) {
+                database.insertar(empleados.get(i));
+            }
+        } else if (ruta.indexOf(CLIENTE)>=0) {
+            List<Cliente> clientes = lector.leerCliente(contenidoStr);
+            for (int i = 0; i < clientes.size(); i++) {
+                database.insertar(clientes.get(i));
+            }
+        } else if (ruta.indexOf(PRODUCTO)>=0) {
+            List<Compra> compras = lector.leerCompra(contenidoStr);
+            for (int i = 0; i < compras.size(); i++) {
+                database.insertar(compras.get(i));
+            }
+        } else if (ruta.indexOf(COMPRA)>=0) {
+            List<Producto> productos = lector.leerProducto(contenidoStr);
+            for (int i = 0; i < productos.size(); i++) {
+                database.insertar(productos.get(i));
+            }
+        }
     }
 
     public List<Empleado> darAlta(Empleado empleado) throws MercaDAWException {
@@ -212,7 +252,7 @@ public class MercaDAWController extends Application{
     }
 
     public void exportarNomina(String ruta, String nomina){
-        Fichero fichero = FicheroFactory.obtener(Formato.BINARIO);
+        Fichero fichero = FicheroFactory.obtener(FormatoBinarios.BINARIO);
         fichero.escribir(ruta, nomina);
     }
 

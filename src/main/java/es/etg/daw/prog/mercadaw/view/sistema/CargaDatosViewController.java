@@ -1,8 +1,10 @@
 package es.etg.daw.prog.mercadaw.view.sistema;
 
 import java.io.File;
+import java.sql.SQLException;
 
 import es.etg.daw.prog.mercadaw.controller.MercaDAWController;
+import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
 import es.etg.daw.prog.mercadaw.view.ViewController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -52,12 +54,18 @@ public class CargaDatosViewController extends ViewController {
     }
 
     @FXML
+    void cargar(MouseEvent event) throws MercaDAWException, SQLException {
+
+        controller.importar(txfRuta.getText());
+    }
+
+    @FXML
     void accesoExportarDatos(MouseEvent event) {
         controller.cargarExportar();
     }
 
     @FXML
-    void enviar(MouseEvent event) {
+    void enviar(MouseEvent event) throws MercaDAWException, SQLException {
         String ruta = txfRuta.getText();
         MercaDAWController controller = new MercaDAWController();
         controller.importar(ruta);
