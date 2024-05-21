@@ -118,11 +118,6 @@ public class DarAltaProductoViewController extends ViewController implements Ini
     @FXML
     private TextField txfPrecio;
 
-    @FXML
-    void accesoDarAltaProd(MouseEvent event) {
-        controller.cargarProductos();
-    }
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         choiceCategoria.getItems().setAll(TipoProducto.values());

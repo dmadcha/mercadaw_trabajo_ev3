@@ -8,6 +8,8 @@ import es.etg.daw.prog.mercadaw.App;
 import es.etg.daw.prog.mercadaw.model.bbdd.Database;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAO;
 import es.etg.daw.prog.mercadaw.model.bbdd.MercaDAOFactory;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Cliente;
+import es.etg.daw.prog.mercadaw.model.entities.compras.Compra;
 import es.etg.daw.prog.mercadaw.model.entities.empleados.Empleado;
 import es.etg.daw.prog.mercadaw.model.entities.productos.Producto;
 import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
@@ -137,7 +139,7 @@ public class MercaDAWController extends Application{
         fichero.leer(ruta);
     }
 
-    public List<Empleado> darAlta(Empleado empleado) throws SQLException, MercaDAWException {
+    public List<Empleado> darAlta(Empleado empleado) throws MercaDAWException {
         MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
         database.insertar(empleado);
 
@@ -149,6 +151,20 @@ public class MercaDAWController extends Application{
         database.insertar(producto);
 
         return database.visualizarProductos();
+    }
+
+    public List<Cliente> darAlta(Cliente cliente) throws MercaDAWException {
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        database.insertar(cliente);
+
+        return database.visualizarClientes();
+    }
+
+    public List<Compra> darAlta(Compra compra) throws MercaDAWException {
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        database.insertar(compra);
+        
+        return database.visualizarCompras();
     }
 
     public String calcularPrecioVenta(Producto producto){
@@ -172,6 +188,16 @@ public class MercaDAWController extends Application{
     public List<Producto> cargarTablaProducto() throws MercaDAWException{
         MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
         return database.visualizarProductos();
+    }
+
+    public List<Cliente> cargarTablaCliente() throws MercaDAWException{
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        return database.visualizarClientes();
+    }
+
+    public List<Compra> cargarTablaCompra() throws MercaDAWException{
+        MercaDAO database = MercaDAOFactory.obtener(Database.ORACLE);
+        return database.visualizarCompras();
     }
 
     private void mostrarAviso(String msg, AlertType tipo){

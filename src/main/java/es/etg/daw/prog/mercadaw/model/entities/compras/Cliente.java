@@ -13,6 +13,9 @@ import es.etg.daw.prog.mercadaw.model.exception.MercaDAWException;
  * \author Diego Madroñero Chamorro.
  */
 public class Cliente {
+
+    public static final String ATT_ID_CLI = "id";
+    public static final String ATT_NOMB_CLI = "nombre";
     
     private static int numClientes;
     private MercaDAO db;
